@@ -24,25 +24,25 @@ Component types:
  - Dataset
  - Registry
  - RequirementsCollection
-  - Story
-  - Persona
+   - Story
+   - Persona
  - Workflow
  - Software
-  - SoftwareLibrary
-  - DockerImageContainer
-  - RunningInstance
-  - Ontology
-  - Notebook
-  - Script
+   - SoftwareLibrary
+   - DockerImageContainer
+   - RunningInstance
+   - Ontology
+   - Notebook
+   - Script
  - Service
  - Tutorial
  - WebSite
  - Survey
-  - InPresenceSurvey
-  - FocusGroup
+   - InPresenceSurvey
+   - FocusGroup
  - Report
-  - Documentation
-  - EvaluationReport
+   - Documentation
+   - EvaluationReport
  - Publication
 
 ### Terms for Containers
@@ -50,9 +50,9 @@ Component types:
  - name
  - container-id
  - funder
-  - name
-  - url
-  - grant-agreement
+   - name
+   - url
+   - grant-agreement
  - name
  - url
  - grant-agreement
@@ -79,19 +79,19 @@ Component types:
  - running-instance
  - contributors
  - related-component
-  - informed-by
-  - use-case
-  - story
-  - persona
-  - documentation
-  - evaluated-in
-  - extends-software
-  - reuses-software
-  - reuses-data
-  - serves-data
-  - produces-data
-  - reused-in
-  - generated-by
+   - informed-by
+   - use-case
+   - story
+   - persona
+   - documentation
+   - evaluated-in
+   - extends-software
+   - reuses-software
+   - reuses-data
+   - serves-data
+   - produces-data
+   - reused-in
+   - generated-by
  - informed-by
  - use-case
  - story
@@ -106,10 +106,10 @@ Component types:
  - reused-in
  - generated-by
  - bibliography
-  - published-in
-  - main-publication
-  - main-report
-  - deliverable-document
+   - published-in
+   - main-publication
+   - main-report
+   - deliverable-document
  - published-in
  - main-publication
  - main-report

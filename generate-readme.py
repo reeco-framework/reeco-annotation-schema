@@ -31,13 +31,13 @@ Container types:
 for component in SCHEMA.containers():
     TXT = TXT + "\n - " + component['type']
     for sub1 in SCHEMA.subtypes(component['type']):
-        TXT = TXT + "\n. - " + sub1['type']
+        TXT = TXT + "\n   - " + sub1['type']
         for sub2 in SCHEMA.subtypes(sub1['type']):
-            TXT = TXT + "\n   - " + sub2['type']
+            TXT = TXT + "\n    - " + sub2['type']
             for sub3 in SCHEMA.subtypes(sub2['type']):
-                TXT = TXT + "\n    - " + sub3['type']
+                TXT = TXT + "\n     - " + sub3['type']
                 for sub4 in SCHEMA.subtypes(sub3['type']):
-                    TXT = TXT + "\n     - " + sub4['type']
+                    TXT = TXT + "\n      - " + sub4['type']
 TXT = TXT + """
 
 Component types:
@@ -46,13 +46,13 @@ Component types:
 for component in SCHEMA.components():
     TXT = TXT + "\n - " + component['type']
     for sub1 in SCHEMA.subtypes(component['type']):
-        TXT = TXT + "\n  - " + sub1['type']
+        TXT = TXT + "\n   - " + sub1['type']
         for sub2 in SCHEMA.subtypes(sub1['type']):
-            TXT = TXT + "\n   - " + sub2['type']
+            TXT = TXT + "\n    - " + sub2['type']
             for sub3 in SCHEMA.subtypes(sub2['type']):
-                TXT = TXT + "\n    - " + sub3['type']
+                TXT = TXT + "\n     - " + sub3['type']
                 for sub4 in SCHEMA.subtypes(sub3['type']):
-                    TXT = TXT + "\n      - " + sub4['type']
+                    TXT = TXT + "\n       - " + sub4['type']
  
 # List of terms to annotate containers
 TXT = TXT + """
@@ -62,9 +62,9 @@ TXT = TXT + """
 for term in SCHEMA.termsFor('Container'):
     TXT = TXT + "\n - " + term['term']
     for sub1 in SCHEMA.subterms(term['term']):
-        TXT = TXT + "\n  - " + sub1['term']
+        TXT = TXT + "\n   - " + sub1['term']
         for sub2 in SCHEMA.subterms(sub1['term']):
-            TXT = TXT + "\n   - " + sub2['term']
+            TXT = TXT + "\n    - " + sub2['term']
     
 
 
@@ -76,9 +76,9 @@ TXT = TXT + """
 for term in SCHEMA.termsFor('Component'):
     TXT = TXT + "\n - " + term['term']
     for sub1 in SCHEMA.subterms(term['term']):
-        TXT = TXT + "\n  - " + sub1['term']
+        TXT = TXT + "\n   - " + sub1['term']
         for sub2 in SCHEMA.subterms(sub1['term']):
-            TXT = TXT + "\n    - " + sub2['term']
+            TXT = TXT + "\n     - " + sub2['term']
 
 TXT = TXT + """
 
