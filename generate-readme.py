@@ -14,6 +14,14 @@ TXT = """# Annotation schema
 ## Introduction
 """
 
+def makeLink(o):
+    if 'type' in o:
+        return "[%s](#%s)" % (o['type'],o['type'])
+    if 'term' in o:
+        return "[%s](#%s)" % (o['term'],o['term'])
+    else:
+        return "[%s](#%s)" % (o,o)
+
 SCHEMA = Schema()
 
 TXT = TXT + """
@@ -29,30 +37,25 @@ Container types:
 """
 # List of container types
 for component in SCHEMA.containers():
-    TXT = TXT + "\n - " + component['type']
+    TXT = TXT + "\n - " + makeLink(component)
     for sub1 in SCHEMA.subtypes(component['type']):
-        TXT = TXT + "\n   - " + sub1['type']
-        for sub2 in SCHEMA.subtypes(sub1['type']):
-            TXT = TXT + "\n    - " + sub2['type']
-            for sub3 in SCHEMA.subtypes(sub2['type']):
-                TXT = TXT + "\n     - " + sub3['type']
-                for sub4 in SCHEMA.subtypes(sub3['type']):
-                    TXT = TXT + "\n      - " + sub4['type']
+        TXT = TXT + "\n   - " + makeLink(sub1)
+
 TXT = TXT + """
 
 Component types:
 """
 # List of component types
 for component in SCHEMA.components():
-    TXT = TXT + "\n - " + component['type']
+    TXT = TXT + "\n - " + makeLink(component)
     for sub1 in SCHEMA.subtypes(component['type']):
-        TXT = TXT + "\n   - " + sub1['type']
+        TXT = TXT + "\n   - " + makeLink(sub1)
         for sub2 in SCHEMA.subtypes(sub1['type']):
-            TXT = TXT + "\n    - " + sub2['type']
+            TXT = TXT + "\n    - " + makeLink(sub2)
             for sub3 in SCHEMA.subtypes(sub2['type']):
-                TXT = TXT + "\n     - " + sub3['type']
+                TXT = TXT + "\n     - " + makeLink(sub3)
                 for sub4 in SCHEMA.subtypes(sub3['type']):
-                    TXT = TXT + "\n       - " + sub4['type']
+                    TXT = TXT + "\n      - " + makeLink(sub4)
  
 # List of terms to annotate containers
 TXT = TXT + """
@@ -60,11 +63,11 @@ TXT = TXT + """
 ### Terms for Containers
 """
 for term in SCHEMA.termsFor('Container'):
-    TXT = TXT + "\n - " + term['term']
+    TXT = TXT + "\n - " + makeLink(term)
     for sub1 in SCHEMA.subterms(term['term']):
-        TXT = TXT + "\n   - " + sub1['term']
+        TXT = TXT + "\n   - " + makeLink(sub1)
         for sub2 in SCHEMA.subterms(sub1['term']):
-            TXT = TXT + "\n    - " + sub2['term']
+            TXT = TXT + "\n    - " + makeLink(sub2)
     
 
 
@@ -74,11 +77,28 @@ TXT = TXT + """
 
 """
 for term in SCHEMA.termsFor('Component'):
-    TXT = TXT + "\n - " + term['term']
+    TXT = TXT + "\n - " + makeLink(term)
     for sub1 in SCHEMA.subterms(term['term']):
-        TXT = TXT + "\n   - " + sub1['term']
+        TXT = TXT + "\n   - " + makeLink(sub1)
         for sub2 in SCHEMA.subterms(sub1['term']):
-            TXT = TXT + "\n     - " + sub2['term']
+            TXT = TXT + "\n    - " + makeLink(sub2)
+
+TXT = TXT + """
+
+## Types
+
+"""
+
+for typee in SCHEMA.types():
+    TXT = TXT + "\n### " + typee['type'] + "\n"
+    ks = ['type', 'label', 'supertype-id']
+    for k in ks:
+        if k in typee:
+            TXT = TXT + "\n\n**" + k + "**: " + str(typee[k]) 
+    if 'description' in typee:
+        TXT = TXT + "\n\n" + str(typee[ 'description'])
+    # if 'example-values' in term and term['example-values'].strip() != '':
+    #    TXT = TXT + "\n\nExample:\n\n```\n" + str(term[ 'example-values']) + "\n```\n\n"
 
 TXT = TXT + """
 
@@ -92,6 +112,9 @@ for term in SCHEMA.terms():
     for k in ks:
         if k in term:
             TXT = TXT + "\n\n**" + k + "**: " + str(term[k]) 
+    TXT = TXT + "\n\n**domain**: " 
+    # for d in term['domain']:
+    #     TXT = TXT + "\n\n - " + makeLink(d) 
     if 'description' in term:
         TXT = TXT + "\n\n" + str(term[ 'description'])
     if 'example-values' in term and term['example-values'].strip() != '':
