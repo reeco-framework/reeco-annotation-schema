@@ -715,7 +715,7 @@ terms:
     domain:
     - Container
     example-values: polifonia
-    label: project identifier
+    label: container identifier
     mandatory: Y
     regex: '[^\s]+(/[^\s]+(/[^\s]+)?)?'
     ro-crate: '@ id '
@@ -822,7 +822,7 @@ terms:
     domain:
     - Container
     example-values: 'name: Polifonia'
-    label: project name
+    label: container name
     mandatory: Y
     ro-crate: name
     scope: Container
@@ -909,12 +909,12 @@ types:
     sub-class-of: fabio:InstructionalWork
     supertype-id: Component
     type: Tutorial
-  Component/Web site:
+  Component/WebSite:
     _position: 11
     label: Web site
     sub-class-of: fabio:WebSite
     supertype-id: Component
-    type: Web site
+    type: WebSite
   Component/Workflow:
     _position: 7
     label: Workflow

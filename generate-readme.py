@@ -1,17 +1,8 @@
 import yaml
 import sys
+from reeco import Schema
 
 output_readme = 'schema/README.md'
-
-def schema():
-    SCHEMA = {}
-    with open("schema/schema.yml", "r") as stream:
-        try:
-            SCHEMA = yaml.safe_load(stream)
-        except yaml.YAMLError as exc:
-            print(exc)
-            sys.exit()
-    return SCHEMA
 
 # def terms(s):
 #     return sorted(s['terms'], key=lambda d: d['_position'])
@@ -23,48 +14,88 @@ TXT = """# Annotation schema
 ## Introduction
 """
 
-SCHEMA = schema()
+SCHEMA = Schema()
 
 TXT = TXT + """
+
 ## Containers and Components
 """
 
 TXT = TXT + """
+
 ### List of types
 
+Container types:
 """
 # List of container types
+for component in SCHEMA.containers():
+    TXT = TXT + "\n\t- " + component['type']
+    for sub1 in SCHEMA.subtypes(component['type']):
+        TXT = TXT + "\n\t\t- " + sub1['type']
+        for sub2 in SCHEMA.subtypes(sub1['type']):
+            TXT = TXT + "\n\t\t\t- " + sub2['type']
+            for sub3 in SCHEMA.subtypes(sub2['type']):
+                TXT = TXT + "\n\t\t\t\t- " + sub3['type']
+                for sub4 in SCHEMA.subtypes(sub3['type']):
+                    TXT = TXT + "\n\t\t\t\t\t- " + sub4['type']
+TXT = TXT + """
 
-for t in SCHEMA['types']:
-    TXT = TXT + "#### " + t + "\n"
-    o = SCHEMA['types'][t]
-    ks = ['type', 'label', 'supertype-id']
-    for k in ks:
-        if k in o:
-            TXT = TXT + "*" + k + "*: " + str(o[k]) + "\n"
+Component types:
+"""
+# List of component types
+for component in SCHEMA.components():
+    TXT = TXT + "\n\t- " + component['type']
+    for sub1 in SCHEMA.subtypes(component['type']):
+        TXT = TXT + "\n\t\t- " + sub1['type']
+        for sub2 in SCHEMA.subtypes(sub1['type']):
+            TXT = TXT + "\n\t\t\t- " + sub2['type']
+            for sub3 in SCHEMA.subtypes(sub2['type']):
+                TXT = TXT + "\n\t\t\t\t- " + sub3['type']
+                for sub4 in SCHEMA.subtypes(sub3['type']):
+                    TXT = TXT + "\n\t\t\t\t\t- " + sub4['type']
  
 # List of terms to annotate containers
 TXT = TXT + """
-#### Terms
+
+### Terms for Containers
 """
+for term in SCHEMA.termsFor('Container'):
+    TXT = TXT + "\n\t- " + term['term']
+    for sub1 in SCHEMA.subterms(term['term']):
+        TXT = TXT + "\n\t\t- " + sub1['term']
+        for sub2 in SCHEMA.subterms(sub1['term']):
+            TXT = TXT + "\n\t\t\t- " + sub2['term']
+    
+
 
 TXT = TXT + """
-### Components
+
+### Terms for Components
+
 """
+for term in SCHEMA.termsFor('Component'):
+    TXT = TXT + "\n\t- " + term['term']
+    for sub1 in SCHEMA.subterms(term['term']):
+        TXT = TXT + "\n\t\t- " + sub1['term']
+        for sub2 in SCHEMA.subterms(sub1['term']):
+            TXT = TXT + "\n\t\t\t- " + sub2['term']
 
 TXT = TXT + """
-#### Terms
+
+## Terms
+
 """
 
-for t in SCHEMA['terms']:
-    TXT = TXT + "#### " + t + "\n"
-    o = SCHEMA['terms'][t]
-    ks = ['term', 'label', 'scope', 'super-term']
+for term in SCHEMA.terms():
+    TXT = TXT + "\n### " + term['term'] + "\n"
+    ks = ['term', 'label', 'scope', 'super-term', 'mandatory']
     for k in ks:
-        if k in o:
-            TXT = TXT + "*" + k + "*: " + str(o[k]) + "\n"
-    if 'description' in o:
-        TXT = TXT + "\n" + str(o[ 'description']) + "\n\n"
+        if k in term:
+            TXT = TXT + "*" + k + "*: " + str(term[k]) + "\n"
+    if 'description' in term:
+        TXT = TXT + "\n" + str(term[ 'description']) + "\n"
+    if 'example-values' in term:
+        TXT = TXT + "\n\n```" + str(term[ 'example-values']) + "\n```\n\n"
 
 with open(output_readme, "w") as text_file:
     text_file.write(TXT)
