@@ -91,11 +91,11 @@ for term in SCHEMA.terms():
     ks = ['term', 'label', 'scope', 'super-term', 'mandatory']
     for k in ks:
         if k in term:
-            TXT = TXT + "*" + k + "*: " + str(term[k]) + "\n"
+            TXT = TXT + "\n\n**" + k + "**: " + str(term[k]) 
     if 'description' in term:
-        TXT = TXT + "\n" + str(term[ 'description']) + "\n"
+        TXT = TXT + "\n\n" + str(term[ 'description'])
     if 'example-values' in term and term['example-values'].strip() != '':
-        TXT = TXT + "\n\n```\n" + str(term[ 'example-values']) + "\n```\n\n"
+        TXT = TXT + "\n\nExample:\n\n```\n" + str(term[ 'example-values']) + "\n```\n\n"
 
 with open(output_readme, "w") as text_file:
     text_file.write(TXT)
