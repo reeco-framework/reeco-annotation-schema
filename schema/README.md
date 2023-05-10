@@ -75,11 +75,15 @@ Component types:
  - [project](#project)
  - [bibliography](#bibliography)
    - [main-publication](#main-publication)
+   - [publication](#publication)
+   - [report](#report)
    - [main-report](#main-report)
    - [deliverable-document](#deliverable-document)
    - [published-in](#published-in)
    - [main-publication](#main-publication)
+   - [publication](#publication)
    - [main-report](#main-report)
+   - [report](#report)
    - [deliverable-document](#deliverable-document)
 
 ### Terms for Components
@@ -115,11 +119,15 @@ Component types:
    - [generated-by](#generated-by)
  - [bibliography](#bibliography)
    - [main-publication](#main-publication)
+   - [publication](#publication)
+   - [report](#report)
    - [main-report](#main-report)
    - [deliverable-document](#deliverable-document)
    - [published-in](#published-in)
    - [main-publication](#main-publication)
+   - [publication](#publication)
    - [main-report](#main-report)
+   - [report](#report)
    - [deliverable-document](#deliverable-document)
  - [work-package](#work-package)
  - [pilot](#pilot)
@@ -815,6 +823,34 @@ publication
 **mandatory**: N
 
 The primary, peer reviewed scientific publication related to this research (if non peer-reviewed, use technical-report instead).
+### publication
+
+
+**term**: publication
+
+**label**: publication
+
+**scope**: Container
+
+**super-term**: bibliography
+
+**mandatory**: N
+
+A peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead).
+### report
+
+
+**term**: report
+
+**label**: technical report
+
+**scope**: Container
+
+**super-term**: bibliography
+
+**mandatory**: N
+
+A document related to this component (if peer-reviewed publication, use publication instead).
 ### main-report
 
 
@@ -1421,6 +1457,20 @@ publication
 **mandatory**: N
 
 The primary, peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead).
+### publication
+
+
+**term**: publication
+
+**label**: publication
+
+**scope**: Component
+
+**super-term**: bibliography
+
+**mandatory**: N
+
+A peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead).
 ### main-report
 
 
@@ -1435,6 +1485,20 @@ The primary, peer reviewed scientific publication related to this component (if 
 **mandatory**: N
 
 The primary document related to this component (if peer-reviewed publication, use scientific-work instead).
+### report
+
+
+**term**: report
+
+**label**: technical report
+
+**scope**: Component
+
+**super-term**: bibliography
+
+**mandatory**: N
+
+A document related to this component (if peer-reviewed publication, use publication instead).
 ### deliverable-document
 
 
