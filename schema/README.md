@@ -82,17 +82,15 @@ Component types:
  - [contributors](#contributors)
  - [related-component](#related-component)
    - [informed-by](#informed-by)
-   - [use-case](#use-case)
-   - [story](#story)
-   - [persona](#persona)
+    - [use-case](#use-case)
+    - [story](#story)
+    - [persona](#persona)
    - [documentation](#documentation)
    - [evaluated-in](#evaluated-in)
-   - [extends-software](#extends-software)
-   - [reuses-software](#reuses-software)
-   - [reuses-data](#reuses-data)
+   - [extends](#extends)
+   - [reuses](#reuses)
+    - [reuses-data](#reuses-data)
    - [serves-data](#serves-data)
-   - [produces-data](#produces-data)
-   - [reused-in](#reused-in)
    - [generated-by](#generated-by)
  - [bibliography](#bibliography)
    - [published-in](#published-in)
@@ -960,7 +958,7 @@ The component was informed by another component (or resource), for example, a re
 
 **scope**: Component
 
-**super-term**: related-component
+**super-term**: informed-by
 
 **mandatory**: N
 
@@ -974,7 +972,7 @@ Link to one or more use cases. This term is a specialisation of 'informed-by'
 
 **scope**: Component
 
-**super-term**: related-component
+**super-term**: informed-by
 
 **mandatory**: N
 
@@ -988,7 +986,7 @@ Link to one or more user stories. This term is a specialisation of 'informed-by'
 
 **scope**: Component
 
-**super-term**: related-component
+**super-term**: informed-by
 
 **mandatory**: N
 
@@ -1021,10 +1019,10 @@ Link to the documentation of the component.
 **mandatory**: N
 
 Link to a document (e.g. a user study) or source code demonstrating the validity of the component.
-### extends-software
+### extends
 
 
-**term**: extends-software
+**term**: extends
 
 **label**: extends
 
@@ -1034,14 +1032,13 @@ Link to a document (e.g. a user study) or source code demonstrating the validity
 
 **mandatory**: N
 
-Link to a software that is extended by the current component. Can be a component or an external software.
-### reuses-software
+Link to a component that is extended by the current component. If not a component, can be an external URI
+### reuses
 
 
-**term**: reuses-software
+**term**: reuses
 
-**label**: reuses 
-software
+**label**: reuses
 
 **scope**: Component
 
@@ -1049,7 +1046,7 @@ software
 
 **mandatory**: N
 
-Link to a software that is reuses as-is by the current component. Can be a component or an external software.
+Link to a component that is reused as-is by the current component. Can be a component or an external URL.
 ### reuses-data
 
 
@@ -1060,7 +1057,7 @@ dataset
 
 **scope**: Component
 
-**super-term**: related-component
+**super-term**: reuses
 
 **mandatory**: N
 
@@ -1080,35 +1077,6 @@ from
 **mandatory**: N
 
 Link to a dataset that is served by the current component (e.g. an API). Can be a component or an external dataset.
-### produces-data
-
-
-**term**: produces-data
-
-**label**: produces 
-dataset
-
-**scope**: Component
-
-**super-term**: related-component
-
-**mandatory**: N
-
-Link to a dataset that is produced by the current component (e.g. an algorithm for generative text). Can be a component or an external dataset.
-### reused-in
-
-
-**term**: reused-in
-
-**label**: reused in
-
-**scope**: Component
-
-**super-term**: related-component
-
-**mandatory**: N
-
-Link to a software, dataset, or any other component that reuses the current component.
 ### generated-by
 
 
@@ -1122,7 +1090,7 @@ Link to a software, dataset, or any other component that reuses the current comp
 
 **mandatory**: N
 
-Link to a software, dataset, or any other component that produced or generated the current component.
+Link to a software, dataset, or any other component that produced or generated the current component. Can be a component or an external URL.
 ### bibliography
 
 
