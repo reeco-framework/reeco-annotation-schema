@@ -65,18 +65,19 @@ Component types:
 
 
  - [component-id](#component-id)
- - [resource](#resource)
- - [doi](#doi)
+ - [type](#type)
  - [name](#name)
  - [description](#description)
- - [type](#type)
+ - [image](#image)
+ - [logo](#logo)
+ - [resource](#resource)
  - [release-date](#release-date)
  - [release-number](#release-number)
  - [release-link](#release-link)
+ - [doi](#doi)
  - [changelog](#changelog)
  - [licence](#licence)
- - [image](#image)
- - [logo](#logo)
+ - [copyright](#copyright)
  - [demo](#demo)
  - [running-instance](#running-instance)
  - [contributors](#contributors)
@@ -591,45 +592,24 @@ my-dataset
 ```
 
 
-### resource
+### type
 
 
-**term**: resource
+**term**: type
 
-**label**: resource
+**label**: type
 
 **scope**: Component
 
-**mandatory**: N
+**mandatory**: Y
 
-The digital resource representing the component (e.g. if the component is of type Dataset, it may be my-dataset.csv or a folder in the repository). It includes the path to a file (if 1 file), the path to a folder (if many files), or absolute URL of an online file (DOI cannot be used)
+The component type, according to the list of components available in Reeco.
 
 Example:
 
 ```
-./data.csv 
-http://www.example.org/myFile.json 
-./data/
-```
-
-
-### doi
-
-
-**term**: doi
-
-**label**: DOI
-
-**scope**: Component
-
-**mandatory**: N
-
-The DOI of the GitHub repository related to this component, e.g. as published on Zenodo.org
-
-Example:
-
-```
-http://doi.org/10.xxxxxx
+Dataset, Project, Registry, Workflow, Software
+(see component types)
 ```
 
 
@@ -673,24 +653,67 @@ musoW is the registry of musical resources on the Web.
 ```
 
 
-### type
+### image
 
 
-**term**: type
+**term**: image
 
-**label**: type
+**label**: image
 
 **scope**: Component
 
-**mandatory**: Y
+**mandatory**: N
 
-The component type, according to the list of components available in Reeco.
+Link to one reference image illustrating the component
 
 Example:
 
 ```
-Dataset, Project, Registry, Workflow, Software
-(see component types)
+./image.jpg 
+or
+http://www.example.org/image.jpg
+```
+
+
+### logo
+
+
+**term**: logo
+
+**label**: logo
+
+**scope**: Component
+
+**mandatory**: N
+
+Logo of the component in Web format. Accepted image formats are JPEG and PNG.
+
+Example:
+
+```
+https://avatars.githubusercontent.com/u/79987779?s=200&v=4
+```
+
+
+### resource
+
+
+**term**: resource
+
+**label**: resource
+
+**scope**: Component
+
+**mandatory**: N
+
+The digital resource representing the component (e.g. if the component is of type Dataset, it may be my-dataset.csv or a folder in the repository). It includes the path to a file (if 1 file), the path to a folder (if many files), or absolute URL of an online file (DOI cannot be used)
+
+Example:
+
+```
+./data.csv 
+http://www.example.org/myFile.json 
+./data/
 ```
 
 
@@ -758,6 +781,26 @@ https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1
 ```
 
 
+### doi
+
+
+**term**: doi
+
+**label**: DOI
+
+**scope**: Component
+
+**mandatory**: N
+
+The DOI of the GitHub repository related to this component, e.g. as published on Zenodo.org
+
+Example:
+
+```
+http://doi.org/10.xxxxxx
+```
+
+
 ### changelog
 
 
@@ -799,45 +842,23 @@ Example:
 ```
 
 
-### image
+### copyright
 
 
-**term**: image
+**term**: copyright
 
-**label**: image
-
-**scope**: Component
-
-**mandatory**: N
-
-Link to one reference image illustrating the component
-
-Example:
-
-```
-./image.jpg 
-or
-http://www.example.org/image.jpg
-```
-
-
-### logo
-
-
-**term**: logo
-
-**label**: logo
+**label**: copyright
 
 **scope**: Component
 
 **mandatory**: N
 
-Logo of the component in Web format. Accepted image formats are JPEG and PNG.
+Copyright info
 
 Example:
 
 ```
-https://avatars.githubusercontent.com/u/79987779?s=200&v=4
+The project contributors
 ```
 
 
@@ -866,8 +887,7 @@ http://data.open.ac.uk/sparql-demo
 
 **term**: running-instance
 
-**label**: running 
-instance
+**label**: running instance
 
 **scope**: Component
 
