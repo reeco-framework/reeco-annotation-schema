@@ -1,6 +1,6 @@
 terms:
   Component/bibliography:
-    _position: 41
+    _position: 44
     constraint: N
     description: "List of bibliographic references that are relevant to the component\
       \ but that do not fall under a specific category. \nUse \"scientific work\"\
@@ -22,7 +22,7 @@ terms:
     - ' anyURI'
     yaml-type: List.Dictionary
   Component/bibliography/deliverable-document:
-    _position: 45
+    _position: 48
     constraint: N
     description: Link to the deliverable document related to this component
     domain:
@@ -41,7 +41,7 @@ terms:
     - ' anyURI'
     yaml-type: List.String
   Component/bibliography/main-publication:
-    _position: 43
+    _position: 46
     constraint: N
     description: The primary, peer reviewed scientific publication related to this
       component (if non peer-reviewed, use technical-report instead).
@@ -59,7 +59,7 @@ terms:
     - ' anyURI'
     yaml-type: String
   Component/bibliography/main-report:
-    _position: 44
+    _position: 47
     constraint: N
     description: The primary document related to this component (if peer-reviewed
       publication, use scientific-work instead).
@@ -77,7 +77,7 @@ terms:
     - ' anyURI'
     yaml-type: String
   Component/bibliography/published-in:
-    _position: 42
+    _position: 45
     constraint: N
     description: Link to a meaningful venue where the current component is served
       or published (e.g. a dataset published on a web portal).
@@ -95,7 +95,7 @@ terms:
     - ' anyURI'
     yaml-type: List.String
   Component/changelog:
-    _position: 25
+    _position: 28
     constraint: Y
     description: Link to a Changelog document, a file which contains a chronologically
       ordered list of notable changes for each version of the component.
@@ -115,7 +115,7 @@ terms:
     - anyURI
     yaml-type: String
   Component/component-id:
-    _position: 13
+    _position: 16
     constraint: N
     description: The ID of the component in the Ecosystem. Can be a local identifier
       or a URI.
@@ -134,7 +134,7 @@ terms:
     - string
     yaml-type: String
   Component/contributors:
-    _position: 28
+    _position: 31
     constraint: Y
     description: 'A list of contributors in the form: "Name <name.surname@mail.com>"'
     domain:
@@ -173,7 +173,7 @@ terms:
     - anyURI
     yaml-type: List.String
   Component/copyright:
-    _position: 27
+    _position: 30
     constraint: N
     description: Copyright info
     domain:
@@ -189,7 +189,7 @@ terms:
     - string
     yaml-type: String
   Component/demo:
-    _position: 20
+    _position: 23
     constraint: Y
     description: Link to an online demo of the component
     domain:
@@ -208,7 +208,7 @@ terms:
     - anyURI
     yaml-type: String
   Component/description:
-    _position: 16
+    _position: 19
     constraint: N
     description: A text describing the component
     domain:
@@ -226,7 +226,7 @@ terms:
     - string
     yaml-type: String
   Component/doi:
-    _position: 24
+    _position: 27
     constraint: Y
     description: The DOI of the GitHub repository related to this component, e.g.
       as published on Zenodo.org
@@ -244,7 +244,7 @@ terms:
     - anyURI
     yaml-type: String
   Component/image:
-    _position: 17
+    _position: 20
     constraint: N
     description: Link to one reference image illustrating the component
     domain:
@@ -262,7 +262,7 @@ terms:
     - anyURI
     yaml-type: String
   Component/informed-by/persona:
-    _position: 33
+    _position: 36
     constraint: N
     description: Link to one or more persona. This term is a specialisation of 'informed-by'.
     domain:
@@ -281,7 +281,7 @@ terms:
     - anyURI
     yaml-type: List.String
   Component/informed-by/story:
-    _position: 32
+    _position: 35
     constraint: N
     description: Link to one or more user stories. This term is a specialisation of
       'informed-by'.
@@ -301,7 +301,7 @@ terms:
     - anyURI
     yaml-type: List.String
   Component/informed-by/use-case:
-    _position: 31
+    _position: 34
     constraint: N
     description: Link to one or more use cases. This term is a specialisation of 'informed-by'
     domain:
@@ -320,7 +320,7 @@ terms:
     - anyURI
     yaml-type: List.String
   Component/licence:
-    _position: 26
+    _position: 29
     constraint: N
     description: Link to a licence document of the resource, or a string pointing
       to one of the supported licences in the Reeco framework.
@@ -342,7 +342,7 @@ terms:
     - anyURI
     yaml-type: List.String
   Component/logo:
-    _position: 18
+    _position: 21
     constraint: Y
     description: Logo of the component in Web format. Accepted image formats are JPEG
       and PNG.
@@ -361,7 +361,7 @@ terms:
     - anyURI
     yaml-type: String
   Component/name:
-    _position: 15
+    _position: 18
     constraint: N
     description: The name of the component
     domain:
@@ -379,7 +379,7 @@ terms:
     - string
     yaml-type: String
   Component/pilot:
-    _position: 47
+    _position: 50
     constraint: N
     description: A pilot application or case study
     domain:
@@ -399,7 +399,7 @@ terms:
     - string
     yaml-type: List.String
   Component/project:
-    _position: 48
+    _position: 51
     constraint: Y
     description: The local id of the project
     domain:
@@ -415,7 +415,7 @@ terms:
     - string
     yaml-type: List.String
   Component/related-component:
-    _position: 29
+    _position: 32
     constraint: N
     description: List of components that are related to this one.
     domain:
@@ -440,7 +440,7 @@ terms:
     - Component
     yaml-type: List.Dictionary
   Component/related-component/documentation:
-    _position: 34
+    _position: 37
     constraint: N
     description: 'Link to the documentation of the component. '
     domain:
@@ -459,7 +459,7 @@ terms:
     - anyURI
     yaml-type: List.String
   Component/related-component/evaluated-in:
-    _position: 35
+    _position: 38
     constraint: N
     description: Link to a document (e.g. a user study) or source code demonstrating
       the validity of the component.
@@ -477,7 +477,7 @@ terms:
     - anyURI
     yaml-type: List.String
   Component/related-component/extends:
-    _position: 36
+    _position: 39
     constraint: N
     description: Link to a component that is extended by the current component. If
       not a component, can be an external URI
@@ -495,7 +495,7 @@ terms:
     - anyURI
     yaml-type: List.String
   Component/related-component/generated-by:
-    _position: 40
+    _position: 43
     constraint: N
     description: Link to a software, dataset, or any other component that produced
       or generated the current component. Can be a component or an external URL.
@@ -513,7 +513,7 @@ terms:
     - anyURI
     yaml-type: List.String
   Component/related-component/informed-by:
-    _position: 30
+    _position: 33
     constraint: N
     description: The component was informed by another component (or resource), for
       example, a requirements document or a Persona, a Story, a use case, etc...
@@ -531,7 +531,7 @@ terms:
     - anyURI
     yaml-type: List.String
   Component/related-component/reuses:
-    _position: 37
+    _position: 40
     constraint: N
     description: Link to a component that is reused as-is by the current component.
       Can be a component or an external URL.
@@ -549,7 +549,7 @@ terms:
     - anyURI
     yaml-type: List.String
   Component/related-component/serves-data:
-    _position: 39
+    _position: 42
     constraint: N
     description: Link to a dataset that is served by the current component (e.g. an
       API). Can be a component or an external dataset.
@@ -567,7 +567,7 @@ terms:
     - anyURI
     yaml-type: List.String
   Component/release-date:
-    _position: 21
+    _position: 24
     constraint: Y
     description: The date the component was released. Accepted values include any
       valid XSD date.
@@ -586,7 +586,7 @@ terms:
     - date
     yaml-type: String
   Component/release-link:
-    _position: 23
+    _position: 26
     constraint: Y
     description: Link to access or download the component release
     domain:
@@ -605,7 +605,7 @@ terms:
     - anyURI
     yaml-type: String
   Component/release-number:
-    _position: 22
+    _position: 25
     constraint: N
     description: 'Version number of the release. Any value is permitted, although
       we recommend semantic versioning: https://semver.org/'
@@ -624,7 +624,7 @@ terms:
     - string
     yaml-type: String
   Component/resource:
-    _position: 19
+    _position: 22
     constraint: N
     description: The digital resource representing the component (e.g. if the component
       is of type Dataset, it may be my-dataset.csv or a folder in the repository).
@@ -645,7 +645,7 @@ terms:
     - anyURI
     yaml-type: String
   Component/reuses/reuses-data:
-    _position: 38
+    _position: 41
     constraint: N
     description: Link to a dataset that is reused by the current component. Can be
       a component or an external dataset.
@@ -663,7 +663,7 @@ terms:
     - anyURI
     yaml-type: List.String
   Component/type:
-    _position: 14
+    _position: 17
     constraint: Y
     description: The component type, according to the list of components available
       in Reeco.
@@ -711,7 +711,7 @@ terms:
     - string
     yaml-type: String
   Component/work-package:
-    _position: 46
+    _position: 49
     constraint: N
     description: The work package associated to this component, if any.
     domain:
@@ -749,8 +749,26 @@ terms:
     xsd-datatype:
     - string
     yaml-type: String
-  Container/funder:
+  Container/description:
     _position: 4
+    constraint: N
+    description: A text describing the component
+    domain:
+    - Container
+    example-values: musoW is the registry of musical resources on the Web.
+    label: description
+    mandatory: Y
+    ro-crate: description
+    schema: 'https://schema.org/abstract '
+    scope: Container
+    spar: dcterms:description
+    term: description
+    unique: N
+    xsd-datatype:
+    - string
+    yaml-type: String
+  Container/funder:
+    _position: 7
     constraint: N
     description: The name of the funding body of the project and the URL
     domain:
@@ -768,7 +786,7 @@ terms:
     unique: N
     yaml-type: List.Dictionary
   Container/funder/grant-agreement:
-    _position: 7
+    _position: 10
     constraint: N
     description: Identifier of the grant agreement relative to the funding organisation
     domain:
@@ -788,7 +806,7 @@ terms:
     - string
     yaml-type: String
   Container/funder/name:
-    _position: 5
+    _position: 8
     constraint: N
     description: The name of the funder
     domain:
@@ -804,7 +822,7 @@ terms:
     - string
     yaml-type: String
   Container/funder/url:
-    _position: 6
+    _position: 9
     constraint: Y
     description: Link to the funder organisation web site
     domain:
@@ -821,7 +839,7 @@ terms:
     - anyURI
     yaml-type: String
   Container/has-part:
-    _position: 8
+    _position: 11
     constraint: Y
     description: List of components or containers that are parts of this container.
       Refer to components with organisation, repo and local id of the component
@@ -844,6 +862,43 @@ terms:
     xsd-datatype:
     - string
     yaml-type: List.String
+  Container/image:
+    _position: 5
+    constraint: N
+    description: Link to one reference image illustrating the component
+    domain:
+    - Container
+    example-values: "./image.jpg \nor\nhttp://www.example.org/image.jpg"
+    label: image
+    mandatory: N
+    ro-crate: image
+    schema: https://schema.org/image
+    scope: Container
+    spar: cito:isDocumentedBy
+    term: image
+    unique: N
+    xsd-datatype:
+    - anyURI
+    yaml-type: String
+  Container/logo:
+    _position: 6
+    constraint: Y
+    description: Logo of the component in Web format. Accepted image formats are JPEG
+      and PNG.
+    domain:
+    - Container
+    example-values: https://avatars.githubusercontent.com/u/79987779?s=200&v=4
+    label: logo
+    mandatory: N
+    regex: ^http[s]?://.+$
+    ro-crate: logo
+    schema: https://schema.org/logo
+    scope: Container
+    term: logo
+    unique: N
+    xsd-datatype:
+    - anyURI
+    yaml-type: String
   Container/name:
     _position: 1
     constraint: N
@@ -861,7 +916,7 @@ terms:
     - string
     yaml-type: String
   Container/pilot:
-    _position: 11
+    _position: 14
     constraint: N
     description: A pilot application or case study
     domain:
@@ -881,7 +936,7 @@ terms:
     - string
     yaml-type: List.String
   Container/project:
-    _position: 12
+    _position: 15
     constraint: Y
     description: The local id of the project
     domain:
@@ -897,7 +952,7 @@ terms:
     - string
     yaml-type: List.String
   Container/ro-crate:
-    _position: 9
+    _position: 12
     constraint: Y
     description: Specifies whether this yaml file is the reference file for creating
       a RO crate.
@@ -919,11 +974,13 @@ terms:
   Container/type:
     _position: 3
     description: The type of container (Project, WorkPackage, ?)
+    domain:
+    - Container
     label: container type
     scope: Container
     term: type
   Container/work-package:
-    _position: 10
+    _position: 13
     constraint: N
     description: The work package associated to this component, if any.
     domain:

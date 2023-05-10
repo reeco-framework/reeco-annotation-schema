@@ -61,6 +61,9 @@ Component types:
  - [name](#name)
  - [container-id](#container-id)
  - [type](#type)
+ - [description](#description)
+ - [image](#image)
+ - [logo](#logo)
  - [funder](#funder)
    - [name](#name)
    - [url](#url)
@@ -516,6 +519,68 @@ polifonia
 **scope**: Container
 
 The type of container (Project, WorkPackage, ?)
+### description
+
+
+**term**: description
+
+**label**: description
+
+**scope**: Container
+
+**mandatory**: Y
+
+A text describing the component
+
+Example:
+
+```
+musoW is the registry of musical resources on the Web.
+```
+
+
+### image
+
+
+**term**: image
+
+**label**: image
+
+**scope**: Container
+
+**mandatory**: N
+
+Link to one reference image illustrating the component
+
+Example:
+
+```
+./image.jpg 
+or
+http://www.example.org/image.jpg
+```
+
+
+### logo
+
+
+**term**: logo
+
+**label**: logo
+
+**scope**: Container
+
+**mandatory**: N
+
+Logo of the component in Web format. Accepted image formats are JPEG and PNG.
+
+Example:
+
+```
+https://avatars.githubusercontent.com/u/79987779?s=200&v=4
+```
+
+
 ### funder
 
 
