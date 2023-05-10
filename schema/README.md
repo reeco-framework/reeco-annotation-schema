@@ -1432,3 +1432,631 @@ Example:
 - polifonia
 ```
 
+
+
+## Licences
+
+
+### Non-Commercial Government Licence
+
+
+*Licence:* Non-Commercial Government Licence
+
+*Use code:* `NonCommercialGovernmentLicence`
+
+*Publisher:* The National Archives
+
+*Legal text:* [http://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/version/2/](http://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/version/2/)
+
+
+### Python License-2.0
+
+
+*Licence:* Python License-2.0
+
+*Use code:* `PythonLicense20`
+
+*Publisher:* Python Software Foundation
+
+*Legal text:* [http://opensource.org/licenses/Python-2.0](http://opensource.org/licenses/Python-2.0)
+
+
+### CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+
+
+*Licence:* CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+
+*Use code:* `Cc010Universal`
+
+*Publisher:* Creative Commons
+
+*Legal text:* [https://creativecommons.org/publicdomain/zero/1.0/legalcode](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+
+
+### Creative Commons Attribution 4.0 International
+
+
+*Licence:* Creative Commons Attribution 4.0 International
+
+*Use code:* `CC-BY_v4`
+
+*Publisher:* Creative Commons
+
+*Legal text:* [https://creativecommons.org/licenses/by/4.0/legalcode](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+
+### Creative Commons Attribution-NonCommercial 4.0 International
+
+
+*Licence:* Creative Commons Attribution-NonCommercial 4.0 International
+
+*Use code:* `CC-BY-NC_v4`
+
+*Publisher:* Creative Commons
+
+*Legal text:* [https://creativecommons.org/licenses/by-nc/4.0/legalcode](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
+
+
+### Free Public License 1.0.0
+
+
+*Licence:* Free Public License 1.0.0
+
+*Use code:* `FreePublicLicense100`
+
+*Publisher:* - not specified -
+
+*Legal text:* [http://opensource.org/licenses/FPL-1.0.0](http://opensource.org/licenses/FPL-1.0.0)
+
+
+### Open Data Licence Agreement
+
+
+*Licence:* Open Data Licence Agreement
+
+*Use code:* `OpenDataLicenceAgreement`
+
+*Publisher:* Office of the Commissioner of Lobbying
+
+*Legal text:* [https://lobbycanada.gc.ca/eic/site/012.nsf/eng/00873.html](https://lobbycanada.gc.ca/eic/site/012.nsf/eng/00873.html)
+
+
+### PHP License 3.0
+
+
+*Licence:* PHP License 3.0
+
+*Use code:* `PhpLicense30`
+
+*Publisher:* PHP Group
+
+*Legal text:* [http://opensource.org/licenses/PHP-3.0](http://opensource.org/licenses/PHP-3.0)
+
+
+### WTFPL
+
+
+*Licence:* WTFPL
+
+*Use code:* `Wtfpl`
+
+*Publisher:* N.N.
+
+*Legal text:* [http://www.wtfpl.net/about/](http://www.wtfpl.net/about/)
+
+
+### Apple Public Source License 2.0
+
+
+*Licence:* Apple Public Source License 2.0
+
+*Use code:* `ApplePublicSourceLicense20`
+
+*Publisher:* Apple
+
+*Legal text:* [http://opensource.org/licenses/APSL-2.0](http://opensource.org/licenses/APSL-2.0)
+
+
+### Q Public License Version 1.0
+
+
+*Licence:* Q Public License Version 1.0
+
+*Use code:* `QPublicLicenseVersion10`
+
+*Publisher:* Trolltech AS
+
+*Legal text:* [http://opensource.org/licenses/QPL-1.0](http://opensource.org/licenses/QPL-1.0)
+
+
+### GNU General Public License, Version 2
+
+
+*Licence:* GNU General Public License, Version 2
+
+*Use code:* `GNU_GPL_v2`
+
+*Publisher:* Free Software Foundation
+
+*Legal text:* [https://www.gnu.org/licenses/old-licenses/gpl-2.0.html](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+
+
+### W3C Software and Document Notice and License
+
+
+*Licence:* W3C Software and Document Notice and License
+
+*Use code:* `W3cSoftwareAndDocumentNoticeAndLicense`
+
+*Publisher:* W3C
+
+*Legal text:* [https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document](https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document)
+
+
+### Microsoft Public License
+
+
+*Licence:* Microsoft Public License
+
+*Use code:* `MicrosoftPublicLicense`
+
+*Publisher:* N.N.
+
+*Legal text:* [http://opensource.org/licenses/MS-PL](http://opensource.org/licenses/MS-PL)
+
+
+### Data Exploration Licence
+
+
+*Licence:* Data Exploration Licence
+
+*Use code:* `DataExplorationLicence`
+
+*Publisher:* Ordnance Survey
+
+*Legal text:* [https://www.ordnancesurvey.co.uk/business-and-government/licensing/licences/data-exploration.html](https://www.ordnancesurvey.co.uk/business-and-government/licensing/licences/data-exploration.html)
+
+
+### The Universal Permissive License (UPL), Version 1.0
+
+
+*Licence:* The Universal Permissive License (UPL), Version 1.0
+
+*Use code:* `TheUniversalPermissiveLicenseUplVersion10`
+
+*Publisher:* - not specified -
+
+*Legal text:* [http://opensource.org/licenses/UPL](http://opensource.org/licenses/UPL)
+
+
+### Open Data Commons Attribution License v1.0
+
+
+*Licence:* Open Data Commons Attribution License v1.0
+
+*Use code:* `OpenDataCommonsAttributionLicenseV10`
+
+*Publisher:* Open Data Commons
+
+*Legal text:* [https://opendatacommons.org/licenses/by/1.0/](https://opendatacommons.org/licenses/by/1.0/)
+
+
+### Developer License
+
+
+*Licence:* Developer License
+
+*Use code:* `DeveloperLicense`
+
+*Publisher:* The National Archives
+
+*Legal text:* [http://www.nationalarchives.gov.uk/documents/information-management/developer-licence.pdf](http://www.nationalarchives.gov.uk/documents/information-management/developer-licence.pdf)
+
+
+### Cea Cnrs Inria Logiciel Libre License, version 2.1
+
+
+*Licence:* Cea Cnrs Inria Logiciel Libre License, version 2.1
+
+*Use code:* `CeaCnrsInriaLogicielLibreLicenseVersion21`
+
+*Publisher:*  CEA, CNRS, INRIA
+
+*Legal text:* [http://www.cecill.info/licences/Licence_CeCILL_V2.1-fr.html](http://www.cecill.info/licences/Licence_CeCILL_V2.1-fr.html)
+
+
+### Apache License, Version 1.1
+
+
+*Licence:* Apache License, Version 1.1
+
+*Use code:* `Apache-1.1`
+
+*Publisher:* The Apache Software Foundation
+
+*Legal text:* [http://www.apache.org/licenses/LICENSE-1.1](http://www.apache.org/licenses/LICENSE-1.1)
+
+
+### GNU Free Documentation License version 1.3
+
+
+*Licence:* GNU Free Documentation License version 1.3
+
+*Use code:* `GnuFreeDocumentationLicense`
+
+*Publisher:* Free Software Foundation
+
+*Legal text:* [https://www.gnu.org/licenses/fdl.html](https://www.gnu.org/licenses/fdl.html)
+
+
+### Artistic License 2.0
+
+
+*Licence:* Artistic License 2.0
+
+*Use code:* `ArtisticLicense20`
+
+*Publisher:* N.N.
+
+*Legal text:* [http://opensource.org/licenses/Artistic-2.0](http://opensource.org/licenses/Artistic-2.0)
+
+
+### LaTeX Project Public License, Version 1.3c
+
+
+*Licence:* LaTeX Project Public License, Version 1.3c
+
+*Use code:* `LatexProjectPublicLicenseVersion13c`
+
+*Publisher:* LaTeX3 Project
+
+*Legal text:* [http://opensource.org/licenses/LPPL-1.3c](http://opensource.org/licenses/LPPL-1.3c)
+
+
+### Eclipse Public License 1.0
+
+
+*Licence:* Eclipse Public License 1.0
+
+*Use code:* `EclipsePublicLicense10`
+
+*Publisher:* Eclipse
+
+*Legal text:* [http://opensource.org/licenses/EPL-1.0](http://opensource.org/licenses/EPL-1.0)
+
+
+### Computer Associates Trusted Open Source License 1.1
+
+
+*Licence:* Computer Associates Trusted Open Source License 1.1
+
+*Use code:* `ComputerAssociatesTrustedOpenSourceLicense11`
+
+*Publisher:* Computer Associates International, Inc. (CA)
+
+*Legal text:* [http://opensource.org/licenses/CATOSL-1.1](http://opensource.org/licenses/CATOSL-1.1)
+
+
+### INSPIRE End User Licence
+
+
+*Licence:* INSPIRE End User Licence
+
+*Use code:* `InspireEndUserLicence`
+
+*Publisher:* Ordnance Survey Limited
+
+*Legal text:* [https://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html](https://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html)
+
+
+### Eclipse Public License 2.0
+
+
+*Licence:* Eclipse Public License 2.0
+
+*Use code:* `EclipsePublicLicense20`
+
+*Publisher:* N.N.
+
+*Legal text:* [http://opensource.org/licenses/EPL-2.0](http://opensource.org/licenses/EPL-2.0)
+
+
+### Apache License, Version 2.0
+
+
+*Licence:* Apache License, Version 2.0
+
+*Use code:* `Apache-2.0`
+
+*Publisher:* The Apache Software Foundation
+
+*Legal text:* [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
+
+
+### ODC Public Domain Dedication and Licence (PDDL)
+
+
+*Licence:* ODC Public Domain Dedication and Licence (PDDL)
+
+*Use code:* `OdcPublicDomainDedicationAndLicence`
+
+*Publisher:* Open Data Commons
+
+*Legal text:* [https://opendatacommons.org/licenses/pddl/1.0/](https://opendatacommons.org/licenses/pddl/1.0/)
+
+
+### Attribution Assurance License
+
+
+*Licence:* Attribution Assurance License
+
+*Use code:* `AttributionAssuranceLicense`
+
+*Publisher:* Edwin A. Suominen
+
+*Legal text:* [http://opensource.org/licenses/AAL](http://opensource.org/licenses/AAL)
+
+
+### Creative Commons Attribution-ShareAlike 4.0 International
+
+
+*Licence:* Creative Commons Attribution-ShareAlike 4.0 International
+
+*Use code:* `CC-BY-SA_v4`
+
+*Publisher:* Creative Commons
+
+*Legal text:* [https://creativecommons.org/licenses/by-sa/4.0/legalcode](https://creativecommons.org/licenses/by-sa/4.0/legalcode)
+
+
+### Adaptive Public License 1.0
+
+
+*Licence:* Adaptive Public License 1.0
+
+*Use code:* `AdaptivePublicLicense10`
+
+*Publisher:* - not specified -
+
+*Legal text:* [http://opensource.org/licenses/APL-1.0](http://opensource.org/licenses/APL-1.0)
+
+
+### ISC License
+
+
+*Licence:* ISC License
+
+*Use code:* `IscLicense`
+
+*Publisher:* N.N.
+
+*Legal text:* [http://opensource.org/licenses/ISC](http://opensource.org/licenses/ISC)
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+
+
+*Licence:* Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+
+*Use code:* `CC-BY-NC-ND_v4`
+
+*Publisher:* Creative Commons
+
+*Legal text:* [https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode)
+
+
+### Open Supreme Court Licence
+
+
+*Licence:* Open Supreme Court Licence
+
+*Use code:* `OpenSupremeCourtLicence`
+
+*Publisher:* The National Archives UK
+
+*Legal text:* [http://www.nationalarchives.gov.uk/doc/open-supreme-court-licence/version/1/open-supreme-court-licence-version-1.0.pdf](http://www.nationalarchives.gov.uk/doc/open-supreme-court-licence/version/1/open-supreme-court-licence-version-1.0.pdf)
+
+
+### GNU Affero General Public License
+
+
+*Licence:* GNU Affero General Public License
+
+*Use code:* `AGPL`
+
+*Publisher:* GNU Affero General Public License
+
+*Legal text:* [https://www.gnu.org/licenses/agpl-3.0.html](https://www.gnu.org/licenses/agpl-3.0.html)
+
+
+### Creative Commons Attribution-NoDerivatives 4.0 International
+
+
+*Licence:* Creative Commons Attribution-NoDerivatives 4.0 International
+
+*Use code:* `CC-BY-ND_v4`
+
+*Publisher:* Creative Commons
+
+*Legal text:* [https://creativecommons.org/licenses/by-nd/4.0/legalcode](https://creativecommons.org/licenses/by-nd/4.0/legalcode)
+
+
+### Open Government Licence - Canada
+
+
+*Licence:* Open Government Licence - Canada
+
+*Use code:* `OpenGovernmentLicenceCanada`
+
+*Publisher:* Her Majesty the Queen in right of Canada
+
+*Legal text:* [https://open.canada.ca/en/open-government-licence-canada](https://open.canada.ca/en/open-government-licence-canada)
+
+
+### Boost Software License 1.0
+
+
+*Licence:* Boost Software License 1.0
+
+*Use code:* `BoostSoftwareLicense10`
+
+*Publisher:* - not specified -
+
+*Legal text:* [http://opensource.org/licenses/BSL-1.0](http://opensource.org/licenses/BSL-1.0)
+
+
+### Mozilla Public License Version 2.0
+
+
+*Licence:* Mozilla Public License Version 2.0
+
+*Use code:* `MozillaPublicLicenseVersion20`
+
+*Publisher:* Mozilla Corporation
+
+*Legal text:* [https://www.mozilla.org/en-US/MPL/2.0/](https://www.mozilla.org/en-US/MPL/2.0/)
+
+
+### GNU Lesser General Public License version 3.0
+
+
+*Licence:* GNU Lesser General Public License version 3.0
+
+*Use code:* `LGPLv3`
+
+*Publisher:* Free Software Foundation
+
+*Legal text:* [https://www.gnu.org/licenses/lgpl-3.0.html](https://www.gnu.org/licenses/lgpl-3.0.html)
+
+
+### Academic Free License 3.0
+
+
+*Licence:* Academic Free License 3.0
+
+*Use code:* `AcademicFreeLicense30`
+
+*Publisher:* - not specified -
+
+*Legal text:* [http://opensource.org/licenses/AFL-3.0](http://opensource.org/licenses/AFL-3.0)
+
+
+### Common Public Attribution License Version 1.0
+
+
+*Licence:* Common Public Attribution License Version 1.0
+
+*Use code:* `CommonPublicAttributionLicenseVersion10`
+
+*Publisher:* Socialtext Incorporated
+
+*Legal text:* [http://opensource.org/licenses/CPAL-1.0](http://opensource.org/licenses/CPAL-1.0)
+
+
+### ODC Open Database License (ODbL)
+
+
+*Licence:* ODC Open Database License (ODbL)
+
+*Use code:* `OdcOpenDatabaseLicense`
+
+*Publisher:* Socialtext Incorporated
+
+*Legal text:* [https://opendatacommons.org/licenses/odbl/1.0/](https://opendatacommons.org/licenses/odbl/1.0/)
+
+
+### Common Development and Distribution License 1.0
+
+
+*Licence:* Common Development and Distribution License 1.0
+
+*Use code:* `CommonDevelopmentAndDistributionLicense10`
+
+*Publisher:* N.N.
+
+*Legal text:* [http://opensource.org/licenses/CDDL-1.0](http://opensource.org/licenses/CDDL-1.0)
+
+
+### The zlib libpng License
+
+
+*Licence:* The zlib libpng License
+
+*Use code:* `TheZlibLibpngLicense`
+
+*Publisher:* N.N.
+
+*Legal text:* [http://opensource.org/licenses/Zlib](http://opensource.org/licenses/Zlib)
+
+
+### SUN PUBLIC LICENSE Version 1.0
+
+
+*Licence:* SUN PUBLIC LICENSE Version 1.0
+
+*Use code:* `SunPublicLicenseVersion10`
+
+*Publisher:* Sun Microsystems, Inc.
+
+*Legal text:* [http://opensource.org/licenses/SPL-1.0](http://opensource.org/licenses/SPL-1.0)
+
+
+### UK Open Government License for Public Sector Information
+
+
+*Licence:* UK Open Government License for Public Sector Information
+
+*Use code:* `UkOpenGovernmentLicenseForPublicSectorInformation`
+
+*Publisher:* UK Government
+
+*Legal text:* [http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
+
+
+### Statistics Canada Open Licence Agreement
+
+
+*Licence:* Statistics Canada Open Licence Agreement
+
+*Use code:* `StatisticsCanadaOpenLicenceAgreement`
+
+*Publisher:* Statistics Canada
+
+*Legal text:* [https://www.statcan.gc.ca/eng/reference/licence](https://www.statcan.gc.ca/eng/reference/licence)
+
+
+### GNU General Public License 3
+
+
+*Licence:* GNU General Public License 3
+
+*Use code:* `GNU_GPL_v3`
+
+*Publisher:* Free Software Foundation
+
+*Legal text:* [https://www.gnu.org/licenses/gpl.html](https://www.gnu.org/licenses/gpl.html)
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+
+
+*Licence:* Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+
+*Use code:* `CC-BY-NC-SA_v4`
+
+*Publisher:* Creative Commons
+
+*Legal text:* [https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
+
+
+### Open Software License v. 3.0
+
+
+*Licence:* Open Software License v. 3.0
+
+*Use code:* `OpenSoftwareLicenseV30`
+
+*Publisher:* Lawrence Rosen
+
+*Legal text:* [http://opensource.org/licenses/OSL-3.0](http://opensource.org/licenses/OSL-3.0)
+
