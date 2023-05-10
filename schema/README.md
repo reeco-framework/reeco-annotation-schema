@@ -23,20 +23,28 @@ Component types:
 
  - [Data](#Data)
    - [Dataset](#Dataset)
+   - [Schema](#Schema)
+   - [Repository](#Repository)
    - [Registry](#Registry)
    - [Ontology](#Ontology)
+   - [Corpus](#Corpus)
+   - [Lexicon](#Lexicon)
    - [KnowledgeGraph](#KnowledgeGraph)
  - [Software](#Software)
    - [Workflow](#Workflow)
    - [API](#API)
+   - [UserInterface](#UserInterface)
    - [SoftwareLibrary](#SoftwareLibrary)
    - [DockerImageContainer](#DockerImageContainer)
    - [Notebook](#Notebook)
    - [Script](#Script)
- - [RunningInstance](#RunningInstance)
+ - [Application](#Application)
    - [WebSite](#WebSite)
+   - [WebApplication](#WebApplication)
    - [WebService](#WebService)
     - [SPARQLEndpoint](#SPARQLEndpoint)
+   - [MobileApp](#MobileApp)
+   - [CLITool](#CLITool)
  - [Report](#Report)
    - [RequirementsCollection](#RequirementsCollection)
     - [Story](#Story)
@@ -140,6 +148,22 @@ Component types:
 **label**: Dataset
 
 **supertype-id**: Data
+### Schema
+
+
+**type**: Schema
+
+**label**: Schema
+
+**supertype-id**: Data
+### Repository
+
+
+**type**: Repository
+
+**label**: Repository
+
+**supertype-id**: Data
 ### Registry
 
 
@@ -180,6 +204,14 @@ Component types:
 **label**: API
 
 **supertype-id**: Software
+### UserInterface
+
+
+**type**: UserInterface
+
+**label**: User interface
+
+**supertype-id**: Software
 ### Tutorial
 
 
@@ -195,7 +227,15 @@ Component types:
 
 **label**: Web site
 
-**supertype-id**: RunningInstance
+**supertype-id**: Application
+### WebApplication
+
+
+**type**: WebApplication
+
+**label**: WebApplication
+
+**supertype-id**: Application
 ### WebService
 
 
@@ -203,7 +243,7 @@ Component types:
 
 **label**: Web Service
 
-**supertype-id**: RunningInstance
+**supertype-id**: Application
 ### SPARQLEndpoint
 
 
@@ -228,6 +268,22 @@ Component types:
 **label**: Ecosystem Website
 
 **supertype-id**: Web site
+### MobileApp
+
+
+**type**: MobileApp
+
+**label**: Mobile application
+
+**supertype-id**: Application
+### CLITool
+
+
+**type**: CLITool
+
+**label**: Command Line Interface Tool
+
+**supertype-id**: Application
 ### SoftwareLibrary
 
 
@@ -244,12 +300,12 @@ Component types:
 **label**: Docker Image Container
 
 **supertype-id**: Software
-### RunningInstance
+### Application
 
 
-**type**: RunningInstance
+**type**: Application
 
-**label**: Running Instance
+**label**: Application
 
 **supertype-id**: Component
 ### Ontology
@@ -276,6 +332,22 @@ Component types:
 **label**: Script
 
 **supertype-id**: Software
+### Corpus
+
+
+**type**: Corpus
+
+**label**: Corpus
+
+**supertype-id**: Data
+### Lexicon
+
+
+**type**: Lexicon
+
+**label**: Lexicon
+
+**supertype-id**: Data
 ### KnowledgeGraph
 
 
@@ -921,7 +993,7 @@ component
 
 **mandatory**: N
 
-List of components that are related to this one. Use a subproperty when applicable.
+List of components that are related to this one.
 
 Example:
 

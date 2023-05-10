@@ -417,8 +417,7 @@ terms:
   Component/related-component:
     _position: 26
     constraint: N
-    description: List of components that are related to this one. Use a subproperty
-      when applicable.
+    description: List of components that are related to this one.
     domain:
     - Component
     example-values: "related-component:\n- informed-by: component-local-11\n- use-case:\
@@ -884,36 +883,63 @@ terms:
     scope: Container
     term: type
 types:
+  Application/CLITool:
+    _position: 23
+    label: Command Line Interface Tool
+    supertype-id: Application
+    type: CLITool
+  Application/MobileApp:
+    _position: 22
+    label: Mobile application
+    supertype-id: Application
+    type: MobileApp
+  Application/WebApplication:
+    _position: 16
+    label: WebApplication
+    supertype-id: Application
+    type: WebApplication
+  Application/WebService:
+    _position: 17
+    description: E.g. Web APIs
+    label: Web Service
+    supertype-id: Application
+    type: WebService
+  Application/WebSite:
+    _position: 15
+    label: Web site
+    sub-class-of: fabio:WebSite
+    supertype-id: Application
+    type: WebSite
   Component:
     _position: 3
     label: Component
     sub-class-of: frapo:MaterialOutput
     type: Component
+  Component/Application:
+    _position: 26
+    label: Application
+    sub-class-of: fabio:ComputerApplication
+    supertype-id: Component
+    type: Application
   Component/Data:
     _position: 4
     label: Data
     supertype-id: Component
     type: Data
   Component/Publication:
-    _position: 32
+    _position: 41
     label: Publication
     sub-class-of: "fabio:JournalArticle \nfabio:Book"
     supertype-id: Component
     type: Publication
   Component/Report:
-    _position: 28
+    _position: 37
     label: Report
     sub-class-of: fabio:Report
     supertype-id: Component
     type: Report
-  Component/RunningInstance:
-    _position: 19
-    label: Running Instance
-    sub-class-of: fabio:ComputerApplication
-    supertype-id: Component
-    type: RunningInstance
   Component/Software:
-    _position: 9
+    _position: 11
     label: Software
     sub-class-of: fabio:ComputerProgram
     supertype-id: Component
@@ -924,7 +950,7 @@ types:
     label: Container
     type: Container
   Container/Pilot:
-    _position: 37
+    _position: 46
     label: Pilot
     sub-class-of: frapo:Investigation
     supertype-id: Container
@@ -936,29 +962,34 @@ types:
     supertype-id: Container
     type: Project
   Container/Task:
-    _position: 35
+    _position: 44
     label: Task
     sub-class-of: frapo:Investigation
     supertype-id: Container
     type: Task
   Container/UseCase:
-    _position: 36
+    _position: 45
     label: Use Case
     sub-class-of: frapo:Investigation
     supertype-id: Container
     type: UseCase
   Container/WorkPackage:
-    _position: 34
+    _position: 43
     label: Work Package
     sub-class-of: fabio:WorkPackage
     supertype-id: Container
     type: WorkPackage
   Container/WorkingGroup:
-    _position: 33
+    _position: 42
     label: Working Group
     sub-class-of: frapo:Division / frapo:ResearchGroup
     supertype-id: Container
     type: WorkingGroup
+  Data/Corpus:
+    _position: 30
+    label: Corpus
+    supertype-id: Data
+    type: Corpus
   Data/Dataset:
     _position: 5
     label: Dataset
@@ -966,137 +997,145 @@ types:
     supertype-id: Data
     type: Dataset
   Data/KnowledgeGraph:
-    _position: 23
+    _position: 32
     label: Knowledge Graph
     sub-class-of: fabio:Dataset
     supertype-id: Data
     type: KnowledgeGraph
+  Data/Lexicon:
+    _position: 31
+    label: Lexicon
+    supertype-id: Data
+    type: Lexicon
   Data/Ontology:
-    _position: 20
+    _position: 27
     label: Ontology
     sub-class-of: fabio:Ontology
     supertype-id: Data
     type: Ontology
   Data/Registry:
-    _position: 6
+    _position: 8
     label: Registry
     sub-class-of: fabio:Catalog
     supertype-id: Data
     type: Registry
+  Data/Repository:
+    _position: 7
+    label: Repository
+    supertype-id: Data
+    type: Repository
+  Data/Schema:
+    _position: 6
+    label: Schema
+    supertype-id: Data
+    type: Schema
   Documentation/Tutorial:
-    _position: 11
+    _position: 14
     label: Tutorial
     sub-class-of: fabio:InstructionalWork
     supertype-id: Documentation
     type: Tutorial
   Report /Deliverable:
-    _position: 29
+    _position: 38
     label: Deliverable
     sub-class-of: fabio:ProjectReport
     supertype-id: 'Report '
     type: Deliverable
   Report/Documentation:
-    _position: 30
+    _position: 39
     label: Documentation
     sub-class-of: fabio:InstructionalWork
     supertype-id: Report
     type: Documentation
   Report/EvaluationReport:
-    _position: 31
+    _position: 40
     label: Evaluation Report
     supertype-id: Report
     type: EvaluationReport
   Report/RequirementsCollection:
-    _position: 7
+    _position: 9
     label: Requirements Collection
     sub-class-of: fabio:Specification
     supertype-id: Report
     type: RequirementsCollection
   Report/Survey:
-    _position: 15
+    _position: 19
     label: Survey
     sub-class-of: fabio:Questionnaire
     supertype-id: Report
     type: Survey
   RequirementsCollection/Persona:
-    _position: 27
+    _position: 36
     label: Persona
     sub-class-of: fabio:MetadataDocument
     supertype-id: RequirementsCollection
     type: Persona
   RequirementsCollection/Story:
-    _position: 26
+    _position: 35
     label: Story
     sub-class-of: fabio:MetadataDocument
     supertype-id: RequirementsCollection
     type: Story
-  RunningInstance/WebService:
-    _position: 13
-    description: E.g. Web APIs
-    label: Web Service
-    supertype-id: RunningInstance
-    type: WebService
-  RunningInstance/WebSite:
-    _position: 12
-    label: Web site
-    sub-class-of: fabio:WebSite
-    supertype-id: RunningInstance
-    type: WebSite
   Software/API:
-    _position: 10
+    _position: 12
     label: API
     sub-class-of: fabio:API ?
     supertype-id: Software
     type: API
   Software/DockerImageContainer:
-    _position: 18
+    _position: 25
     label: Docker Image Container
     sub-class-of: fabio:ComputerApplication
     supertype-id: Software
     type: DockerImageContainer
   Software/Notebook:
-    _position: 21
+    _position: 28
     label: Notebook
     sub-class-of: fabio:Script
     supertype-id: Software
     type: Notebook
   Software/Script:
-    _position: 22
+    _position: 29
     label: Script
     sub-class-of: fabio:Script
     supertype-id: Software
     type: Script
   Software/SoftwareLibrary:
-    _position: 17
+    _position: 24
     label: Software Library
     sub-class-of: fabio:Script
     supertype-id: Software
     type: SoftwareLibrary
+  Software/UserInterface:
+    _position: 13
+    label: User interface
+    supertype-id: Software
+    type: UserInterface
   Software/Workflow:
-    _position: 8
+    _position: 10
     label: Workflow
     supertype-id: Software
     type: Workflow
   Survey/FocusGroup:
-    _position: 25
+    _position: 34
     label: Focus Group
     sub-class-of: fabio:Questionnaire
     supertype-id: Survey
     type: FocusGroup
   Survey/InPresenceSurvey:
-    _position: 24
+    _position: 33
     label: In presence survey
     sub-class-of: fabio:Questionnaire
     supertype-id: Survey
     type: InPresenceSurvey
   Web site/EcosystemWebsite:
-    _position: 16
+    _position: 20
     label: Ecosystem Website
     sub-class-of: fabio:Wiki ?
     supertype-id: Web site
     type: EcosystemWebsite
   WebService/SPARQLEndpoint:
-    _position: 14
+    _position: 18
     label: SPARQL Endpoint
     supertype-id: WebService
     type: SPARQLEndpoint
