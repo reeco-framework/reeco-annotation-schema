@@ -73,6 +73,14 @@ Component types:
  - [work-package](#work-package)
  - [pilot](#pilot)
  - [project](#project)
+ - [bibliography](#bibliography)
+   - [main-publication](#main-publication)
+   - [main-report](#main-report)
+   - [deliverable-document](#deliverable-document)
+   - [published-in](#published-in)
+   - [main-publication](#main-publication)
+   - [main-report](#main-report)
+   - [deliverable-document](#deliverable-document)
 
 ### Terms for Components
 
@@ -106,6 +114,9 @@ Component types:
    - [serves-data](#serves-data)
    - [generated-by](#generated-by)
  - [bibliography](#bibliography)
+   - [main-publication](#main-publication)
+   - [main-report](#main-report)
+   - [deliverable-document](#deliverable-document)
    - [published-in](#published-in)
    - [main-publication](#main-publication)
    - [main-report](#main-report)
@@ -764,6 +775,74 @@ Example:
 ```
 
 
+### bibliography
+
+
+**term**: bibliography
+
+**label**: bibliography
+
+**scope**: Container
+
+**mandatory**: N
+
+List of bibliographic references that are relevant to the container (activity)
+
+Example:
+
+```
+bibliography:
+  - main-publication: full citation
+  - technical-report:
+    - http://doi.org/10.xxxx 
+  - deliverable-document: 
+    - http://something.pdf 
+```
+
+
+### main-publication
+
+
+**term**: main-publication
+
+**label**: main 
+publication
+
+**scope**: Container
+
+**super-term**: bibliography
+
+**mandatory**: N
+
+The primary, peer reviewed scientific publication related to this research (if non peer-reviewed, use technical-report instead).
+### main-report
+
+
+**term**: main-report
+
+**label**: main technical report
+
+**scope**: Container
+
+**super-term**: bibliography
+
+**mandatory**: N
+
+The primary document related to this research (if peer-reviewed publication, use scientific-work instead).
+### deliverable-document
+
+
+**term**: deliverable-document
+
+**label**: deliverable document
+
+**scope**: Container
+
+**super-term**: bibliography
+
+**mandatory**: N
+
+Link to the deliverable document related to this activity
 ### component-id
 
 
@@ -971,7 +1050,7 @@ Version number of the release. Any value is permitted, although we recommend sem
 Example:
 
 ```
-v0.1
+release-number: v0.1
 ```
 
 
@@ -991,7 +1070,7 @@ Link to access or download the component release
 Example:
 
 ```
-https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1
+release-link: https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1
 ```
 
 
@@ -1011,7 +1090,7 @@ The DOI of the GitHub repository related to this component, e.g. as published on
 Example:
 
 ```
-http://doi.org/10.xxxxxx
+doi: http://doi.org/10.xxxxxx
 ```
 
 
@@ -1046,7 +1125,7 @@ https://github.com/SPARQL-Anything/sparql.anything/releases
 
 **mandatory**: N
 
-Link to a licence document of the resource, or a string pointing to one of the supported licences in the Reeco framework.
+Link to a licence document of the resource, or a string pointing to one of the supported licences in the framework.
 
 Example:
 
@@ -1092,10 +1171,11 @@ A list of contributors in the form: "Name <name.surname@mail.com>"
 Example:
 
 ```
+contributors:
 - John Doe <john@doe.com>
 - Mick1234 <mick1234@mail.com>
 - Fabio009 <http://fabio009.com>
-- github/enridaga
+- <http://github.com/enridaga>
 - Name Surname
 - Name Surname <email>
 - Name Surname <URI>
