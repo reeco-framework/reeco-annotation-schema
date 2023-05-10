@@ -68,6 +68,7 @@ Component types:
    - [name](#name)
    - [url](#url)
    - [grant-agreement](#grant-agreement)
+   - [credits](#credits)
  - [has-part](#has-part)
  - [ro-crate](#ro-crate)
  - [work-package](#work-package)
@@ -85,7 +86,6 @@ Component types:
    - [main-report](#main-report)
    - [report](#report)
    - [deliverable-document](#deliverable-document)
- - [credits](#credits)
 
 ### Terms for Components
 
@@ -678,6 +678,28 @@ ABC123456
 ```
 
 
+### credits
+
+
+**term**: credits
+
+**label**: credits
+
+**scope**: Container
+
+**super-term**: funder
+
+**mandatory**: N
+
+Credits
+
+Example:
+
+```
+This project was funded by the European Union
+```
+
+
 ### has-part
 
 
@@ -881,26 +903,6 @@ The primary document related to this research (if peer-reviewed publication, use
 **mandatory**: N
 
 Link to the deliverable document related to this activity
-### credits
-
-
-**term**: credits
-
-**label**: credits
-
-**scope**: Container
-
-**mandatory**: N
-
-Credits
-
-Example:
-
-```
-This project was funded by the European Union
-```
-
-
 ### component-id
 
 

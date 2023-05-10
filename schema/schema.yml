@@ -1098,7 +1098,7 @@ terms:
     - 'string '
     yaml-type: List.String
   Container/bibliography:
-    _position: 16
+    _position: 17
     constraint: N
     description: List of bibliographic references that are relevant to the container
       (activity)
@@ -1119,7 +1119,7 @@ terms:
     - ' anyURI'
     yaml-type: List.Dictionary
   Container/bibliography/deliverable-document:
-    _position: 21
+    _position: 22
     constraint: N
     description: Link to the deliverable document related to this activity
     domain:
@@ -1138,7 +1138,7 @@ terms:
     - ' anyURI'
     yaml-type: List.String
   Container/bibliography/main-publication:
-    _position: 17
+    _position: 18
     constraint: N
     description: The primary, peer reviewed scientific publication related to this
       research (if non peer-reviewed, use technical-report instead).
@@ -1156,7 +1156,7 @@ terms:
     - ' anyURI'
     yaml-type: String
   Container/bibliography/main-report:
-    _position: 20
+    _position: 21
     constraint: N
     description: The primary document related to this research (if peer-reviewed publication,
       use scientific-work instead).
@@ -1174,7 +1174,7 @@ terms:
     - ' anyURI'
     yaml-type: String
   Container/bibliography/publication:
-    _position: 18
+    _position: 19
     constraint: N
     description: A peer reviewed scientific publication related to this component
       (if non peer-reviewed, use technical-report instead).
@@ -1192,7 +1192,7 @@ terms:
     - ' anyURI'
     yaml-type: String
   Container/bibliography/report:
-    _position: 19
+    _position: 20
     constraint: N
     description: A document related to this component (if peer-reviewed publication,
       use publication instead).
@@ -1225,21 +1225,6 @@ terms:
     xsd-datatype:
     - string
     yaml-type: String
-  Container/credits:
-    _position: 22
-    constraint: N
-    description: Credits
-    domain:
-    - Container
-    example-values: This project was funded by the European Union
-    label: credits
-    mandatory: N
-    scope: Container
-    term: credits
-    unique: N
-    xsd-datatype:
-    - string
-    yaml-type: List.String
   Container/description:
     _position: 4
     constraint: N
@@ -1276,6 +1261,22 @@ terms:
     term: funder
     unique: N
     yaml-type: List.Dictionary
+  Container/funder/credits:
+    _position: 11
+    constraint: N
+    description: Credits
+    domain:
+    - Container
+    example-values: This project was funded by the European Union
+    label: credits
+    mandatory: N
+    scope: Container
+    super-term: funder
+    term: credits
+    unique: N
+    xsd-datatype:
+    - string
+    yaml-type: List.String
   Container/funder/grant-agreement:
     _position: 10
     constraint: N
@@ -1330,7 +1331,7 @@ terms:
     - anyURI
     yaml-type: String
   Container/has-part:
-    _position: 11
+    _position: 12
     constraint: Y
     description: List of components or containers that are parts of this container.
       Refer to components with organisation, repo and local id of the component
@@ -1407,7 +1408,7 @@ terms:
     - string
     yaml-type: String
   Container/pilot:
-    _position: 14
+    _position: 15
     constraint: N
     description: A pilot application or case study
     domain:
@@ -1427,7 +1428,7 @@ terms:
     - string
     yaml-type: List.String
   Container/project:
-    _position: 15
+    _position: 16
     constraint: Y
     description: The local id of the project
     domain:
@@ -1443,7 +1444,7 @@ terms:
     - string
     yaml-type: List.String
   Container/ro-crate:
-    _position: 12
+    _position: 13
     constraint: Y
     description: Specifies whether this yaml file is the reference file for creating
       a RO crate.
@@ -1471,7 +1472,7 @@ terms:
     scope: Container
     term: type
   Container/work-package:
-    _position: 13
+    _position: 14
     constraint: N
     description: The work package associated to this component, if any.
     domain:
