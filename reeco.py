@@ -34,10 +34,11 @@ class Schema:
         terms = []
         for t in sorted(self._yaml['terms'], key = lambda pos: self._yaml['terms'][pos]['_position']):
             o = self._yaml['terms'][t]
-            if o['scope'] == 'Container' and isContainer:
-                terms.append(o)
-            if o['scope'] == 'Component' and not isContainer:
-                terms.append(o)
+            if 'super-term' not in o.keys() or o['super-term'] == '':
+                if o['scope'] == 'Container' and isContainer:
+                    terms.append(o)
+                if o['scope'] == 'Component' and not isContainer:
+                    terms.append(o)
         return terms
 
     def subtypes(self, typee):
@@ -83,6 +84,13 @@ class Schema:
             terms.append(o)
         return terms
 
-if __name__ == '__main__':
-    reeco = Schema()
-    print(reeco.types())
+# class MD:
+#     def isComponent(self):
+#         return True
+
+# if __name__ == '__main__':
+    # reeco = Schema()
+    #     print(reeco.types())
+    # out = eval("{ 'key': 1}")
+#     out = eval("Schema()")
+#     print(out, type(out))
