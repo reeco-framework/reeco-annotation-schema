@@ -14,6 +14,7 @@ output_yml = "./schema/schema.yml"
 
 split_by = {
     'enum':',',
+    'xsd-datatype':',',
     'domain':'|'
 }
 

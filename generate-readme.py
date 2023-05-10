@@ -112,7 +112,7 @@ for term in SCHEMA.terms():
     for k in ks:
         if k in term:
             TXT = TXT + "\n\n**" + k + "**: " + str(term[k]) 
-    TXT = TXT + "\n\n**domain**: " 
+    # TXT = TXT + "\n\n**domain**: " 
     # for d in term['domain']:
     #     TXT = TXT + "\n\n - " + makeLink(d) 
     if 'description' in term:
