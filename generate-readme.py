@@ -81,7 +81,11 @@ for term in SCHEMA.termsFor('Component'):
     for sub1 in SCHEMA.subterms(term['term']):
         TXT = TXT + "\n   - " + makeLink(sub1)
         for sub2 in SCHEMA.subterms(sub1['term']):
-            TXT = TXT + "\n    - " + makeLink(sub2)
+            TXT = TXT + "\n      - " + makeLink(sub2)
+            for sub3 in SCHEMA.subterms(sub2['term']):
+                TXT = TXT + "\n        - " + makeLink(sub3)
+                for sub4 in SCHEMA.subterms(sub4['term']):
+                    TXT = TXT + "\n          - " + makeLink(sub4)
 
 TXT = TXT + """
 
