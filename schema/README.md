@@ -21,27 +21,31 @@ Container types:
 
 Component types:
 
- - [Dataset](#Dataset)
- - [Registry](#Registry)
- - [RequirementsCollection](#RequirementsCollection)
-   - [Story](#Story)
-   - [Persona](#Persona)
- - [Workflow](#Workflow)
+ - [Data](#Data)
+   - [Dataset](#Dataset)
+   - [Registry](#Registry)
+   - [Ontology](#Ontology)
+   - [KnowledgeGraph](#KnowledgeGraph)
  - [Software](#Software)
+   - [Workflow](#Workflow)
+   - [API](#API)
    - [SoftwareLibrary](#SoftwareLibrary)
    - [DockerImageContainer](#DockerImageContainer)
-   - [RunningInstance](#RunningInstance)
-   - [Ontology](#Ontology)
    - [Notebook](#Notebook)
    - [Script](#Script)
- - [Service](#Service)
- - [Tutorial](#Tutorial)
- - [WebSite](#WebSite)
- - [Survey](#Survey)
-   - [InPresenceSurvey](#InPresenceSurvey)
-   - [FocusGroup](#FocusGroup)
+ - [RunningInstance](#RunningInstance)
+   - [WebSite](#WebSite)
+   - [WebService](#WebService)
+    - [SPARQLEndpoint](#SPARQLEndpoint)
  - [Report](#Report)
+   - [RequirementsCollection](#RequirementsCollection)
+    - [Story](#Story)
+    - [Persona](#Persona)
+   - [Survey](#Survey)
+    - [InPresenceSurvey](#InPresenceSurvey)
+    - [FocusGroup](#FocusGroup)
    - [Documentation](#Documentation)
+    - [Tutorial](#Tutorial)
    - [EvaluationReport](#EvaluationReport)
  - [Publication](#Publication)
 
@@ -49,6 +53,7 @@ Component types:
 
  - [name](#name)
  - [container-id](#container-id)
+ - [type](#type)
  - [funder](#funder)
    - [name](#name)
    - [url](#url)
@@ -141,6 +146,14 @@ Component types:
 **type**: Component
 
 **label**: Component
+### Data
+
+
+**type**: Data
+
+**label**: Data
+
+**supertype-id**: Component
 ### Dataset
 
 
@@ -148,7 +161,7 @@ Component types:
 
 **label**: Dataset
 
-**supertype-id**: Component
+**supertype-id**: Data
 ### Registry
 
 
@@ -156,7 +169,7 @@ Component types:
 
 **label**: Registry
 
-**supertype-id**: Component
+**supertype-id**: Data
 ### RequirementsCollection
 
 
@@ -164,7 +177,7 @@ Component types:
 
 **label**: Requirements Collection
 
-**supertype-id**: Component
+**supertype-id**: Report
 ### Workflow
 
 
@@ -172,7 +185,7 @@ Component types:
 
 **label**: Workflow
 
-**supertype-id**: Component
+**supertype-id**: Software
 ### Software
 
 
@@ -181,14 +194,14 @@ Component types:
 **label**: Software
 
 **supertype-id**: Component
-### Service
+### API
 
 
-**type**: Service
+**type**: API
 
-**label**: Service
+**label**: API
 
-**supertype-id**: Component
+**supertype-id**: Software
 ### Tutorial
 
 
@@ -196,7 +209,7 @@ Component types:
 
 **label**: Tutorial
 
-**supertype-id**: Component
+**supertype-id**: Documentation
 ### WebSite
 
 
@@ -204,7 +217,23 @@ Component types:
 
 **label**: Web site
 
-**supertype-id**: Component
+**supertype-id**: RunningInstance
+### WebService
+
+
+**type**: WebService
+
+**label**: Web Service
+
+**supertype-id**: RunningInstance
+### SPARQLEndpoint
+
+
+**type**: SPARQLEndpoint
+
+**label**: SPARQL Endpoint
+
+**supertype-id**: WebService
 ### Survey
 
 
@@ -212,7 +241,7 @@ Component types:
 
 **label**: Survey
 
-**supertype-id**: Component
+**supertype-id**: Report
 ### EcosystemWebsite
 
 
@@ -244,7 +273,7 @@ Component types:
 
 **label**: Running Instance
 
-**supertype-id**: Software
+**supertype-id**: Component
 ### Ontology
 
 
@@ -252,7 +281,7 @@ Component types:
 
 **label**: Ontology
 
-**supertype-id**: Software
+**supertype-id**: Data
 ### Notebook
 
 
@@ -404,8 +433,6 @@ Component types:
 
 **mandatory**: Y
 
-**domain**: 
-
 The container name
 
 Example:
@@ -426,8 +453,6 @@ name: Polifonia
 
 **mandatory**: Y
 
-**domain**: 
-
 Local identifier of the container
 
 Example:
@@ -437,6 +462,16 @@ polifonia
 ```
 
 
+### type
+
+
+**term**: type
+
+**label**: container type
+
+**scope**: Container
+
+The type of container (Project, WorkPackage, ?)
 ### funder
 
 
@@ -447,8 +482,6 @@ polifonia
 **scope**: Container
 
 **mandatory**: N
-
-**domain**: 
 
 The name of the funding body of the project and the URL
 
@@ -478,8 +511,6 @@ funder:
 
 **mandatory**: N
 
-**domain**: 
-
 The name of the funder
 ### url
 
@@ -494,8 +525,6 @@ The name of the funder
 
 **mandatory**: N
 
-**domain**: 
-
 Link to the funder organisation web site
 ### grant-agreement
 
@@ -509,8 +538,6 @@ Link to the funder organisation web site
 **super-term**: funder
 
 **mandatory**: N
-
-**domain**: 
 
 Identifier of the grant agreement relative to the funding organisation
 
@@ -531,8 +558,6 @@ ABC123456
 **scope**: Container
 
 **mandatory**: N
-
-**domain**: 
 
 List of components or containers that are parts of this container. Refer to components with organisation, repo and local id of the component
 
@@ -557,8 +582,6 @@ has-part:
 
 **mandatory**: N
 
-**domain**: 
-
 Specifies whether this yaml file is the reference file for creating a RO crate.
 
 Example:
@@ -579,8 +602,6 @@ Example:
 
 **mandatory**: Y
 
-**domain**: 
-
 The ID of the component in the Ecosystem. Can be a local identifier or a URI.
 
 Example:
@@ -600,8 +621,6 @@ my-dataset
 **scope**: Component
 
 **mandatory**: N
-
-**domain**: 
 
 The digital resource representing the component (e.g. if the component is of type Dataset, it may be my-dataset.csv or a folder in the repository). It includes the path to a file (if 1 file), the path to a folder (if many files), or absolute URL of an online file (DOI cannot be used)
 
@@ -625,8 +644,6 @@ http://www.example.org/myFile.json
 
 **mandatory**: N
 
-**domain**: 
-
 The DOI of the GitHub repository related to this component, e.g. as published on Zenodo.org
 
 Example:
@@ -646,8 +663,6 @@ http://doi.org/10.xxxxxx
 **scope**: Component
 
 **mandatory**: Y
-
-**domain**: 
 
 The name of the component
 
@@ -669,8 +684,6 @@ musoW
 
 **mandatory**: Y
 
-**domain**: 
-
 A text describing the component
 
 Example:
@@ -690,8 +703,6 @@ musoW is the registry of musical resources on the Web.
 **scope**: Component
 
 **mandatory**: Y
-
-**domain**: 
 
 The component type, according to the list of components available in Reeco.
 
@@ -714,8 +725,6 @@ date
 **scope**: Component
 
 **mandatory**: N
-
-**domain**: 
 
 The date the component was released. Accepted values include any valid XSD date.
 
@@ -740,8 +749,6 @@ number
 
 **mandatory**: N
 
-**domain**: 
-
 Version number of the release. Any value is permitted, although we recommend semantic versioning: https://semver.org/
 
 Example:
@@ -761,8 +768,6 @@ v0.1
 **scope**: Component
 
 **mandatory**: N
-
-**domain**: 
 
 Link to access or download the component release
 
@@ -784,8 +789,6 @@ https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1
 
 **mandatory**: N
 
-**domain**: 
-
 Link to a Changelog document, a file which contains a chronologically ordered list of notable changes for each version of the component.
 
 Example:
@@ -805,8 +808,6 @@ https://github.com/SPARQL-Anything/sparql.anything/releases
 **scope**: Component
 
 **mandatory**: N
-
-**domain**: 
 
 Link to a licence document of the resource, or a string pointing to one of the supported licences in the Reeco framework.
 
@@ -828,8 +829,6 @@ Example:
 **scope**: Component
 
 **mandatory**: N
-
-**domain**: 
 
 Link to one reference image illustrating the component
 
@@ -853,8 +852,6 @@ http://www.example.org/image.jpg
 
 **mandatory**: N
 
-**domain**: 
-
 Logo of the component in Web format. Accepted image formats are JPEG and PNG.
 
 Example:
@@ -874,8 +871,6 @@ https://avatars.githubusercontent.com/u/79987779?s=200&v=4
 **scope**: Component
 
 **mandatory**: N
-
-**domain**: 
 
 Link to an online demo of the component
 
@@ -898,8 +893,6 @@ instance
 
 **mandatory**: N
 
-**domain**: 
-
 Link to a running instance of the component (e.g. a software or service) on the Web.
 
 Example:
@@ -919,8 +912,6 @@ http://data.open.ac.uk/sparql
 **scope**: Component
 
 **mandatory**: N
-
-**domain**: 
 
 A list of contributors in the form: "Name <name.surname@mail.com>"
 
@@ -951,8 +942,6 @@ component
 
 **mandatory**: N
 
-**domain**: 
-
 List of components that are related to this one. Use a subproperty when applicable.
 
 Example:
@@ -980,8 +969,6 @@ related-component:
 
 **mandatory**: N
 
-**domain**: 
-
 The component was informed by another component (or resource), for example, a requirements document or a Persona, a Story, a use case, etc...
 ### use-case
 
@@ -995,8 +982,6 @@ The component was informed by another component (or resource), for example, a re
 **super-term**: related-component
 
 **mandatory**: N
-
-**domain**: 
 
 Link to one or more use cases. This term is a specialisation of 'informed-by'
 ### story
@@ -1012,8 +997,6 @@ Link to one or more use cases. This term is a specialisation of 'informed-by'
 
 **mandatory**: N
 
-**domain**: 
-
 Link to one or more user stories. This term is a specialisation of 'informed-by'.
 ### persona
 
@@ -1027,8 +1010,6 @@ Link to one or more user stories. This term is a specialisation of 'informed-by'
 **super-term**: related-component
 
 **mandatory**: N
-
-**domain**: 
 
 Link to one or more persona. This term is a specialisation of 'informed-by'.
 ### documentation
@@ -1044,8 +1025,6 @@ Link to one or more persona. This term is a specialisation of 'informed-by'.
 
 **mandatory**: N
 
-**domain**: 
-
 Link to the documentation of the component. 
 ### evaluated-in
 
@@ -1060,8 +1039,6 @@ Link to the documentation of the component.
 
 **mandatory**: N
 
-**domain**: 
-
 Link to a document (e.g. a user study) or source code demonstrating the validity of the component.
 ### extends-software
 
@@ -1075,8 +1052,6 @@ Link to a document (e.g. a user study) or source code demonstrating the validity
 **super-term**: related-component
 
 **mandatory**: N
-
-**domain**: 
 
 Link to a software that is extended by the current component. Can be a component or an external software.
 ### reuses-software
@@ -1093,8 +1068,6 @@ software
 
 **mandatory**: N
 
-**domain**: 
-
 Link to a software that is reuses as-is by the current component. Can be a component or an external software.
 ### reuses-data
 
@@ -1109,8 +1082,6 @@ dataset
 **super-term**: related-component
 
 **mandatory**: N
-
-**domain**: 
 
 Link to a dataset that is reused by the current component. Can be a component or an external dataset.
 ### serves-data
@@ -1127,8 +1098,6 @@ from
 
 **mandatory**: N
 
-**domain**: 
-
 Link to a dataset that is served by the current component (e.g. an API). Can be a component or an external dataset.
 ### produces-data
 
@@ -1144,8 +1113,6 @@ dataset
 
 **mandatory**: N
 
-**domain**: 
-
 Link to a dataset that is produced by the current component (e.g. an algorithm for generative text). Can be a component or an external dataset.
 ### reused-in
 
@@ -1159,8 +1126,6 @@ Link to a dataset that is produced by the current component (e.g. an algorithm f
 **super-term**: related-component
 
 **mandatory**: N
-
-**domain**: 
 
 Link to a software, dataset, or any other component that reuses the current component.
 ### generated-by
@@ -1176,8 +1141,6 @@ Link to a software, dataset, or any other component that reuses the current comp
 
 **mandatory**: N
 
-**domain**: 
-
 Link to a software, dataset, or any other component that produced or generated the current component.
 ### bibliography
 
@@ -1189,8 +1152,6 @@ Link to a software, dataset, or any other component that produced or generated t
 **scope**: Component
 
 **mandatory**: N
-
-**domain**: 
 
 List of bibliographic references that are relevant to the component but that do not fall under a specific category. 
 Use "scientific work" for the main scholarly publication related to the component
@@ -1220,8 +1181,6 @@ bibliography:
 
 **mandatory**: N
 
-**domain**: 
-
 Link to a meaningful venue where the current component is served or published (e.g. a dataset published on a web portal).
 ### main-publication
 
@@ -1237,8 +1196,6 @@ publication
 
 **mandatory**: N
 
-**domain**: 
-
 The primary, peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead).
 ### main-report
 
@@ -1252,8 +1209,6 @@ The primary, peer reviewed scientific publication related to this component (if 
 **super-term**: bibliography
 
 **mandatory**: N
-
-**domain**: 
 
 The primary document related to this component (if peer-reviewed publication, use scientific-work instead).
 ### deliverable-document
@@ -1269,8 +1224,6 @@ The primary document related to this component (if peer-reviewed publication, us
 
 **mandatory**: N
 
-**domain**: 
-
 Link to the deliverable document related to this component
 ### work-package
 
@@ -1283,8 +1236,6 @@ package
 **scope**: Component
 
 **mandatory**: N
-
-**domain**: 
 
 The work package associated to this component, if any.
 
@@ -1308,8 +1259,6 @@ Example:
 
 **mandatory**: N
 
-**domain**: 
-
 A pilot application or case study
 
 Example:
@@ -1330,8 +1279,6 @@ Example:
 **scope**: Component
 
 **mandatory**: N
-
-**domain**: 
 
 The local id of the project
 

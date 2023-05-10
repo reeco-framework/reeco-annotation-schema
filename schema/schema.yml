@@ -1,6 +1,6 @@
 terms:
   Component/bibliography:
-    _position: 39
+    _position: 40
     constraint: N
     description: "List of bibliographic references that are relevant to the component\
       \ but that do not fall under a specific category. \nUse \"scientific work\"\
@@ -17,10 +17,12 @@ terms:
     spar: cito:isCreditedBy
     term: bibliography
     unique: N
-    xsd-datatype: string, anyURI
+    xsd-datatype:
+    - string
+    - ' anyURI'
     yaml-type: List.Dictionary
   Component/bibliography/deliverable-document:
-    _position: 43
+    _position: 44
     constraint: N
     description: Link to the deliverable document related to this component
     domain:
@@ -34,10 +36,12 @@ terms:
     super-term: bibliography
     term: deliverable-document
     unique: N
-    xsd-datatype: string, anyURI
+    xsd-datatype:
+    - string
+    - ' anyURI'
     yaml-type: List.String
   Component/bibliography/main-publication:
-    _position: 41
+    _position: 42
     constraint: N
     description: The primary, peer reviewed scientific publication related to this
       component (if non peer-reviewed, use technical-report instead).
@@ -50,10 +54,12 @@ terms:
     super-term: bibliography
     term: main-publication
     unique: N
-    xsd-datatype: string, anyURI
+    xsd-datatype:
+    - string
+    - ' anyURI'
     yaml-type: String
   Component/bibliography/main-report:
-    _position: 42
+    _position: 43
     constraint: N
     description: The primary document related to this component (if peer-reviewed
       publication, use scientific-work instead).
@@ -66,10 +72,12 @@ terms:
     super-term: bibliography
     term: main-report
     unique: N
-    xsd-datatype: string, anyURI
+    xsd-datatype:
+    - string
+    - ' anyURI'
     yaml-type: String
   Component/bibliography/published-in:
-    _position: 40
+    _position: 41
     constraint: N
     description: Link to a meaningful venue where the current component is served
       or published (e.g. a dataset published on a web portal).
@@ -82,10 +90,12 @@ terms:
     super-term: bibliography
     term: published-in
     unique: N
-    xsd-datatype: string, anyURI
+    xsd-datatype:
+    - string
+    - ' anyURI'
     yaml-type: List.String
   Component/changelog:
-    _position: 18
+    _position: 19
     constraint: Y
     description: Link to a Changelog document, a file which contains a chronologically
       ordered list of notable changes for each version of the component.
@@ -101,10 +111,11 @@ terms:
     spar: cito:isDocumentedBy
     term: changelog
     unique: N
-    xsd-datatype: anyURI
+    xsd-datatype:
+    - anyURI
     yaml-type: String
   Component/component-id:
-    _position: 9
+    _position: 10
     constraint: N
     description: The ID of the component in the Ecosystem. Can be a local identifier
       or a URI.
@@ -119,10 +130,11 @@ terms:
     spar: dcterms:identifier
     term: component-id
     unique: Y
-    xsd-datatype: string
+    xsd-datatype:
+    - string
     yaml-type: String
   Component/contributors:
-    _position: 24
+    _position: 25
     constraint: Y
     description: 'A list of contributors in the form: "Name <name.surname@mail.com>"'
     domain:
@@ -156,10 +168,12 @@ terms:
       dcterms:contributor'
     term: contributors
     unique: N
-    xsd-datatype: string,anyURI
+    xsd-datatype:
+    - string
+    - anyURI
     yaml-type: List.String
   Component/demo:
-    _position: 22
+    _position: 23
     constraint: Y
     description: Link to an online demo of the component
     domain:
@@ -174,10 +188,11 @@ terms:
     spar: fabio:isManifestationOf
     term: demo
     unique: N
-    xsd-datatype: anyURI
+    xsd-datatype:
+    - anyURI
     yaml-type: String
   Component/description:
-    _position: 13
+    _position: 14
     constraint: N
     description: A text describing the component
     domain:
@@ -191,10 +206,11 @@ terms:
     spar: dcterms:description
     term: description
     unique: N
-    xsd-datatype: string
+    xsd-datatype:
+    - string
     yaml-type: String
   Component/doi:
-    _position: 11
+    _position: 12
     constraint: Y
     description: The DOI of the GitHub repository related to this component, e.g.
       as published on Zenodo.org
@@ -208,10 +224,11 @@ terms:
     scope: Component
     term: doi
     unique: N
-    xsd-datatype: anyURI
+    xsd-datatype:
+    - anyURI
     yaml-type: String
   Component/image:
-    _position: 20
+    _position: 21
     constraint: N
     description: Link to one reference image illustrating the component
     domain:
@@ -225,10 +242,11 @@ terms:
     spar: cito:isDocumentedBy
     term: image
     unique: N
-    xsd-datatype: anyURI
+    xsd-datatype:
+    - anyURI
     yaml-type: String
   Component/licence:
-    _position: 19
+    _position: 20
     constraint: N
     description: Link to a licence document of the resource, or a string pointing
       to one of the supported licences in the Reeco framework.
@@ -245,10 +263,12 @@ terms:
     spar: dcterms:license
     term: licence
     unique: N
-    xsd-datatype: string,anyURI
+    xsd-datatype:
+    - string
+    - anyURI
     yaml-type: List.String
   Component/logo:
-    _position: 21
+    _position: 22
     constraint: Y
     description: Logo of the component in Web format. Accepted image formats are JPEG
       and PNG.
@@ -263,10 +283,11 @@ terms:
     scope: Component
     term: logo
     unique: N
-    xsd-datatype: anyURI
+    xsd-datatype:
+    - anyURI
     yaml-type: String
   Component/name:
-    _position: 12
+    _position: 13
     constraint: N
     description: The name of the component
     domain:
@@ -280,10 +301,11 @@ terms:
     spar: dcterms:title
     term: name
     unique: N
-    xsd-datatype: string
+    xsd-datatype:
+    - string
     yaml-type: String
   Component/pilot:
-    _position: 45
+    _position: 46
     constraint: N
     description: A pilot application or case study
     domain:
@@ -299,10 +321,11 @@ terms:
     spar: frbr:partOf
     term: pilot
     unique: N
-    xsd-datatype: string
+    xsd-datatype:
+    - string
     yaml-type: List.String
   Component/project:
-    _position: 46
+    _position: 47
     constraint: Y
     description: The local id of the project
     domain:
@@ -314,10 +337,11 @@ terms:
     scope: Component
     term: project
     unique: N
-    xsd-datatype: string
+    xsd-datatype:
+    - string
     yaml-type: List.String
   Component/related-component:
-    _position: 25
+    _position: 26
     constraint: N
     description: List of components that are related to this one. Use a subproperty
       when applicable.
@@ -339,10 +363,11 @@ terms:
       cito:isExtendedBy / cito:extends'
     term: related-component
     unique: N
-    xsd-datatype: Component
+    xsd-datatype:
+    - Component
     yaml-type: List.Dictionary
   Component/related-component/documentation:
-    _position: 30
+    _position: 31
     constraint: N
     description: 'Link to the documentation of the component. '
     domain:
@@ -356,10 +381,12 @@ terms:
     super-term: related-component
     term: documentation
     unique: N
-    xsd-datatype: string,anyURI
+    xsd-datatype:
+    - string
+    - anyURI
     yaml-type: List.String
   Component/related-component/evaluated-in:
-    _position: 31
+    _position: 32
     constraint: N
     description: Link to a document (e.g. a user study) or source code demonstrating
       the validity of the component.
@@ -372,10 +399,12 @@ terms:
     super-term: related-component
     term: evaluated-in
     unique: N
-    xsd-datatype: string,anyURI
+    xsd-datatype:
+    - string
+    - anyURI
     yaml-type: List.String
   Component/related-component/extends-software:
-    _position: 32
+    _position: 33
     constraint: N
     description: Link to a software that is extended by the current component. Can
       be a component or an external software.
@@ -388,10 +417,12 @@ terms:
     super-term: related-component
     term: extends-software
     unique: N
-    xsd-datatype: string,anyURI
+    xsd-datatype:
+    - string
+    - anyURI
     yaml-type: List.String
   Component/related-component/generated-by:
-    _position: 38
+    _position: 39
     constraint: N
     description: Link to a software, dataset, or any other component that produced
       or generated the current component.
@@ -404,10 +435,12 @@ terms:
     super-term: related-component
     term: generated-by
     unique: N
-    xsd-datatype: string,anyURI
+    xsd-datatype:
+    - string
+    - anyURI
     yaml-type: List.String
   Component/related-component/informed-by:
-    _position: 26
+    _position: 27
     constraint: N
     description: The component was informed by another component (or resource), for
       example, a requirements document or a Persona, a Story, a use case, etc...
@@ -420,10 +453,12 @@ terms:
     super-term: related-component
     term: informed-by
     unique: N
-    xsd-datatype: string,anyURI
+    xsd-datatype:
+    - string
+    - anyURI
     yaml-type: List.String
   Component/related-component/persona:
-    _position: 29
+    _position: 30
     constraint: N
     description: Link to one or more persona. This term is a specialisation of 'informed-by'.
     domain:
@@ -437,10 +472,12 @@ terms:
     super-term: related-component
     term: persona
     unique: N
-    xsd-datatype: string,anyURI
+    xsd-datatype:
+    - string
+    - anyURI
     yaml-type: List.String
   Component/related-component/produces-data:
-    _position: 36
+    _position: 37
     constraint: N
     description: Link to a dataset that is produced by the current component (e.g.
       an algorithm for generative text). Can be a component or an external dataset.
@@ -453,10 +490,12 @@ terms:
     super-term: related-component
     term: produces-data
     unique: N
-    xsd-datatype: string,anyURI
+    xsd-datatype:
+    - string
+    - anyURI
     yaml-type: List.String
   Component/related-component/reused-in:
-    _position: 37
+    _position: 38
     constraint: N
     description: Link to a software, dataset, or any other component that reuses the
       current component.
@@ -469,10 +508,12 @@ terms:
     super-term: related-component
     term: reused-in
     unique: N
-    xsd-datatype: string,anyURI
+    xsd-datatype:
+    - string
+    - anyURI
     yaml-type: List.String
   Component/related-component/reuses-data:
-    _position: 34
+    _position: 35
     constraint: N
     description: Link to a dataset that is reused by the current component. Can be
       a component or an external dataset.
@@ -485,10 +526,12 @@ terms:
     super-term: related-component
     term: reuses-data
     unique: N
-    xsd-datatype: string,anyURI
+    xsd-datatype:
+    - string
+    - anyURI
     yaml-type: List.String
   Component/related-component/reuses-software:
-    _position: 33
+    _position: 34
     constraint: N
     description: Link to a software that is reuses as-is by the current component.
       Can be a component or an external software.
@@ -501,10 +544,12 @@ terms:
     super-term: related-component
     term: reuses-software
     unique: N
-    xsd-datatype: string,anyURI
+    xsd-datatype:
+    - string
+    - anyURI
     yaml-type: List.String
   Component/related-component/serves-data:
-    _position: 35
+    _position: 36
     constraint: N
     description: Link to a dataset that is served by the current component (e.g. an
       API). Can be a component or an external dataset.
@@ -517,10 +562,12 @@ terms:
     super-term: related-component
     term: serves-data
     unique: N
-    xsd-datatype: string,anyURI
+    xsd-datatype:
+    - string
+    - anyURI
     yaml-type: List.String
   Component/related-component/story:
-    _position: 28
+    _position: 29
     constraint: N
     description: Link to one or more user stories. This term is a specialisation of
       'informed-by'.
@@ -535,10 +582,12 @@ terms:
     super-term: related-component
     term: story
     unique: N
-    xsd-datatype: string,anyURI
+    xsd-datatype:
+    - string
+    - anyURI
     yaml-type: List.String
   Component/related-component/use-case:
-    _position: 27
+    _position: 28
     constraint: N
     description: Link to one or more use cases. This term is a specialisation of 'informed-by'
     domain:
@@ -552,10 +601,12 @@ terms:
     super-term: related-component
     term: use-case
     unique: N
-    xsd-datatype: string,anyURI
+    xsd-datatype:
+    - string
+    - anyURI
     yaml-type: List.String
   Component/release-date:
-    _position: 15
+    _position: 16
     constraint: Y
     description: The date the component was released. Accepted values include any
       valid XSD date.
@@ -570,10 +621,11 @@ terms:
     spar: dcterms:issued
     term: release-date
     unique: N
-    xsd-datatype: date
+    xsd-datatype:
+    - date
     yaml-type: String
   Component/release-link:
-    _position: 17
+    _position: 18
     constraint: Y
     description: Link to access or download the component release
     domain:
@@ -588,10 +640,11 @@ terms:
     spar: fabio:hasURL
     term: release-link
     unique: N
-    xsd-datatype: anyURI
+    xsd-datatype:
+    - anyURI
     yaml-type: String
   Component/release-number:
-    _position: 16
+    _position: 17
     constraint: N
     description: 'Version number of the release. Any value is permitted, although
       we recommend semantic versioning: https://semver.org/'
@@ -606,10 +659,11 @@ terms:
     spar: prism:versionIdentifier
     term: release-number
     unique: N
-    xsd-datatype: string
+    xsd-datatype:
+    - string
     yaml-type: String
   Component/resource:
-    _position: 10
+    _position: 11
     constraint: N
     description: The digital resource representing the component (e.g. if the component
       is of type Dataset, it may be my-dataset.csv or a folder in the repository).
@@ -624,10 +678,12 @@ terms:
     scope: Component
     term: resource
     unique: Y
-    xsd-datatype: string,anyURI
+    xsd-datatype:
+    - string
+    - anyURI
     yaml-type: String
   Component/running-instance:
-    _position: 23
+    _position: 24
     constraint: Y
     description: Link to a running instance of the component (e.g. a software or service)
       on the Web.
@@ -642,10 +698,11 @@ terms:
     spar: fabio:isManifestationOf
     term: running-instance
     unique: N
-    xsd-datatype: anyURI
+    xsd-datatype:
+    - anyURI
     yaml-type: String
   Component/type:
-    _position: 14
+    _position: 15
     constraint: Y
     description: The component type, according to the list of components available
       in Reeco.
@@ -689,10 +746,11 @@ terms:
     spar: rdf:type
     term: type
     unique: N
-    xsd-datatype: string
+    xsd-datatype:
+    - string
     yaml-type: String
   Component/work-package:
-    _position: 44
+    _position: 45
     constraint: N
     description: The work package associated to this component, if any.
     domain:
@@ -706,7 +764,8 @@ terms:
     spar: frbr:partOf
     term: work-package
     unique: N
-    xsd-datatype: 'string '
+    xsd-datatype:
+    - 'string '
     yaml-type: List.String
   Container/container-id:
     _position: 2
@@ -722,10 +781,11 @@ terms:
     scope: Container
     term: container-id
     unique: Y
-    xsd-datatype: string
+    xsd-datatype:
+    - string
     yaml-type: String
   Container/funder:
-    _position: 3
+    _position: 4
     constraint: N
     description: The name of the funding body of the project and the URL
     domain:
@@ -743,7 +803,7 @@ terms:
     unique: N
     yaml-type: List.Dictionary
   Container/funder/grant-agreement:
-    _position: 6
+    _position: 7
     constraint: N
     description: Identifier of the grant agreement relative to the funding organisation
     domain:
@@ -759,10 +819,11 @@ terms:
     super-term: funder
     term: grant-agreement
     unique: N
-    xsd-datatype: string
+    xsd-datatype:
+    - string
     yaml-type: String
   Container/funder/name:
-    _position: 4
+    _position: 5
     constraint: N
     description: The name of the funder
     domain:
@@ -774,10 +835,11 @@ terms:
     super-term: funder
     term: name
     unique: N
-    xsd-datatype: string
+    xsd-datatype:
+    - string
     yaml-type: String
   Container/funder/url:
-    _position: 5
+    _position: 6
     constraint: Y
     description: Link to the funder organisation web site
     domain:
@@ -790,10 +852,11 @@ terms:
     super-term: funder
     term: url
     unique: N
-    xsd-datatype: anyURI
+    xsd-datatype:
+    - anyURI
     yaml-type: String
   Container/has-part:
-    _position: 7
+    _position: 8
     constraint: Y
     description: List of components or containers that are parts of this container.
       Refer to components with organisation, repo and local id of the component
@@ -813,7 +876,8 @@ terms:
     scope: Container
     term: has-part
     unique: N
-    xsd-datatype: string
+    xsd-datatype:
+    - string
     yaml-type: List.String
   Container/name:
     _position: 1
@@ -828,10 +892,11 @@ terms:
     scope: Container
     term: name
     unique: N
-    xsd-datatype: string
+    xsd-datatype:
+    - string
     yaml-type: String
   Container/ro-crate:
-    _position: 8
+    _position: 9
     constraint: Y
     description: Specifies whether this yaml file is the reference file for creating
       a RO crate.
@@ -847,86 +912,57 @@ terms:
     scope: Container
     term: ro-crate
     unique: N
-    xsd-datatype: boolean
+    xsd-datatype:
+    - boolean
     yaml-type: Boolean
+  Container/type:
+    _position: 3
+    description: The type of container (Project, WorkPackage, ?)
+    label: container type
+    scope: Container
+    term: type
 types:
   Component:
     _position: 3
     label: Component
     sub-class-of: frapo:MaterialOutput
     type: Component
-  Component/Dataset:
+  Component/Data:
     _position: 4
-    label: Dataset
-    sub-class-of: fabio:Dataset
+    label: Data
     supertype-id: Component
-    type: Dataset
+    type: Data
   Component/Publication:
-    _position: 29
+    _position: 32
     label: Publication
     sub-class-of: "fabio:JournalArticle \nfabio:Book"
     supertype-id: Component
     type: Publication
-  Component/Registry:
-    _position: 5
-    label: Registry
-    sub-class-of: fabio:Catalog
-    supertype-id: Component
-    type: Registry
   Component/Report:
-    _position: 25
+    _position: 28
     label: Report
     sub-class-of: fabio:Report
     supertype-id: Component
     type: Report
-  Component/RequirementsCollection:
-    _position: 6
-    label: Requirements Collection
-    sub-class-of: fabio:Specification
+  Component/RunningInstance:
+    _position: 19
+    label: Running Instance
+    sub-class-of: fabio:ComputerApplication
     supertype-id: Component
-    type: RequirementsCollection
-  Component/Service:
-    _position: 9
-    label: Service
-    sub-class-of: fabio:API ?
-    supertype-id: Component
-    type: Service
+    type: RunningInstance
   Component/Software:
-    _position: 8
+    _position: 9
     label: Software
     sub-class-of: fabio:ComputerProgram
     supertype-id: Component
     type: Software
-  Component/Survey:
-    _position: 12
-    label: Survey
-    sub-class-of: fabio:Questionnaire
-    supertype-id: Component
-    type: Survey
-  Component/Tutorial:
-    _position: 10
-    label: Tutorial
-    sub-class-of: fabio:InstructionalWork
-    supertype-id: Component
-    type: Tutorial
-  Component/WebSite:
-    _position: 11
-    label: Web site
-    sub-class-of: fabio:WebSite
-    supertype-id: Component
-    type: WebSite
-  Component/Workflow:
-    _position: 7
-    label: Workflow
-    supertype-id: Component
-    type: Workflow
   Container:
     _position: 1
     is-ro-crate: Y
     label: Container
     type: Container
   Container/Pilot:
-    _position: 34
+    _position: 37
     label: Pilot
     sub-class-of: frapo:Investigation
     supertype-id: Container
@@ -938,115 +974,167 @@ types:
     supertype-id: Container
     type: Project
   Container/Task:
-    _position: 32
+    _position: 35
     label: Task
     sub-class-of: frapo:Investigation
     supertype-id: Container
     type: Task
   Container/UseCase:
-    _position: 33
+    _position: 36
     label: Use Case
     sub-class-of: frapo:Investigation
     supertype-id: Container
     type: UseCase
   Container/WorkPackage:
-    _position: 31
+    _position: 34
     label: Work Package
     sub-class-of: fabio:WorkPackage
     supertype-id: Container
     type: WorkPackage
   Container/WorkingGroup:
-    _position: 30
+    _position: 33
     label: Working Group
     sub-class-of: frapo:Division / frapo:ResearchGroup
     supertype-id: Container
     type: WorkingGroup
+  Data/Dataset:
+    _position: 5
+    label: Dataset
+    sub-class-of: fabio:Dataset
+    supertype-id: Data
+    type: Dataset
   Data/KnowledgeGraph:
-    _position: 20
+    _position: 23
     label: Knowledge Graph
     sub-class-of: fabio:Dataset
     supertype-id: Data
     type: KnowledgeGraph
+  Data/Ontology:
+    _position: 20
+    label: Ontology
+    sub-class-of: fabio:Ontology
+    supertype-id: Data
+    type: Ontology
+  Data/Registry:
+    _position: 6
+    label: Registry
+    sub-class-of: fabio:Catalog
+    supertype-id: Data
+    type: Registry
+  Documentation/Tutorial:
+    _position: 11
+    label: Tutorial
+    sub-class-of: fabio:InstructionalWork
+    supertype-id: Documentation
+    type: Tutorial
   Report /Deliverable:
-    _position: 26
+    _position: 29
     label: Deliverable
     sub-class-of: fabio:ProjectReport
     supertype-id: 'Report '
     type: Deliverable
   Report/Documentation:
-    _position: 27
+    _position: 30
     label: Documentation
     sub-class-of: fabio:InstructionalWork
     supertype-id: Report
     type: Documentation
   Report/EvaluationReport:
-    _position: 28
+    _position: 31
     label: Evaluation Report
     supertype-id: Report
     type: EvaluationReport
+  Report/RequirementsCollection:
+    _position: 7
+    label: Requirements Collection
+    sub-class-of: fabio:Specification
+    supertype-id: Report
+    type: RequirementsCollection
+  Report/Survey:
+    _position: 15
+    label: Survey
+    sub-class-of: fabio:Questionnaire
+    supertype-id: Report
+    type: Survey
   RequirementsCollection/Persona:
-    _position: 24
+    _position: 27
     label: Persona
     sub-class-of: fabio:MetadataDocument
     supertype-id: RequirementsCollection
     type: Persona
   RequirementsCollection/Story:
-    _position: 23
+    _position: 26
     label: Story
     sub-class-of: fabio:MetadataDocument
     supertype-id: RequirementsCollection
     type: Story
+  RunningInstance/WebService:
+    _position: 13
+    description: E.g. Web APIs
+    label: Web Service
+    supertype-id: RunningInstance
+    type: WebService
+  RunningInstance/WebSite:
+    _position: 12
+    label: Web site
+    sub-class-of: fabio:WebSite
+    supertype-id: RunningInstance
+    type: WebSite
+  Software/API:
+    _position: 10
+    label: API
+    sub-class-of: fabio:API ?
+    supertype-id: Software
+    type: API
   Software/DockerImageContainer:
-    _position: 15
+    _position: 18
     label: Docker Image Container
     sub-class-of: fabio:ComputerApplication
     supertype-id: Software
     type: DockerImageContainer
   Software/Notebook:
-    _position: 18
+    _position: 21
     label: Notebook
     sub-class-of: fabio:Script
     supertype-id: Software
     type: Notebook
-  Software/Ontology:
-    _position: 17
-    label: Ontology
-    sub-class-of: fabio:Ontology
-    supertype-id: Software
-    type: Ontology
-  Software/RunningInstance:
-    _position: 16
-    label: Running Instance
-    sub-class-of: fabio:ComputerApplication
-    supertype-id: Software
-    type: RunningInstance
   Software/Script:
-    _position: 19
+    _position: 22
     label: Script
     sub-class-of: fabio:Script
     supertype-id: Software
     type: Script
   Software/SoftwareLibrary:
-    _position: 14
+    _position: 17
     label: Software Library
     sub-class-of: fabio:Script
     supertype-id: Software
     type: SoftwareLibrary
+  Software/Workflow:
+    _position: 8
+    label: Workflow
+    supertype-id: Software
+    type: Workflow
   Survey/FocusGroup:
-    _position: 22
+    _position: 25
     label: Focus Group
     sub-class-of: fabio:Questionnaire
     supertype-id: Survey
     type: FocusGroup
   Survey/InPresenceSurvey:
-    _position: 21
+    _position: 24
     label: In presence survey
     sub-class-of: fabio:Questionnaire
     supertype-id: Survey
     type: InPresenceSurvey
   Web site/EcosystemWebsite:
-    _position: 13
+    _position: 16
     label: Ecosystem Website
     sub-class-of: fabio:Wiki ?
     supertype-id: Web site
     type: EcosystemWebsite
+  WebService/SPARQLEndpoint:
+    _position: 14
+    label: SPARQL Endpoint
+    supertype-id: WebService
+    type: SPARQLEndpoint
