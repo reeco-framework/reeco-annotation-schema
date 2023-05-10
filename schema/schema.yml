@@ -926,12 +926,6 @@ types:
     label: Data
     supertype-id: Component
     type: Data
-  Component/Publication:
-    _position: 41
-    label: Publication
-    sub-class-of: "fabio:JournalArticle \nfabio:Book"
-    supertype-id: Component
-    type: Publication
   Component/Report:
     _position: 37
     label: Report
@@ -950,7 +944,7 @@ types:
     label: Container
     type: Container
   Container/Pilot:
-    _position: 46
+    _position: 45
     label: Pilot
     sub-class-of: frapo:Investigation
     supertype-id: Container
@@ -962,25 +956,25 @@ types:
     supertype-id: Container
     type: Project
   Container/Task:
-    _position: 44
+    _position: 43
     label: Task
     sub-class-of: frapo:Investigation
     supertype-id: Container
     type: Task
   Container/UseCase:
-    _position: 45
+    _position: 44
     label: Use Case
     sub-class-of: frapo:Investigation
     supertype-id: Container
     type: UseCase
   Container/WorkPackage:
-    _position: 43
+    _position: 42
     label: Work Package
     sub-class-of: fabio:WorkPackage
     supertype-id: Container
     type: WorkPackage
   Container/WorkingGroup:
-    _position: 42
+    _position: 41
     label: Working Group
     sub-class-of: frapo:Division / frapo:ResearchGroup
     supertype-id: Container

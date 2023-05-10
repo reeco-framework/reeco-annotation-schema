@@ -55,7 +55,6 @@ Component types:
    - [Documentation](#Documentation)
     - [Tutorial](#Tutorial)
    - [EvaluationReport](#EvaluationReport)
- - [Publication](#Publication)
 
 ### Terms for Containers
 
@@ -420,14 +419,6 @@ Component types:
 **label**: Evaluation Report
 
 **supertype-id**: Report
-### Publication
-
-
-**type**: Publication
-
-**label**: Publication
-
-**supertype-id**: Component
 ### WorkingGroup
 
 
