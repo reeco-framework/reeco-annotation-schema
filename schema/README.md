@@ -85,6 +85,7 @@ Component types:
    - [main-report](#main-report)
    - [report](#report)
    - [deliverable-document](#deliverable-document)
+ - [credits](#credits)
 
 ### Terms for Components
 
@@ -132,6 +133,7 @@ Component types:
  - [work-package](#work-package)
  - [pilot](#pilot)
  - [project](#project)
+ - [credits](#credits)
 
 ## Types
 
@@ -879,6 +881,26 @@ The primary document related to this research (if peer-reviewed publication, use
 **mandatory**: N
 
 Link to the deliverable document related to this activity
+### credits
+
+
+**term**: credits
+
+**label**: credits
+
+**scope**: Container
+
+**mandatory**: N
+
+Credits
+
+Example:
+
+```
+This project was funded by the European Union
+```
+
+
 ### component-id
 
 
@@ -1574,6 +1596,26 @@ Example:
 
 ```
 - polifonia
+```
+
+
+### credits
+
+
+**term**: credits
+
+**label**: credits
+
+**scope**: Component
+
+**mandatory**: N
+
+Credits
+
+Example:
+
+```
+This project was funded by the European Union
 ```
 
 
