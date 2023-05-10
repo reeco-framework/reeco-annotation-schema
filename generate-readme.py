@@ -124,5 +124,18 @@ for term in SCHEMA.terms():
     if 'example-values' in term and term['example-values'].strip() != '':
         TXT = TXT + "\n\nExample:\n\n```\n" + str(term[ 'example-values']) + "\n```\n\n"
 
+TXT = TXT + """
+
+## Licences
+
+"""
+
+for licence in SCHEMA.licences():
+    TXT = TXT + "\n### " + licence['title'] + "\n"
+    TXT = TXT + "\n\n*Licence:* " + licence['title'] 
+    TXT = TXT + "\n\n*Use code:* `" + licence['code'] + '`'
+    TXT = TXT + "\n\n*Publisher:* " + licence['publisher'] 
+    TXT = TXT + "\n\n*Legal text:* [" + licence['link'] + "](" + licence['link'] + ")\n\n"
+
 with open(output_readme, "w") as text_file:
     text_file.write(TXT)

@@ -83,6 +83,12 @@ class Schema:
             o = self._yaml['terms'][t]
             terms.append(o)
         return terms
+    def licences(self):
+        licences = []
+        for t in sorted(self._yaml['licences'], key = lambda pos: self._yaml['licences'][pos]['_position']):
+            o = self._yaml['licences'][t]
+            licences.append(o)
+        return licences
 
 # class MD:
 #     def isComponent(self):
