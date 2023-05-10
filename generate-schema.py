@@ -7,8 +7,10 @@ import requests
 doc = "1PZ11esT6COK7Y0mMZEHifY9hQeREbNSlRbC6dkYtjNg"
 terms_tab = "Terms"
 types_tab = "Types"
+licences_tab = "Licences"
 terms_csv = 'https://docs.google.com/spreadsheets/d/%s/gviz/tq?tqx=out:csv&sheet=%s' % (doc, terms_tab)
 types_csv = 'https://docs.google.com/spreadsheets/d/%s/gviz/tq?tqx=out:csv&sheet=%s' % (doc, types_tab)
+licences_csv = 'https://docs.google.com/spreadsheets/d/%s/gviz/tq?tqx=out:csv&sheet=%s' % (doc, licences_tab)
 
 output_yml = "./schema/schema.yml"
 
@@ -33,10 +35,14 @@ def dictify(input_csv):
             ID = ID + row['Super term'] + '/'
         if 'Supertype Id' in row.keys() and row['Supertype Id'] != '':
             ID = ID + row['Supertype Id'] + '/'
-        if 'Term' in row.keys():
-            ID = ID + row['Term']
-        else:
+        if 'Term' in row.keys(): # Terms
+            ID = ID + row['Term'] 
+        elif 'Type' in row.keys(): # Types
             ID = ID + row['Type']
+        elif 'Code' in row.keys(): # Licences
+            ID = ID + row['Code']
+        else:
+            raise ValueError('Bad row: ' + row)
         dictionary[ID] = {}
         dictionary[ID]['_position'] = position
         for key in row:
@@ -50,7 +56,9 @@ def dictify(input_csv):
 
 types = dictify(types_csv)
 terms = dictify(terms_csv)
+licences = dictify(licences_csv)
 schema = {}
 schema['types'] = types
 schema['terms'] = terms
+schema['licences'] = licences
 yaml.dump(schema,open(output_yml,'w'))
