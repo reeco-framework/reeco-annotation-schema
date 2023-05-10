@@ -67,6 +67,9 @@ Component types:
    - [grant-agreement](#grant-agreement)
  - [has-part](#has-part)
  - [ro-crate](#ro-crate)
+ - [work-package](#work-package)
+ - [pilot](#pilot)
+ - [project](#project)
 
 ### Terms for Components
 
@@ -629,6 +632,70 @@ Example:
 
 ```
 - ro-crate:true
+```
+
+
+### work-package
+
+
+**term**: work-package
+
+**label**: work 
+package
+
+**scope**: Container
+
+**mandatory**: N
+
+The work package associated to this component, if any.
+
+Example:
+
+```
+work-package:
+- WP1
+- WP5
+```
+
+
+### pilot
+
+
+**term**: pilot
+
+**label**: pilot
+
+**scope**: Container
+
+**mandatory**: N
+
+A pilot application or case study
+
+Example:
+
+```
+- MEETUPS
+- BELLS
+```
+
+
+### project
+
+
+**term**: project
+
+**label**: project
+
+**scope**: Container
+
+**mandatory**: N
+
+The local id of the project
+
+Example:
+
+```
+- polifonia
 ```
 
 
@@ -1254,9 +1321,9 @@ The work package associated to this component, if any.
 Example:
 
 ```
-- polifonia
- - WP1
- - WP5
+work-package:
+- WP1
+- WP5
 ```
 
 
