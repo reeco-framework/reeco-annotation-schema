@@ -71,6 +71,7 @@ Component types:
  - [image](#image)
  - [logo](#logo)
  - [resource](#resource)
+ - [demo](#demo)
  - [release-date](#release-date)
  - [release-number](#release-number)
  - [release-link](#release-link)
@@ -78,8 +79,6 @@ Component types:
  - [changelog](#changelog)
  - [licence](#licence)
  - [copyright](#copyright)
- - [demo](#demo)
- - [running-instance](#running-instance)
  - [contributors](#contributors)
  - [related-component](#related-component)
    - [informed-by](#informed-by)
@@ -706,7 +705,7 @@ https://avatars.githubusercontent.com/u/79987779?s=200&v=4
 
 **mandatory**: N
 
-The digital resource representing the component (e.g. if the component is of type Dataset, it may be my-dataset.csv or a folder in the repository). It includes the path to a file (if 1 file), the path to a folder (if many files), or absolute URL of an online file (DOI cannot be used)
+The digital resource representing the component (e.g. if the component is of type Dataset, it may be my-dataset.csv or a folder in the repository). It includes the path to a file (if 1 file), the path to a folder (if many files), or absolute URL of an online file (DOI cannot be used). It can be a URL of a remote resource, e.g. a Website or Web api.
 
 Example:
 
@@ -714,6 +713,28 @@ Example:
 ./data.csv 
 http://www.example.org/myFile.json 
 ./data/
+http://data.open.ac.uk/sparql
+
+```
+
+
+### demo
+
+
+**term**: demo
+
+**label**: demo
+
+**scope**: Component
+
+**mandatory**: N
+
+Link to an online demo of the component
+
+Example:
+
+```
+http://data.open.ac.uk/sparql-demo 
 ```
 
 
@@ -859,46 +880,6 @@ Example:
 
 ```
 The project contributors
-```
-
-
-### demo
-
-
-**term**: demo
-
-**label**: demo
-
-**scope**: Component
-
-**mandatory**: N
-
-Link to an online demo of the component
-
-Example:
-
-```
-http://data.open.ac.uk/sparql-demo 
-```
-
-
-### running-instance
-
-
-**term**: running-instance
-
-**label**: running instance
-
-**scope**: Component
-
-**mandatory**: N
-
-Link to a running instance of the component (e.g. a software or service) on the Web.
-
-Example:
-
-```
-http://data.open.ac.uk/sparql
 ```
 
 
