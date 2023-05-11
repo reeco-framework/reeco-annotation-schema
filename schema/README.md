@@ -80,12 +80,6 @@ Component types:
    - [report](#report)
    - [main-report](#main-report)
    - [deliverable-document](#deliverable-document)
-   - [published-in](#published-in)
-   - [main-publication](#main-publication)
-   - [publication](#publication)
-   - [main-report](#main-report)
-   - [report](#report)
-   - [deliverable-document](#deliverable-document)
 
 ### Terms for Components
 
@@ -119,11 +113,6 @@ Component types:
    - [serves-data](#serves-data)
    - [generated-by](#generated-by)
  - [bibliography](#bibliography)
-   - [main-publication](#main-publication)
-   - [publication](#publication)
-   - [report](#report)
-   - [main-report](#main-report)
-   - [deliverable-document](#deliverable-document)
    - [published-in](#published-in)
    - [main-publication](#main-publication)
    - [publication](#publication)
