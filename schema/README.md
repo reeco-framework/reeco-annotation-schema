@@ -441,14 +441,11 @@ Component types:
 
 ### bibliography
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | bibliography | bibliography | Container |  | N
 
-**term**: bibliography
 
-**label**: bibliography
-
-**scope**: Container
-
-**mandatory**: N
 
 List of bibliographic references that are relevant to the container (activity)
 
@@ -464,15 +461,13 @@ bibliography:
 ```
 
 
-The term bibliography can also be used in a Component\m
+The term bibliography can also be used in a Component
 
-**term**: bibliography
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | bibliography | bibliography | Component |  | N
 
-**label**: bibliography
 
-**scope**: Component
-
-**mandatory**: N
 
 List of bibliographic references that are relevant to the component but that do not fall under a specific category. 
 Use "scientific work" for the main scholarly publication related to the component
@@ -491,14 +486,11 @@ bibliography:
 
 ### changelog
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | changelog | changelog | Component |  | N
 
-**term**: changelog
 
-**label**: changelog
-
-**scope**: Component
-
-**mandatory**: N
 
 Link to a Changelog document, a file which contains a chronologically ordered list of notable changes for each version of the component.
 
@@ -511,14 +503,11 @@ https://github.com/SPARQL-Anything/sparql.anything/releases
 
 ### component-id
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | component-id | component ID | Component |  | Y
 
-**term**: component-id
 
-**label**: component ID
-
-**scope**: Component
-
-**mandatory**: Y
 
 The ID of the component in the Ecosystem. Can be a local identifier or a URI.
 
@@ -531,14 +520,11 @@ my-dataset
 
 ### container-id
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | container-id | container identifier | Container |  | Y
 
-**term**: container-id
 
-**label**: container identifier
-
-**scope**: Container
-
-**mandatory**: Y
 
 Local identifier of the container
 
@@ -551,14 +537,11 @@ polifonia
 
 ### contributors
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | contributors | contributors | Component |  | N
 
-**term**: contributors
 
-**label**: contributors
-
-**scope**: Component
-
-**mandatory**: N
 
 A list of contributors in the form: "Name <name.surname@mail.com>"
 
@@ -580,14 +563,11 @@ contributors:
 
 ### copyright
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | copyright | copyright | Component |  | N
 
-**term**: copyright
 
-**label**: copyright
-
-**scope**: Component
-
-**mandatory**: N
 
 Copyright info
 
@@ -600,16 +580,11 @@ The project contributors
 
 ### credits
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | credits | credits | Container | funder | N
 
-**term**: credits
 
-**label**: credits
-
-**scope**: Container
-
-**super-term**: funder
-
-**mandatory**: N
 
 Credits
 
@@ -620,15 +595,13 @@ This project was funded by the European Union
 ```
 
 
-The term credits can also be used in a Component\m
+The term credits can also be used in a Component
 
-**term**: credits
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | credits | credits | Component |  | N
 
-**label**: credits
 
-**scope**: Component
-
-**mandatory**: N
 
 Credits
 
@@ -641,41 +614,29 @@ This project was funded by the European Union
 
 ### deliverable-document
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | deliverable-document | deliverable document | Container | bibliography | N
 
-**term**: deliverable-document
 
-**label**: deliverable document
-
-**scope**: Container
-
-**super-term**: bibliography
-
-**mandatory**: N
 
 Link to the deliverable document related to this activity
-The term deliverable-document can also be used in a Component\m
+The term deliverable-document can also be used in a Component
 
-**term**: deliverable-document
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | deliverable-document | deliverable document | Component | bibliography | N
 
-**label**: deliverable document
 
-**scope**: Component
-
-**super-term**: bibliography
-
-**mandatory**: N
 
 Link to the deliverable document related to this component
 ### demo
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | demo | demo | Component |  | N
 
-**term**: demo
 
-**label**: demo
-
-**scope**: Component
-
-**mandatory**: N
 
 Link to an online demo of the component
 
@@ -688,14 +649,11 @@ http://data.open.ac.uk/sparql-demo
 
 ### description
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | description | description | Container |  | Y
 
-**term**: description
 
-**label**: description
-
-**scope**: Container
-
-**mandatory**: Y
 
 A text describing the component
 
@@ -706,15 +664,13 @@ musoW is the registry of musical resources on the Web.
 ```
 
 
-The term description can also be used in a Component\m
+The term description can also be used in a Component
 
-**term**: description
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | description | description | Component |  | Y
 
-**label**: description
 
-**scope**: Component
-
-**mandatory**: Y
 
 A text describing the component
 
@@ -727,28 +683,20 @@ musoW is the registry of musical resources on the Web.
 
 ### documentation
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | documentation | documentation | Component | related-component | N
 
-**term**: documentation
 
-**label**: documentation
-
-**scope**: Component
-
-**super-term**: related-component
-
-**mandatory**: N
 
 Link to the documentation of the component. 
 ### doi
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | doi | DOI | Component |  | N
 
-**term**: doi
 
-**label**: DOI
-
-**scope**: Component
-
-**mandatory**: N
 
 The DOI of the GitHub repository related to this component, e.g. as published on Zenodo.org
 
@@ -761,42 +709,29 @@ doi: http://doi.org/10.xxxxxx
 
 ### evaluated-in
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | evaluated-in | evaluated in | Component | related-component | N
 
-**term**: evaluated-in
 
-**label**: evaluated in
-
-**scope**: Component
-
-**super-term**: related-component
-
-**mandatory**: N
 
 Link to a document (e.g. a user study) or source code demonstrating the validity of the component.
 ### extends
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | extends | extends | Component | related-component | N
 
-**term**: extends
 
-**label**: extends
-
-**scope**: Component
-
-**super-term**: related-component
-
-**mandatory**: N
 
 Link to a component that is extended by the current component. If not a component, can be an external URI
 ### funder
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | funder | funder | Container |  | N
 
-**term**: funder
 
-**label**: funder
-
-**scope**: Container
-
-**mandatory**: N
 
 The name of the funding body of the project and the URL
 
@@ -815,30 +750,20 @@ funder:
 
 ### generated-by
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | generated-by | generated by | Component | related-component | N
 
-**term**: generated-by
 
-**label**: generated by
-
-**scope**: Component
-
-**super-term**: related-component
-
-**mandatory**: N
 
 Link to a software, dataset, or any other component that produced or generated the current component. Can be a component or an external URL.
 ### grant-agreement
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | grant-agreement | grant agreement | Container | funder | N
 
-**term**: grant-agreement
 
-**label**: grant agreement
-
-**scope**: Container
-
-**super-term**: funder
-
-**mandatory**: N
 
 Identifier of the grant agreement relative to the funding organisation
 
@@ -851,14 +776,11 @@ ABC123456
 
 ### has-part
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | has-part | has part | Container |  | N
 
-**term**: has-part
 
-**label**: has part
-
-**scope**: Container
-
-**mandatory**: N
 
 List of components or containers that are parts of this container. Refer to components with organisation, repo and local id of the component
 
@@ -874,14 +796,11 @@ has-part:
 
 ### image
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | image | image | Container |  | N
 
-**term**: image
 
-**label**: image
-
-**scope**: Container
-
-**mandatory**: N
 
 Link to one reference image illustrating the component
 
@@ -894,15 +813,13 @@ http://www.example.org/image.jpg
 ```
 
 
-The term image can also be used in a Component\m
+The term image can also be used in a Component
 
-**term**: image
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | image | image | Component |  | N
 
-**label**: image
 
-**scope**: Component
-
-**mandatory**: N
 
 Link to one reference image illustrating the component
 
@@ -917,28 +834,20 @@ http://www.example.org/image.jpg
 
 ### informed-by
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | informed-by | informed by | Component | related-component | N
 
-**term**: informed-by
 
-**label**: informed by
-
-**scope**: Component
-
-**super-term**: related-component
-
-**mandatory**: N
 
 The component was informed by another component (or resource), for example, a requirements document or a Persona, a Story, a use case, etc...
 ### licence
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | licence | licence | Component |  | N
 
-**term**: licence
 
-**label**: licence
-
-**scope**: Component
-
-**mandatory**: N
 
 Link to a licence document of the resource, or a string pointing to one of the supported licences in the framework.
 
@@ -952,14 +861,11 @@ Example:
 
 ### logo
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | logo | logo | Container |  | N
 
-**term**: logo
 
-**label**: logo
-
-**scope**: Container
-
-**mandatory**: N
 
 Logo of the component in Web format. Accepted image formats are JPEG and PNG.
 
@@ -970,15 +876,13 @@ https://avatars.githubusercontent.com/u/79987779?s=200&v=4
 ```
 
 
-The term logo can also be used in a Component\m
+The term logo can also be used in a Component
 
-**term**: logo
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | logo | logo | Component |  | N
 
-**label**: logo
 
-**scope**: Component
-
-**mandatory**: N
 
 Logo of the component in Web format. Accepted image formats are JPEG and PNG.
 
@@ -991,70 +895,49 @@ https://avatars.githubusercontent.com/u/79987779?s=200&v=4
 
 ### main-publication
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | main-publication | main 
+publication | Container | bibliography | N
 
-**term**: main-publication
 
-**label**: main 
-publication
-
-**scope**: Container
-
-**super-term**: bibliography
-
-**mandatory**: N
 
 The primary, peer reviewed scientific publication related to this research (if non peer-reviewed, use technical-report instead).
-The term main-publication can also be used in a Component\m
+The term main-publication can also be used in a Component
 
-**term**: main-publication
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | main-publication | main 
+publication | Component | bibliography | N
 
-**label**: main 
-publication
 
-**scope**: Component
-
-**super-term**: bibliography
-
-**mandatory**: N
 
 The primary, peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead).
 ### main-report
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | main-report | main technical report | Container | bibliography | N
 
-**term**: main-report
 
-**label**: main technical report
-
-**scope**: Container
-
-**super-term**: bibliography
-
-**mandatory**: N
 
 The primary document related to this research (if peer-reviewed publication, use scientific-work instead).
-The term main-report can also be used in a Component\m
+The term main-report can also be used in a Component
 
-**term**: main-report
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | main-report | main technical report | Component | bibliography | N
 
-**label**: main technical report
 
-**scope**: Component
-
-**super-term**: bibliography
-
-**mandatory**: N
 
 The primary document related to this component (if peer-reviewed publication, use scientific-work instead).
 ### name
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | name | container name | Container |  | Y
 
-**term**: name
 
-**label**: container name
-
-**scope**: Container
-
-**mandatory**: Y
 
 The container name
 
@@ -1065,28 +948,22 @@ name: Polifonia
 ```
 
 
-The term name can also be used in a Container\m
+The term name can also be used in a Container
 
-**term**: name
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | name | funder name | Container | funder | N
 
-**label**: funder name
 
-**scope**: Container
-
-**super-term**: funder
-
-**mandatory**: N
 
 The name of the funder
-The term name can also be used in a Component\m
+The term name can also be used in a Component
 
-**term**: name
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | name | name | Component |  | Y
 
-**label**: name
 
-**scope**: Component
-
-**mandatory**: Y
 
 The name of the component
 
@@ -1099,28 +976,20 @@ musoW
 
 ### persona
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | persona | persona | Component | informed-by | N
 
-**term**: persona
 
-**label**: persona
-
-**scope**: Component
-
-**super-term**: informed-by
-
-**mandatory**: N
 
 Link to one or more persona. This term is a specialisation of 'informed-by'.
 ### pilot
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | pilot | pilot | Container |  | N
 
-**term**: pilot
 
-**label**: pilot
-
-**scope**: Container
-
-**mandatory**: N
 
 A pilot application or case study
 
@@ -1132,15 +1001,13 @@ Example:
 ```
 
 
-The term pilot can also be used in a Component\m
+The term pilot can also be used in a Component
 
-**term**: pilot
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | pilot | pilot | Component |  | N
 
-**label**: pilot
 
-**scope**: Component
-
-**mandatory**: N
 
 A pilot application or case study
 
@@ -1154,14 +1021,11 @@ Example:
 
 ### project
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | project | project | Container |  | N
 
-**term**: project
 
-**label**: project
-
-**scope**: Container
-
-**mandatory**: N
 
 The local id of the project
 
@@ -1172,15 +1036,13 @@ Example:
 ```
 
 
-The term project can also be used in a Component\m
+The term project can also be used in a Component
 
-**term**: project
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | project | project | Component |  | N
 
-**label**: project
 
-**scope**: Component
-
-**mandatory**: N
 
 The local id of the project
 
@@ -1193,56 +1055,39 @@ Example:
 
 ### publication
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | publication | publication | Container | bibliography | N
 
-**term**: publication
 
-**label**: publication
-
-**scope**: Container
-
-**super-term**: bibliography
-
-**mandatory**: N
 
 A peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead).
-The term publication can also be used in a Component\m
+The term publication can also be used in a Component
 
-**term**: publication
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | publication | publication | Component | bibliography | N
 
-**label**: publication
 
-**scope**: Component
-
-**super-term**: bibliography
-
-**mandatory**: N
 
 A peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead).
 ### published-in
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | published-in | published in | Component | bibliography | N
 
-**term**: published-in
 
-**label**: published in
-
-**scope**: Component
-
-**super-term**: bibliography
-
-**mandatory**: N
 
 Link to a meaningful venue where the current component is served or published (e.g. a dataset published on a web portal).
 ### related-component
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | related-component | related 
+component | Component |  | N
 
-**term**: related-component
 
-**label**: related 
-component
-
-**scope**: Component
-
-**mandatory**: N
 
 List of components that are related to this one.
 
@@ -1260,15 +1105,12 @@ related-component:
 
 ### release-date
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | release-date | release 
+date | Component |  | N
 
-**term**: release-date
 
-**label**: release 
-date
-
-**scope**: Component
-
-**mandatory**: N
 
 The date the component was released. Accepted values include any valid XSD date.
 
@@ -1283,14 +1125,11 @@ or
 
 ### release-link
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | release-link | release link | Component |  | N
 
-**term**: release-link
 
-**label**: release link
-
-**scope**: Component
-
-**mandatory**: N
 
 Link to access or download the component release
 
@@ -1303,15 +1142,12 @@ release-link: https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0
 
 ### release-number
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | release-number | release 
+number | Component |  | N
 
-**term**: release-number
 
-**label**: release 
-number
-
-**scope**: Component
-
-**mandatory**: N
 
 Version number of the release. Any value is permitted, although we recommend semantic versioning: https://semver.org/
 
@@ -1324,41 +1160,29 @@ release-number: v0.1
 
 ### report
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | report | technical report | Container | bibliography | N
 
-**term**: report
 
-**label**: technical report
-
-**scope**: Container
-
-**super-term**: bibliography
-
-**mandatory**: N
 
 A document related to this component (if peer-reviewed publication, use publication instead).
-The term report can also be used in a Component\m
+The term report can also be used in a Component
 
-**term**: report
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | report | technical report | Component | bibliography | N
 
-**label**: technical report
 
-**scope**: Component
-
-**super-term**: bibliography
-
-**mandatory**: N
 
 A document related to this component (if peer-reviewed publication, use publication instead).
 ### resource
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | resource | resource | Component |  | N
 
-**term**: resource
 
-**label**: resource
-
-**scope**: Component
-
-**mandatory**: N
 
 The digital resource representing the component (e.g. if the component is of type Dataset, it may be my-dataset.csv or a folder in the repository). It includes the path to a file (if 1 file), the path to a folder (if many files), or absolute URL of an online file (DOI cannot be used). It can be a URL of a remote resource, e.g. a Website or Web api.
 
@@ -1375,43 +1199,30 @@ http://data.open.ac.uk/sparql
 
 ### reuses
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | reuses | reuses | Component | related-component | N
 
-**term**: reuses
 
-**label**: reuses
-
-**scope**: Component
-
-**super-term**: related-component
-
-**mandatory**: N
 
 Link to a component that is reused as-is by the current component. Can be a component or an external URL.
 ### reuses-data
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | reuses-data | reuses 
+dataset | Component | reuses | N
 
-**term**: reuses-data
 
-**label**: reuses 
-dataset
-
-**scope**: Component
-
-**super-term**: reuses
-
-**mandatory**: N
 
 Link to a dataset that is reused by the current component. Can be a component or an external dataset.
 ### ro-crate
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | ro-crate | ro crate | Container |  | N
 
-**term**: ro-crate
 
-**label**: ro crate
-
-**scope**: Container
-
-**mandatory**: N
 
 Specifies whether this yaml file is the reference file for creating a RO crate.
 
@@ -1424,52 +1235,39 @@ Example:
 
 ### serves-data
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | serves-data | serves data 
+from | Component | related-component | N
 
-**term**: serves-data
 
-**label**: serves data 
-from
-
-**scope**: Component
-
-**super-term**: related-component
-
-**mandatory**: N
 
 Link to a dataset that is served by the current component (e.g. an API). Can be a component or an external dataset.
 ### story
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | story | story | Component | informed-by | N
 
-**term**: story
 
-**label**: story
-
-**scope**: Component
-
-**super-term**: informed-by
-
-**mandatory**: N
 
 Link to one or more user stories. This term is a specialisation of 'informed-by'.
 ### type
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | type | container type | Container |  | 
 
-**term**: type
 
-**label**: container type
-
-**scope**: Container
 
 The type of container (Project, WorkPackage, ?)
-The term type can also be used in a Component\m
+The term type can also be used in a Component
 
-**term**: type
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | type | type | Component |  | Y
 
-**label**: type
 
-**scope**: Component
-
-**mandatory**: Y
 
 The component type, according to the list of components available in Reeco.
 
@@ -1483,43 +1281,30 @@ Dataset, Project, Registry, Workflow, Software
 
 ### url
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | url | funder URL | Container | funder | N
 
-**term**: url
 
-**label**: funder URL
-
-**scope**: Container
-
-**super-term**: funder
-
-**mandatory**: N
 
 Link to the funder organisation web site
 ### use-case
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | use-case | use case | Component | informed-by | N
 
-**term**: use-case
 
-**label**: use case
-
-**scope**: Component
-
-**super-term**: informed-by
-
-**mandatory**: N
 
 Link to one or more use cases. This term is a specialisation of 'informed-by'
 ### work-package
 
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | work-package | work 
+package | Container |  | N
 
-**term**: work-package
 
-**label**: work 
-package
-
-**scope**: Container
-
-**mandatory**: N
 
 The work package associated to this component, if any.
 
@@ -1532,16 +1317,14 @@ work-package:
 ```
 
 
-The term work-package can also be used in a Component\m
+The term work-package can also be used in a Component
 
-**term**: work-package
+| Term | Label | Scope | Super term | Mandatory |
+| ---- | ---- | ---- | ---- | ---- |
+ | work-package | work 
+package | Component |  | N
 
-**label**: work 
-package
 
-**scope**: Component
-
-**mandatory**: N
 
 The work package associated to this component, if any.
 
