@@ -567,11 +567,11 @@ Example:
 
 ```
 bibliography:
-  - main-publication: full citation
+  - main-publication: "7. Wang, Y., & Chen, X. (2013). A Novel Approach for Cloud Computing Security Using Homomorphic Encryption. Communications in Computer and Information Science, 50(1), 67-73."
   - technical-report:
-    - http://doi.org/10.xxxx 
+    - "8. Li, J., & Yang, S. (2012). A New Algorithm for Text Classification Based on Support Vector Machines. Technical Report: Computer Science and Information Security, 7(4), 23-30."
   - deliverable-document: 
-    - http://something.pdf 
+    - "Zhang, H., & Liu, Y. (2011). A Survey of Data Mining Techniques in Financial Analysis. Computer Science Project, 6(3), 12-18." 
 ```
 
 ### changelog
@@ -736,6 +736,16 @@ The term deliverable-document can also be used in a Component
 
 
 Link to the deliverable document related to this component
+
+Example:
+
+```
+bibliography:
+  - deliverable-document:
+    - "Kim, J., & Lee, S. (2019). A Novel Deep Learning Approach for Predicting Customer Behavior in E-commerce. International Journal of Computer Science, 14(3), 45-52. http://doi.org/10.xxxx "
+
+```
+
 ### demo
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -891,6 +901,15 @@ funder:
 
 
 Link to a software, dataset, or any other component that produced or generated the current component. Can be a component or an external URL.
+
+Example:
+
+```
+related-components:
+  - generated-by: 
+     - my-component-algorithm
+```
+
 ### grant-agreement
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -1080,6 +1099,16 @@ publication | Component | bibliography | N
 
 
 The primary, peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead).
+
+Example:
+
+```
+bibliography:
+  - main-publication:
+    - "Kim, J., & Lee, S. (2019). A Novel Deep Learning Approach for Predicting Customer Behavior in E-commerce. International Journal of Computer Science, 14(3), 45-52. http://doi.org/10.xxxx "
+
+```
+
 ### main-report
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -1107,6 +1136,16 @@ The term main-report can also be used in a Component
 
 
 The primary document related to this component (if peer-reviewed publication, use scientific-work instead).
+
+Example:
+
+```
+bibliography:
+  - main-report:
+    - "Kim, J., & Lee, S. (2019). A Novel Deep Learning Approach for Predicting Customer Behavior in E-commerce. International Journal of Computer Science, 14(3), 45-52. http://doi.org/10.xxxx "
+
+```
+
 ### name
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -1273,6 +1312,16 @@ The term publication can also be used in a Component
 
 
 A peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead).
+
+Example:
+
+```
+bibliography:
+  - publication:
+    - "Kim, J., & Lee, S. (2019). A Novel Deep Learning Approach for Predicting Customer Behavior in E-commerce. International Journal of Computer Science, 14(3), 45-52. http://doi.org/10.xxxx "
+
+```
+
 ### published-in
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -1282,6 +1331,17 @@ A peer reviewed scientific publication related to this component (if non peer-re
 
 
 Link to a meaningful venue where the current component is served or published (e.g. a dataset published on a web portal).
+
+Example:
+
+```
+bibliography:
+  - published-in: "Lee, S., & Kim, J. (2010). A Comparative Study of Machine Learning Algorithms for Sentiment Analysis. Communications in Computer and Information Science, 45(1), 23-29."
+  - technical-report:
+    - "Kim, J., & Lee, S. (2019). A Novel Deep Learning Approach for Predicting Customer Behavior in E-commerce. International Journal of Computer Science, 14(3), 45-52. http://doi.org/10.xxxx "
+
+```
+
 ### related-component
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -1386,6 +1446,17 @@ The term report can also be used in a Component
 
 
 A document related to this component (if peer-reviewed publication, use publication instead).
+
+Example:
+
+```
+bibliography:
+   - report:
+      - http://doi.org/10.xxxx 
+  - deliverable-document: 
+    - http://something.pdf 
+```
+
 ### resource
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -1428,6 +1499,16 @@ resource: "http://data.open.ac.uk/sparql"
 
 
 Link to a component that is reused as-is by the current component. Can be a component or an external URL.
+
+Example:
+
+```
+related-components:
+  - reuses: 
+     - "Apache Jena http://jena.apache.org"
+     - other-component
+```
+
 ### reuses-data
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -1438,6 +1519,16 @@ dataset | Component | related-component | N
 
 
 Link to a dataset that is reused by the current component. Can be a component or an external dataset.
+
+Example:
+
+```
+related-components:
+  - reuses-data: 
+     - "DBpedia http://dbpedia.org"
+     - other-dataset
+```
+
 ### ro-crate
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -1464,6 +1555,15 @@ from | Component | related-component | N
 
 
 Link to a dataset that is served by the current component (e.g. an API). Can be a component or an external dataset.
+
+Example:
+
+```
+related-components:
+  - serves-data: 
+     - my-dataset
+```
+
 ### story
 
 | Term | Label | Scope | Super term | Mandatory |
