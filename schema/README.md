@@ -124,7 +124,7 @@ Component types:
  - [project](#project)
  - [credits](#credits)
 
-## Types
+## Types (A-Z)
 
 
 ### Container
@@ -436,324 +436,7 @@ Component types:
  |Pilot | Pilot|Container|
 
 
-## Terms
-
-
-### name
-
-
-**term**: name
-
-**label**: container name
-
-**scope**: Container
-
-**mandatory**: Y
-
-The container name
-
-Example:
-
-```
-name: Polifonia
-```
-
-
-### container-id
-
-
-**term**: container-id
-
-**label**: container identifier
-
-**scope**: Container
-
-**mandatory**: Y
-
-Local identifier of the container
-
-Example:
-
-```
-polifonia
-```
-
-
-### type
-
-
-**term**: type
-
-**label**: container type
-
-**scope**: Container
-
-The type of container (Project, WorkPackage, ?)
-### description
-
-
-**term**: description
-
-**label**: description
-
-**scope**: Container
-
-**mandatory**: Y
-
-A text describing the component
-
-Example:
-
-```
-musoW is the registry of musical resources on the Web.
-```
-
-
-### image
-
-
-**term**: image
-
-**label**: image
-
-**scope**: Container
-
-**mandatory**: N
-
-Link to one reference image illustrating the component
-
-Example:
-
-```
-./image.jpg 
-or
-http://www.example.org/image.jpg
-```
-
-
-### logo
-
-
-**term**: logo
-
-**label**: logo
-
-**scope**: Container
-
-**mandatory**: N
-
-Logo of the component in Web format. Accepted image formats are JPEG and PNG.
-
-Example:
-
-```
-https://avatars.githubusercontent.com/u/79987779?s=200&v=4
-```
-
-
-### funder
-
-
-**term**: funder
-
-**label**: funder
-
-**scope**: Container
-
-**mandatory**: N
-
-The name of the funding body of the project and the URL
-
-Example:
-
-```
-funder:
-- name: H2020
-  url: www.example.org
-  grant-agreement: ABC123456
-- name: AHRC
-  url: www.another.org
-  grant-agreement: ABC234
-```
-
-
-### name
-
-
-**term**: name
-
-**label**: funder name
-
-**scope**: Container
-
-**super-term**: funder
-
-**mandatory**: N
-
-The name of the funder
-### url
-
-
-**term**: url
-
-**label**: funder URL
-
-**scope**: Container
-
-**super-term**: funder
-
-**mandatory**: N
-
-Link to the funder organisation web site
-### grant-agreement
-
-
-**term**: grant-agreement
-
-**label**: grant agreement
-
-**scope**: Container
-
-**super-term**: funder
-
-**mandatory**: N
-
-Identifier of the grant agreement relative to the funding organisation
-
-Example:
-
-```
-ABC123456
-```
-
-
-### credits
-
-
-**term**: credits
-
-**label**: credits
-
-**scope**: Container
-
-**super-term**: funder
-
-**mandatory**: N
-
-Credits
-
-Example:
-
-```
-This project was funded by the European Union
-```
-
-
-### has-part
-
-
-**term**: has-part
-
-**label**: has part
-
-**scope**: Container
-
-**mandatory**: N
-
-List of components or containers that are parts of this container. Refer to components with organisation, repo and local id of the component
-
-Example:
-
-```
-has-part:
-- polifonia/musow/my-dataset
-- polifonia/meetups/my-dataset
-- other/repo/my-dataset
-```
-
-
-### ro-crate
-
-
-**term**: ro-crate
-
-**label**: ro crate
-
-**scope**: Container
-
-**mandatory**: N
-
-Specifies whether this yaml file is the reference file for creating a RO crate.
-
-Example:
-
-```
-- ro-crate:true
-```
-
-
-### work-package
-
-
-**term**: work-package
-
-**label**: work 
-package
-
-**scope**: Container
-
-**mandatory**: N
-
-The work package associated to this component, if any.
-
-Example:
-
-```
-work-package:
-- WP1
-- WP5
-```
-
-
-### pilot
-
-
-**term**: pilot
-
-**label**: pilot
-
-**scope**: Container
-
-**mandatory**: N
-
-A pilot application or case study
-
-Example:
-
-```
-- MEETUPS
-- BELLS
-```
-
-
-### project
-
-
-**term**: project
-
-**label**: project
-
-**scope**: Container
-
-**mandatory**: N
-
-The local id of the project
-
-Example:
-
-```
-- polifonia
-```
+## Terms (A-Z)
 
 
 ### bibliography
@@ -781,325 +464,29 @@ bibliography:
 ```
 
 
-### main-publication
+### bibliography
 
 
-**term**: main-publication
+**term**: bibliography
 
-**label**: main 
-publication
-
-**scope**: Container
-
-**super-term**: bibliography
-
-**mandatory**: N
-
-The primary, peer reviewed scientific publication related to this research (if non peer-reviewed, use technical-report instead).
-### publication
-
-
-**term**: publication
-
-**label**: publication
-
-**scope**: Container
-
-**super-term**: bibliography
-
-**mandatory**: N
-
-A peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead).
-### report
-
-
-**term**: report
-
-**label**: technical report
-
-**scope**: Container
-
-**super-term**: bibliography
-
-**mandatory**: N
-
-A document related to this component (if peer-reviewed publication, use publication instead).
-### main-report
-
-
-**term**: main-report
-
-**label**: main technical report
-
-**scope**: Container
-
-**super-term**: bibliography
-
-**mandatory**: N
-
-The primary document related to this research (if peer-reviewed publication, use scientific-work instead).
-### deliverable-document
-
-
-**term**: deliverable-document
-
-**label**: deliverable document
-
-**scope**: Container
-
-**super-term**: bibliography
-
-**mandatory**: N
-
-Link to the deliverable document related to this activity
-### component-id
-
-
-**term**: component-id
-
-**label**: component ID
+**label**: bibliography
 
 **scope**: Component
 
-**mandatory**: Y
+**mandatory**: N
 
-The ID of the component in the Ecosystem. Can be a local identifier or a URI.
+List of bibliographic references that are relevant to the component but that do not fall under a specific category. 
+Use "scientific work" for the main scholarly publication related to the component
 
 Example:
 
 ```
-my-dataset 
-```
-
-
-### type
-
-
-**term**: type
-
-**label**: type
-
-**scope**: Component
-
-**mandatory**: Y
-
-The component type, according to the list of components available in Reeco.
-
-Example:
-
-```
-Dataset, Project, Registry, Workflow, Software
-(see component types)
-```
-
-
-### name
-
-
-**term**: name
-
-**label**: name
-
-**scope**: Component
-
-**mandatory**: Y
-
-The name of the component
-
-Example:
-
-```
-musoW
-```
-
-
-### description
-
-
-**term**: description
-
-**label**: description
-
-**scope**: Component
-
-**mandatory**: Y
-
-A text describing the component
-
-Example:
-
-```
-musoW is the registry of musical resources on the Web.
-```
-
-
-### image
-
-
-**term**: image
-
-**label**: image
-
-**scope**: Component
-
-**mandatory**: N
-
-Link to one reference image illustrating the component
-
-Example:
-
-```
-./image.jpg 
-or
-http://www.example.org/image.jpg
-```
-
-
-### logo
-
-
-**term**: logo
-
-**label**: logo
-
-**scope**: Component
-
-**mandatory**: N
-
-Logo of the component in Web format. Accepted image formats are JPEG and PNG.
-
-Example:
-
-```
-https://avatars.githubusercontent.com/u/79987779?s=200&v=4
-```
-
-
-### resource
-
-
-**term**: resource
-
-**label**: resource
-
-**scope**: Component
-
-**mandatory**: N
-
-The digital resource representing the component (e.g. if the component is of type Dataset, it may be my-dataset.csv or a folder in the repository). It includes the path to a file (if 1 file), the path to a folder (if many files), or absolute URL of an online file (DOI cannot be used). It can be a URL of a remote resource, e.g. a Website or Web api.
-
-Example:
-
-```
-./data.csv 
-http://www.example.org/myFile.json 
-./data/
-http://data.open.ac.uk/sparql
-
-```
-
-
-### demo
-
-
-**term**: demo
-
-**label**: demo
-
-**scope**: Component
-
-**mandatory**: N
-
-Link to an online demo of the component
-
-Example:
-
-```
-http://data.open.ac.uk/sparql-demo 
-```
-
-
-### release-date
-
-
-**term**: release-date
-
-**label**: release 
-date
-
-**scope**: Component
-
-**mandatory**: N
-
-The date the component was released. Accepted values include any valid XSD date.
-
-Example:
-
-```
-2022-02-02 
-or 
-2020-01-10T12:00:00
-```
-
-
-### release-number
-
-
-**term**: release-number
-
-**label**: release 
-number
-
-**scope**: Component
-
-**mandatory**: N
-
-Version number of the release. Any value is permitted, although we recommend semantic versioning: https://semver.org/
-
-Example:
-
-```
-release-number: v0.1
-```
-
-
-### release-link
-
-
-**term**: release-link
-
-**label**: release link
-
-**scope**: Component
-
-**mandatory**: N
-
-Link to access or download the component release
-
-Example:
-
-```
-release-link: https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1
-```
-
-
-### doi
-
-
-**term**: doi
-
-**label**: DOI
-
-**scope**: Component
-
-**mandatory**: N
-
-The DOI of the GitHub repository related to this component, e.g. as published on Zenodo.org
-
-Example:
-
-```
-doi: http://doi.org/10.xxxxxx
+bibliography:
+  - main-publication: full citation
+  - technical-report:
+    - http://doi.org/10.xxxx 
+  - deliverable-document: 
+    - http://something.pdf 
 ```
 
 
@@ -1123,44 +510,43 @@ https://github.com/SPARQL-Anything/sparql.anything/releases
 ```
 
 
-### licence
+### component-id
 
 
-**term**: licence
+**term**: component-id
 
-**label**: licence
+**label**: component ID
 
 **scope**: Component
 
-**mandatory**: N
+**mandatory**: Y
 
-Link to a licence document of the resource, or a string pointing to one of the supported licences in the framework.
+The ID of the component in the Ecosystem. Can be a local identifier or a URI.
 
 Example:
 
 ```
-- CC-BY
-- https://creativecommons.org/licenses/by/4.0/
+my-dataset 
 ```
 
 
-### copyright
+### container-id
 
 
-**term**: copyright
+**term**: container-id
 
-**label**: copyright
+**label**: container identifier
 
-**scope**: Component
+**scope**: Container
 
-**mandatory**: N
+**mandatory**: Y
 
-Copyright info
+Local identifier of the container
 
 Example:
 
 ```
-The project contributors
+polifonia
 ```
 
 
@@ -1193,88 +579,156 @@ contributors:
 ```
 
 
-### related-component
+### copyright
 
 
-**term**: related-component
+**term**: copyright
 
-**label**: related 
-component
+**label**: copyright
 
 **scope**: Component
 
 **mandatory**: N
 
-List of components that are related to this one.
+Copyright info
 
 Example:
 
 ```
-related-component:
-- informed-by: component-local-11
-- use-case: 
-   - component-local-12
-   - component-local-13
-- story: [ story1, story2 ]
+The project contributors
 ```
 
 
-### informed-by
+### credits
 
 
-**term**: informed-by
+**term**: credits
 
-**label**: informed by
+**label**: credits
 
-**scope**: Component
+**scope**: Container
 
-**super-term**: related-component
-
-**mandatory**: N
-
-The component was informed by another component (or resource), for example, a requirements document or a Persona, a Story, a use case, etc...
-### use-case
-
-
-**term**: use-case
-
-**label**: use case
-
-**scope**: Component
-
-**super-term**: informed-by
+**super-term**: funder
 
 **mandatory**: N
 
-Link to one or more use cases. This term is a specialisation of 'informed-by'
-### story
+Credits
+
+Example:
+
+```
+This project was funded by the European Union
+```
 
 
-**term**: story
-
-**label**: story
-
-**scope**: Component
-
-**super-term**: informed-by
-
-**mandatory**: N
-
-Link to one or more user stories. This term is a specialisation of 'informed-by'.
-### persona
+### credits
 
 
-**term**: persona
+**term**: credits
 
-**label**: persona
+**label**: credits
 
 **scope**: Component
 
-**super-term**: informed-by
+**mandatory**: N
+
+Credits
+
+Example:
+
+```
+This project was funded by the European Union
+```
+
+
+### deliverable-document
+
+
+**term**: deliverable-document
+
+**label**: deliverable document
+
+**scope**: Container
+
+**super-term**: bibliography
 
 **mandatory**: N
 
-Link to one or more persona. This term is a specialisation of 'informed-by'.
+Link to the deliverable document related to this activity
+### deliverable-document
+
+
+**term**: deliverable-document
+
+**label**: deliverable document
+
+**scope**: Component
+
+**super-term**: bibliography
+
+**mandatory**: N
+
+Link to the deliverable document related to this component
+### demo
+
+
+**term**: demo
+
+**label**: demo
+
+**scope**: Component
+
+**mandatory**: N
+
+Link to an online demo of the component
+
+Example:
+
+```
+http://data.open.ac.uk/sparql-demo 
+```
+
+
+### description
+
+
+**term**: description
+
+**label**: description
+
+**scope**: Container
+
+**mandatory**: Y
+
+A text describing the component
+
+Example:
+
+```
+musoW is the registry of musical resources on the Web.
+```
+
+
+### description
+
+
+**term**: description
+
+**label**: description
+
+**scope**: Component
+
+**mandatory**: Y
+
+A text describing the component
+
+Example:
+
+```
+musoW is the registry of musical resources on the Web.
+```
+
+
 ### documentation
 
 
@@ -1289,6 +743,26 @@ Link to one or more persona. This term is a specialisation of 'informed-by'.
 **mandatory**: N
 
 Link to the documentation of the component. 
+### doi
+
+
+**term**: doi
+
+**label**: DOI
+
+**scope**: Component
+
+**mandatory**: N
+
+The DOI of the GitHub repository related to this component, e.g. as published on Zenodo.org
+
+Example:
+
+```
+doi: http://doi.org/10.xxxxxx
+```
+
+
 ### evaluated-in
 
 
@@ -1317,50 +791,32 @@ Link to a document (e.g. a user study) or source code demonstrating the validity
 **mandatory**: N
 
 Link to a component that is extended by the current component. If not a component, can be an external URI
-### reuses
+### funder
 
 
-**term**: reuses
+**term**: funder
 
-**label**: reuses
+**label**: funder
 
-**scope**: Component
-
-**super-term**: related-component
+**scope**: Container
 
 **mandatory**: N
 
-Link to a component that is reused as-is by the current component. Can be a component or an external URL.
-### reuses-data
+The name of the funding body of the project and the URL
+
+Example:
+
+```
+funder:
+- name: H2020
+  url: www.example.org
+  grant-agreement: ABC123456
+- name: AHRC
+  url: www.another.org
+  grant-agreement: ABC234
+```
 
 
-**term**: reuses-data
-
-**label**: reuses 
-dataset
-
-**scope**: Component
-
-**super-term**: reuses
-
-**mandatory**: N
-
-Link to a dataset that is reused by the current component. Can be a component or an external dataset.
-### serves-data
-
-
-**term**: serves-data
-
-**label**: serves data 
-from
-
-**scope**: Component
-
-**super-term**: related-component
-
-**mandatory**: N
-
-Link to a dataset that is served by the current component (e.g. an API). Can be a component or an external dataset.
 ### generated-by
 
 
@@ -1375,46 +831,185 @@ Link to a dataset that is served by the current component (e.g. an API). Can be 
 **mandatory**: N
 
 Link to a software, dataset, or any other component that produced or generated the current component. Can be a component or an external URL.
-### bibliography
+### grant-agreement
 
 
-**term**: bibliography
+**term**: grant-agreement
 
-**label**: bibliography
+**label**: grant agreement
+
+**scope**: Container
+
+**super-term**: funder
+
+**mandatory**: N
+
+Identifier of the grant agreement relative to the funding organisation
+
+Example:
+
+```
+ABC123456
+```
+
+
+### has-part
+
+
+**term**: has-part
+
+**label**: has part
+
+**scope**: Container
+
+**mandatory**: N
+
+List of components or containers that are parts of this container. Refer to components with organisation, repo and local id of the component
+
+Example:
+
+```
+has-part:
+- polifonia/musow/my-dataset
+- polifonia/meetups/my-dataset
+- other/repo/my-dataset
+```
+
+
+### image
+
+
+**term**: image
+
+**label**: image
+
+**scope**: Container
+
+**mandatory**: N
+
+Link to one reference image illustrating the component
+
+Example:
+
+```
+./image.jpg 
+or
+http://www.example.org/image.jpg
+```
+
+
+### image
+
+
+**term**: image
+
+**label**: image
 
 **scope**: Component
 
 **mandatory**: N
 
-List of bibliographic references that are relevant to the component but that do not fall under a specific category. 
-Use "scientific work" for the main scholarly publication related to the component
+Link to one reference image illustrating the component
 
 Example:
 
 ```
-bibliography:
-  - main-publication: full citation
-  - technical-report:
-    - http://doi.org/10.xxxx 
-  - deliverable-document: 
-    - http://something.pdf 
+./image.jpg 
+or
+http://www.example.org/image.jpg
 ```
 
 
-### published-in
+### informed-by
 
 
-**term**: published-in
+**term**: informed-by
 
-**label**: published in
+**label**: informed by
 
 **scope**: Component
+
+**super-term**: related-component
+
+**mandatory**: N
+
+The component was informed by another component (or resource), for example, a requirements document or a Persona, a Story, a use case, etc...
+### licence
+
+
+**term**: licence
+
+**label**: licence
+
+**scope**: Component
+
+**mandatory**: N
+
+Link to a licence document of the resource, or a string pointing to one of the supported licences in the framework.
+
+Example:
+
+```
+- CC-BY
+- https://creativecommons.org/licenses/by/4.0/
+```
+
+
+### logo
+
+
+**term**: logo
+
+**label**: logo
+
+**scope**: Container
+
+**mandatory**: N
+
+Logo of the component in Web format. Accepted image formats are JPEG and PNG.
+
+Example:
+
+```
+https://avatars.githubusercontent.com/u/79987779?s=200&v=4
+```
+
+
+### logo
+
+
+**term**: logo
+
+**label**: logo
+
+**scope**: Component
+
+**mandatory**: N
+
+Logo of the component in Web format. Accepted image formats are JPEG and PNG.
+
+Example:
+
+```
+https://avatars.githubusercontent.com/u/79987779?s=200&v=4
+```
+
+
+### main-publication
+
+
+**term**: main-publication
+
+**label**: main 
+publication
+
+**scope**: Container
 
 **super-term**: bibliography
 
 **mandatory**: N
 
-Link to a meaningful venue where the current component is served or published (e.g. a dataset published on a web portal).
+The primary, peer reviewed scientific publication related to this research (if non peer-reviewed, use technical-report instead).
 ### main-publication
 
 
@@ -1430,20 +1025,20 @@ publication
 **mandatory**: N
 
 The primary, peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead).
-### publication
+### main-report
 
 
-**term**: publication
+**term**: main-report
 
-**label**: publication
+**label**: main technical report
 
-**scope**: Component
+**scope**: Container
 
 **super-term**: bibliography
 
 **mandatory**: N
 
-A peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead).
+The primary document related to this research (if peer-reviewed publication, use scientific-work instead).
 ### main-report
 
 
@@ -1458,54 +1053,92 @@ A peer reviewed scientific publication related to this component (if non peer-re
 **mandatory**: N
 
 The primary document related to this component (if peer-reviewed publication, use scientific-work instead).
-### report
+### name
 
 
-**term**: report
+**term**: name
 
-**label**: technical report
+**label**: container name
 
-**scope**: Component
+**scope**: Container
 
-**super-term**: bibliography
+**mandatory**: Y
 
-**mandatory**: N
-
-A document related to this component (if peer-reviewed publication, use publication instead).
-### deliverable-document
-
-
-**term**: deliverable-document
-
-**label**: deliverable document
-
-**scope**: Component
-
-**super-term**: bibliography
-
-**mandatory**: N
-
-Link to the deliverable document related to this component
-### work-package
-
-
-**term**: work-package
-
-**label**: work 
-package
-
-**scope**: Component
-
-**mandatory**: N
-
-The work package associated to this component, if any.
+The container name
 
 Example:
 
 ```
-work-package:
-- WP1
-- WP5
+name: Polifonia
+```
+
+
+### name
+
+
+**term**: name
+
+**label**: funder name
+
+**scope**: Container
+
+**super-term**: funder
+
+**mandatory**: N
+
+The name of the funder
+### name
+
+
+**term**: name
+
+**label**: name
+
+**scope**: Component
+
+**mandatory**: Y
+
+The name of the component
+
+Example:
+
+```
+musoW
+```
+
+
+### persona
+
+
+**term**: persona
+
+**label**: persona
+
+**scope**: Component
+
+**super-term**: informed-by
+
+**mandatory**: N
+
+Link to one or more persona. This term is a specialisation of 'informed-by'.
+### pilot
+
+
+**term**: pilot
+
+**label**: pilot
+
+**scope**: Container
+
+**mandatory**: N
+
+A pilot application or case study
+
+Example:
+
+```
+- MEETUPS
+- BELLS
 ```
 
 
@@ -1537,6 +1170,26 @@ Example:
 
 **label**: project
 
+**scope**: Container
+
+**mandatory**: N
+
+The local id of the project
+
+Example:
+
+```
+- polifonia
+```
+
+
+### project
+
+
+**term**: project
+
+**label**: project
+
 **scope**: Component
 
 **mandatory**: N
@@ -1550,23 +1203,370 @@ Example:
 ```
 
 
-### credits
+### publication
 
 
-**term**: credits
+**term**: publication
 
-**label**: credits
+**label**: publication
+
+**scope**: Container
+
+**super-term**: bibliography
+
+**mandatory**: N
+
+A peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead).
+### publication
+
+
+**term**: publication
+
+**label**: publication
+
+**scope**: Component
+
+**super-term**: bibliography
+
+**mandatory**: N
+
+A peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead).
+### published-in
+
+
+**term**: published-in
+
+**label**: published in
+
+**scope**: Component
+
+**super-term**: bibliography
+
+**mandatory**: N
+
+Link to a meaningful venue where the current component is served or published (e.g. a dataset published on a web portal).
+### related-component
+
+
+**term**: related-component
+
+**label**: related 
+component
 
 **scope**: Component
 
 **mandatory**: N
 
-Credits
+List of components that are related to this one.
 
 Example:
 
 ```
-This project was funded by the European Union
+related-component:
+- informed-by: component-local-11
+- use-case: 
+   - component-local-12
+   - component-local-13
+- story: [ story1, story2 ]
+```
+
+
+### release-date
+
+
+**term**: release-date
+
+**label**: release 
+date
+
+**scope**: Component
+
+**mandatory**: N
+
+The date the component was released. Accepted values include any valid XSD date.
+
+Example:
+
+```
+2022-02-02 
+or 
+2020-01-10T12:00:00
+```
+
+
+### release-link
+
+
+**term**: release-link
+
+**label**: release link
+
+**scope**: Component
+
+**mandatory**: N
+
+Link to access or download the component release
+
+Example:
+
+```
+release-link: https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1
+```
+
+
+### release-number
+
+
+**term**: release-number
+
+**label**: release 
+number
+
+**scope**: Component
+
+**mandatory**: N
+
+Version number of the release. Any value is permitted, although we recommend semantic versioning: https://semver.org/
+
+Example:
+
+```
+release-number: v0.1
+```
+
+
+### report
+
+
+**term**: report
+
+**label**: technical report
+
+**scope**: Container
+
+**super-term**: bibliography
+
+**mandatory**: N
+
+A document related to this component (if peer-reviewed publication, use publication instead).
+### report
+
+
+**term**: report
+
+**label**: technical report
+
+**scope**: Component
+
+**super-term**: bibliography
+
+**mandatory**: N
+
+A document related to this component (if peer-reviewed publication, use publication instead).
+### resource
+
+
+**term**: resource
+
+**label**: resource
+
+**scope**: Component
+
+**mandatory**: N
+
+The digital resource representing the component (e.g. if the component is of type Dataset, it may be my-dataset.csv or a folder in the repository). It includes the path to a file (if 1 file), the path to a folder (if many files), or absolute URL of an online file (DOI cannot be used). It can be a URL of a remote resource, e.g. a Website or Web api.
+
+Example:
+
+```
+./data.csv 
+http://www.example.org/myFile.json 
+./data/
+http://data.open.ac.uk/sparql
+
+```
+
+
+### reuses
+
+
+**term**: reuses
+
+**label**: reuses
+
+**scope**: Component
+
+**super-term**: related-component
+
+**mandatory**: N
+
+Link to a component that is reused as-is by the current component. Can be a component or an external URL.
+### reuses-data
+
+
+**term**: reuses-data
+
+**label**: reuses 
+dataset
+
+**scope**: Component
+
+**super-term**: reuses
+
+**mandatory**: N
+
+Link to a dataset that is reused by the current component. Can be a component or an external dataset.
+### ro-crate
+
+
+**term**: ro-crate
+
+**label**: ro crate
+
+**scope**: Container
+
+**mandatory**: N
+
+Specifies whether this yaml file is the reference file for creating a RO crate.
+
+Example:
+
+```
+- ro-crate:true
+```
+
+
+### serves-data
+
+
+**term**: serves-data
+
+**label**: serves data 
+from
+
+**scope**: Component
+
+**super-term**: related-component
+
+**mandatory**: N
+
+Link to a dataset that is served by the current component (e.g. an API). Can be a component or an external dataset.
+### story
+
+
+**term**: story
+
+**label**: story
+
+**scope**: Component
+
+**super-term**: informed-by
+
+**mandatory**: N
+
+Link to one or more user stories. This term is a specialisation of 'informed-by'.
+### type
+
+
+**term**: type
+
+**label**: container type
+
+**scope**: Container
+
+The type of container (Project, WorkPackage, ?)
+### type
+
+
+**term**: type
+
+**label**: type
+
+**scope**: Component
+
+**mandatory**: Y
+
+The component type, according to the list of components available in Reeco.
+
+Example:
+
+```
+Dataset, Project, Registry, Workflow, Software
+(see component types)
+```
+
+
+### url
+
+
+**term**: url
+
+**label**: funder URL
+
+**scope**: Container
+
+**super-term**: funder
+
+**mandatory**: N
+
+Link to the funder organisation web site
+### use-case
+
+
+**term**: use-case
+
+**label**: use case
+
+**scope**: Component
+
+**super-term**: informed-by
+
+**mandatory**: N
+
+Link to one or more use cases. This term is a specialisation of 'informed-by'
+### work-package
+
+
+**term**: work-package
+
+**label**: work 
+package
+
+**scope**: Container
+
+**mandatory**: N
+
+The work package associated to this component, if any.
+
+Example:
+
+```
+work-package:
+- WP1
+- WP5
+```
+
+
+### work-package
+
+
+**term**: work-package
+
+**label**: work 
+package
+
+**scope**: Component
+
+**mandatory**: N
+
+The work package associated to this component, if any.
+
+Example:
+
+```
+work-package:
+- WP1
+- WP5
 ```
 
 
