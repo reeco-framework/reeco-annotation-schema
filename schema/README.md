@@ -127,19 +127,26 @@ Component types:
 ## Types (A-Z)
 
 
-### Container
+### API
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
- |Container | Container||
+ |API | API|Software|
 
-### Project
+### Application
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
- |Project | Project|Container|
+ |Application | Application|Component|
+
+### CLITool
+
+
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |CLITool | Command Line Interface Tool|Application|
 
 ### Component
 
@@ -147,6 +154,20 @@ Component types:
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
  |Component | Component||
+
+### Container
+
+
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Container | Container||
+
+### Corpus
+
+
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Corpus | Corpus|Data|
 
 ### Data
 
@@ -162,19 +183,110 @@ Component types:
  | ----- | ----- | ----- |
  |Dataset | Dataset|Data|
 
-### Schema
+### Deliverable
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
- |Schema | Schema|Data|
+ |Deliverable | Deliverable|Report |
 
-### Repository
+### DockerImageContainer
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
- |Repository | Repository|Data|
+ |DockerImageContainer | Docker Image Container|Software|
+
+### Documentation
+
+
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Documentation | Documentation|Report|
+
+### EcosystemWebsite
+
+
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |EcosystemWebsite | Ecosystem Website|Web site|
+
+### EvaluationReport
+
+
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |EvaluationReport | Evaluation Report|Report|
+
+### FocusGroup
+
+
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |FocusGroup | Focus Group|Survey|
+
+### InPresenceSurvey
+
+
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |InPresenceSurvey | In presence survey|Survey|
+
+### KnowledgeGraph
+
+
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |KnowledgeGraph | Knowledge Graph|Data|
+
+### Lexicon
+
+
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Lexicon | Lexicon|Data|
+
+### MobileApp
+
+
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |MobileApp | Mobile application|Application|
+
+### Notebook
+
+
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Notebook | Notebook|Software|
+
+### Ontology
+
+
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Ontology | Ontology|Data|
+
+### Persona
+
+
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Persona | Persona|RequirementsCollection|
+
+### Pilot
+
+
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Pilot | Pilot|Container|
+
+### Project
+
+
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Project | Project|Container|
 
 ### Registry
 
@@ -183,6 +295,20 @@ Component types:
  | ----- | ----- | ----- |
  |Registry | Registry|Data|
 
+### Report
+
+
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Report | Report|Component|
+
+### Repository
+
+
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Repository | Repository|Data|
+
 ### RequirementsCollection
 
 
@@ -190,12 +316,19 @@ Component types:
  | ----- | ----- | ----- |
  |RequirementsCollection | Requirements Collection|Report|
 
-### Workflow
+### Schema
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
- |Workflow | Workflow|Software|
+ |Schema | Schema|Data|
+
+### Script
+
+
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Script | Script|Software|
 
 ### Software
 
@@ -204,19 +337,40 @@ Component types:
  | ----- | ----- | ----- |
  |Software | Software|Component|
 
-### API
+### SoftwareLibrary
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
- |API | API|Software|
+ |SoftwareLibrary | Software Library|Software|
 
-### UserInterface
+### SPARQLEndpoint
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
- |UserInterface | User interface|Software|
+ |SPARQLEndpoint | SPARQL Endpoint|WebService|
+
+### Story
+
+
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Story | Story|RequirementsCollection|
+
+### Survey
+
+
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Survey | Survey|Report|
+
+### Task
+
+
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Task | Task|Container|
 
 ### Tutorial
 
@@ -225,12 +379,19 @@ Component types:
  | ----- | ----- | ----- |
  |Tutorial | Tutorial|Documentation|
 
-### WebSite
+### UseCase
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
- |WebSite | Web site|Application|
+ |UseCase | Use Case|Container|
+
+### UserInterface
+
+
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |UserInterface | User interface|Software|
 
 ### WebApplication
 
@@ -246,159 +407,19 @@ Component types:
  | ----- | ----- | ----- |
  |WebService | Web Service|Application|
 
-### SPARQLEndpoint
+### WebSite
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
- |SPARQLEndpoint | SPARQL Endpoint|WebService|
+ |WebSite | Web site|Application|
 
-### Survey
-
-
-| Type | Label | Super type | 
- | ----- | ----- | ----- |
- |Survey | Survey|Report|
-
-### EcosystemWebsite
+### Workflow
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
- |EcosystemWebsite | Ecosystem Website|Web site|
-
-### MobileApp
-
-
-| Type | Label | Super type | 
- | ----- | ----- | ----- |
- |MobileApp | Mobile application|Application|
-
-### CLITool
-
-
-| Type | Label | Super type | 
- | ----- | ----- | ----- |
- |CLITool | Command Line Interface Tool|Application|
-
-### SoftwareLibrary
-
-
-| Type | Label | Super type | 
- | ----- | ----- | ----- |
- |SoftwareLibrary | Software Library|Software|
-
-### DockerImageContainer
-
-
-| Type | Label | Super type | 
- | ----- | ----- | ----- |
- |DockerImageContainer | Docker Image Container|Software|
-
-### Application
-
-
-| Type | Label | Super type | 
- | ----- | ----- | ----- |
- |Application | Application|Component|
-
-### Ontology
-
-
-| Type | Label | Super type | 
- | ----- | ----- | ----- |
- |Ontology | Ontology|Data|
-
-### Notebook
-
-
-| Type | Label | Super type | 
- | ----- | ----- | ----- |
- |Notebook | Notebook|Software|
-
-### Script
-
-
-| Type | Label | Super type | 
- | ----- | ----- | ----- |
- |Script | Script|Software|
-
-### Corpus
-
-
-| Type | Label | Super type | 
- | ----- | ----- | ----- |
- |Corpus | Corpus|Data|
-
-### Lexicon
-
-
-| Type | Label | Super type | 
- | ----- | ----- | ----- |
- |Lexicon | Lexicon|Data|
-
-### KnowledgeGraph
-
-
-| Type | Label | Super type | 
- | ----- | ----- | ----- |
- |KnowledgeGraph | Knowledge Graph|Data|
-
-### InPresenceSurvey
-
-
-| Type | Label | Super type | 
- | ----- | ----- | ----- |
- |InPresenceSurvey | In presence survey|Survey|
-
-### FocusGroup
-
-
-| Type | Label | Super type | 
- | ----- | ----- | ----- |
- |FocusGroup | Focus Group|Survey|
-
-### Story
-
-
-| Type | Label | Super type | 
- | ----- | ----- | ----- |
- |Story | Story|RequirementsCollection|
-
-### Persona
-
-
-| Type | Label | Super type | 
- | ----- | ----- | ----- |
- |Persona | Persona|RequirementsCollection|
-
-### Report
-
-
-| Type | Label | Super type | 
- | ----- | ----- | ----- |
- |Report | Report|Component|
-
-### Deliverable
-
-
-| Type | Label | Super type | 
- | ----- | ----- | ----- |
- |Deliverable | Deliverable|Report |
-
-### Documentation
-
-
-| Type | Label | Super type | 
- | ----- | ----- | ----- |
- |Documentation | Documentation|Report|
-
-### EvaluationReport
-
-
-| Type | Label | Super type | 
- | ----- | ----- | ----- |
- |EvaluationReport | Evaluation Report|Report|
+ |Workflow | Workflow|Software|
 
 ### WorkingGroup
 
@@ -413,27 +434,6 @@ Component types:
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
  |WorkPackage | Work Package|Container|
-
-### Task
-
-
-| Type | Label | Super type | 
- | ----- | ----- | ----- |
- |Task | Task|Container|
-
-### UseCase
-
-
-| Type | Label | Super type | 
- | ----- | ----- | ----- |
- |UseCase | Use Case|Container|
-
-### Pilot
-
-
-| Type | Label | Super type | 
- | ----- | ----- | ----- |
- |Pilot | Pilot|Container|
 
 
 ## Terms (A-Z)
