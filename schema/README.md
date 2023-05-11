@@ -464,8 +464,7 @@ bibliography:
 ```
 
 
-### bibliography
-
+The term bibliography can also be used in a Component\m
 
 **term**: bibliography
 
@@ -621,8 +620,7 @@ This project was funded by the European Union
 ```
 
 
-### credits
-
+The term credits can also be used in a Component\m
 
 **term**: credits
 
@@ -655,8 +653,7 @@ This project was funded by the European Union
 **mandatory**: N
 
 Link to the deliverable document related to this activity
-### deliverable-document
-
+The term deliverable-document can also be used in a Component\m
 
 **term**: deliverable-document
 
@@ -709,8 +706,7 @@ musoW is the registry of musical resources on the Web.
 ```
 
 
-### description
-
+The term description can also be used in a Component\m
 
 **term**: description
 
@@ -898,8 +894,7 @@ http://www.example.org/image.jpg
 ```
 
 
-### image
-
+The term image can also be used in a Component\m
 
 **term**: image
 
@@ -975,8 +970,7 @@ https://avatars.githubusercontent.com/u/79987779?s=200&v=4
 ```
 
 
-### logo
-
+The term logo can also be used in a Component\m
 
 **term**: logo
 
@@ -1010,8 +1004,7 @@ publication
 **mandatory**: N
 
 The primary, peer reviewed scientific publication related to this research (if non peer-reviewed, use technical-report instead).
-### main-publication
-
+The term main-publication can also be used in a Component\m
 
 **term**: main-publication
 
@@ -1039,8 +1032,7 @@ The primary, peer reviewed scientific publication related to this component (if 
 **mandatory**: N
 
 The primary document related to this research (if peer-reviewed publication, use scientific-work instead).
-### main-report
-
+The term main-report can also be used in a Component\m
 
 **term**: main-report
 
@@ -1073,8 +1065,7 @@ name: Polifonia
 ```
 
 
-### name
-
+The term name can also be used in a Container\m
 
 **term**: name
 
@@ -1087,8 +1078,7 @@ name: Polifonia
 **mandatory**: N
 
 The name of the funder
-### name
-
+The term name can also be used in a Component\m
 
 **term**: name
 
@@ -1142,8 +1132,7 @@ Example:
 ```
 
 
-### pilot
-
+The term pilot can also be used in a Component\m
 
 **term**: pilot
 
@@ -1183,8 +1172,7 @@ Example:
 ```
 
 
-### project
-
+The term project can also be used in a Component\m
 
 **term**: project
 
@@ -1217,8 +1205,7 @@ Example:
 **mandatory**: N
 
 A peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead).
-### publication
-
+The term publication can also be used in a Component\m
 
 **term**: publication
 
@@ -1349,8 +1336,7 @@ release-number: v0.1
 **mandatory**: N
 
 A document related to this component (if peer-reviewed publication, use publication instead).
-### report
-
+The term report can also be used in a Component\m
 
 **term**: report
 
@@ -1475,8 +1461,7 @@ Link to one or more user stories. This term is a specialisation of 'informed-by'
 **scope**: Container
 
 The type of container (Project, WorkPackage, ?)
-### type
-
+The term type can also be used in a Component\m
 
 **term**: type
 
@@ -1547,8 +1532,7 @@ work-package:
 ```
 
 
-### work-package
-
+The term work-package can also be used in a Component\m
 
 **term**: work-package
 
