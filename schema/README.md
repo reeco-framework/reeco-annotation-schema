@@ -8,7 +8,7 @@
 ## Containers and Components
 
 
-Template for containers:
+Template for containers (remove terms that you don't need):
 ```yaml
 ---
 container-id: fabulous
@@ -34,6 +34,7 @@ bibliography:
   - fabulous-component-source-code
   - fabulous-docs
   - fabulous-tutorials
+  - fabulous-evaluation
   - fabulous-requirements
   - fabulous-dataset
 
@@ -46,7 +47,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 [Link to the website](http://www.example.org)
 ```
 
-Template for components:
+Template for components (remove terms that you don't need):
+
 ```yaml
 ---
 component-id: fabulous-component-source-code
@@ -67,7 +69,8 @@ copyright: "Copyright (c) 2023 Fabolous, Inc"
 contributors:
 - A developer <http://www.example.org>
 related-components:
-- informed-by: fabulous-component-requirements
+- informed-by: 
+  - fabulous-component-requirements
 - documentation: 
   - fabulous-component-docs
   - fabulous-component-tutorials
@@ -75,6 +78,12 @@ related-components:
   - "A Java project Jena https://www.example.org"
 - reuses:
   - "Apache Camel https://camel.apache.org/"
+- informed-by:
+  - fabulous-requirements
+- generated-by:
+  - The AI code generator http://www.my-software-factory.com
+- evaluated-in:
+  - fabulous-evaluation
 ---
 
 # The Fabulous Component
