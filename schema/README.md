@@ -587,7 +587,12 @@ Link to a Changelog document, a file which contains a chronologically ordered li
 Example:
 
 ```
-https://github.com/SPARQL-Anything/sparql.anything/releases
+changelog: "https://github.com/my-org/my-project/releases" 
+```
+
+```
+
+changelog: "./CHANGELOG"
 ```
 
 ### component-id
@@ -796,7 +801,12 @@ The DOI of the GitHub repository related to this component, e.g. as published on
 Example:
 
 ```
-doi: http://doi.org/10.xxxxxx
+doi: http://doi.org/10.xxxxxx 
+```
+
+```
+
+doi: 10.zenodo.1234566
 ```
 
 ### evaluated-in
@@ -943,8 +953,27 @@ Link to a licence document of the resource, or a string pointing to one of the s
 Example:
 
 ```
-- CC-BY
-- https://creativecommons.org/licenses/by/4.0/
+licence:
+- CC-BY 
+```
+
+```
+
+licence:
+- https://creativecommons.org/licenses/by/4.0/ 
+```
+
+```
+
+licence:
+- "This component is unlicenced" 
+```
+
+```
+
+licence:
+- APACHE-2.0
+- CC-BY-SA_v4
 ```
 
 ### logo
@@ -1236,9 +1265,12 @@ The date the component was released. Accepted values include any valid XSD date.
 Example:
 
 ```
-2022-02-02 
-or 
-2020-01-10T12:00:00
+release-date: 2022-02-02 
+```
+
+```
+
+release-date: 2020-01-10T12:00:00
 ```
 
 ### release-link
@@ -1309,7 +1341,8 @@ A document related to this component (if peer-reviewed publication, use publicat
 
 
 
-The digital resource representing the component (e.g. if the component is of type Dataset, it may be my-dataset.csv or a folder in the repository). It includes the path to a file (if 1 file), the path to a folder (if many files), or absolute URL of an online file (DOI cannot be used). It can be a URL of a remote resource, e.g. a Website or Web api.
+The digital resource representing the component (e.g. if the component is of type Dataset, it may be my-dataset.csv or a folder in the repository). 
+Values can be the path to a file (if 1 file), the path to a folder (if many files), or absolute URL of an online file (DOIs should not be used, use `doi` instead). It can be a URL of a remote resource, e.g. a Website or Web api.
 
 Example:
 

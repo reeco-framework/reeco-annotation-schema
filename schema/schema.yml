@@ -451,7 +451,10 @@ terms:
     domain:
     - Component
     example-values:
-    - https://github.com/SPARQL-Anything/sparql.anything/releases
+    - 'changelog: "https://github.com/my-org/my-project/releases" '
+    - '
+
+      changelog: "./CHANGELOG"'
     label: changelog
     mandatory: N
     regex: ^http[s]?://.+$
@@ -607,7 +610,10 @@ terms:
     domain:
     - Component
     example-values:
-    - 'doi: http://doi.org/10.xxxxxx'
+    - 'doi: http://doi.org/10.xxxxxx '
+    - '
+
+      doi: 10.zenodo.1234566'
     label: DOI
     mandatory: N
     regex: ^http[s]?://.+$
@@ -645,9 +651,26 @@ terms:
     domain:
     - Component
     example-values:
-    - '- CC-BY
+    - 'licence:
 
-      - https://creativecommons.org/licenses/by/4.0/'
+      - CC-BY '
+    - '
+
+      licence:
+
+      - https://creativecommons.org/licenses/by/4.0/ '
+    - '
+
+      licence:
+
+      - "This component is unlicenced" '
+    - '
+
+      licence:
+
+      - APACHE-2.0
+
+      - CC-BY-SA_v4'
     label: licence
     mandatory: N
     ro-crate: license
@@ -973,7 +996,10 @@ terms:
     domain:
     - Component
     example-values:
-    - "2022-02-02 \nor \n2020-01-10T12:00:00"
+    - 'release-date: 2022-02-02 '
+    - '
+
+      release-date: 2020-01-10T12:00:00'
     label: "release \ndate"
     mandatory: N
     ro-crate: releaseDate
@@ -1028,11 +1054,11 @@ terms:
   Component/resource:
     _position: 29
     constraint: N
-    description: The digital resource representing the component (e.g. if the component
-      is of type Dataset, it may be my-dataset.csv or a folder in the repository).
-      It includes the path to a file (if 1 file), the path to a folder (if many files),
-      or absolute URL of an online file (DOI cannot be used). It can be a URL of a
-      remote resource, e.g. a Website or Web api.
+    description: "The digital resource representing the component (e.g. if the component\
+      \ is of type Dataset, it may be my-dataset.csv or a folder in the repository).\
+      \ \nValues can be the path to a file (if 1 file), the path to a folder (if many\
+      \ files), or absolute URL of an online file (DOIs should not be used, use `doi`\
+      \ instead). It can be a URL of a remote resource, e.g. a Website or Web api."
     domain:
     - Component
     example-values:
