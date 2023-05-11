@@ -130,262 +130,306 @@ Component types:
 ### Container
 
 
+ | ----- | ----- |
  |type | Container|
  |label | Container|
 ### Project
 
 
+ | ----- | ----- |
  |type | Project|
  |label | Project|
  |supertype-id | Container|
 ### Component
 
 
+ | ----- | ----- |
  |type | Component|
  |label | Component|
 ### Data
 
 
+ | ----- | ----- |
  |type | Data|
  |label | Data|
  |supertype-id | Component|
 ### Dataset
 
 
+ | ----- | ----- |
  |type | Dataset|
  |label | Dataset|
  |supertype-id | Data|
 ### Schema
 
 
+ | ----- | ----- |
  |type | Schema|
  |label | Schema|
  |supertype-id | Data|
 ### Repository
 
 
+ | ----- | ----- |
  |type | Repository|
  |label | Repository|
  |supertype-id | Data|
 ### Registry
 
 
+ | ----- | ----- |
  |type | Registry|
  |label | Registry|
  |supertype-id | Data|
 ### RequirementsCollection
 
 
+ | ----- | ----- |
  |type | RequirementsCollection|
  |label | Requirements Collection|
  |supertype-id | Report|
 ### Workflow
 
 
+ | ----- | ----- |
  |type | Workflow|
  |label | Workflow|
  |supertype-id | Software|
 ### Software
 
 
+ | ----- | ----- |
  |type | Software|
  |label | Software|
  |supertype-id | Component|
 ### API
 
 
+ | ----- | ----- |
  |type | API|
  |label | API|
  |supertype-id | Software|
 ### UserInterface
 
 
+ | ----- | ----- |
  |type | UserInterface|
  |label | User interface|
  |supertype-id | Software|
 ### Tutorial
 
 
+ | ----- | ----- |
  |type | Tutorial|
  |label | Tutorial|
  |supertype-id | Documentation|
 ### WebSite
 
 
+ | ----- | ----- |
  |type | WebSite|
  |label | Web site|
  |supertype-id | Application|
 ### WebApplication
 
 
+ | ----- | ----- |
  |type | WebApplication|
  |label | WebApplication|
  |supertype-id | Application|
 ### WebService
 
 
+ | ----- | ----- |
  |type | WebService|
  |label | Web Service|
  |supertype-id | Application|
 ### SPARQLEndpoint
 
 
+ | ----- | ----- |
  |type | SPARQLEndpoint|
  |label | SPARQL Endpoint|
  |supertype-id | WebService|
 ### Survey
 
 
+ | ----- | ----- |
  |type | Survey|
  |label | Survey|
  |supertype-id | Report|
 ### EcosystemWebsite
 
 
+ | ----- | ----- |
  |type | EcosystemWebsite|
  |label | Ecosystem Website|
  |supertype-id | Web site|
 ### MobileApp
 
 
+ | ----- | ----- |
  |type | MobileApp|
  |label | Mobile application|
  |supertype-id | Application|
 ### CLITool
 
 
+ | ----- | ----- |
  |type | CLITool|
  |label | Command Line Interface Tool|
  |supertype-id | Application|
 ### SoftwareLibrary
 
 
+ | ----- | ----- |
  |type | SoftwareLibrary|
  |label | Software Library|
  |supertype-id | Software|
 ### DockerImageContainer
 
 
+ | ----- | ----- |
  |type | DockerImageContainer|
  |label | Docker Image Container|
  |supertype-id | Software|
 ### Application
 
 
+ | ----- | ----- |
  |type | Application|
  |label | Application|
  |supertype-id | Component|
 ### Ontology
 
 
+ | ----- | ----- |
  |type | Ontology|
  |label | Ontology|
  |supertype-id | Data|
 ### Notebook
 
 
+ | ----- | ----- |
  |type | Notebook|
  |label | Notebook|
  |supertype-id | Software|
 ### Script
 
 
+ | ----- | ----- |
  |type | Script|
  |label | Script|
  |supertype-id | Software|
 ### Corpus
 
 
+ | ----- | ----- |
  |type | Corpus|
  |label | Corpus|
  |supertype-id | Data|
 ### Lexicon
 
 
+ | ----- | ----- |
  |type | Lexicon|
  |label | Lexicon|
  |supertype-id | Data|
 ### KnowledgeGraph
 
 
+ | ----- | ----- |
  |type | KnowledgeGraph|
  |label | Knowledge Graph|
  |supertype-id | Data|
 ### InPresenceSurvey
 
 
+ | ----- | ----- |
  |type | InPresenceSurvey|
  |label | In presence survey|
  |supertype-id | Survey|
 ### FocusGroup
 
 
+ | ----- | ----- |
  |type | FocusGroup|
  |label | Focus Group|
  |supertype-id | Survey|
 ### Story
 
 
+ | ----- | ----- |
  |type | Story|
  |label | Story|
  |supertype-id | RequirementsCollection|
 ### Persona
 
 
+ | ----- | ----- |
  |type | Persona|
  |label | Persona|
  |supertype-id | RequirementsCollection|
 ### Report
 
 
+ | ----- | ----- |
  |type | Report|
  |label | Report|
  |supertype-id | Component|
 ### Deliverable
 
 
+ | ----- | ----- |
  |type | Deliverable|
  |label | Deliverable|
  |supertype-id | Report |
 ### Documentation
 
 
+ | ----- | ----- |
  |type | Documentation|
  |label | Documentation|
  |supertype-id | Report|
 ### EvaluationReport
 
 
+ | ----- | ----- |
  |type | EvaluationReport|
  |label | Evaluation Report|
  |supertype-id | Report|
 ### WorkingGroup
 
 
+ | ----- | ----- |
  |type | WorkingGroup|
  |label | Working Group|
  |supertype-id | Container|
 ### WorkPackage
 
 
+ | ----- | ----- |
  |type | WorkPackage|
  |label | Work Package|
  |supertype-id | Container|
 ### Task
 
 
+ | ----- | ----- |
  |type | Task|
  |label | Task|
  |supertype-id | Container|
 ### UseCase
 
 
+ | ----- | ----- |
  |type | UseCase|
  |label | Use Case|
  |supertype-id | Container|
 ### Pilot
 
 
+ | ----- | ----- |
  |type | Pilot|
  |label | Pilot|
  |supertype-id | Container|
