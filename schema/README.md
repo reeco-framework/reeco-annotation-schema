@@ -71,6 +71,12 @@ contributors:
 related-components:
 - informed-by:
   - fabulous-requirements
+- use-case:
+  - fabulous-uc
+- story:
+  - fabulous-story
+- persona:
+  - fabulous-persona
 - documentation: 
   - fabulous-component-docs
   - fabulous-component-tutorials
@@ -144,9 +150,9 @@ Component types:
 
 ### Terms for Containers
 
- - [name](#name)
  - [container-id](#container-id)
  - [type](#type)
+ - [name](#name)
  - [description](#description)
  - [image](#image)
  - [logo](#logo)
@@ -546,7 +552,6 @@ bibliography:
     - http://something.pdf 
 ```
 
-
 The term bibliography can also be used in a Component
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -569,7 +574,6 @@ bibliography:
     - http://something.pdf 
 ```
 
-
 ### changelog
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -586,7 +590,6 @@ Example:
 https://github.com/SPARQL-Anything/sparql.anything/releases
 ```
 
-
 ### component-id
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -600,9 +603,8 @@ The ID of the component in the Ecosystem. Can be a local identifier or a URI.
 Example:
 
 ```
-my-dataset 
+component-id: my-dataset1
 ```
-
 
 ### container-id
 
@@ -617,9 +619,8 @@ Local identifier of the container
 Example:
 
 ```
-polifonia
+container-id: my-open-source-project
 ```
-
 
 ### contributors
 
@@ -646,7 +647,6 @@ contributors:
 - Name Surname <URI|email|ORCID>*
 ```
 
-
 ### copyright
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -663,7 +663,6 @@ Example:
 The project contributors
 ```
 
-
 ### credits
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -677,9 +676,12 @@ Credits
 Example:
 
 ```
-This project was funded by the European Union
+funder:
+- name: H2020
+  url: www.example.org
+  grant-agreement: ABC123456
+  credits: "This project was funded by the European Union"
 ```
-
 
 The term credits can also be used in a Component
 
@@ -697,7 +699,6 @@ Example:
 This project was funded by the European Union
 ```
 
-
 ### deliverable-document
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -707,6 +708,15 @@ This project was funded by the European Union
 
 
 Link to the deliverable document related to this activity
+
+Example:
+
+```
+bibliography:
+- deliverable-document: 
+  - "Smith, J. (2020). The Impact of Social Media on Mental Health. Technical Report."
+```
+
 The term deliverable-document can also be used in a Component
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -732,7 +742,6 @@ Example:
 http://data.open.ac.uk/sparql-demo 
 ```
 
-
 ### description
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -746,9 +755,8 @@ A text describing the component
 Example:
 
 ```
-musoW is the registry of musical resources on the Web.
+description: "A longer description of a project, activity, or task."
 ```
-
 
 The term description can also be used in a Component
 
@@ -763,9 +771,8 @@ A text describing the component
 Example:
 
 ```
-musoW is the registry of musical resources on the Web.
+description: "A longer description of a dataset, a software, or some other component"
 ```
-
 
 ### documentation
 
@@ -791,7 +798,6 @@ Example:
 ```
 doi: http://doi.org/10.xxxxxx
 ```
-
 
 ### evaluated-in
 
@@ -833,7 +839,6 @@ funder:
   grant-agreement: ABC234
 ```
 
-
 ### generated-by
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -856,9 +861,14 @@ Identifier of the grant agreement relative to the funding organisation
 Example:
 
 ```
-ABC123456
+funder:
+- name: H2020
+  url: www.example.org
+  grant-agreement: ABC123456
+- name: AHRC
+  url: www.another.org
+  grant-agreement: ABC234
 ```
-
 
 ### has-part
 
@@ -879,7 +889,6 @@ has-part:
 - other/repo/my-dataset
 ```
 
-
 ### image
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -893,11 +902,8 @@ Link to one reference image illustrating the component
 Example:
 
 ```
-./image.jpg 
-or
-http://www.example.org/image.jpg
+image: "http://www.example.org/image.jpg"
 ```
-
 
 The term image can also be used in a Component
 
@@ -912,11 +918,8 @@ Link to one reference image illustrating the component
 Example:
 
 ```
-./image.jpg 
-or
-http://www.example.org/image.jpg
+image: http://www.example.org/image.jpg
 ```
-
 
 ### informed-by
 
@@ -944,7 +947,6 @@ Example:
 - https://creativecommons.org/licenses/by/4.0/
 ```
 
-
 ### logo
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -958,9 +960,8 @@ Logo of the component in Web format. Accepted image formats are JPEG and PNG.
 Example:
 
 ```
-https://avatars.githubusercontent.com/u/79987779?s=200&v=4
+logo: "https://avatars.githubusercontent.com/u/79987779?s=200&v=4"
 ```
-
 
 The term logo can also be used in a Component
 
@@ -975,9 +976,8 @@ Logo of the component in Web format. Accepted image formats are JPEG and PNG.
 Example:
 
 ```
-https://avatars.githubusercontent.com/u/79987779?s=200&v=4
+logo: https://avatars.githubusercontent.com/u/79987779?s=200&v=4
 ```
-
 
 ### main-publication
 
@@ -989,6 +989,15 @@ publication | Container | bibliography | N
 
 
 The primary, peer reviewed scientific publication related to this research (if non peer-reviewed, use technical-report instead).
+
+Example:
+
+```
+bibliography:
+- main-publication: "Brown, L. (2019). The Role of Parenting Styles in Child Development. Child Development Perspectives, 13(3), 145-153."
+
+```
+
 The term main-publication can also be used in a Component
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -1008,6 +1017,15 @@ The primary, peer reviewed scientific publication related to this component (if 
 
 
 The primary document related to this research (if peer-reviewed publication, use scientific-work instead).
+
+Example:
+
+```
+bibliography:
+- main-report: 
+  - "Smith, J. (2020). The Impact of Social Media on Mental Health. Technical Report."
+```
+
 The term main-report can also be used in a Component
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -1030,9 +1048,8 @@ The container name
 Example:
 
 ```
-name: Polifonia
+name: "A short project name"
 ```
-
 
 The term name can also be used in a Container
 
@@ -1043,6 +1060,19 @@ The term name can also be used in a Container
 
 
 The name of the funder
+
+Example:
+
+```
+funder:
+- name: H2020
+  url: www.example.org
+  grant-agreement: ABC123456
+- name: AHRC
+  url: www.another.org
+  grant-agreement: ABC234
+```
+
 The term name can also be used in a Component
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -1056,9 +1086,8 @@ The name of the component
 Example:
 
 ```
-musoW
+name: "The name of my database"
 ```
-
 
 ### persona
 
@@ -1086,7 +1115,6 @@ Example:
 - BELLS
 ```
 
-
 The term pilot can also be used in a Component
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -1104,7 +1132,6 @@ Example:
 - BELLS
 ```
 
-
 ### project
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -1120,7 +1147,6 @@ Example:
 ```
 - polifonia
 ```
-
 
 The term project can also be used in a Component
 
@@ -1138,7 +1164,6 @@ Example:
 - polifonia
 ```
 
-
 ### publication
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -1148,6 +1173,15 @@ Example:
 
 
 A peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead).
+
+Example:
+
+```
+bibliography:
+- publication: 
+  - "Smith, J. (2020). The Impact of Social Media on Mental Health. Journal of Psychology and Behavioral Sciences, 15(2), 45-62."
+```
+
 The term publication can also be used in a Component
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -1188,7 +1222,6 @@ related-component:
 - story: [ story1, story2 ]
 ```
 
-
 ### release-date
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -1208,7 +1241,6 @@ or
 2020-01-10T12:00:00
 ```
 
-
 ### release-link
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -1224,7 +1256,6 @@ Example:
 ```
 release-link: https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1
 ```
-
 
 ### release-number
 
@@ -1243,7 +1274,6 @@ Example:
 release-number: v0.1
 ```
 
-
 ### report
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -1253,6 +1283,15 @@ release-number: v0.1
 
 
 A document related to this component (if peer-reviewed publication, use publication instead).
+
+Example:
+
+```
+bibliography:
+- report: 
+  - "Smith, J. (2020). The Impact of Social Media on Mental Health. Technical Report."
+```
+
 The term report can also be used in a Component
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -1275,13 +1314,24 @@ The digital resource representing the component (e.g. if the component is of typ
 Example:
 
 ```
-./data.csv 
-http://www.example.org/myFile.json 
-./data/
-http://data.open.ac.uk/sparql
+resource: ./data.csv 
+```
 
 ```
 
+resource: "http://www.example.org/myFile.json" 
+```
+
+```
+
+resource: "./data/" 
+```
+
+```
+
+resource: "http://data.open.ac.uk/sparql"
+
+```
 
 ### reuses
 
@@ -1315,9 +1365,8 @@ Specifies whether this yaml file is the reference file for creating a RO crate.
 Example:
 
 ```
-- ro-crate:true
+ro-crate: true
 ```
-
 
 ### serves-data
 
@@ -1342,11 +1391,18 @@ Link to one or more user stories. This term is a specialisation of 'informed-by'
 
 | Term | Label | Scope | Super term | Mandatory |
 | ---- | ---- | ---- | ---- | ---- |
- | type | container type | Container |  | 
+ | type | container type | Container |  | Y
 
 
 
 The type of container (Project, WorkPackage, ?)
+
+Example:
+
+```
+type: Project
+```
+
 The term type can also be used in a Component
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -1355,15 +1411,13 @@ The term type can also be used in a Component
 
 
 
-The component type, according to the list of components available in Reeco.
+The component type, according to the list of components available.
 
 Example:
 
 ```
-Dataset, Project, Registry, Workflow, Software
-(see component types)
+type: Dataset
 ```
-
 
 ### url
 
@@ -1374,6 +1428,19 @@ Dataset, Project, Registry, Workflow, Software
 
 
 Link to the funder organisation web site
+
+Example:
+
+```
+funder:
+- name: H2020
+  url: www.example.org
+  grant-agreement: ABC123456
+- name: AHRC
+  url: www.another.org
+  grant-agreement: ABC234
+```
+
 ### use-case
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -1402,7 +1469,6 @@ work-package:
 - WP5
 ```
 
-
 The term work-package can also be used in a Component
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -1421,7 +1487,6 @@ work-package:
 - WP1
 - WP5
 ```
-
 
 
 ## Licences

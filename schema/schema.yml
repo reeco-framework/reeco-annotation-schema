@@ -320,7 +320,8 @@ terms:
       \ for the main scholarly publication related to the component"
     domain:
     - Component
-    example-values: "bibliography:\n  - main-publication: full citation\n  - technical-report:\n\
+    example-values:
+    - "bibliography:\n  - main-publication: full citation\n  - technical-report:\n\
       \    - http://doi.org/10.xxxx \n  - deliverable-document: \n    - http://something.pdf "
     label: bibliography
     mandatory: N
@@ -449,7 +450,8 @@ terms:
       ordered list of notable changes for each version of the component.
     domain:
     - Component
-    example-values: https://github.com/SPARQL-Anything/sparql.anything/releases
+    example-values:
+    - https://github.com/SPARQL-Anything/sparql.anything/releases
     label: changelog
     mandatory: N
     regex: ^http[s]?://.+$
@@ -469,7 +471,8 @@ terms:
       or a URI.
     domain:
     - Component
-    example-values: 'my-dataset '
+    example-values:
+    - 'component-id: my-dataset1'
     label: component ID
     mandatory: Y
     regex: '[^\s]+(/[^\s]+(/[^\s]+)?)?'
@@ -487,7 +490,8 @@ terms:
     description: 'A list of contributors in the form: "Name <name.surname@mail.com>"'
     domain:
     - Component
-    example-values: 'contributors:
+    example-values:
+    - 'contributors:
 
       - John Doe <john@doe.com>
 
@@ -528,7 +532,8 @@ terms:
     description: Copyright info
     domain:
     - Component
-    example-values: The project contributors
+    example-values:
+    - The project contributors
     label: copyright
     mandatory: N
     schema: https://schema.org/copyrightNotice
@@ -544,7 +549,8 @@ terms:
     description: Credits
     domain:
     - Component
-    example-values: This project was funded by the European Union
+    example-values:
+    - This project was funded by the European Union
     label: credits
     mandatory: N
     scope: Component
@@ -559,7 +565,8 @@ terms:
     description: Link to an online demo of the component
     domain:
     - Component
-    example-values: 'http://data.open.ac.uk/sparql-demo '
+    example-values:
+    - 'http://data.open.ac.uk/sparql-demo '
     label: demo
     mandatory: N
     regex: ^http[s]?://.+$
@@ -578,7 +585,9 @@ terms:
     description: A text describing the component
     domain:
     - Component
-    example-values: musoW is the registry of musical resources on the Web.
+    example-values:
+    - 'description: "A longer description of a dataset, a software, or some other
+      component"'
     label: description
     mandatory: Y
     ro-crate: description
@@ -597,7 +606,8 @@ terms:
       as published on Zenodo.org
     domain:
     - Component
-    example-values: 'doi: http://doi.org/10.xxxxxx'
+    example-values:
+    - 'doi: http://doi.org/10.xxxxxx'
     label: DOI
     mandatory: N
     regex: ^http[s]?://.+$
@@ -614,7 +624,8 @@ terms:
     description: Link to one reference image illustrating the component
     domain:
     - Component
-    example-values: "./image.jpg \nor\nhttp://www.example.org/image.jpg"
+    example-values:
+    - 'image: http://www.example.org/image.jpg'
     label: image
     mandatory: N
     ro-crate: image
@@ -633,7 +644,8 @@ terms:
       to one of the supported licences in the framework.
     domain:
     - Component
-    example-values: '- CC-BY
+    example-values:
+    - '- CC-BY
 
       - https://creativecommons.org/licenses/by/4.0/'
     label: licence
@@ -655,7 +667,8 @@ terms:
       and PNG.
     domain:
     - Component
-    example-values: https://avatars.githubusercontent.com/u/79987779?s=200&v=4
+    example-values:
+    - 'logo: https://avatars.githubusercontent.com/u/79987779?s=200&v=4'
     label: logo
     mandatory: N
     regex: ^http[s]?://.+$
@@ -673,7 +686,8 @@ terms:
     description: The name of the component
     domain:
     - Component
-    example-values: musoW
+    example-values:
+    - 'name: "The name of my database"'
     label: name
     mandatory: Y
     ro-crate: name
@@ -691,7 +705,8 @@ terms:
     description: A pilot application or case study
     domain:
     - Component
-    example-values: '- MEETUPS
+    example-values:
+    - '- MEETUPS
 
       - BELLS'
     label: pilot
@@ -711,7 +726,8 @@ terms:
     description: The local id of the project
     domain:
     - Component
-    example-values: '- polifonia'
+    example-values:
+    - '- polifonia'
     label: project
     mandatory: N
     ro-crate: isPartOf
@@ -727,9 +743,9 @@ terms:
     description: List of components that are related to this one.
     domain:
     - Component
-    example-values: "related-component:\n- informed-by: component-local-11\n- use-case:\
-      \ \n   - component-local-12\n   - component-local-13\n- story: [ story1, story2\
-      \ ]"
+    example-values:
+    - "related-component:\n- informed-by: component-local-11\n- use-case: \n   - component-local-12\n\
+      \   - component-local-13\n- story: [ story1, story2 ]"
     label: "related \ncomponent"
     mandatory: N
     ro-crate: isRelatedTo
@@ -956,7 +972,8 @@ terms:
       valid XSD date.
     domain:
     - Component
-    example-values: "2022-02-02 \nor \n2020-01-10T12:00:00"
+    example-values:
+    - "2022-02-02 \nor \n2020-01-10T12:00:00"
     label: "release \ndate"
     mandatory: N
     ro-crate: releaseDate
@@ -974,7 +991,8 @@ terms:
     description: Link to access or download the component release
     domain:
     - Component
-    example-values: 'release-link: https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1'
+    example-values:
+    - 'release-link: https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1'
     label: release link
     mandatory: N
     regex: ^http[s]?://.+$
@@ -994,7 +1012,8 @@ terms:
       we recommend semantic versioning: https://semver.org/'
     domain:
     - Component
-    example-values: 'release-number: v0.1'
+    example-values:
+    - 'release-number: v0.1'
     label: "release \nnumber"
     mandatory: N
     ro-crate: version
@@ -1016,7 +1035,19 @@ terms:
       remote resource, e.g. a Website or Web api.
     domain:
     - Component
-    example-values: "./data.csv \nhttp://www.example.org/myFile.json \n./data/\nhttp://data.open.ac.uk/sparql\n"
+    example-values:
+    - 'resource: ./data.csv '
+    - '
+
+      resource: "http://www.example.org/myFile.json" '
+    - '
+
+      resource: "./data/" '
+    - '
+
+      resource: "http://data.open.ac.uk/sparql"
+
+      '
     label: resource
     mandatory: N
     ro-crate: '@ id '
@@ -1030,8 +1061,7 @@ terms:
   Component/type:
     _position: 24
     constraint: Y
-    description: The component type, according to the list of components available
-      in Reeco.
+    description: The component type, according to the list of components available.
     domain:
     - Component
     enum:
@@ -1061,9 +1091,8 @@ terms:
     - Deliverable
     - Documentation
     - EvaluationReport
-    example-values: 'Dataset, Project, Registry, Workflow, Software
-
-      (see component types)'
+    example-values:
+    - 'type: Dataset'
     label: type
     mandatory: Y
     ro-crate: '@ type '
@@ -1081,7 +1110,8 @@ terms:
     description: The work package associated to this component, if any.
     domain:
     - Component
-    example-values: 'work-package:
+    example-values:
+    - 'work-package:
 
       - WP1
 
@@ -1104,7 +1134,8 @@ terms:
       (activity)
     domain:
     - Container
-    example-values: "bibliography:\n  - main-publication: full citation\n  - technical-report:\n\
+    example-values:
+    - "bibliography:\n  - main-publication: full citation\n  - technical-report:\n\
       \    - http://doi.org/10.xxxx \n  - deliverable-document: \n    - http://something.pdf "
     label: bibliography
     mandatory: N
@@ -1124,6 +1155,9 @@ terms:
     description: Link to the deliverable document related to this activity
     domain:
     - Container
+    example-values:
+    - "bibliography:\n- deliverable-document: \n  - \"Smith, J. (2020). The Impact\
+      \ of Social Media on Mental Health. Technical Report.\""
     label: deliverable document
     mandatory: N
     ro-crate: cito:isDocumentedBy
@@ -1144,6 +1178,13 @@ terms:
       research (if non peer-reviewed, use technical-report instead).
     domain:
     - Container
+    example-values:
+    - 'bibliography:
+
+      - main-publication: "Brown, L. (2019). The Role of Parenting Styles in Child
+      Development. Child Development Perspectives, 13(3), 145-153."
+
+      '
     label: "main \npublication"
     mandatory: N
     ro-crate: cito:isReferencedBy
@@ -1162,6 +1203,9 @@ terms:
       use scientific-work instead).
     domain:
     - Container
+    example-values:
+    - "bibliography:\n- main-report: \n  - \"Smith, J. (2020). The Impact of Social\
+      \ Media on Mental Health. Technical Report.\""
     label: main technical report
     mandatory: N
     ro-crate: cito:isDocumentedBy
@@ -1180,6 +1224,10 @@ terms:
       (if non peer-reviewed, use technical-report instead).
     domain:
     - Container
+    example-values:
+    - "bibliography:\n- publication: \n  - \"Smith, J. (2020). The Impact of Social\
+      \ Media on Mental Health. Journal of Psychology and Behavioral Sciences, 15(2),\
+      \ 45-62.\""
     label: publication
     mandatory: N
     ro-crate: cito:isReferencedBy
@@ -1198,6 +1246,9 @@ terms:
       use publication instead).
     domain:
     - Container
+    example-values:
+    - "bibliography:\n- report: \n  - \"Smith, J. (2020). The Impact of Social Media\
+      \ on Mental Health. Technical Report.\""
     label: technical report
     mandatory: N
     scope: Container
@@ -1209,12 +1260,13 @@ terms:
     - ' anyURI'
     yaml-type: List.String
   Container/container-id:
-    _position: 2
+    _position: 1
     constraint: Y
     description: Local identifier of the container
     domain:
     - Container
-    example-values: polifonia
+    example-values:
+    - 'container-id: my-open-source-project'
     label: container identifier
     mandatory: Y
     regex: '[^\s]+(/[^\s]+(/[^\s]+)?)?'
@@ -1231,7 +1283,8 @@ terms:
     description: A text describing the component
     domain:
     - Container
-    example-values: musoW is the registry of musical resources on the Web.
+    example-values:
+    - 'description: "A longer description of a project, activity, or task."'
     label: description
     mandatory: Y
     ro-crate: description
@@ -1249,8 +1302,9 @@ terms:
     description: The name of the funding body of the project and the URL
     domain:
     - Container
-    example-values: "funder:\n- name: H2020\n  url: www.example.org\n  grant-agreement:\
-      \ ABC123456\n- name: AHRC\n  url: www.another.org\n  grant-agreement: ABC234"
+    example-values:
+    - "funder:\n- name: H2020\n  url: www.example.org\n  grant-agreement: ABC123456\n\
+      - name: AHRC\n  url: www.another.org\n  grant-agreement: ABC234"
     label: funder
     mandatory: N
     ro-crate: funder[Organization]
@@ -1267,7 +1321,9 @@ terms:
     description: Credits
     domain:
     - Container
-    example-values: This project was funded by the European Union
+    example-values:
+    - "funder:\n- name: H2020\n  url: www.example.org\n  grant-agreement: ABC123456\n\
+      \  credits: \"This project was funded by the European Union\""
     label: credits
     mandatory: N
     scope: Container
@@ -1283,7 +1339,9 @@ terms:
     description: Identifier of the grant agreement relative to the funding organisation
     domain:
     - Container
-    example-values: ABC123456
+    example-values:
+    - "funder:\n- name: H2020\n  url: www.example.org\n  grant-agreement: ABC123456\n\
+      - name: AHRC\n  url: www.another.org\n  grant-agreement: ABC234"
     label: grant agreement
     mandatory: N
     ro-crate: funder[Organization]/funding[Grant]/identifier
@@ -1303,6 +1361,9 @@ terms:
     description: The name of the funder
     domain:
     - Container
+    example-values:
+    - "funder:\n- name: H2020\n  url: www.example.org\n  grant-agreement: ABC123456\n\
+      - name: AHRC\n  url: www.another.org\n  grant-agreement: ABC234"
     label: funder name
     mandatory: N
     ro-crate: funder[Organization]/name
@@ -1319,6 +1380,9 @@ terms:
     description: Link to the funder organisation web site
     domain:
     - Container
+    example-values:
+    - "funder:\n- name: H2020\n  url: www.example.org\n  grant-agreement: ABC123456\n\
+      - name: AHRC\n  url: www.another.org\n  grant-agreement: ABC234"
     label: funder URL
     mandatory: N
     regex: ^http[s]?://.+$
@@ -1337,7 +1401,8 @@ terms:
       Refer to components with organisation, repo and local id of the component
     domain:
     - Container
-    example-values: 'has-part:
+    example-values:
+    - 'has-part:
 
       - polifonia/musow/my-dataset
 
@@ -1360,7 +1425,8 @@ terms:
     description: Link to one reference image illustrating the component
     domain:
     - Container
-    example-values: "./image.jpg \nor\nhttp://www.example.org/image.jpg"
+    example-values:
+    - 'image: "http://www.example.org/image.jpg"'
     label: image
     mandatory: N
     ro-crate: image
@@ -1379,7 +1445,8 @@ terms:
       and PNG.
     domain:
     - Container
-    example-values: https://avatars.githubusercontent.com/u/79987779?s=200&v=4
+    example-values:
+    - 'logo: "https://avatars.githubusercontent.com/u/79987779?s=200&v=4"'
     label: logo
     mandatory: N
     regex: ^http[s]?://.+$
@@ -1392,12 +1459,13 @@ terms:
     - anyURI
     yaml-type: String
   Container/name:
-    _position: 1
+    _position: 3
     constraint: N
     description: The container name
     domain:
     - Container
-    example-values: 'name: Polifonia'
+    example-values:
+    - 'name: "A short project name"'
     label: container name
     mandatory: Y
     ro-crate: name
@@ -1413,7 +1481,8 @@ terms:
     description: A pilot application or case study
     domain:
     - Container
-    example-values: '- MEETUPS
+    example-values:
+    - '- MEETUPS
 
       - BELLS'
     label: pilot
@@ -1433,7 +1502,8 @@ terms:
     description: The local id of the project
     domain:
     - Container
-    example-values: '- polifonia'
+    example-values:
+    - '- polifonia'
     label: project
     mandatory: N
     ro-crate: isPartOf
@@ -1453,7 +1523,8 @@ terms:
     enum:
     - 'true'
     - 'false'
-    example-values: '- ro-crate:true'
+    example-values:
+    - 'ro-crate: true'
     label: ro crate
     mandatory: N
     ro-crate: isPartOf
@@ -1464,20 +1535,29 @@ terms:
     - boolean
     yaml-type: Boolean
   Container/type:
-    _position: 3
+    _position: 2
+    constraint: Y
     description: The type of container (Project, WorkPackage, ?)
     domain:
     - Container
+    example-values:
+    - 'type: Project'
     label: container type
+    mandatory: Y
     scope: Container
     term: type
+    unique: N
+    xsd-datatype:
+    - string
+    yaml-type: String
   Container/work-package:
     _position: 14
     constraint: N
     description: The work package associated to this component, if any.
     domain:
     - Container
-    example-values: 'work-package:
+    example-values:
+    - 'work-package:
 
       - WP1
 
