@@ -69,8 +69,8 @@ copyright: "Copyright (c) 2023 Fabolous, Inc"
 contributors:
 - A developer <http://www.example.org>
 related-components:
-- informed-by: 
-  - fabulous-component-requirements
+- informed-by:
+  - fabulous-requirements
 - documentation: 
   - fabulous-component-docs
   - fabulous-component-tutorials
@@ -78,8 +78,6 @@ related-components:
   - "A Java project Jena https://www.example.org"
 - reuses:
   - "Apache Camel https://camel.apache.org/"
-- informed-by:
-  - fabulous-requirements
 - generated-by:
   - The AI code generator http://www.my-software-factory.com
 - evaluated-in:
@@ -190,14 +188,14 @@ Component types:
  - [contributors](#contributors)
  - [related-component](#related-component)
    - [informed-by](#informed-by)
-      - [use-case](#use-case)
-      - [story](#story)
-      - [persona](#persona)
+   - [use-case](#use-case)
+   - [story](#story)
+   - [persona](#persona)
    - [documentation](#documentation)
    - [evaluated-in](#evaluated-in)
    - [extends](#extends)
    - [reuses](#reuses)
-      - [reuses-data](#reuses-data)
+   - [reuses-data](#reuses-data)
    - [serves-data](#serves-data)
    - [generated-by](#generated-by)
  - [bibliography](#bibliography)
@@ -1066,7 +1064,7 @@ musoW
 
 | Term | Label | Scope | Super term | Mandatory |
 | ---- | ---- | ---- | ---- | ---- |
- | persona | persona | Component | informed-by | N
+ | persona | persona | Component | related-component | N
 
 
 
@@ -1299,7 +1297,7 @@ Link to a component that is reused as-is by the current component. Can be a comp
 | Term | Label | Scope | Super term | Mandatory |
 | ---- | ---- | ---- | ---- | ---- |
  | reuses-data | reuses 
-dataset | Component | reuses | N
+dataset | Component | related-component | N
 
 
 
@@ -1335,7 +1333,7 @@ Link to a dataset that is served by the current component (e.g. an API). Can be 
 
 | Term | Label | Scope | Super term | Mandatory |
 | ---- | ---- | ---- | ---- | ---- |
- | story | story | Component | informed-by | N
+ | story | story | Component | related-component | N
 
 
 
@@ -1380,7 +1378,7 @@ Link to the funder organisation web site
 
 | Term | Label | Scope | Super term | Mandatory |
 | ---- | ---- | ---- | ---- | ---- |
- | use-case | use case | Component | informed-by | N
+ | use-case | use case | Component | related-component | N
 
 
 

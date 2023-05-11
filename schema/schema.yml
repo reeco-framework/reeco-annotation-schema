@@ -626,64 +626,6 @@ terms:
     xsd-datatype:
     - anyURI
     yaml-type: String
-  Component/informed-by/persona:
-    _position: 43
-    constraint: N
-    description: Link to one or more persona. This term is a specialisation of 'informed-by'.
-    domain:
-    - Component
-    label: persona
-    mandatory: N
-    ro-crate: prov:wasInformedBy
-    schema: https://schema.org/assesses
-    scope: Component
-    spar: cito:obtainsBackgroundFrom
-    super-term: informed-by
-    term: persona
-    unique: N
-    xsd-datatype:
-    - string
-    - anyURI
-    yaml-type: List.String
-  Component/informed-by/story:
-    _position: 42
-    constraint: N
-    description: Link to one or more user stories. This term is a specialisation of
-      'informed-by'.
-    domain:
-    - Component
-    label: story
-    mandatory: N
-    ro-crate: prov:wasInformedBy
-    schema: https://schema.org/assesses
-    scope: Component
-    spar: cito:obtainsBackgroundFrom
-    super-term: informed-by
-    term: story
-    unique: N
-    xsd-datatype:
-    - string
-    - anyURI
-    yaml-type: List.String
-  Component/informed-by/use-case:
-    _position: 41
-    constraint: N
-    description: Link to one or more use cases. This term is a specialisation of 'informed-by'
-    domain:
-    - Component
-    label: use case
-    mandatory: N
-    ro-crate: prov:wasInformedBy
-    schema: https://schema.org/assesses
-    scope: Component
-    spar: cito:obtainsBackgroundFrom
-    super-term: informed-by
-    term: use-case
-    unique: N
-    xsd-datatype:
-    - string
-    - anyURI
-    yaml-type: List.String
   Component/licence:
     _position: 36
     constraint: N
@@ -895,6 +837,25 @@ terms:
     - string
     - anyURI
     yaml-type: List.String
+  Component/related-component/persona:
+    _position: 43
+    constraint: N
+    description: Link to one or more persona. This term is a specialisation of 'informed-by'.
+    domain:
+    - Component
+    label: persona
+    mandatory: N
+    ro-crate: prov:wasInformedBy
+    schema: https://schema.org/assesses
+    scope: Component
+    spar: cito:obtainsBackgroundFrom
+    super-term: related-component
+    term: persona
+    unique: N
+    xsd-datatype:
+    - string
+    - anyURI
+    yaml-type: List.String
   Component/related-component/reuses:
     _position: 47
     constraint: N
@@ -913,6 +874,24 @@ terms:
     - string
     - anyURI
     yaml-type: List.String
+  Component/related-component/reuses-data:
+    _position: 48
+    constraint: N
+    description: Link to a dataset that is reused by the current component. Can be
+      a component or an external dataset.
+    domain:
+    - Component
+    label: "reuses \ndataset"
+    mandatory: N
+    ro-crate: cito:usesDataFrom
+    scope: Component
+    super-term: related-component
+    term: reuses-data
+    unique: N
+    xsd-datatype:
+    - string
+    - anyURI
+    yaml-type: List.String
   Component/related-component/serves-data:
     _position: 49
     constraint: N
@@ -926,6 +905,45 @@ terms:
     scope: Component
     super-term: related-component
     term: serves-data
+    unique: N
+    xsd-datatype:
+    - string
+    - anyURI
+    yaml-type: List.String
+  Component/related-component/story:
+    _position: 42
+    constraint: N
+    description: Link to one or more user stories. This term is a specialisation of
+      'informed-by'.
+    domain:
+    - Component
+    label: story
+    mandatory: N
+    ro-crate: prov:wasInformedBy
+    schema: https://schema.org/assesses
+    scope: Component
+    spar: cito:obtainsBackgroundFrom
+    super-term: related-component
+    term: story
+    unique: N
+    xsd-datatype:
+    - string
+    - anyURI
+    yaml-type: List.String
+  Component/related-component/use-case:
+    _position: 41
+    constraint: N
+    description: Link to one or more use cases. This term is a specialisation of 'informed-by'
+    domain:
+    - Component
+    label: use case
+    mandatory: N
+    ro-crate: prov:wasInformedBy
+    schema: https://schema.org/assesses
+    scope: Component
+    spar: cito:obtainsBackgroundFrom
+    super-term: related-component
+    term: use-case
     unique: N
     xsd-datatype:
     - string
@@ -1009,24 +1027,6 @@ terms:
     - string
     - anyURI
     yaml-type: String
-  Component/reuses/reuses-data:
-    _position: 48
-    constraint: N
-    description: Link to a dataset that is reused by the current component. Can be
-      a component or an external dataset.
-    domain:
-    - Component
-    label: "reuses \ndataset"
-    mandatory: N
-    ro-crate: cito:usesDataFrom
-    scope: Component
-    super-term: reuses
-    term: reuses-data
-    unique: N
-    xsd-datatype:
-    - string
-    - anyURI
-    yaml-type: List.String
   Component/type:
     _position: 24
     constraint: Y
