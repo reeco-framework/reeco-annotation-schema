@@ -665,7 +665,12 @@ Copyright info
 Example:
 
 ```
-The project contributors
+copyright: "The project contributors" 
+```
+
+```
+
+copyright: "http://my.organisation.org"
 ```
 
 ### credits
@@ -788,6 +793,15 @@ description: "A longer description of a dataset, a software, or some other compo
 
 
 Link to the documentation of the component. 
+
+Example:
+
+```
+related-components:
+  - documentation: 
+     - component-source-javadoc
+```
+
 ### doi
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -818,6 +832,15 @@ doi: 10.zenodo.1234566
 
 
 Link to a document (e.g. a user study) or source code demonstrating the validity of the component.
+
+Example:
+
+```
+related-components:
+  - evaluated-in: 
+     - component-notebook
+```
+
 ### extends
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -827,6 +850,16 @@ Link to a document (e.g. a user study) or source code demonstrating the validity
 
 
 Link to a component that is extended by the current component. If not a component, can be an external URI
+
+Example:
+
+```
+related-components:
+  - extends: 
+     - "Apache Jena http://jena.apache.org"
+     - other-component
+```
+
 ### funder
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -940,6 +973,16 @@ image: http://www.example.org/image.jpg
 
 
 The component was informed by another component (or resource), for example, a requirements document or a Persona, a Story, a use case, etc...
+
+Example:
+
+```
+related-component:
+- informed-by: 
+   - requirement-document-1
+   - http://www.link-to-website-with-requirements.com
+```
+
 ### licence
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -1127,6 +1170,16 @@ name: "The name of my database"
 
 
 Link to one or more persona. This term is a specialisation of 'informed-by'.
+
+Example:
+
+```
+related-components:
+  - persona: 
+     - John-component
+     - Monica-component
+```
+
 ### pilot
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -1420,6 +1473,16 @@ Link to a dataset that is served by the current component (e.g. an API). Can be 
 
 
 Link to one or more user stories. This term is a specialisation of 'informed-by'.
+
+Example:
+
+```
+related-components:
+  - story: 
+     - story1-component
+     - story2-component
+```
+
 ### type
 
 | Term | Label | Scope | Super term | Mandatory |
@@ -1483,6 +1546,14 @@ funder:
 
 
 Link to one or more use cases. This term is a specialisation of 'informed-by'
+
+Example:
+
+```
+related-components:
+  - use-case: my-use-case-component
+```
+
 ### work-package
 
 | Term | Label | Scope | Super term | Mandatory |
