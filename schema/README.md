@@ -545,11 +545,11 @@ Example:
 
 ```
 bibliography:
-  - main-publication: full citation
+  - main-publication: "7. Wang, Y., & Chen, X. (2013). A Novel Approach for Cloud Computing Security Using Homomorphic Encryption. Communications in Computer and Information Science, 50(1), 67-73."
   - technical-report:
-    - http://doi.org/10.xxxx 
+    - "8. Li, J., & Yang, S. (2012). A New Algorithm for Text Classification Based on Support Vector Machines. Technical Report: Computer Science and Information Security, 7(4), 23-30."
   - deliverable-document: 
-    - http://something.pdf 
+    - "Zhang, H., & Liu, Y. (2011). A Survey of Data Mining Techniques in Financial Analysis. Computer Science Project, 6(3), 12-18." 
 ```
 
 The term bibliography can also be used in a Component

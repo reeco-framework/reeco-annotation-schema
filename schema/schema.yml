@@ -1223,8 +1223,14 @@ terms:
     domain:
     - Container
     example-values:
-    - "bibliography:\n  - main-publication: full citation\n  - technical-report:\n\
-      \    - http://doi.org/10.xxxx \n  - deliverable-document: \n    - http://something.pdf "
+    - "bibliography:\n  - main-publication: \"7. Wang, Y., & Chen, X. (2013). A Novel\
+      \ Approach for Cloud Computing Security Using Homomorphic Encryption. Communications\
+      \ in Computer and Information Science, 50(1), 67-73.\"\n  - technical-report:\n\
+      \    - \"8. Li, J., & Yang, S. (2012). A New Algorithm for Text Classification\
+      \ Based on Support Vector Machines. Technical Report: Computer Science and Information\
+      \ Security, 7(4), 23-30.\"\n  - deliverable-document: \n    - \"Zhang, H., &\
+      \ Liu, Y. (2011). A Survey of Data Mining Techniques in Financial Analysis.\
+      \ Computer Science Project, 6(3), 12-18.\" "
     label: bibliography
     mandatory: N
     ro-crate: cito:citesForInformation
