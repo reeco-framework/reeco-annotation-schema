@@ -130,396 +130,310 @@ Component types:
 ### Container
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | Container|
- |label | Container|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Container | Container||
 
 ### Project
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | Project|
- |label | Project|
- |supertype-id | Container|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Project | Project|Container|
 
 ### Component
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | Component|
- |label | Component|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Component | Component||
 
 ### Data
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | Data|
- |label | Data|
- |supertype-id | Component|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Data | Data|Component|
 
 ### Dataset
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | Dataset|
- |label | Dataset|
- |supertype-id | Data|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Dataset | Dataset|Data|
 
 ### Schema
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | Schema|
- |label | Schema|
- |supertype-id | Data|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Schema | Schema|Data|
 
 ### Repository
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | Repository|
- |label | Repository|
- |supertype-id | Data|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Repository | Repository|Data|
 
 ### Registry
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | Registry|
- |label | Registry|
- |supertype-id | Data|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Registry | Registry|Data|
 
 ### RequirementsCollection
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | RequirementsCollection|
- |label | Requirements Collection|
- |supertype-id | Report|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |RequirementsCollection | Requirements Collection|Report|
 
 ### Workflow
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | Workflow|
- |label | Workflow|
- |supertype-id | Software|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Workflow | Workflow|Software|
 
 ### Software
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | Software|
- |label | Software|
- |supertype-id | Component|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Software | Software|Component|
 
 ### API
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | API|
- |label | API|
- |supertype-id | Software|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |API | API|Software|
 
 ### UserInterface
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | UserInterface|
- |label | User interface|
- |supertype-id | Software|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |UserInterface | User interface|Software|
 
 ### Tutorial
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | Tutorial|
- |label | Tutorial|
- |supertype-id | Documentation|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Tutorial | Tutorial|Documentation|
 
 ### WebSite
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | WebSite|
- |label | Web site|
- |supertype-id | Application|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |WebSite | Web site|Application|
 
 ### WebApplication
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | WebApplication|
- |label | WebApplication|
- |supertype-id | Application|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |WebApplication | WebApplication|Application|
 
 ### WebService
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | WebService|
- |label | Web Service|
- |supertype-id | Application|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |WebService | Web Service|Application|
 
 ### SPARQLEndpoint
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | SPARQLEndpoint|
- |label | SPARQL Endpoint|
- |supertype-id | WebService|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |SPARQLEndpoint | SPARQL Endpoint|WebService|
 
 ### Survey
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | Survey|
- |label | Survey|
- |supertype-id | Report|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Survey | Survey|Report|
 
 ### EcosystemWebsite
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | EcosystemWebsite|
- |label | Ecosystem Website|
- |supertype-id | Web site|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |EcosystemWebsite | Ecosystem Website|Web site|
 
 ### MobileApp
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | MobileApp|
- |label | Mobile application|
- |supertype-id | Application|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |MobileApp | Mobile application|Application|
 
 ### CLITool
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | CLITool|
- |label | Command Line Interface Tool|
- |supertype-id | Application|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |CLITool | Command Line Interface Tool|Application|
 
 ### SoftwareLibrary
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | SoftwareLibrary|
- |label | Software Library|
- |supertype-id | Software|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |SoftwareLibrary | Software Library|Software|
 
 ### DockerImageContainer
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | DockerImageContainer|
- |label | Docker Image Container|
- |supertype-id | Software|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |DockerImageContainer | Docker Image Container|Software|
 
 ### Application
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | Application|
- |label | Application|
- |supertype-id | Component|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Application | Application|Component|
 
 ### Ontology
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | Ontology|
- |label | Ontology|
- |supertype-id | Data|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Ontology | Ontology|Data|
 
 ### Notebook
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | Notebook|
- |label | Notebook|
- |supertype-id | Software|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Notebook | Notebook|Software|
 
 ### Script
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | Script|
- |label | Script|
- |supertype-id | Software|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Script | Script|Software|
 
 ### Corpus
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | Corpus|
- |label | Corpus|
- |supertype-id | Data|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Corpus | Corpus|Data|
 
 ### Lexicon
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | Lexicon|
- |label | Lexicon|
- |supertype-id | Data|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Lexicon | Lexicon|Data|
 
 ### KnowledgeGraph
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | KnowledgeGraph|
- |label | Knowledge Graph|
- |supertype-id | Data|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |KnowledgeGraph | Knowledge Graph|Data|
 
 ### InPresenceSurvey
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | InPresenceSurvey|
- |label | In presence survey|
- |supertype-id | Survey|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |InPresenceSurvey | In presence survey|Survey|
 
 ### FocusGroup
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | FocusGroup|
- |label | Focus Group|
- |supertype-id | Survey|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |FocusGroup | Focus Group|Survey|
 
 ### Story
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | Story|
- |label | Story|
- |supertype-id | RequirementsCollection|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Story | Story|RequirementsCollection|
 
 ### Persona
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | Persona|
- |label | Persona|
- |supertype-id | RequirementsCollection|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Persona | Persona|RequirementsCollection|
 
 ### Report
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | Report|
- |label | Report|
- |supertype-id | Component|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Report | Report|Component|
 
 ### Deliverable
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | Deliverable|
- |label | Deliverable|
- |supertype-id | Report |
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Deliverable | Deliverable|Report |
 
 ### Documentation
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | Documentation|
- |label | Documentation|
- |supertype-id | Report|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Documentation | Documentation|Report|
 
 ### EvaluationReport
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | EvaluationReport|
- |label | Evaluation Report|
- |supertype-id | Report|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |EvaluationReport | Evaluation Report|Report|
 
 ### WorkingGroup
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | WorkingGroup|
- |label | Working Group|
- |supertype-id | Container|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |WorkingGroup | Working Group|Container|
 
 ### WorkPackage
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | WorkPackage|
- |label | Work Package|
- |supertype-id | Container|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |WorkPackage | Work Package|Container|
 
 ### Task
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | Task|
- |label | Task|
- |supertype-id | Container|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Task | Task|Container|
 
 ### UseCase
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | UseCase|
- |label | Use Case|
- |supertype-id | Container|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |UseCase | Use Case|Container|
 
 ### Pilot
 
 
-| <!-- --> | <!-- --> |
- | ----- | ----- |
- |type | Pilot|
- |label | Pilot|
- |supertype-id | Container|
+| Type | Label | Super type | 
+ | ----- | ----- | ----- |
+ |Pilot | Pilot|Container|
 
 
 ## Terms
