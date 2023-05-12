@@ -50,7 +50,7 @@ funder:
   - name: Lorem Ipsum Funder
     url: https://www.lorem-ipsum-funder.org
     grant-agreement: "01234556"
-    credits: "This project has received funding from the Lorem Ipsum Funder research and innovation programme under grant agreement 01234556."
+credits: "This project has received funding from the Lorem Ipsum Funder research and innovation programme under grant agreement 01234556."
 bibliography:
 - main-publication: "Brown, L. (2019). The Role of Parenting Styles in Child Development. Child Development Perspectives, 13(3), 145-153."
 - publication: 
@@ -81,8 +81,14 @@ type: Software
 name: The Fabulous Source Code
 description: Source code of The Fabulous
 logo: https://www.example.org/logo.png
-demo: https://www.example.org/fabulous/demo
+work-package: 
+- WP1
+- WP2
+pilot:
+- ThePilot
+project: a-fabulous-project
 resource: https://github.com/fabulous-inc/repo1/releases
+demo: https://www.example.org/fabulous/demo
 release-date: 2023/01/18
 release-number: v1.0-alpha
 release-link: https://github.com/fabulous-inc/repo1/releases/tag/v0.8.1
@@ -113,6 +119,8 @@ related-components:
   - The AI code generator http://www.my-software-factory.com
 - evaluated-in:
   - fabulous-evaluation
+credits: "This project has received funding from the Lorem Ipsum Funder research and innovation programme under grant agreement 01234556."
+
 ---
 
 # The Fabulous Component
