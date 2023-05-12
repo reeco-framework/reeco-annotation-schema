@@ -27,7 +27,7 @@ funder:
   - name: Lorem Ipsum Funder
     url: https://www.lorem-ipsum-funder.org
     grant-agreement: "01234556"
-    credits: "This project has received funding from the Lorem Ipsum Funder research and innovation programme under grant agreement 01234556."
+credits: "This project has received funding from the Lorem Ipsum Funder research and innovation programme under grant agreement 01234556."
 bibliography:
 - main-publication: "Brown, L. (2019). The Role of Parenting Styles in Child Development. Child Development Perspectives, 13(3), 145-153."
 - publication: 
@@ -58,8 +58,9 @@ type: Software
 name: The Fabulous Source Code
 description: Source code of The Fabulous
 logo: https://www.example.org/logo.png
-demo: https://www.example.org/fabulous/demo
+
 resource: https://github.com/fabulous-inc/repo1/releases
+demo: https://www.example.org/fabulous/demo
 release-date: 2023/01/18
 release-number: v1.0-alpha
 release-link: https://github.com/fabulous-inc/repo1/releases/tag/v0.8.1
@@ -90,6 +91,8 @@ related-components:
   - The AI code generator http://www.my-software-factory.com
 - evaluated-in:
   - fabulous-evaluation
+credits: "This project has received funding from the Lorem Ipsum Funder research and innovation programme under grant agreement 01234556."
+
 ---
 
 # The Fabulous Component
@@ -162,7 +165,7 @@ Component types:
    - [name](#name)
    - [url](#url)
    - [grant-agreement](#grant-agreement)
-   - [credits](#credits)
+ - [credits](#credits)
  - [ro-crate](#ro-crate)
  - [work-package](#work-package)
  - [pilot](#pilot)
@@ -184,6 +187,9 @@ Component types:
  - [description](#description)
  - [image](#image)
  - [logo](#logo)
+ - [work-package](#work-package)
+ - [pilot](#pilot)
+ - [project](#project)
  - [resource](#resource)
  - [demo](#demo)
  - [release-date](#release-date)
@@ -213,9 +219,6 @@ Component types:
    - [main-report](#main-report)
    - [report](#report)
    - [deliverable-document](#deliverable-document)
- - [work-package](#work-package)
- - [pilot](#pilot)
- - [project](#project)
  - [credits](#credits)
 
 ## Types (A-Z)
@@ -679,7 +682,7 @@ copyright: "http://my.organisation.org"
 
 | Term | Label | Scope | Super term | Mandatory |
 | ---- | ---- | ---- | ---- | ---- |
- | credits | credits | Container | funder | N
+ | credits | credits | Container |  | N
 
 
 
@@ -688,11 +691,7 @@ Credits
 Example:
 
 ```
-funder:
-- name: H2020
-  url: www.example.org
-  grant-agreement: ABC123456
-  credits: "This project was funded by the European Union"
+credits: "This project was funded by the European Union"
 ```
 
 The term credits can also be used in a Component
