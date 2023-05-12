@@ -23,7 +23,7 @@ class Schema:
         terms = []
         for t in sorted(self._yaml['terms'], key = lambda pos: self._yaml['terms'][pos]['_position']):
             o = self._yaml['terms'][t]
-            if 'super-term' in o.keys() and term == o['super-term']:
+            if o['scope'] == term['scope'] and 'super-term' in o.keys() and term['term'] == o['super-term']:
                 terms.append(o)
         return terms
 
