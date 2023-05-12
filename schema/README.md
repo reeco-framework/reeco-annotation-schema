@@ -58,7 +58,12 @@ type: Software
 name: The Fabulous Source Code
 description: Source code of The Fabulous
 logo: https://www.example.org/logo.png
-
+work-package: 
+- WP1
+- WP2
+pilot:
+- ThePilot
+project: a-fabulous-project
 resource: https://github.com/fabulous-inc/repo1/releases
 demo: https://www.example.org/fabulous/demo
 release-date: 2023/01/18
