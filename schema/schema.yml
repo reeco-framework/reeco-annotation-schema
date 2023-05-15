@@ -797,31 +797,6 @@ terms:
     xsd-datatype:
     - string
     yaml-type: List.String
-  Component/related-component:
-    _position: 42
-    constraint: N
-    description: List of components that are related to this one.
-    domain:
-    - Component
-    example-values:
-    - "related-component:\n- informed-by: component-local-11\n- use-case: \n   - component-local-12\n\
-      \   - component-local-13\n- story: [ story1, story2 ]"
-    label: "related \ncomponent"
-    mandatory: N
-    ro-crate: isRelatedTo
-    schema: "could be several:\nhttps://schema.org/supportingData \nhttps://schema.org/isBasedOn\n\
-      https://schema.org/usageInfo "
-    scope: Component
-    spar: 'cito:usesDataFrom / cito:providesDataFor
-
-      cito:usesMethodIn / cito:providesMethodFor
-
-      cito:isExtendedBy / cito:extends'
-    term: related-component
-    unique: N
-    xsd-datatype:
-    - Component
-    yaml-type: List.Dictionary
   Component/related-component/derived-from:
     _position: 53
     constraint: N
@@ -1048,6 +1023,31 @@ terms:
     - string
     - anyURI
     yaml-type: List.String
+  Component/related-components:
+    _position: 42
+    constraint: N
+    description: List of components that are related to this one.
+    domain:
+    - Component
+    example-values:
+    - "related-components:\n- informed-by: component-local-11\n- use-case: \n   -\
+      \ component-local-12\n   - component-local-13\n- story: [ story1, story2 ]"
+    label: "related \ncomponents"
+    mandatory: N
+    ro-crate: isRelatedTo
+    schema: "could be several:\nhttps://schema.org/supportingData \nhttps://schema.org/isBasedOn\n\
+      https://schema.org/usageInfo "
+    scope: Component
+    spar: 'cito:usesDataFrom / cito:providesDataFor
+
+      cito:usesMethodIn / cito:providesMethodFor
+
+      cito:isExtendedBy / cito:extends'
+    term: related-components
+    unique: N
+    xsd-datatype:
+    - Component
+    yaml-type: List.Dictionary
   Component/release-date:
     _position: 34
     constraint: Y

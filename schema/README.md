@@ -205,18 +205,7 @@ Component types:
  - [licence](#licence)
  - [copyright](#copyright)
  - [contributors](#contributors)
- - [related-component](#related-component)
-   - [informed-by](#informed-by)
-   - [use-case](#use-case)
-   - [story](#story)
-   - [persona](#persona)
-   - [documentation](#documentation)
-   - [evaluated-in](#evaluated-in)
-   - [extends](#extends)
-   - [reuses](#reuses)
-   - [serves](#serves)
-   - [generated-by](#generated-by)
-   - [derived-from](#derived-from)
+ - [related-components](#related-components)
  - [bibliography](#bibliography)
    - [published-in](#published-in)
    - [main-publication](#main-publication)
@@ -1366,12 +1355,12 @@ bibliography:
 
 ```
 
-### related-component
+### related-components
 
 | Term | Label | Scope | Super term | Mandatory |
 | ---- | ---- | ---- | ---- | ---- |
- | related-component | related 
-component | Component |  | N
+ | related-components | related 
+components | Component |  | N
 
 
 
@@ -1380,7 +1369,7 @@ List of components that are related to this one.
 Example:
 
 ```
-related-component:
+related-components:
 - informed-by: component-local-11
 - use-case: 
    - component-local-12
