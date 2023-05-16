@@ -228,7 +228,7 @@ for term in sorted(terms, key = lambda x: x['term'].lower()):
         doneTerms.append(term['term'])
     else:
         TXT = TXT + "\nThe term " + term['term'] + " can also be used in a " + term['scope'] + "\n" 
-    TXT = TXT + "\n| Term | Label | Scope | Super term | Mandatory |"
+    TXT = TXT + "\n\n| Term | Label | Scope | Super term | Mandatory |"
     TXT = TXT + "\n|: ---- |: ---- |: ---- |: ---- | ---- |"
     ks = ['term', 'label', 'scope', 'super-term', 'mandatory']
     TXT = TXT + "\n"
