@@ -16,11 +16,11 @@ TXT = """# Annotation schema
 
 def makeLink(o):
     if 'type' in o:
-        return "[%s](#%s \"%s\")" % (o['type'],o['type'], SCHEMA.asString(o,'description'))
+        return "[%s](#%s \"%s\")" % (o['type'],o['type'], SCHEMA.asString(o,'description').replace('"','\\"'))
     if 'term' in o:
-        return "[%s](#%s \"%s\")" % (o['term'],o['term'], SCHEMA.asString(o,'description'))
+        return "[%s](#%s \"%s\")" % (o['term'],o['term'], SCHEMA.asString(o,'description').replace('"','\\"'))
     else:
-        return "[%s](#%s \"%s\")" % (o,o, SCHEMA.asString(o,'description'))
+        return "[%s](#%s \"%s\")" % (o,o, SCHEMA.asString(o,'description').replace('"','\\"'))
 
 SCHEMA = Schema()
 

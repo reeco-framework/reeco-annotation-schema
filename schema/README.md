@@ -206,7 +206,7 @@ Values can be the path to a file (if 1 file), the path to a folder (if many file
  - [changelog](#changelog "Link to a Changelog document, a file which contains a chronologically ordered list of notable changes for each version of the component.")
  - [licence](#licence "Link to a licence document of the resource, or a string pointing to one of the supported licences in the framework.")
  - [copyright](#copyright "Copyright info")
- - [contributors](#contributors "A list of contributors in the form: "Name <name.surname@mail.com>"")
+ - [contributors](#contributors "A list of contributors in the form: \"Name <name.surname@mail.com>\"")
  - [related-components](#related-components "List of components that are related to this one.")
    - [informed-by](#informed-by "The component was informed by another component (or resource), for example, a requirements document or a Persona, a Story, a use case, etc...")
    - [use-case](#use-case "Link to one or more use cases. This term is a specialisation of 'informed-by'")
@@ -220,7 +220,7 @@ Values can be the path to a file (if 1 file), the path to a folder (if many file
    - [generated-by](#generated-by "Link to a software, dataset, or any other component that produced or generated the current component. Can be a component or an external URL.")
    - [derived-from](#derived-from "Link to a resource from which this component was derived from.")
  - [bibliography](#bibliography "List of bibliographic references that are relevant to the component but that do not fall under a specific category. 
-Use "scientific work" for the main scholarly publication related to the component")
+Use \"scientific work\" for the main scholarly publication related to the component")
    - [published-in](#published-in "Link to a meaningful venue where the current component is served or published (e.g. a dataset published on a web portal).")
    - [main-publication](#main-publication "The primary, peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead).")
    - [publication](#publication "A peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead).")
