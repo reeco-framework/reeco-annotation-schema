@@ -1693,7 +1693,12 @@ types:
     type: WebSite
   Component:
     _position: 3
+    description: 'A component represents any output produced or used by the project. '
     label: Component
+    note: A component is typically associated to one or more digital objects (but
+      it does not have to). The ecosystem is expected to include a metadata record
+      for each component. However, it does not have to include a metadata record for
+      resources that are managed outside of the research project.
     sub-class-of: frapo:MaterialOutput
     type: Component
   Component/Application:
@@ -1704,11 +1709,12 @@ types:
     type: Application
   Component/Data:
     _position: 4
+    description: Data in the most general sense, produced or used.
     label: Data
     supertype-id: Component
     type: Data
   Component/Report:
-    _position: 37
+    _position: 38
     label: Report
     sub-class-of: fabio:Report
     supertype-id: Component
@@ -1721,41 +1727,47 @@ types:
     type: Software
   Container:
     _position: 1
+    description: A container groups ecosystem components under a common theme. Typically,
+      containers reflect research activities such as projects, working groups, etc...
     is-ro-crate: Y
     label: Container
+    note: A container groups a set of component together so that they can be seen
+      as a collection.
     type: Container
   Container/Pilot:
-    _position: 45
+    _position: 46
     label: Pilot
     sub-class-of: frapo:Investigation
     supertype-id: Container
     type: Pilot
   Container/Project:
     _position: 2
+    description: A project in the most general sense. Examples can be an open source
+      software development project or a spin-off applying the research in the industry.
     label: Project
     sub-class-of: prov:Activity
     supertype-id: Container
     type: Project
   Container/Task:
-    _position: 43
+    _position: 44
     label: Task
     sub-class-of: frapo:Investigation
     supertype-id: Container
     type: Task
   Container/UseCase:
-    _position: 44
+    _position: 45
     label: Use Case
     sub-class-of: frapo:Investigation
     supertype-id: Container
     type: UseCase
   Container/WorkPackage:
-    _position: 42
+    _position: 43
     label: Work Package
     sub-class-of: fabio:WorkPackage
     supertype-id: Container
     type: WorkPackage
   Container/WorkingGroup:
-    _position: 41
+    _position: 42
     label: Working Group
     sub-class-of: frapo:Division / frapo:ResearchGroup
     supertype-id: Container
@@ -1811,19 +1823,19 @@ types:
     supertype-id: Documentation
     type: Tutorial
   Report /Deliverable:
-    _position: 38
+    _position: 39
     label: Deliverable
     sub-class-of: fabio:ProjectReport
     supertype-id: 'Report '
     type: Deliverable
   Report/Documentation:
-    _position: 39
+    _position: 40
     label: Documentation
     sub-class-of: fabio:InstructionalWork
     supertype-id: Report
     type: Documentation
   Report/EvaluationReport:
-    _position: 40
+    _position: 41
     label: Evaluation Report
     supertype-id: Report
     type: EvaluationReport
@@ -1839,6 +1851,11 @@ types:
     sub-class-of: fabio:Questionnaire
     supertype-id: Report
     type: Survey
+  RequirementsCollection/Mockup:
+    _position: 37
+    label: Mockup
+    supertype-id: RequirementsCollection
+    type: Mockup
   RequirementsCollection/Persona:
     _position: 36
     label: Persona
