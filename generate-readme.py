@@ -229,7 +229,7 @@ for term in sorted(terms, key = lambda x: x['term'].lower()):
     else:
         TXT = TXT + "\nThe term " + term['term'] + " can also be used in a " + term['scope'] + "\n" 
     TXT = TXT + "\n\n| Term | Label | Scope | Super term | Mandatory |"
-    TXT = TXT + "\n|: ---- |: ---- |: ---- |: ---- | ---- |"
+    TXT = TXT + "\n| :---- | :---- | :---- | :---- | ---- |"
     ks = ['term', 'label', 'scope', 'super-term', 'mandatory']
     TXT = TXT + "\n"
     for k in ks:
@@ -258,7 +258,7 @@ TXT = TXT + """
 for licence in SCHEMA.licences():
     TXT = TXT + "\n### " + licence['title'] + "\n"
     TXT = TXT + "\n| Use code | Licence | Publisher | Legal text |"
-    TXT = TXT + "\n| ---- |: ---- |: ---- |: ---- |"
+    TXT = TXT + "\n| ---- | :---- | :---- |: ---- |"
     TXT = TXT + "\n| " + licence['title'] 
     TXT = TXT + " | `" + licence['code'] + '`'
     TXT = TXT + " | " + licence['publisher'] 
