@@ -90,6 +90,12 @@ class Schema:
             licences.append(o)
         return licences
 
+    def asString(self, item, key):
+        if key in item.keys():
+            return item[key]
+        else:
+            return ''
+
 # class MD:
 #     def isComponent(self):
 #         return True

@@ -141,13 +141,9 @@ Container types:
 """
 # List of container types
 for component in SCHEMA.containers():
-    TXT = TXT + "\n - " + makeLink(component)
-    if 'description' in component.keys():
-        TXT = TXT + " " + component['description']
+    TXT = TXT + "\n - " + makeLink(component) + " " + SCHEMA.asString(component, 'description')
     for sub1 in SCHEMA.subtypes(component['type']):
-        TXT = TXT + "\n   - " + makeLink(sub1) 
-        if 'description' in sub1.keys():
-            TXT = TXT + " " + sub1['description']
+        TXT = TXT + "\n   - " + makeLink(sub1) + " " + SCHEMA.asString(sub1, 'description')
 
 TXT = TXT + """
 
