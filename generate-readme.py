@@ -144,6 +144,8 @@ for component in SCHEMA.containers():
     TXT = TXT + "\n - " + makeLink(component) + " " + SCHEMA.asString(component, 'description')
     for sub1 in SCHEMA.subtypes(component['type']):
         TXT = TXT + "\n   - " + makeLink(sub1) + " " + SCHEMA.asString(sub1, 'description')
+        for sub2 in SCHEMA.subtypes(sub1['type']):
+            TXT = TXT + "\n   - " + makeLink(sub2) + " " + SCHEMA.asString(sub2, 'description')
 
 TXT = TXT + """
 
