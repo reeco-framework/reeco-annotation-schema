@@ -114,7 +114,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Container types:
 
- - [Project](#Project)
+ - [Project](#Project) A project in the most general sense. Examples can be an open source software development project or a spin-off applying the research in the industry.
  - [WorkingGroup](#WorkingGroup)
  - [WorkPackage](#WorkPackage)
  - [Task](#Task)
