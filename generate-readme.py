@@ -213,6 +213,7 @@ for typee in sorted(types, key = lambda x: x['type'].lower()):
         TXT = TXT + "\n\n" + str(typee[ 'description'])
     # if 'example-values' in term and term['example-values'].strip() != '':
     #    TXT = TXT + "\n\nExample:\n\n```\n" + str(term[ 'example-values']) + "\n```\n\n"
+    TXT = TXT + "\n\n --- \n\n"
 
 TXT = TXT + """
 
@@ -248,6 +249,7 @@ for term in sorted(terms, key = lambda x: x['term'].lower()):
         TXT = TXT + "\n\nExample:\n"
         for example in term['example-values']:
             TXT = TXT + "\n```\n" + str(example) + "\n```\n"
+    TXT = TXT + "\n\n --- \n\n"
 
 TXT = TXT + """
 

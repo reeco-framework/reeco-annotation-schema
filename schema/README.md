@@ -239,12 +239,20 @@ Use \"scientific work\" for the main scholarly publication related to the compon
  | ----- | ----- | ----- |
  |API | API|Software|
 
+
+ --- 
+
+
 ### Application
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
  |Application | Application|Component|
+
+
+ --- 
+
 
 ### CLITool
 
@@ -253,12 +261,20 @@ Use \"scientific work\" for the main scholarly publication related to the compon
  | ----- | ----- | ----- |
  |CLITool | Command Line Interface Tool|Application|
 
+
+ --- 
+
+
 ### Component
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
  |Component | Component||
+
+
+ --- 
+
 
 ### Container
 
@@ -267,12 +283,20 @@ Use \"scientific work\" for the main scholarly publication related to the compon
  | ----- | ----- | ----- |
  |Container | Container||
 
+
+ --- 
+
+
 ### Corpus
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
  |Corpus | Corpus|Data|
+
+
+ --- 
+
 
 ### Data
 
@@ -281,12 +305,20 @@ Use \"scientific work\" for the main scholarly publication related to the compon
  | ----- | ----- | ----- |
  |Data | Data|Component|
 
+
+ --- 
+
+
 ### Dataset
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
  |Dataset | Dataset|Data|
+
+
+ --- 
+
 
 ### Deliverable
 
@@ -295,12 +327,20 @@ Use \"scientific work\" for the main scholarly publication related to the compon
  | ----- | ----- | ----- |
  |Deliverable | Deliverable|Report |
 
+
+ --- 
+
+
 ### DockerImageContainer
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
  |DockerImageContainer | Docker Image Container|Software|
+
+
+ --- 
+
 
 ### Documentation
 
@@ -309,12 +349,20 @@ Use \"scientific work\" for the main scholarly publication related to the compon
  | ----- | ----- | ----- |
  |Documentation | Documentation|Report|
 
+
+ --- 
+
+
 ### EcosystemWebsite
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
  |EcosystemWebsite | Ecosystem Website|Web site|
+
+
+ --- 
+
 
 ### EvaluationReport
 
@@ -323,12 +371,20 @@ Use \"scientific work\" for the main scholarly publication related to the compon
  | ----- | ----- | ----- |
  |EvaluationReport | Evaluation Report|Report|
 
+
+ --- 
+
+
 ### FocusGroup
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
  |FocusGroup | Focus Group|Survey|
+
+
+ --- 
+
 
 ### InPresenceSurvey
 
@@ -337,12 +393,20 @@ Use \"scientific work\" for the main scholarly publication related to the compon
  | ----- | ----- | ----- |
  |InPresenceSurvey | In presence survey|Survey|
 
+
+ --- 
+
+
 ### KnowledgeGraph
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
  |KnowledgeGraph | Knowledge Graph|Data|
+
+
+ --- 
+
 
 ### Lexicon
 
@@ -351,12 +415,20 @@ Use \"scientific work\" for the main scholarly publication related to the compon
  | ----- | ----- | ----- |
  |Lexicon | Lexicon|Data|
 
+
+ --- 
+
+
 ### MobileApp
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
  |MobileApp | Mobile application|Application|
+
+
+ --- 
+
 
 ### Mockup
 
@@ -365,12 +437,20 @@ Use \"scientific work\" for the main scholarly publication related to the compon
  | ----- | ----- | ----- |
  |Mockup | Mockup|RequirementsCollection|
 
+
+ --- 
+
+
 ### Notebook
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
  |Notebook | Notebook|Software|
+
+
+ --- 
+
 
 ### Ontology
 
@@ -379,12 +459,20 @@ Use \"scientific work\" for the main scholarly publication related to the compon
  | ----- | ----- | ----- |
  |Ontology | Ontology|Data|
 
+
+ --- 
+
+
 ### Persona
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
  |Persona | Persona|RequirementsCollection|
+
+
+ --- 
+
 
 ### Pilot
 
@@ -393,12 +481,20 @@ Use \"scientific work\" for the main scholarly publication related to the compon
  | ----- | ----- | ----- |
  |Pilot | Pilot|Container|
 
+
+ --- 
+
+
 ### Project
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
  |Project | Project|Container|
+
+
+ --- 
+
 
 ### Registry
 
@@ -407,12 +503,20 @@ Use \"scientific work\" for the main scholarly publication related to the compon
  | ----- | ----- | ----- |
  |Registry | Registry|Data|
 
+
+ --- 
+
+
 ### Report
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
  |Report | Report|Component|
+
+
+ --- 
+
 
 ### Repository
 
@@ -421,12 +525,20 @@ Use \"scientific work\" for the main scholarly publication related to the compon
  | ----- | ----- | ----- |
  |Repository | Repository|Data|
 
+
+ --- 
+
+
 ### RequirementsCollection
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
  |RequirementsCollection | Requirements Collection|Report|
+
+
+ --- 
+
 
 ### Schema
 
@@ -435,12 +547,20 @@ Use \"scientific work\" for the main scholarly publication related to the compon
  | ----- | ----- | ----- |
  |Schema | Schema|Data|
 
+
+ --- 
+
+
 ### Script
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
  |Script | Script|Software|
+
+
+ --- 
+
 
 ### Software
 
@@ -449,12 +569,20 @@ Use \"scientific work\" for the main scholarly publication related to the compon
  | ----- | ----- | ----- |
  |Software | Software|Component|
 
+
+ --- 
+
+
 ### SoftwareLibrary
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
  |SoftwareLibrary | Software Library|Software|
+
+
+ --- 
+
 
 ### SPARQLEndpoint
 
@@ -463,12 +591,20 @@ Use \"scientific work\" for the main scholarly publication related to the compon
  | ----- | ----- | ----- |
  |SPARQLEndpoint | SPARQL Endpoint|WebService|
 
+
+ --- 
+
+
 ### Story
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
  |Story | Story|RequirementsCollection|
+
+
+ --- 
+
 
 ### Survey
 
@@ -477,12 +613,20 @@ Use \"scientific work\" for the main scholarly publication related to the compon
  | ----- | ----- | ----- |
  |Survey | Survey|Report|
 
+
+ --- 
+
+
 ### Task
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
  |Task | Task|Container|
+
+
+ --- 
+
 
 ### Tutorial
 
@@ -491,12 +635,20 @@ Use \"scientific work\" for the main scholarly publication related to the compon
  | ----- | ----- | ----- |
  |Tutorial | Tutorial|Documentation|
 
+
+ --- 
+
+
 ### UseCase
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
  |UseCase | Use Case|Container|
+
+
+ --- 
+
 
 ### UserInterface
 
@@ -505,12 +657,20 @@ Use \"scientific work\" for the main scholarly publication related to the compon
  | ----- | ----- | ----- |
  |UserInterface | User interface|Software|
 
+
+ --- 
+
+
 ### WebApplication
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
  |WebApplication | WebApplication|Application|
+
+
+ --- 
+
 
 ### WebService
 
@@ -519,12 +679,20 @@ Use \"scientific work\" for the main scholarly publication related to the compon
  | ----- | ----- | ----- |
  |WebService | Web Service|Application|
 
+
+ --- 
+
+
 ### WebSite
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
  |WebSite | Web site|Application|
+
+
+ --- 
+
 
 ### Workflow
 
@@ -533,6 +701,10 @@ Use \"scientific work\" for the main scholarly publication related to the compon
  | ----- | ----- | ----- |
  |Workflow | Workflow|Software|
 
+
+ --- 
+
+
 ### WorkingGroup
 
 
@@ -540,12 +712,20 @@ Use \"scientific work\" for the main scholarly publication related to the compon
  | ----- | ----- | ----- |
  |WorkingGroup | Working Group|Container|
 
+
+ --- 
+
+
 ### WorkPackage
 
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
  |WorkPackage | Work Package|Container|
+
+
+ --- 
+
 
 
 ## Terms (A-Z)
@@ -573,6 +753,10 @@ bibliography:
     - "Zhang, H., & Liu, Y. (2011). A Survey of Data Mining Techniques in Financial Analysis. Computer Science Project, 6(3), 12-18." 
 ```
 
+
+ --- 
+
+
 The term bibliography can also be used in a Component
 
 
@@ -596,6 +780,10 @@ bibliography:
     - "Zhang, H., & Liu, Y. (2011). A Survey of Data Mining Techniques in Financial Analysis. Computer Science Project, 6(3), 12-18." 
 ```
 
+
+ --- 
+
+
 ### changelog
 
 
@@ -618,6 +806,10 @@ changelog: "https://github.com/my-org/my-project/releases"
 changelog: "./CHANGELOG"
 ```
 
+
+ --- 
+
+
 ### component-id
 
 
@@ -635,6 +827,10 @@ Example:
 component-id: my-dataset1
 ```
 
+
+ --- 
+
+
 ### container-id
 
 
@@ -651,6 +847,10 @@ Example:
 ```
 container-id: my-open-source-project
 ```
+
+
+ --- 
+
 
 ### contributors
 
@@ -678,6 +878,10 @@ contributors:
 - Name Surname <URI|email|ORCID>*
 ```
 
+
+ --- 
+
+
 ### copyright
 
 
@@ -700,6 +904,10 @@ copyright: "The project contributors"
 copyright: "http://my.organisation.org"
 ```
 
+
+ --- 
+
+
 ### credits
 
 
@@ -717,6 +925,10 @@ Example:
 credits: "This project was funded by the European Union"
 ```
 
+
+ --- 
+
+
 The term credits can also be used in a Component
 
 
@@ -733,6 +945,10 @@ Example:
 ```
 This project was funded by the European Union
 ```
+
+
+ --- 
+
 
 ### deliverable-document
 
@@ -752,6 +968,10 @@ bibliography:
 - deliverable-document: 
   - "Smith, J. (2020). The Impact of Social Media on Mental Health. Technical Report."
 ```
+
+
+ --- 
+
 
 The term deliverable-document can also be used in a Component
 
@@ -773,6 +993,10 @@ bibliography:
 
 ```
 
+
+ --- 
+
+
 ### demo
 
 
@@ -789,6 +1013,10 @@ Example:
 ```
 http://data.open.ac.uk/sparql-demo 
 ```
+
+
+ --- 
+
 
 ### derived-from
 
@@ -809,6 +1037,10 @@ related-components:
      - my-component-algorithm
 ```
 
+
+ --- 
+
+
 ### description
 
 
@@ -826,6 +1058,10 @@ Example:
 description: "A longer description of a project, activity, or task."
 ```
 
+
+ --- 
+
+
 The term description can also be used in a Component
 
 
@@ -842,6 +1078,10 @@ Example:
 ```
 description: "A longer description of a dataset, a software, or some other component"
 ```
+
+
+ --- 
+
 
 ### documentation
 
@@ -861,6 +1101,10 @@ related-components:
   - documentation: 
      - component-source-javadoc
 ```
+
+
+ --- 
+
 
 ### doi
 
@@ -884,6 +1128,10 @@ doi: http://doi.org/10.xxxxxx
 doi: 10.zenodo.1234566
 ```
 
+
+ --- 
+
+
 ### evaluated-in
 
 
@@ -902,6 +1150,10 @@ related-components:
   - evaluated-in: 
      - component-notebook
 ```
+
+
+ --- 
+
 
 ### extends
 
@@ -922,6 +1174,10 @@ related-components:
      - "Apache Jena http://jena.apache.org"
      - other-component
 ```
+
+
+ --- 
+
 
 ### funder
 
@@ -946,6 +1202,10 @@ funder:
   grant-agreement: ABC234
 ```
 
+
+ --- 
+
+
 ### generated-by
 
 
@@ -964,6 +1224,10 @@ related-components:
   - generated-by: 
      - my-component-algorithm
 ```
+
+
+ --- 
+
 
 ### grant-agreement
 
@@ -988,6 +1252,10 @@ funder:
   grant-agreement: ABC234
 ```
 
+
+ --- 
+
+
 ### has-part
 
 
@@ -1008,6 +1276,10 @@ has-part:
 - other/repo/my-dataset
 ```
 
+
+ --- 
+
+
 ### image
 
 
@@ -1025,6 +1297,10 @@ Example:
 image: "http://www.example.org/image.jpg"
 ```
 
+
+ --- 
+
+
 The term image can also be used in a Component
 
 
@@ -1041,6 +1317,10 @@ Example:
 ```
 image: http://www.example.org/image.jpg
 ```
+
+
+ --- 
+
 
 ### informed-by
 
@@ -1061,6 +1341,10 @@ related-component:
    - requirement-document-1
    - http://www.link-to-website-with-requirements.com
 ```
+
+
+ --- 
+
 
 ### licence
 
@@ -1099,6 +1383,10 @@ licence:
 - CC-BY-SA_v4
 ```
 
+
+ --- 
+
+
 ### logo
 
 
@@ -1116,6 +1404,10 @@ Example:
 logo: "https://avatars.githubusercontent.com/u/79987779?s=200&v=4"
 ```
 
+
+ --- 
+
+
 The term logo can also be used in a Component
 
 
@@ -1132,6 +1424,10 @@ Example:
 ```
 logo: https://avatars.githubusercontent.com/u/79987779?s=200&v=4
 ```
+
+
+ --- 
+
 
 ### main-publication
 
@@ -1152,6 +1448,10 @@ bibliography:
 - main-publication: "Brown, L. (2019). The Role of Parenting Styles in Child Development. Child Development Perspectives, 13(3), 145-153."
 
 ```
+
+
+ --- 
+
 
 The term main-publication can also be used in a Component
 
@@ -1174,6 +1474,10 @@ bibliography:
 
 ```
 
+
+ --- 
+
+
 ### main-report
 
 
@@ -1192,6 +1496,10 @@ bibliography:
 - main-report: 
   - "Smith, J. (2020). The Impact of Social Media on Mental Health. Technical Report."
 ```
+
+
+ --- 
+
 
 The term main-report can also be used in a Component
 
@@ -1213,6 +1521,10 @@ bibliography:
 
 ```
 
+
+ --- 
+
+
 ### name
 
 
@@ -1229,6 +1541,10 @@ Example:
 ```
 name: "A short project name"
 ```
+
+
+ --- 
+
 
 The term name can also be used in a Container
 
@@ -1253,6 +1569,10 @@ funder:
   grant-agreement: ABC234
 ```
 
+
+ --- 
+
+
 The term name can also be used in a Component
 
 
@@ -1269,6 +1589,10 @@ Example:
 ```
 name: "The name of my database"
 ```
+
+
+ --- 
+
 
 ### persona
 
@@ -1290,6 +1614,10 @@ related-components:
      - Monica-component
 ```
 
+
+ --- 
+
+
 ### pilot
 
 
@@ -1307,6 +1635,10 @@ Example:
 - MEETUPS
 - BELLS
 ```
+
+
+ --- 
+
 
 The term pilot can also be used in a Component
 
@@ -1326,6 +1658,10 @@ Example:
 - BELLS
 ```
 
+
+ --- 
+
+
 ### project
 
 
@@ -1343,6 +1679,10 @@ Example:
 - polifonia
 ```
 
+
+ --- 
+
+
 The term project can also be used in a Component
 
 
@@ -1359,6 +1699,10 @@ Example:
 ```
 - polifonia
 ```
+
+
+ --- 
+
 
 ### publication
 
@@ -1378,6 +1722,10 @@ bibliography:
 - publication: 
   - "Smith, J. (2020). The Impact of Social Media on Mental Health. Journal of Psychology and Behavioral Sciences, 15(2), 45-62."
 ```
+
+
+ --- 
+
 
 The term publication can also be used in a Component
 
@@ -1399,6 +1747,10 @@ bibliography:
 
 ```
 
+
+ --- 
+
+
 ### published-in
 
 
@@ -1419,6 +1771,10 @@ bibliography:
     - "Kim, J., & Lee, S. (2019). A Novel Deep Learning Approach for Predicting Customer Behavior in E-commerce. International Journal of Computer Science, 14(3), 45-52. http://doi.org/10.xxxx "
 
 ```
+
+
+ --- 
+
 
 ### related-components
 
@@ -1443,6 +1799,10 @@ related-components:
 - story: [ story1, story2 ]
 ```
 
+
+ --- 
+
+
 ### release-date
 
 
@@ -1466,6 +1826,10 @@ release-date: 2022-02-02
 release-date: 2020-01-10T12:00:00
 ```
 
+
+ --- 
+
+
 ### release-link
 
 
@@ -1482,6 +1846,10 @@ Example:
 ```
 release-link: https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1
 ```
+
+
+ --- 
+
 
 ### release-number
 
@@ -1501,6 +1869,10 @@ Example:
 release-number: v0.1
 ```
 
+
+ --- 
+
+
 ### report
 
 
@@ -1519,6 +1891,10 @@ bibliography:
 - report: 
   - "Smith, J. (2020). The Impact of Social Media on Mental Health. Technical Report."
 ```
+
+
+ --- 
+
 
 The term report can also be used in a Component
 
@@ -1540,6 +1916,10 @@ bibliography:
   - deliverable-document: 
     - http://something.pdf 
 ```
+
+
+ --- 
+
 
 ### resource
 
@@ -1575,6 +1955,10 @@ resource: "http://data.open.ac.uk/sparql"
 
 ```
 
+
+ --- 
+
+
 ### reuses
 
 
@@ -1595,6 +1979,10 @@ related-components:
      - other-component
 ```
 
+
+ --- 
+
+
 ### ro-crate
 
 
@@ -1611,6 +1999,10 @@ Example:
 ```
 ro-crate: true
 ```
+
+
+ --- 
+
 
 ### serves
 
@@ -1632,6 +2024,10 @@ related-components:
      - my-dataset
 ```
 
+
+ --- 
+
+
 ### story
 
 
@@ -1652,6 +2048,10 @@ related-components:
      - story2-component
 ```
 
+
+ --- 
+
+
 ### type
 
 
@@ -1669,6 +2069,10 @@ Example:
 type: Project
 ```
 
+
+ --- 
+
+
 The term type can also be used in a Component
 
 
@@ -1685,6 +2089,10 @@ Example:
 ```
 type: Dataset
 ```
+
+
+ --- 
+
 
 ### url
 
@@ -1709,6 +2117,10 @@ funder:
   grant-agreement: ABC234
 ```
 
+
+ --- 
+
+
 ### use-case
 
 
@@ -1726,6 +2138,10 @@ Example:
 related-components:
   - use-case: my-use-case-component
 ```
+
+
+ --- 
+
 
 ### work-package
 
@@ -1747,6 +2163,10 @@ work-package:
 - WP5
 ```
 
+
+ --- 
+
+
 The term work-package can also be used in a Component
 
 
@@ -1766,6 +2186,10 @@ work-package:
 - WP1
 - WP5
 ```
+
+
+ --- 
+
 
 
 ## Licences
