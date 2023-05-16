@@ -169,13 +169,13 @@ TXT = TXT + """
 ### Terms for Containers
 """
 for term in SCHEMA.termsFor('Container'):
-    TXT = TXT + "\n - " + makeLink(term)
+    TXT = TXT + "\n - " + makeLink(term) + " " + SCHEMA.asString(term, 'description')
     for sub1 in SCHEMA.subterms(term):
-        TXT = TXT + "\n   - " + makeLink(sub1)
+        TXT = TXT + "\n   - " + makeLink(sub1) + " " + SCHEMA.asString(sub1, 'description')
         for sub2 in SCHEMA.subterms(sub1):
-            TXT = TXT + "\n     - " + makeLink(sub2)
+            TXT = TXT + "\n     - " + makeLink(sub2) + " " + SCHEMA.asString(sub2, 'description')
             for sub3 in SCHEMA.subterms(sub2):
-                TXT = TXT + "\n       - " + makeLink(sub3)
+                TXT = TXT + "\n       - " + makeLink(sub3) + " " + SCHEMA.asString(sub3, 'description')
     
 
 
@@ -185,15 +185,15 @@ TXT = TXT + """
 
 """
 for term in SCHEMA.termsFor('Component'):
-    TXT = TXT + "\n - " + makeLink(term)
+    TXT = TXT + "\n - " + makeLink(term) + " " + SCHEMA.asString(term, 'description')
     for sub1 in SCHEMA.subterms(term):
-        TXT = TXT + "\n   - " + makeLink(sub1)
+        TXT = TXT + "\n   - " + makeLink(sub1) + " " + SCHEMA.asString(sub1, 'description')
         for sub2 in SCHEMA.subterms(sub1):
-            TXT = TXT + "\n      - " + makeLink(sub2)
+            TXT = TXT + "\n      - " + makeLink(sub2) + " " + SCHEMA.asString(sub2, 'description')
             for sub3 in SCHEMA.subterms(sub2):
-                TXT = TXT + "\n        - " + makeLink(sub3)
+                TXT = TXT + "\n        - " + makeLink(sub3) + " " + SCHEMA.asString(sub3, 'description')
                 for sub4 in SCHEMA.subterms(sub4):
-                    TXT = TXT + "\n          - " + makeLink(sub4)
+                    TXT = TXT + "\n          - " + makeLink(sub4) + " " + SCHEMA.asString(sub4, 'description')
 
 TXT = TXT + """
 
@@ -229,7 +229,7 @@ for term in sorted(terms, key = lambda x: x['term'].lower()):
     else:
         TXT = TXT + "\nThe term " + term['term'] + " can also be used in a " + term['scope'] + "\n" 
     TXT = TXT + "\n| Term | Label | Scope | Super term | Mandatory |"
-    TXT = TXT + "\n| ---- | ---- | ---- | ---- | ---- |"
+    TXT = TXT + "\n|: ---- |: ---- |: ---- |: ---- | ---- |"
     ks = ['term', 'label', 'scope', 'super-term', 'mandatory']
     TXT = TXT + "\n"
     for k in ks:
@@ -257,10 +257,12 @@ TXT = TXT + """
 
 for licence in SCHEMA.licences():
     TXT = TXT + "\n### " + licence['title'] + "\n"
-    TXT = TXT + "\n\n*Licence:* " + licence['title'] 
-    TXT = TXT + "\n\n*Use code:* `" + licence['code'] + '`'
-    TXT = TXT + "\n\n*Publisher:* " + licence['publisher'] 
-    TXT = TXT + "\n\n*Legal text:* [" + licence['link'] + "](" + licence['link'] + ")\n\n"
+    TXT = TXT + "\n| Use code | Licence | Publisher | Legal text |"
+    TXT = TXT + "\n| ---- |: ---- |: ---- |: ---- |"
+    TXT = TXT + "\n| " + licence['title'] 
+    TXT = TXT + " | `" + licence['code'] + '`'
+    TXT = TXT + " | " + licence['publisher'] 
+    TXT = TXT + " | [" + licence['link'] + "](" + licence['link'] + ") |\n\n"
 
 with open(output_readme, "w") as text_file:
     text_file.write(TXT)

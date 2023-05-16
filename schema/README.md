@@ -161,71 +161,73 @@ Component types:
 
 ### Terms for Containers
 
- - [container-id](#container-id)
- - [type](#type)
- - [name](#name)
- - [description](#description)
- - [image](#image)
- - [logo](#logo)
- - [funder](#funder)
-   - [name](#name)
-   - [url](#url)
-   - [grant-agreement](#grant-agreement)
- - [credits](#credits)
- - [ro-crate](#ro-crate)
- - [work-package](#work-package)
- - [pilot](#pilot)
- - [project](#project)
- - [bibliography](#bibliography)
-   - [main-publication](#main-publication)
-   - [publication](#publication)
-   - [report](#report)
-   - [main-report](#main-report)
-   - [deliverable-document](#deliverable-document)
- - [has-part](#has-part)
+ - [container-id](#container-id) Local identifier of the container
+ - [type](#type) The type of container (Project, WorkPackage, ?)
+ - [name](#name) The container name
+ - [description](#description) A text describing the component
+ - [image](#image) Link to one reference image illustrating the component
+ - [logo](#logo) Logo of the component in Web format. Accepted image formats are JPEG and PNG.
+ - [funder](#funder) The name of the funding body of the project and the URL
+   - [name](#name) The name of the funder
+   - [url](#url) Link to the funder organisation web site
+   - [grant-agreement](#grant-agreement) Identifier of the grant agreement relative to the funding organisation
+ - [credits](#credits) Credits
+ - [ro-crate](#ro-crate) Specifies whether this yaml file is the reference file for creating a RO crate.
+ - [work-package](#work-package) The work package associated to this component, if any.
+ - [pilot](#pilot) A pilot application or case study
+ - [project](#project) The local id of the project
+ - [bibliography](#bibliography) List of bibliographic references that are relevant to the container (activity)
+   - [main-publication](#main-publication) The primary, peer reviewed scientific publication related to this research (if non peer-reviewed, use technical-report instead).
+   - [publication](#publication) A peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead).
+   - [report](#report) A document related to this component (if peer-reviewed publication, use publication instead).
+   - [main-report](#main-report) The primary document related to this research (if peer-reviewed publication, use scientific-work instead).
+   - [deliverable-document](#deliverable-document) Link to the deliverable document related to this activity
+ - [has-part](#has-part) List of components or containers that are parts of this container. Refer to components with organisation, repo and local id of the component
 
 ### Terms for Components
 
 
- - [component-id](#component-id)
- - [type](#type)
- - [name](#name)
- - [description](#description)
- - [image](#image)
- - [logo](#logo)
- - [work-package](#work-package)
- - [pilot](#pilot)
- - [project](#project)
- - [resource](#resource)
- - [demo](#demo)
- - [release-date](#release-date)
- - [release-number](#release-number)
- - [release-link](#release-link)
- - [doi](#doi)
- - [changelog](#changelog)
- - [licence](#licence)
- - [copyright](#copyright)
- - [contributors](#contributors)
- - [related-components](#related-components)
-   - [informed-by](#informed-by)
-   - [use-case](#use-case)
-   - [story](#story)
-   - [persona](#persona)
-   - [documentation](#documentation)
-   - [evaluated-in](#evaluated-in)
-   - [extends](#extends)
-   - [reuses](#reuses)
-   - [serves](#serves)
-   - [generated-by](#generated-by)
-   - [derived-from](#derived-from)
- - [bibliography](#bibliography)
-   - [published-in](#published-in)
-   - [main-publication](#main-publication)
-   - [publication](#publication)
-   - [main-report](#main-report)
-   - [report](#report)
-   - [deliverable-document](#deliverable-document)
- - [credits](#credits)
+ - [component-id](#component-id) The ID of the component in the Ecosystem. Can be a local identifier or a URI.
+ - [type](#type) The component type, according to the list of components available.
+ - [name](#name) The name of the component
+ - [description](#description) A text describing the component
+ - [image](#image) Link to one reference image illustrating the component
+ - [logo](#logo) Logo of the component in Web format. Accepted image formats are JPEG and PNG.
+ - [work-package](#work-package) The work package associated to this component, if any.
+ - [pilot](#pilot) A pilot application or case study
+ - [project](#project) The local id of the project
+ - [resource](#resource) The digital resource representing the component (e.g. if the component is of type Dataset, it may be my-dataset.csv or a folder in the repository). 
+Values can be the path to a file (if 1 file), the path to a folder (if many files), or absolute URL of an online file (DOIs should not be used, use `doi` instead). It can be a URL of a remote resource, e.g. a Website or Web api.
+ - [demo](#demo) Link to an online demo of the component
+ - [release-date](#release-date) The date the component was released. Accepted values include any valid XSD date.
+ - [release-number](#release-number) Version number of the release. Any value is permitted, although we recommend semantic versioning: https://semver.org/
+ - [release-link](#release-link) Link to access or download the component release
+ - [doi](#doi) The DOI of the GitHub repository related to this component, e.g. as published on Zenodo.org
+ - [changelog](#changelog) Link to a Changelog document, a file which contains a chronologically ordered list of notable changes for each version of the component.
+ - [licence](#licence) Link to a licence document of the resource, or a string pointing to one of the supported licences in the framework.
+ - [copyright](#copyright) Copyright info
+ - [contributors](#contributors) A list of contributors in the form: "Name <name.surname@mail.com>"
+ - [related-components](#related-components) List of components that are related to this one.
+   - [informed-by](#informed-by) The component was informed by another component (or resource), for example, a requirements document or a Persona, a Story, a use case, etc...
+   - [use-case](#use-case) Link to one or more use cases. This term is a specialisation of 'informed-by'
+   - [story](#story) Link to one or more user stories. This term is a specialisation of 'informed-by'.
+   - [persona](#persona) Link to one or more persona. This term is a specialisation of 'informed-by'.
+   - [documentation](#documentation) Link to the documentation of the component. 
+   - [evaluated-in](#evaluated-in) Link to a document (e.g. a user study) or source code demonstrating the validity of the component.
+   - [extends](#extends) Link to a component that is extended by the current component. If not a component, can be an external URI
+   - [reuses](#reuses) Link to a component that is reused as-is by the current component. Can be a component or an external URL.
+   - [serves](#serves) Link to a dataset that is served by the current component (e.g. an API). Can be a component or an external dataset.
+   - [generated-by](#generated-by) Link to a software, dataset, or any other component that produced or generated the current component. Can be a component or an external URL.
+   - [derived-from](#derived-from) Link to a resource from which this component was derived from.
+ - [bibliography](#bibliography) List of bibliographic references that are relevant to the component but that do not fall under a specific category. 
+Use "scientific work" for the main scholarly publication related to the component
+   - [published-in](#published-in) Link to a meaningful venue where the current component is served or published (e.g. a dataset published on a web portal).
+   - [main-publication](#main-publication) The primary, peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead).
+   - [publication](#publication) A peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead).
+   - [main-report](#main-report) The primary document related to this component (if peer-reviewed publication, use scientific-work instead).
+   - [report](#report) A document related to this component (if peer-reviewed publication, use publication instead).
+   - [deliverable-document](#deliverable-document) Link to the deliverable document related to this component
+ - [credits](#credits) Credits
 
 ## Types (A-Z)
 
@@ -552,7 +554,7 @@ Component types:
 ### bibliography
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | bibliography | bibliography | Container |  | N
 
 
@@ -573,7 +575,7 @@ bibliography:
 The term bibliography can also be used in a Component
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | bibliography | bibliography | Component |  | N
 
 
@@ -595,7 +597,7 @@ bibliography:
 ### changelog
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | changelog | changelog | Component |  | N
 
 
@@ -616,7 +618,7 @@ changelog: "./CHANGELOG"
 ### component-id
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | component-id | component ID | Component |  | Y
 
 
@@ -632,7 +634,7 @@ component-id: my-dataset1
 ### container-id
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | container-id | container identifier | Container |  | Y
 
 
@@ -648,7 +650,7 @@ container-id: my-open-source-project
 ### contributors
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | contributors | contributors | Component |  | N
 
 
@@ -673,7 +675,7 @@ contributors:
 ### copyright
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | copyright | copyright | Component |  | N
 
 
@@ -694,7 +696,7 @@ copyright: "http://my.organisation.org"
 ### credits
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | credits | credits | Container |  | N
 
 
@@ -710,7 +712,7 @@ credits: "This project was funded by the European Union"
 The term credits can also be used in a Component
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | credits | credits | Component |  | N
 
 
@@ -726,7 +728,7 @@ This project was funded by the European Union
 ### deliverable-document
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | deliverable-document | deliverable document | Container | bibliography | N
 
 
@@ -744,7 +746,7 @@ bibliography:
 The term deliverable-document can also be used in a Component
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | deliverable-document | deliverable document | Component | bibliography | N
 
 
@@ -763,7 +765,7 @@ bibliography:
 ### demo
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | demo | demo | Component |  | N
 
 
@@ -779,7 +781,7 @@ http://data.open.ac.uk/sparql-demo
 ### derived-from
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | derived-from | generated by | Component | related-components | N
 
 
@@ -797,7 +799,7 @@ related-components:
 ### description
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | description | description | Container |  | Y
 
 
@@ -813,7 +815,7 @@ description: "A longer description of a project, activity, or task."
 The term description can also be used in a Component
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | description | description | Component |  | Y
 
 
@@ -829,7 +831,7 @@ description: "A longer description of a dataset, a software, or some other compo
 ### documentation
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | documentation | documentation | Component | related-components | N
 
 
@@ -847,7 +849,7 @@ related-components:
 ### doi
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | doi | DOI | Component |  | N
 
 
@@ -868,7 +870,7 @@ doi: 10.zenodo.1234566
 ### evaluated-in
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | evaluated-in | evaluated in | Component | related-components | N
 
 
@@ -886,7 +888,7 @@ related-components:
 ### extends
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | extends | extends | Component | related-components | N
 
 
@@ -905,7 +907,7 @@ related-components:
 ### funder
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | funder | funder | Container |  | N
 
 
@@ -927,7 +929,7 @@ funder:
 ### generated-by
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | generated-by | generated by | Component | related-components | N
 
 
@@ -945,7 +947,7 @@ related-components:
 ### grant-agreement
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | grant-agreement | grant agreement | Container | funder | N
 
 
@@ -967,7 +969,7 @@ funder:
 ### has-part
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | has-part | has part | Container |  | N
 
 
@@ -986,7 +988,7 @@ has-part:
 ### image
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | image | image | Container |  | N
 
 
@@ -1002,7 +1004,7 @@ image: "http://www.example.org/image.jpg"
 The term image can also be used in a Component
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | image | image | Component |  | N
 
 
@@ -1018,7 +1020,7 @@ image: http://www.example.org/image.jpg
 ### informed-by
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | informed-by | informed by | Component | related-components | N
 
 
@@ -1037,7 +1039,7 @@ related-component:
 ### licence
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | licence | licence | Component |  | N
 
 
@@ -1073,7 +1075,7 @@ licence:
 ### logo
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | logo | logo | Container |  | N
 
 
@@ -1089,7 +1091,7 @@ logo: "https://avatars.githubusercontent.com/u/79987779?s=200&v=4"
 The term logo can also be used in a Component
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | logo | logo | Component |  | N
 
 
@@ -1105,7 +1107,7 @@ logo: https://avatars.githubusercontent.com/u/79987779?s=200&v=4
 ### main-publication
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | main-publication | main 
 publication | Container | bibliography | N
 
@@ -1124,7 +1126,7 @@ bibliography:
 The term main-publication can also be used in a Component
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | main-publication | main 
 publication | Component | bibliography | N
 
@@ -1144,7 +1146,7 @@ bibliography:
 ### main-report
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | main-report | main technical report | Container | bibliography | N
 
 
@@ -1162,7 +1164,7 @@ bibliography:
 The term main-report can also be used in a Component
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | main-report | main technical report | Component | bibliography | N
 
 
@@ -1181,7 +1183,7 @@ bibliography:
 ### name
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | name | container name | Container |  | Y
 
 
@@ -1197,7 +1199,7 @@ name: "A short project name"
 The term name can also be used in a Container
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | name | funder name | Container | funder | N
 
 
@@ -1219,7 +1221,7 @@ funder:
 The term name can also be used in a Component
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | name | name | Component |  | Y
 
 
@@ -1235,7 +1237,7 @@ name: "The name of my database"
 ### persona
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | persona | persona | Component | related-components | N
 
 
@@ -1254,7 +1256,7 @@ related-components:
 ### pilot
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | pilot | pilot | Container |  | N
 
 
@@ -1271,7 +1273,7 @@ Example:
 The term pilot can also be used in a Component
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | pilot | pilot | Component |  | N
 
 
@@ -1288,7 +1290,7 @@ Example:
 ### project
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | project | project | Container |  | N
 
 
@@ -1304,7 +1306,7 @@ Example:
 The term project can also be used in a Component
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | project | project | Component |  | N
 
 
@@ -1320,7 +1322,7 @@ Example:
 ### publication
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | publication | publication | Container | bibliography | N
 
 
@@ -1338,7 +1340,7 @@ bibliography:
 The term publication can also be used in a Component
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | publication | publication | Component | bibliography | N
 
 
@@ -1357,7 +1359,7 @@ bibliography:
 ### published-in
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | published-in | published in | Component | bibliography | N
 
 
@@ -1377,7 +1379,7 @@ bibliography:
 ### related-components
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | related-components | related 
 components | Component |  | N
 
@@ -1399,7 +1401,7 @@ related-components:
 ### release-date
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | release-date | release 
 date | Component |  | N
 
@@ -1421,7 +1423,7 @@ release-date: 2020-01-10T12:00:00
 ### release-link
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | release-link | release link | Component |  | N
 
 
@@ -1437,7 +1439,7 @@ release-link: https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0
 ### release-number
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | release-number | release 
 number | Component |  | N
 
@@ -1454,7 +1456,7 @@ release-number: v0.1
 ### report
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | report | technical report | Container | bibliography | N
 
 
@@ -1472,7 +1474,7 @@ bibliography:
 The term report can also be used in a Component
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | report | technical report | Component | bibliography | N
 
 
@@ -1492,7 +1494,7 @@ bibliography:
 ### resource
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | resource | resource | Component |  | N
 
 
@@ -1525,7 +1527,7 @@ resource: "http://data.open.ac.uk/sparql"
 ### reuses
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | reuses | reuses | Component | related-components | N
 
 
@@ -1544,7 +1546,7 @@ related-components:
 ### ro-crate
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | ro-crate | ro crate | Container |  | N
 
 
@@ -1560,7 +1562,7 @@ ro-crate: true
 ### serves
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | serves | serves data 
 from | Component | related-components | N
 
@@ -1579,7 +1581,7 @@ related-components:
 ### story
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | story | story | Component | related-components | N
 
 
@@ -1598,7 +1600,7 @@ related-components:
 ### type
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | type | container type | Container |  | Y
 
 
@@ -1614,7 +1616,7 @@ type: Project
 The term type can also be used in a Component
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | type | type | Component |  | Y
 
 
@@ -1630,7 +1632,7 @@ type: Dataset
 ### url
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | url | funder URL | Container | funder | N
 
 
@@ -1652,7 +1654,7 @@ funder:
 ### use-case
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | use-case | use case | Component | related-components | N
 
 
@@ -1669,7 +1671,7 @@ related-components:
 ### work-package
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | work-package | work 
 package | Container |  | N
 
@@ -1688,7 +1690,7 @@ work-package:
 The term work-package can also be used in a Component
 
 | Term | Label | Scope | Super term | Mandatory |
-| ---- | ---- | ---- | ---- | ---- |
+|: ---- |: ---- |: ---- |: ---- | ---- |
  | work-package | work 
 package | Component |  | N
 
@@ -1710,624 +1712,364 @@ work-package:
 
 ### Non-Commercial Government Licence
 
-
-*Licence:* Non-Commercial Government Licence
-
-*Use code:* `NonCommercialGovernmentLicence`
-
-*Publisher:* The National Archives
-
-*Legal text:* [http://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/version/2/](http://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/version/2/)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Non-Commercial Government Licence | `NonCommercialGovernmentLicence` | The National Archives | [http://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/version/2/](http://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/version/2/) |
 
 
 ### Python License-2.0
 
-
-*Licence:* Python License-2.0
-
-*Use code:* `PythonLicense20`
-
-*Publisher:* Python Software Foundation
-
-*Legal text:* [http://opensource.org/licenses/Python-2.0](http://opensource.org/licenses/Python-2.0)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Python License-2.0 | `PythonLicense20` | Python Software Foundation | [http://opensource.org/licenses/Python-2.0](http://opensource.org/licenses/Python-2.0) |
 
 
 ### CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
 
-
-*Licence:* CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
-
-*Use code:* `Cc010Universal`
-
-*Publisher:* Creative Commons
-
-*Legal text:* [https://creativecommons.org/publicdomain/zero/1.0/legalcode](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| CC0 1.0 Universal (CC0 1.0) Public Domain Dedication | `Cc010Universal` | Creative Commons | [https://creativecommons.org/publicdomain/zero/1.0/legalcode](https://creativecommons.org/publicdomain/zero/1.0/legalcode) |
 
 
 ### Creative Commons Attribution 4.0 International
 
-
-*Licence:* Creative Commons Attribution 4.0 International
-
-*Use code:* `CC-BY_v4`
-
-*Publisher:* Creative Commons
-
-*Legal text:* [https://creativecommons.org/licenses/by/4.0/legalcode](https://creativecommons.org/licenses/by/4.0/legalcode)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Creative Commons Attribution 4.0 International | `CC-BY_v4` | Creative Commons | [https://creativecommons.org/licenses/by/4.0/legalcode](https://creativecommons.org/licenses/by/4.0/legalcode) |
 
 
 ### Creative Commons Attribution-NonCommercial 4.0 International
 
-
-*Licence:* Creative Commons Attribution-NonCommercial 4.0 International
-
-*Use code:* `CC-BY-NC_v4`
-
-*Publisher:* Creative Commons
-
-*Legal text:* [https://creativecommons.org/licenses/by-nc/4.0/legalcode](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Creative Commons Attribution-NonCommercial 4.0 International | `CC-BY-NC_v4` | Creative Commons | [https://creativecommons.org/licenses/by-nc/4.0/legalcode](https://creativecommons.org/licenses/by-nc/4.0/legalcode) |
 
 
 ### Free Public License 1.0.0
 
-
-*Licence:* Free Public License 1.0.0
-
-*Use code:* `FreePublicLicense100`
-
-*Publisher:* - not specified -
-
-*Legal text:* [http://opensource.org/licenses/FPL-1.0.0](http://opensource.org/licenses/FPL-1.0.0)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Free Public License 1.0.0 | `FreePublicLicense100` | - not specified - | [http://opensource.org/licenses/FPL-1.0.0](http://opensource.org/licenses/FPL-1.0.0) |
 
 
 ### Open Data Licence Agreement
 
-
-*Licence:* Open Data Licence Agreement
-
-*Use code:* `OpenDataLicenceAgreement`
-
-*Publisher:* Office of the Commissioner of Lobbying
-
-*Legal text:* [https://lobbycanada.gc.ca/eic/site/012.nsf/eng/00873.html](https://lobbycanada.gc.ca/eic/site/012.nsf/eng/00873.html)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Open Data Licence Agreement | `OpenDataLicenceAgreement` | Office of the Commissioner of Lobbying | [https://lobbycanada.gc.ca/eic/site/012.nsf/eng/00873.html](https://lobbycanada.gc.ca/eic/site/012.nsf/eng/00873.html) |
 
 
 ### PHP License 3.0
 
-
-*Licence:* PHP License 3.0
-
-*Use code:* `PhpLicense30`
-
-*Publisher:* PHP Group
-
-*Legal text:* [http://opensource.org/licenses/PHP-3.0](http://opensource.org/licenses/PHP-3.0)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| PHP License 3.0 | `PhpLicense30` | PHP Group | [http://opensource.org/licenses/PHP-3.0](http://opensource.org/licenses/PHP-3.0) |
 
 
 ### WTFPL
 
-
-*Licence:* WTFPL
-
-*Use code:* `Wtfpl`
-
-*Publisher:* N.N.
-
-*Legal text:* [http://www.wtfpl.net/about/](http://www.wtfpl.net/about/)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| WTFPL | `Wtfpl` | N.N. | [http://www.wtfpl.net/about/](http://www.wtfpl.net/about/) |
 
 
 ### Apple Public Source License 2.0
 
-
-*Licence:* Apple Public Source License 2.0
-
-*Use code:* `ApplePublicSourceLicense20`
-
-*Publisher:* Apple
-
-*Legal text:* [http://opensource.org/licenses/APSL-2.0](http://opensource.org/licenses/APSL-2.0)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Apple Public Source License 2.0 | `ApplePublicSourceLicense20` | Apple | [http://opensource.org/licenses/APSL-2.0](http://opensource.org/licenses/APSL-2.0) |
 
 
 ### Q Public License Version 1.0
 
-
-*Licence:* Q Public License Version 1.0
-
-*Use code:* `QPublicLicenseVersion10`
-
-*Publisher:* Trolltech AS
-
-*Legal text:* [http://opensource.org/licenses/QPL-1.0](http://opensource.org/licenses/QPL-1.0)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Q Public License Version 1.0 | `QPublicLicenseVersion10` | Trolltech AS | [http://opensource.org/licenses/QPL-1.0](http://opensource.org/licenses/QPL-1.0) |
 
 
 ### GNU General Public License, Version 2
 
-
-*Licence:* GNU General Public License, Version 2
-
-*Use code:* `GNU_GPL_v2`
-
-*Publisher:* Free Software Foundation
-
-*Legal text:* [https://www.gnu.org/licenses/old-licenses/gpl-2.0.html](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| GNU General Public License, Version 2 | `GNU_GPL_v2` | Free Software Foundation | [https://www.gnu.org/licenses/old-licenses/gpl-2.0.html](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html) |
 
 
 ### W3C Software and Document Notice and License
 
-
-*Licence:* W3C Software and Document Notice and License
-
-*Use code:* `W3cSoftwareAndDocumentNoticeAndLicense`
-
-*Publisher:* W3C
-
-*Legal text:* [https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document](https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| W3C Software and Document Notice and License | `W3cSoftwareAndDocumentNoticeAndLicense` | W3C | [https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document](https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document) |
 
 
 ### Microsoft Public License
 
-
-*Licence:* Microsoft Public License
-
-*Use code:* `MicrosoftPublicLicense`
-
-*Publisher:* N.N.
-
-*Legal text:* [http://opensource.org/licenses/MS-PL](http://opensource.org/licenses/MS-PL)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Microsoft Public License | `MicrosoftPublicLicense` | N.N. | [http://opensource.org/licenses/MS-PL](http://opensource.org/licenses/MS-PL) |
 
 
 ### Data Exploration Licence
 
-
-*Licence:* Data Exploration Licence
-
-*Use code:* `DataExplorationLicence`
-
-*Publisher:* Ordnance Survey
-
-*Legal text:* [https://www.ordnancesurvey.co.uk/business-and-government/licensing/licences/data-exploration.html](https://www.ordnancesurvey.co.uk/business-and-government/licensing/licences/data-exploration.html)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Data Exploration Licence | `DataExplorationLicence` | Ordnance Survey | [https://www.ordnancesurvey.co.uk/business-and-government/licensing/licences/data-exploration.html](https://www.ordnancesurvey.co.uk/business-and-government/licensing/licences/data-exploration.html) |
 
 
 ### The Universal Permissive License (UPL), Version 1.0
 
-
-*Licence:* The Universal Permissive License (UPL), Version 1.0
-
-*Use code:* `TheUniversalPermissiveLicenseUplVersion10`
-
-*Publisher:* - not specified -
-
-*Legal text:* [http://opensource.org/licenses/UPL](http://opensource.org/licenses/UPL)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| The Universal Permissive License (UPL), Version 1.0 | `TheUniversalPermissiveLicenseUplVersion10` | - not specified - | [http://opensource.org/licenses/UPL](http://opensource.org/licenses/UPL) |
 
 
 ### Open Data Commons Attribution License v1.0
 
-
-*Licence:* Open Data Commons Attribution License v1.0
-
-*Use code:* `OpenDataCommonsAttributionLicenseV10`
-
-*Publisher:* Open Data Commons
-
-*Legal text:* [https://opendatacommons.org/licenses/by/1.0/](https://opendatacommons.org/licenses/by/1.0/)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Open Data Commons Attribution License v1.0 | `OpenDataCommonsAttributionLicenseV10` | Open Data Commons | [https://opendatacommons.org/licenses/by/1.0/](https://opendatacommons.org/licenses/by/1.0/) |
 
 
 ### Developer License
 
-
-*Licence:* Developer License
-
-*Use code:* `DeveloperLicense`
-
-*Publisher:* The National Archives
-
-*Legal text:* [http://www.nationalarchives.gov.uk/documents/information-management/developer-licence.pdf](http://www.nationalarchives.gov.uk/documents/information-management/developer-licence.pdf)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Developer License | `DeveloperLicense` | The National Archives | [http://www.nationalarchives.gov.uk/documents/information-management/developer-licence.pdf](http://www.nationalarchives.gov.uk/documents/information-management/developer-licence.pdf) |
 
 
 ### Cea Cnrs Inria Logiciel Libre License, version 2.1
 
-
-*Licence:* Cea Cnrs Inria Logiciel Libre License, version 2.1
-
-*Use code:* `CeaCnrsInriaLogicielLibreLicenseVersion21`
-
-*Publisher:*  CEA, CNRS, INRIA
-
-*Legal text:* [http://www.cecill.info/licences/Licence_CeCILL_V2.1-fr.html](http://www.cecill.info/licences/Licence_CeCILL_V2.1-fr.html)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Cea Cnrs Inria Logiciel Libre License, version 2.1 | `CeaCnrsInriaLogicielLibreLicenseVersion21` |  CEA, CNRS, INRIA | [http://www.cecill.info/licences/Licence_CeCILL_V2.1-fr.html](http://www.cecill.info/licences/Licence_CeCILL_V2.1-fr.html) |
 
 
 ### Apache License, Version 1.1
 
-
-*Licence:* Apache License, Version 1.1
-
-*Use code:* `Apache-1.1`
-
-*Publisher:* The Apache Software Foundation
-
-*Legal text:* [http://www.apache.org/licenses/LICENSE-1.1](http://www.apache.org/licenses/LICENSE-1.1)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Apache License, Version 1.1 | `Apache-1.1` | The Apache Software Foundation | [http://www.apache.org/licenses/LICENSE-1.1](http://www.apache.org/licenses/LICENSE-1.1) |
 
 
 ### GNU Free Documentation License version 1.3
 
-
-*Licence:* GNU Free Documentation License version 1.3
-
-*Use code:* `GnuFreeDocumentationLicense`
-
-*Publisher:* Free Software Foundation
-
-*Legal text:* [https://www.gnu.org/licenses/fdl.html](https://www.gnu.org/licenses/fdl.html)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| GNU Free Documentation License version 1.3 | `GnuFreeDocumentationLicense` | Free Software Foundation | [https://www.gnu.org/licenses/fdl.html](https://www.gnu.org/licenses/fdl.html) |
 
 
 ### Artistic License 2.0
 
-
-*Licence:* Artistic License 2.0
-
-*Use code:* `ArtisticLicense20`
-
-*Publisher:* N.N.
-
-*Legal text:* [http://opensource.org/licenses/Artistic-2.0](http://opensource.org/licenses/Artistic-2.0)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Artistic License 2.0 | `ArtisticLicense20` | N.N. | [http://opensource.org/licenses/Artistic-2.0](http://opensource.org/licenses/Artistic-2.0) |
 
 
 ### LaTeX Project Public License, Version 1.3c
 
-
-*Licence:* LaTeX Project Public License, Version 1.3c
-
-*Use code:* `LatexProjectPublicLicenseVersion13c`
-
-*Publisher:* LaTeX3 Project
-
-*Legal text:* [http://opensource.org/licenses/LPPL-1.3c](http://opensource.org/licenses/LPPL-1.3c)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| LaTeX Project Public License, Version 1.3c | `LatexProjectPublicLicenseVersion13c` | LaTeX3 Project | [http://opensource.org/licenses/LPPL-1.3c](http://opensource.org/licenses/LPPL-1.3c) |
 
 
 ### Eclipse Public License 1.0
 
-
-*Licence:* Eclipse Public License 1.0
-
-*Use code:* `EclipsePublicLicense10`
-
-*Publisher:* Eclipse
-
-*Legal text:* [http://opensource.org/licenses/EPL-1.0](http://opensource.org/licenses/EPL-1.0)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Eclipse Public License 1.0 | `EclipsePublicLicense10` | Eclipse | [http://opensource.org/licenses/EPL-1.0](http://opensource.org/licenses/EPL-1.0) |
 
 
 ### Computer Associates Trusted Open Source License 1.1
 
-
-*Licence:* Computer Associates Trusted Open Source License 1.1
-
-*Use code:* `ComputerAssociatesTrustedOpenSourceLicense11`
-
-*Publisher:* Computer Associates International, Inc. (CA)
-
-*Legal text:* [http://opensource.org/licenses/CATOSL-1.1](http://opensource.org/licenses/CATOSL-1.1)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Computer Associates Trusted Open Source License 1.1 | `ComputerAssociatesTrustedOpenSourceLicense11` | Computer Associates International, Inc. (CA) | [http://opensource.org/licenses/CATOSL-1.1](http://opensource.org/licenses/CATOSL-1.1) |
 
 
 ### INSPIRE End User Licence
 
-
-*Licence:* INSPIRE End User Licence
-
-*Use code:* `InspireEndUserLicence`
-
-*Publisher:* Ordnance Survey Limited
-
-*Legal text:* [https://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html](https://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| INSPIRE End User Licence | `InspireEndUserLicence` | Ordnance Survey Limited | [https://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html](https://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html) |
 
 
 ### Eclipse Public License 2.0
 
-
-*Licence:* Eclipse Public License 2.0
-
-*Use code:* `EclipsePublicLicense20`
-
-*Publisher:* N.N.
-
-*Legal text:* [http://opensource.org/licenses/EPL-2.0](http://opensource.org/licenses/EPL-2.0)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Eclipse Public License 2.0 | `EclipsePublicLicense20` | N.N. | [http://opensource.org/licenses/EPL-2.0](http://opensource.org/licenses/EPL-2.0) |
 
 
 ### Apache License, Version 2.0
 
-
-*Licence:* Apache License, Version 2.0
-
-*Use code:* `Apache-2.0`
-
-*Publisher:* The Apache Software Foundation
-
-*Legal text:* [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Apache License, Version 2.0 | `Apache-2.0` | The Apache Software Foundation | [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0) |
 
 
 ### ODC Public Domain Dedication and Licence (PDDL)
 
-
-*Licence:* ODC Public Domain Dedication and Licence (PDDL)
-
-*Use code:* `OdcPublicDomainDedicationAndLicence`
-
-*Publisher:* Open Data Commons
-
-*Legal text:* [https://opendatacommons.org/licenses/pddl/1.0/](https://opendatacommons.org/licenses/pddl/1.0/)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| ODC Public Domain Dedication and Licence (PDDL) | `OdcPublicDomainDedicationAndLicence` | Open Data Commons | [https://opendatacommons.org/licenses/pddl/1.0/](https://opendatacommons.org/licenses/pddl/1.0/) |
 
 
 ### Attribution Assurance License
 
-
-*Licence:* Attribution Assurance License
-
-*Use code:* `AttributionAssuranceLicense`
-
-*Publisher:* Edwin A. Suominen
-
-*Legal text:* [http://opensource.org/licenses/AAL](http://opensource.org/licenses/AAL)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Attribution Assurance License | `AttributionAssuranceLicense` | Edwin A. Suominen | [http://opensource.org/licenses/AAL](http://opensource.org/licenses/AAL) |
 
 
 ### Creative Commons Attribution-ShareAlike 4.0 International
 
-
-*Licence:* Creative Commons Attribution-ShareAlike 4.0 International
-
-*Use code:* `CC-BY-SA_v4`
-
-*Publisher:* Creative Commons
-
-*Legal text:* [https://creativecommons.org/licenses/by-sa/4.0/legalcode](https://creativecommons.org/licenses/by-sa/4.0/legalcode)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Creative Commons Attribution-ShareAlike 4.0 International | `CC-BY-SA_v4` | Creative Commons | [https://creativecommons.org/licenses/by-sa/4.0/legalcode](https://creativecommons.org/licenses/by-sa/4.0/legalcode) |
 
 
 ### Adaptive Public License 1.0
 
-
-*Licence:* Adaptive Public License 1.0
-
-*Use code:* `AdaptivePublicLicense10`
-
-*Publisher:* - not specified -
-
-*Legal text:* [http://opensource.org/licenses/APL-1.0](http://opensource.org/licenses/APL-1.0)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Adaptive Public License 1.0 | `AdaptivePublicLicense10` | - not specified - | [http://opensource.org/licenses/APL-1.0](http://opensource.org/licenses/APL-1.0) |
 
 
 ### ISC License
 
-
-*Licence:* ISC License
-
-*Use code:* `IscLicense`
-
-*Publisher:* N.N.
-
-*Legal text:* [http://opensource.org/licenses/ISC](http://opensource.org/licenses/ISC)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| ISC License | `IscLicense` | N.N. | [http://opensource.org/licenses/ISC](http://opensource.org/licenses/ISC) |
 
 
 ### Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
 
-
-*Licence:* Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
-
-*Use code:* `CC-BY-NC-ND_v4`
-
-*Publisher:* Creative Commons
-
-*Legal text:* [https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International | `CC-BY-NC-ND_v4` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode) |
 
 
 ### Open Supreme Court Licence
 
-
-*Licence:* Open Supreme Court Licence
-
-*Use code:* `OpenSupremeCourtLicence`
-
-*Publisher:* The National Archives UK
-
-*Legal text:* [http://www.nationalarchives.gov.uk/doc/open-supreme-court-licence/version/1/open-supreme-court-licence-version-1.0.pdf](http://www.nationalarchives.gov.uk/doc/open-supreme-court-licence/version/1/open-supreme-court-licence-version-1.0.pdf)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Open Supreme Court Licence | `OpenSupremeCourtLicence` | The National Archives UK | [http://www.nationalarchives.gov.uk/doc/open-supreme-court-licence/version/1/open-supreme-court-licence-version-1.0.pdf](http://www.nationalarchives.gov.uk/doc/open-supreme-court-licence/version/1/open-supreme-court-licence-version-1.0.pdf) |
 
 
 ### GNU Affero General Public License
 
-
-*Licence:* GNU Affero General Public License
-
-*Use code:* `AGPL`
-
-*Publisher:* GNU Affero General Public License
-
-*Legal text:* [https://www.gnu.org/licenses/agpl-3.0.html](https://www.gnu.org/licenses/agpl-3.0.html)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| GNU Affero General Public License | `AGPL` | GNU Affero General Public License | [https://www.gnu.org/licenses/agpl-3.0.html](https://www.gnu.org/licenses/agpl-3.0.html) |
 
 
 ### Creative Commons Attribution-NoDerivatives 4.0 International
 
-
-*Licence:* Creative Commons Attribution-NoDerivatives 4.0 International
-
-*Use code:* `CC-BY-ND_v4`
-
-*Publisher:* Creative Commons
-
-*Legal text:* [https://creativecommons.org/licenses/by-nd/4.0/legalcode](https://creativecommons.org/licenses/by-nd/4.0/legalcode)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Creative Commons Attribution-NoDerivatives 4.0 International | `CC-BY-ND_v4` | Creative Commons | [https://creativecommons.org/licenses/by-nd/4.0/legalcode](https://creativecommons.org/licenses/by-nd/4.0/legalcode) |
 
 
 ### Open Government Licence - Canada
 
-
-*Licence:* Open Government Licence - Canada
-
-*Use code:* `OpenGovernmentLicenceCanada`
-
-*Publisher:* Her Majesty the Queen in right of Canada
-
-*Legal text:* [https://open.canada.ca/en/open-government-licence-canada](https://open.canada.ca/en/open-government-licence-canada)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Open Government Licence - Canada | `OpenGovernmentLicenceCanada` | Her Majesty the Queen in right of Canada | [https://open.canada.ca/en/open-government-licence-canada](https://open.canada.ca/en/open-government-licence-canada) |
 
 
 ### Boost Software License 1.0
 
-
-*Licence:* Boost Software License 1.0
-
-*Use code:* `BoostSoftwareLicense10`
-
-*Publisher:* - not specified -
-
-*Legal text:* [http://opensource.org/licenses/BSL-1.0](http://opensource.org/licenses/BSL-1.0)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Boost Software License 1.0 | `BoostSoftwareLicense10` | - not specified - | [http://opensource.org/licenses/BSL-1.0](http://opensource.org/licenses/BSL-1.0) |
 
 
 ### Mozilla Public License Version 2.0
 
-
-*Licence:* Mozilla Public License Version 2.0
-
-*Use code:* `MozillaPublicLicenseVersion20`
-
-*Publisher:* Mozilla Corporation
-
-*Legal text:* [https://www.mozilla.org/en-US/MPL/2.0/](https://www.mozilla.org/en-US/MPL/2.0/)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Mozilla Public License Version 2.0 | `MozillaPublicLicenseVersion20` | Mozilla Corporation | [https://www.mozilla.org/en-US/MPL/2.0/](https://www.mozilla.org/en-US/MPL/2.0/) |
 
 
 ### GNU Lesser General Public License version 3.0
 
-
-*Licence:* GNU Lesser General Public License version 3.0
-
-*Use code:* `LGPLv3`
-
-*Publisher:* Free Software Foundation
-
-*Legal text:* [https://www.gnu.org/licenses/lgpl-3.0.html](https://www.gnu.org/licenses/lgpl-3.0.html)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| GNU Lesser General Public License version 3.0 | `LGPLv3` | Free Software Foundation | [https://www.gnu.org/licenses/lgpl-3.0.html](https://www.gnu.org/licenses/lgpl-3.0.html) |
 
 
 ### Academic Free License 3.0
 
-
-*Licence:* Academic Free License 3.0
-
-*Use code:* `AcademicFreeLicense30`
-
-*Publisher:* - not specified -
-
-*Legal text:* [http://opensource.org/licenses/AFL-3.0](http://opensource.org/licenses/AFL-3.0)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Academic Free License 3.0 | `AcademicFreeLicense30` | - not specified - | [http://opensource.org/licenses/AFL-3.0](http://opensource.org/licenses/AFL-3.0) |
 
 
 ### Common Public Attribution License Version 1.0
 
-
-*Licence:* Common Public Attribution License Version 1.0
-
-*Use code:* `CommonPublicAttributionLicenseVersion10`
-
-*Publisher:* Socialtext Incorporated
-
-*Legal text:* [http://opensource.org/licenses/CPAL-1.0](http://opensource.org/licenses/CPAL-1.0)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Common Public Attribution License Version 1.0 | `CommonPublicAttributionLicenseVersion10` | Socialtext Incorporated | [http://opensource.org/licenses/CPAL-1.0](http://opensource.org/licenses/CPAL-1.0) |
 
 
 ### ODC Open Database License (ODbL)
 
-
-*Licence:* ODC Open Database License (ODbL)
-
-*Use code:* `OdcOpenDatabaseLicense`
-
-*Publisher:* Socialtext Incorporated
-
-*Legal text:* [https://opendatacommons.org/licenses/odbl/1.0/](https://opendatacommons.org/licenses/odbl/1.0/)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| ODC Open Database License (ODbL) | `OdcOpenDatabaseLicense` | Socialtext Incorporated | [https://opendatacommons.org/licenses/odbl/1.0/](https://opendatacommons.org/licenses/odbl/1.0/) |
 
 
 ### Common Development and Distribution License 1.0
 
-
-*Licence:* Common Development and Distribution License 1.0
-
-*Use code:* `CommonDevelopmentAndDistributionLicense10`
-
-*Publisher:* N.N.
-
-*Legal text:* [http://opensource.org/licenses/CDDL-1.0](http://opensource.org/licenses/CDDL-1.0)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Common Development and Distribution License 1.0 | `CommonDevelopmentAndDistributionLicense10` | N.N. | [http://opensource.org/licenses/CDDL-1.0](http://opensource.org/licenses/CDDL-1.0) |
 
 
 ### The zlib libpng License
 
-
-*Licence:* The zlib libpng License
-
-*Use code:* `TheZlibLibpngLicense`
-
-*Publisher:* N.N.
-
-*Legal text:* [http://opensource.org/licenses/Zlib](http://opensource.org/licenses/Zlib)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| The zlib libpng License | `TheZlibLibpngLicense` | N.N. | [http://opensource.org/licenses/Zlib](http://opensource.org/licenses/Zlib) |
 
 
 ### SUN PUBLIC LICENSE Version 1.0
 
-
-*Licence:* SUN PUBLIC LICENSE Version 1.0
-
-*Use code:* `SunPublicLicenseVersion10`
-
-*Publisher:* Sun Microsystems, Inc.
-
-*Legal text:* [http://opensource.org/licenses/SPL-1.0](http://opensource.org/licenses/SPL-1.0)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| SUN PUBLIC LICENSE Version 1.0 | `SunPublicLicenseVersion10` | Sun Microsystems, Inc. | [http://opensource.org/licenses/SPL-1.0](http://opensource.org/licenses/SPL-1.0) |
 
 
 ### UK Open Government License for Public Sector Information
 
-
-*Licence:* UK Open Government License for Public Sector Information
-
-*Use code:* `UkOpenGovernmentLicenseForPublicSectorInformation`
-
-*Publisher:* UK Government
-
-*Legal text:* [http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| UK Open Government License for Public Sector Information | `UkOpenGovernmentLicenseForPublicSectorInformation` | UK Government | [http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) |
 
 
 ### Statistics Canada Open Licence Agreement
 
-
-*Licence:* Statistics Canada Open Licence Agreement
-
-*Use code:* `StatisticsCanadaOpenLicenceAgreement`
-
-*Publisher:* Statistics Canada
-
-*Legal text:* [https://www.statcan.gc.ca/eng/reference/licence](https://www.statcan.gc.ca/eng/reference/licence)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Statistics Canada Open Licence Agreement | `StatisticsCanadaOpenLicenceAgreement` | Statistics Canada | [https://www.statcan.gc.ca/eng/reference/licence](https://www.statcan.gc.ca/eng/reference/licence) |
 
 
 ### GNU General Public License 3
 
-
-*Licence:* GNU General Public License 3
-
-*Use code:* `GNU_GPL_v3`
-
-*Publisher:* Free Software Foundation
-
-*Legal text:* [https://www.gnu.org/licenses/gpl.html](https://www.gnu.org/licenses/gpl.html)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| GNU General Public License 3 | `GNU_GPL_v3` | Free Software Foundation | [https://www.gnu.org/licenses/gpl.html](https://www.gnu.org/licenses/gpl.html) |
 
 
 ### Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 
-
-*Licence:* Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
-
-*Use code:* `CC-BY-NC-SA_v4`
-
-*Publisher:* Creative Commons
-
-*Legal text:* [https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International | `CC-BY-NC-SA_v4` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) |
 
 
 ### Open Software License v. 3.0
 
-
-*Licence:* Open Software License v. 3.0
-
-*Use code:* `OpenSoftwareLicenseV30`
-
-*Publisher:* Lawrence Rosen
-
-*Legal text:* [http://opensource.org/licenses/OSL-3.0](http://opensource.org/licenses/OSL-3.0)
+| Use code | Licence | Publisher | Legal text |
+| ---- |: ---- |: ---- |: ---- |
+| Open Software License v. 3.0 | `OpenSoftwareLicenseV30` | Lawrence Rosen | [http://opensource.org/licenses/OSL-3.0](http://opensource.org/licenses/OSL-3.0) |
 
