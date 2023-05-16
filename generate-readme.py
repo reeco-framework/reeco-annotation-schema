@@ -16,11 +16,11 @@ TXT = """# Annotation schema
 
 def makeLink(o):
     if 'type' in o:
-        return "[%s](#%s)" % (o['type'],o['type'])
+        return "[%s](#%s \"%s\")" % (o['type'],o['type'], SCHEMA.asString(o,'description'))
     if 'term' in o:
-        return "[%s](#%s)" % (o['term'],o['term'])
+        return "[%s](#%s \"%s\")" % (o['term'],o['term'], SCHEMA.asString(o,'description'))
     else:
-        return "[%s](#%s)" % (o,o)
+        return "[%s](#%s \"%s\")" % (o,o, SCHEMA.asString(o,'description'))
 
 SCHEMA = Schema()
 
@@ -141,11 +141,11 @@ Container types:
 """
 # List of container types
 for component in SCHEMA.containers():
-    TXT = TXT + "\n - " + makeLink(component) + " " + SCHEMA.asString(component, 'description')
+    TXT = TXT + "\n - " + makeLink(component) 
     for sub1 in SCHEMA.subtypes(component['type']):
-        TXT = TXT + "\n   - " + makeLink(sub1) + " " + SCHEMA.asString(sub1, 'description')
+        TXT = TXT + "\n   - " + makeLink(sub1) 
         for sub2 in SCHEMA.subtypes(sub1['type']):
-            TXT = TXT + "\n   - " + makeLink(sub2) + " " + SCHEMA.asString(sub2, 'description')
+            TXT = TXT + "\n   - " + makeLink(sub2) 
 
 TXT = TXT + """
 
@@ -153,15 +153,15 @@ Component types:
 """
 # List of component types
 for component in SCHEMA.components():
-    TXT = TXT + "\n - " + makeLink(component) + " " + SCHEMA.asString(component, 'description')
+    TXT = TXT + "\n - " + makeLink(component) 
     for sub1 in SCHEMA.subtypes(component['type']):
-        TXT = TXT + "\n   - " + makeLink(sub1) + " " + SCHEMA.asString(sub1, 'description')
+        TXT = TXT + "\n   - " + makeLink(sub1) 
         for sub2 in SCHEMA.subtypes(sub1['type']):
-            TXT = TXT + "\n    - " + makeLink(sub2) + " " + SCHEMA.asString(sub2, 'description')
+            TXT = TXT + "\n    - " + makeLink(sub2) 
             for sub3 in SCHEMA.subtypes(sub2['type']):
-                TXT = TXT + "\n     - " + makeLink(sub3) + " " + SCHEMA.asString(sub3, 'description')
+                TXT = TXT + "\n     - " + makeLink(sub3) 
                 for sub4 in SCHEMA.subtypes(sub3['type']):
-                    TXT = TXT + "\n      - " + makeLink(sub4) + " " + SCHEMA.asString(sub4, 'description')
+                    TXT = TXT + "\n      - " + makeLink(sub4) 
  
 # List of terms to annotate containers
 TXT = TXT + """
@@ -169,13 +169,13 @@ TXT = TXT + """
 ### Terms for Containers
 """
 for term in SCHEMA.termsFor('Container'):
-    TXT = TXT + "\n - " + makeLink(term) + " " + SCHEMA.asString(term, 'description')
+    TXT = TXT + "\n - " + makeLink(term) 
     for sub1 in SCHEMA.subterms(term):
-        TXT = TXT + "\n   - " + makeLink(sub1) + " " + SCHEMA.asString(sub1, 'description')
+        TXT = TXT + "\n   - " + makeLink(sub1) 
         for sub2 in SCHEMA.subterms(sub1):
-            TXT = TXT + "\n     - " + makeLink(sub2) + " " + SCHEMA.asString(sub2, 'description')
+            TXT = TXT + "\n     - " + makeLink(sub2) 
             for sub3 in SCHEMA.subterms(sub2):
-                TXT = TXT + "\n       - " + makeLink(sub3) + " " + SCHEMA.asString(sub3, 'description')
+                TXT = TXT + "\n       - " + makeLink(sub3) 
     
 
 
@@ -185,15 +185,15 @@ TXT = TXT + """
 
 """
 for term in SCHEMA.termsFor('Component'):
-    TXT = TXT + "\n - " + makeLink(term) + " " + SCHEMA.asString(term, 'description')
+    TXT = TXT + "\n - " + makeLink(term) 
     for sub1 in SCHEMA.subterms(term):
-        TXT = TXT + "\n   - " + makeLink(sub1) + " " + SCHEMA.asString(sub1, 'description')
+        TXT = TXT + "\n   - " + makeLink(sub1) 
         for sub2 in SCHEMA.subterms(sub1):
-            TXT = TXT + "\n      - " + makeLink(sub2) + " " + SCHEMA.asString(sub2, 'description')
+            TXT = TXT + "\n      - " + makeLink(sub2) 
             for sub3 in SCHEMA.subterms(sub2):
-                TXT = TXT + "\n        - " + makeLink(sub3) + " " + SCHEMA.asString(sub3, 'description')
+                TXT = TXT + "\n        - " + makeLink(sub3) 
                 for sub4 in SCHEMA.subterms(sub4):
-                    TXT = TXT + "\n          - " + makeLink(sub4) + " " + SCHEMA.asString(sub4, 'description')
+                    TXT = TXT + "\n          - " + makeLink(sub4) 
 
 TXT = TXT + """
 

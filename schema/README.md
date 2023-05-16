@@ -114,120 +114,120 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Container types:
 
- - [Project](#Project) A project in the most general sense. Examples can be an open source software development project or a spin-off applying the research in the industry.
- - [WorkingGroup](#WorkingGroup) 
- - [WorkPackage](#WorkPackage) 
- - [Task](#Task) 
- - [UseCase](#UseCase) 
- - [Pilot](#Pilot) 
+ - [Project](#Project "A project in the most general sense. Examples can be an open source software development project or a spin-off applying the research in the industry.")
+ - [WorkingGroup](#WorkingGroup "")
+ - [WorkPackage](#WorkPackage "")
+ - [Task](#Task "")
+ - [UseCase](#UseCase "")
+ - [Pilot](#Pilot "")
 
 Component types:
 
- - [Data](#Data) Data in the most general sense, produced or used.
-   - [Dataset](#Dataset) 
-   - [Schema](#Schema) 
-   - [Repository](#Repository) 
-   - [Registry](#Registry) 
-   - [Ontology](#Ontology) 
-   - [Corpus](#Corpus) 
-   - [Lexicon](#Lexicon) 
-   - [KnowledgeGraph](#KnowledgeGraph) 
- - [Software](#Software) 
-   - [Workflow](#Workflow) 
-   - [API](#API) 
-   - [UserInterface](#UserInterface) 
-   - [SoftwareLibrary](#SoftwareLibrary) 
-   - [DockerImageContainer](#DockerImageContainer) 
-   - [Notebook](#Notebook) 
-   - [Script](#Script) 
- - [Application](#Application) 
-   - [WebSite](#WebSite) 
-   - [WebApplication](#WebApplication) 
-   - [WebService](#WebService) E.g. Web APIs
-    - [SPARQLEndpoint](#SPARQLEndpoint) 
-   - [MobileApp](#MobileApp) 
-   - [CLITool](#CLITool) 
- - [Report](#Report) 
-   - [RequirementsCollection](#RequirementsCollection) 
-    - [Story](#Story) 
-    - [Persona](#Persona) 
-    - [Mockup](#Mockup) 
-   - [Survey](#Survey) 
-    - [InPresenceSurvey](#InPresenceSurvey) 
-    - [FocusGroup](#FocusGroup) 
-   - [Documentation](#Documentation) 
-    - [Tutorial](#Tutorial) 
-   - [EvaluationReport](#EvaluationReport) 
+ - [Data](#Data "Data in the most general sense, produced or used.")
+   - [Dataset](#Dataset "")
+   - [Schema](#Schema "")
+   - [Repository](#Repository "")
+   - [Registry](#Registry "")
+   - [Ontology](#Ontology "")
+   - [Corpus](#Corpus "")
+   - [Lexicon](#Lexicon "")
+   - [KnowledgeGraph](#KnowledgeGraph "")
+ - [Software](#Software "")
+   - [Workflow](#Workflow "")
+   - [API](#API "")
+   - [UserInterface](#UserInterface "")
+   - [SoftwareLibrary](#SoftwareLibrary "")
+   - [DockerImageContainer](#DockerImageContainer "")
+   - [Notebook](#Notebook "")
+   - [Script](#Script "")
+ - [Application](#Application "")
+   - [WebSite](#WebSite "")
+   - [WebApplication](#WebApplication "")
+   - [WebService](#WebService "E.g. Web APIs")
+    - [SPARQLEndpoint](#SPARQLEndpoint "")
+   - [MobileApp](#MobileApp "")
+   - [CLITool](#CLITool "")
+ - [Report](#Report "")
+   - [RequirementsCollection](#RequirementsCollection "")
+    - [Story](#Story "")
+    - [Persona](#Persona "")
+    - [Mockup](#Mockup "")
+   - [Survey](#Survey "")
+    - [InPresenceSurvey](#InPresenceSurvey "")
+    - [FocusGroup](#FocusGroup "")
+   - [Documentation](#Documentation "")
+    - [Tutorial](#Tutorial "")
+   - [EvaluationReport](#EvaluationReport "")
 
 ### Terms for Containers
 
- - [container-id](#container-id) Local identifier of the container
- - [type](#type) The type of container (Project, WorkPackage, ?)
- - [name](#name) The container name
- - [description](#description) A text describing the component
- - [image](#image) Link to one reference image illustrating the component
- - [logo](#logo) Logo of the component in Web format. Accepted image formats are JPEG and PNG.
- - [funder](#funder) The name of the funding body of the project and the URL
-   - [name](#name) The name of the funder
-   - [url](#url) Link to the funder organisation web site
-   - [grant-agreement](#grant-agreement) Identifier of the grant agreement relative to the funding organisation
- - [credits](#credits) Credits
- - [ro-crate](#ro-crate) Specifies whether this yaml file is the reference file for creating a RO crate.
- - [work-package](#work-package) The work package associated to this component, if any.
- - [pilot](#pilot) A pilot application or case study
- - [project](#project) The local id of the project
- - [bibliography](#bibliography) List of bibliographic references that are relevant to the container (activity)
-   - [main-publication](#main-publication) The primary, peer reviewed scientific publication related to this research (if non peer-reviewed, use technical-report instead).
-   - [publication](#publication) A peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead).
-   - [report](#report) A document related to this component (if peer-reviewed publication, use publication instead).
-   - [main-report](#main-report) The primary document related to this research (if peer-reviewed publication, use scientific-work instead).
-   - [deliverable-document](#deliverable-document) Link to the deliverable document related to this activity
- - [has-part](#has-part) List of components or containers that are parts of this container. Refer to components with organisation, repo and local id of the component
+ - [container-id](#container-id "Local identifier of the container")
+ - [type](#type "The type of container (Project, WorkPackage, ?)")
+ - [name](#name "The container name")
+ - [description](#description "A text describing the component")
+ - [image](#image "Link to one reference image illustrating the component")
+ - [logo](#logo "Logo of the component in Web format. Accepted image formats are JPEG and PNG.")
+ - [funder](#funder "The name of the funding body of the project and the URL")
+   - [name](#name "The name of the funder")
+   - [url](#url "Link to the funder organisation web site")
+   - [grant-agreement](#grant-agreement "Identifier of the grant agreement relative to the funding organisation")
+ - [credits](#credits "Credits")
+ - [ro-crate](#ro-crate "Specifies whether this yaml file is the reference file for creating a RO crate.")
+ - [work-package](#work-package "The work package associated to this component, if any.")
+ - [pilot](#pilot "A pilot application or case study")
+ - [project](#project "The local id of the project")
+ - [bibliography](#bibliography "List of bibliographic references that are relevant to the container (activity)")
+   - [main-publication](#main-publication "The primary, peer reviewed scientific publication related to this research (if non peer-reviewed, use technical-report instead).")
+   - [publication](#publication "A peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead).")
+   - [report](#report "A document related to this component (if peer-reviewed publication, use publication instead).")
+   - [main-report](#main-report "The primary document related to this research (if peer-reviewed publication, use scientific-work instead).")
+   - [deliverable-document](#deliverable-document "Link to the deliverable document related to this activity")
+ - [has-part](#has-part "List of components or containers that are parts of this container. Refer to components with organisation, repo and local id of the component")
 
 ### Terms for Components
 
 
- - [component-id](#component-id) The ID of the component in the Ecosystem. Can be a local identifier or a URI.
- - [type](#type) The component type, according to the list of components available.
- - [name](#name) The name of the component
- - [description](#description) A text describing the component
- - [image](#image) Link to one reference image illustrating the component
- - [logo](#logo) Logo of the component in Web format. Accepted image formats are JPEG and PNG.
- - [work-package](#work-package) The work package associated to this component, if any.
- - [pilot](#pilot) A pilot application or case study
- - [project](#project) The local id of the project
- - [resource](#resource) The digital resource representing the component (e.g. if the component is of type Dataset, it may be my-dataset.csv or a folder in the repository). 
-Values can be the path to a file (if 1 file), the path to a folder (if many files), or absolute URL of an online file (DOIs should not be used, use `doi` instead). It can be a URL of a remote resource, e.g. a Website or Web api.
- - [demo](#demo) Link to an online demo of the component
- - [release-date](#release-date) The date the component was released. Accepted values include any valid XSD date.
- - [release-number](#release-number) Version number of the release. Any value is permitted, although we recommend semantic versioning: https://semver.org/
- - [release-link](#release-link) Link to access or download the component release
- - [doi](#doi) The DOI of the GitHub repository related to this component, e.g. as published on Zenodo.org
- - [changelog](#changelog) Link to a Changelog document, a file which contains a chronologically ordered list of notable changes for each version of the component.
- - [licence](#licence) Link to a licence document of the resource, or a string pointing to one of the supported licences in the framework.
- - [copyright](#copyright) Copyright info
- - [contributors](#contributors) A list of contributors in the form: "Name <name.surname@mail.com>"
- - [related-components](#related-components) List of components that are related to this one.
-   - [informed-by](#informed-by) The component was informed by another component (or resource), for example, a requirements document or a Persona, a Story, a use case, etc...
-   - [use-case](#use-case) Link to one or more use cases. This term is a specialisation of 'informed-by'
-   - [story](#story) Link to one or more user stories. This term is a specialisation of 'informed-by'.
-   - [persona](#persona) Link to one or more persona. This term is a specialisation of 'informed-by'.
-   - [documentation](#documentation) Link to the documentation of the component. 
-   - [evaluated-in](#evaluated-in) Link to a document (e.g. a user study) or source code demonstrating the validity of the component.
-   - [extends](#extends) Link to a component that is extended by the current component. If not a component, can be an external URI
-   - [reuses](#reuses) Link to a component that is reused as-is by the current component. Can be a component or an external URL.
-   - [serves](#serves) Link to a dataset that is served by the current component (e.g. an API). Can be a component or an external dataset.
-   - [generated-by](#generated-by) Link to a software, dataset, or any other component that produced or generated the current component. Can be a component or an external URL.
-   - [derived-from](#derived-from) Link to a resource from which this component was derived from.
- - [bibliography](#bibliography) List of bibliographic references that are relevant to the component but that do not fall under a specific category. 
-Use "scientific work" for the main scholarly publication related to the component
-   - [published-in](#published-in) Link to a meaningful venue where the current component is served or published (e.g. a dataset published on a web portal).
-   - [main-publication](#main-publication) The primary, peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead).
-   - [publication](#publication) A peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead).
-   - [main-report](#main-report) The primary document related to this component (if peer-reviewed publication, use scientific-work instead).
-   - [report](#report) A document related to this component (if peer-reviewed publication, use publication instead).
-   - [deliverable-document](#deliverable-document) Link to the deliverable document related to this component
- - [credits](#credits) Credits
+ - [component-id](#component-id "The ID of the component in the Ecosystem. Can be a local identifier or a URI.")
+ - [type](#type "The component type, according to the list of components available.")
+ - [name](#name "The name of the component")
+ - [description](#description "A text describing the component")
+ - [image](#image "Link to one reference image illustrating the component")
+ - [logo](#logo "Logo of the component in Web format. Accepted image formats are JPEG and PNG.")
+ - [work-package](#work-package "The work package associated to this component, if any.")
+ - [pilot](#pilot "A pilot application or case study")
+ - [project](#project "The local id of the project")
+ - [resource](#resource "The digital resource representing the component (e.g. if the component is of type Dataset, it may be my-dataset.csv or a folder in the repository). 
+Values can be the path to a file (if 1 file), the path to a folder (if many files), or absolute URL of an online file (DOIs should not be used, use `doi` instead). It can be a URL of a remote resource, e.g. a Website or Web api.")
+ - [demo](#demo "Link to an online demo of the component")
+ - [release-date](#release-date "The date the component was released. Accepted values include any valid XSD date.")
+ - [release-number](#release-number "Version number of the release. Any value is permitted, although we recommend semantic versioning: https://semver.org/")
+ - [release-link](#release-link "Link to access or download the component release")
+ - [doi](#doi "The DOI of the GitHub repository related to this component, e.g. as published on Zenodo.org")
+ - [changelog](#changelog "Link to a Changelog document, a file which contains a chronologically ordered list of notable changes for each version of the component.")
+ - [licence](#licence "Link to a licence document of the resource, or a string pointing to one of the supported licences in the framework.")
+ - [copyright](#copyright "Copyright info")
+ - [contributors](#contributors "A list of contributors in the form: "Name <name.surname@mail.com>"")
+ - [related-components](#related-components "List of components that are related to this one.")
+   - [informed-by](#informed-by "The component was informed by another component (or resource), for example, a requirements document or a Persona, a Story, a use case, etc...")
+   - [use-case](#use-case "Link to one or more use cases. This term is a specialisation of 'informed-by'")
+   - [story](#story "Link to one or more user stories. This term is a specialisation of 'informed-by'.")
+   - [persona](#persona "Link to one or more persona. This term is a specialisation of 'informed-by'.")
+   - [documentation](#documentation "Link to the documentation of the component. ")
+   - [evaluated-in](#evaluated-in "Link to a document (e.g. a user study) or source code demonstrating the validity of the component.")
+   - [extends](#extends "Link to a component that is extended by the current component. If not a component, can be an external URI")
+   - [reuses](#reuses "Link to a component that is reused as-is by the current component. Can be a component or an external URL.")
+   - [serves](#serves "Link to a dataset that is served by the current component (e.g. an API). Can be a component or an external dataset.")
+   - [generated-by](#generated-by "Link to a software, dataset, or any other component that produced or generated the current component. Can be a component or an external URL.")
+   - [derived-from](#derived-from "Link to a resource from which this component was derived from.")
+ - [bibliography](#bibliography "List of bibliographic references that are relevant to the component but that do not fall under a specific category. 
+Use "scientific work" for the main scholarly publication related to the component")
+   - [published-in](#published-in "Link to a meaningful venue where the current component is served or published (e.g. a dataset published on a web portal).")
+   - [main-publication](#main-publication "The primary, peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead).")
+   - [publication](#publication "A peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead).")
+   - [main-report](#main-report "The primary document related to this component (if peer-reviewed publication, use scientific-work instead).")
+   - [report](#report "A document related to this component (if peer-reviewed publication, use publication instead).")
+   - [deliverable-document](#deliverable-document "Link to the deliverable document related to this component")
+ - [credits](#credits "Credits")
 
 ## Types (A-Z)
 
