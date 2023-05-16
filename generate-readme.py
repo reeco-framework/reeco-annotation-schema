@@ -153,15 +153,15 @@ Component types:
 """
 # List of component types
 for component in SCHEMA.components():
-    TXT = TXT + "\n - " + makeLink(component)
+    TXT = TXT + "\n - " + makeLink(component) + " " + SCHEMA.asString(component, 'description')
     for sub1 in SCHEMA.subtypes(component['type']):
-        TXT = TXT + "\n   - " + makeLink(sub1)
+        TXT = TXT + "\n   - " + makeLink(sub1) + " " + SCHEMA.asString(sub1, 'description')
         for sub2 in SCHEMA.subtypes(sub1['type']):
-            TXT = TXT + "\n    - " + makeLink(sub2)
+            TXT = TXT + "\n    - " + makeLink(sub2) + " " + SCHEMA.asString(sub2, 'description')
             for sub3 in SCHEMA.subtypes(sub2['type']):
-                TXT = TXT + "\n     - " + makeLink(sub3)
+                TXT = TXT + "\n     - " + makeLink(sub3) + " " + SCHEMA.asString(sub3, 'description')
                 for sub4 in SCHEMA.subtypes(sub3['type']):
-                    TXT = TXT + "\n      - " + makeLink(sub4)
+                    TXT = TXT + "\n      - " + makeLink(sub4) + " " + SCHEMA.asString(sub4, 'description')
  
 # List of terms to annotate containers
 TXT = TXT + """
