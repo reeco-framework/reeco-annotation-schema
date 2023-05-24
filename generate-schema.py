@@ -13,6 +13,9 @@ types_csv = 'https://docs.google.com/spreadsheets/d/%s/gviz/tq?tqx=out:csv&sheet
 licences_csv = 'https://docs.google.com/spreadsheets/d/%s/gviz/tq?tqx=out:csv&sheet=%s' % (doc, licences_tab)
 
 output_yml = "./schema/schema.yml"
+licences_yml = "./schema/licences.yml"
+component_yml = "./schema/component.yml"
+container_yml = "./schema/container.yml"
 
 split_by = {
     'enum':',',
@@ -63,3 +66,14 @@ schema['types'] = types
 schema['terms'] = terms
 schema['licences'] = licences
 yaml.dump(schema,open(output_yml,'w'))
+
+component = {}
+container = {}
+for kt in terms.keys():
+    if terms[kt]['scope'] == 'Component':
+        component[terms[kt]['term']] = terms[kt]
+    if terms[kt]['scope'] == 'Container':
+        container[terms[kt]['term']] = terms[kt]
+yaml.dump(component,open(component_yml,'w'))
+yaml.dump(container,open(container_yml,'w'))
+yaml.dump(licences,open(licences_yml,'w'))
