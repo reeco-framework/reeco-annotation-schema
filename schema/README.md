@@ -2200,8 +2200,9 @@ work-package:
 
 | Use code | Licence | Publisher | Legal text |
 | :---- | :---- | :---- |: ---- |
-| Non-Commercial Government Licence | `NonCommercialGovernmentLicence` | The National Archives | [http://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/version/2/](http://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/version/2/) |
+| Non-Commercial Government Licence | `NonCommercialGovernmentLicence` | The National Archives | http://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/version/2/ |
 
+Link to legal text: [http://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/version/2/](http://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/version/2/) 
 
 ### Python License-2.0
 
