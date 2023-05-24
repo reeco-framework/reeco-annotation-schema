@@ -70,13 +70,16 @@ yaml.dump(schema,open(output_yml,'w'))
 component = []
 container = []
 for kt in terms.keys():
-    t = { terms[kt]['term']: None }
-    for ktt in terms[kt].keys():
-        t[ktt] = terms[kt][ktt]
+    # t = { terms[kt]['term']: None }
+    #     for ktt in terms[kt].keys():
+    #    t[ktt] = terms[kt][ktt]
     if terms[kt]['scope'] == 'Component':
-        component.append(t)
+        component.append(terms[kt])
     if terms[kt]['scope'] == 'Container':
-        container.append(t)
+        container.append(terms[kt])
 yaml.dump(component,open(component_yml,'w'))
 yaml.dump(container,open(container_yml,'w'))
-yaml.dump(licences,open(licences_yml,'w'))
+licences2 = []
+for l in licences.keys():
+    licences2.append(licences[l])
+yaml.dump(licences2,open(licences_yml,'w'))

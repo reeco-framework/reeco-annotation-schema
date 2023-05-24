@@ -1,6 +1,5 @@
 - _position: 1
   constraint: Y
-  container-id: null
   description: Local identifier of the container
   domain:
   - Container
@@ -27,7 +26,6 @@
   mandatory: Y
   scope: Container
   term: type
-  type: null
   unique: N
   xsd-datatype:
   - string
@@ -41,7 +39,6 @@
   - 'name: "A short project name"'
   label: container name
   mandatory: Y
-  name: null
   ro-crate: name
   scope: Container
   term: name
@@ -74,7 +71,6 @@
   - Container
   example-values:
   - 'image: "http://www.example.org/image.jpg"'
-  image: null
   label: image
   mandatory: N
   ro-crate: image
@@ -95,7 +91,6 @@
   example-values:
   - 'logo: "https://avatars.githubusercontent.com/u/79987779?s=200&v=4"'
   label: logo
-  logo: null
   mandatory: N
   regex: ^http[s]?://.+$
   ro-crate: logo
@@ -114,7 +109,6 @@
   example-values:
   - "funder:\n- name: H2020\n  url: www.example.org\n  grant-agreement: ABC123456\n\
     - name: AHRC\n  url: www.another.org\n  grant-agreement: ABC234"
-  funder: null
   label: funder
   mandatory: N
   ro-crate: funder[Organization]
@@ -135,7 +129,6 @@
     - name: AHRC\n  url: www.another.org\n  grant-agreement: ABC234"
   label: funder name
   mandatory: N
-  name: null
   ro-crate: funder[Organization]/name
   scope: Container
   super-term: funder
@@ -160,7 +153,6 @@
   super-term: funder
   term: url
   unique: N
-  url: null
   xsd-datatype:
   - anyURI
   yaml-type: String
@@ -172,7 +164,6 @@
   example-values:
   - "funder:\n- name: H2020\n  url: www.example.org\n  grant-agreement: ABC123456\n\
     - name: AHRC\n  url: www.another.org\n  grant-agreement: ABC234"
-  grant-agreement: null
   label: grant agreement
   mandatory: N
   ro-crate: funder[Organization]/funding[Grant]/identifier
@@ -188,7 +179,6 @@
   yaml-type: String
 - _position: 11
   constraint: N
-  credits: null
   description: Credits
   domain:
   - Container
@@ -241,7 +231,6 @@
   spar: frbr:partOf
   term: work-package
   unique: N
-  work-package: null
   xsd-datatype:
   - 'string '
   yaml-type: List.String
@@ -256,7 +245,6 @@
     - BELLS'
   label: pilot
   mandatory: N
-  pilot: null
   ro-crate: isPartOf
   schema: https://schema.org/isPartOf
   scope: Container
@@ -275,7 +263,6 @@
   - '- polifonia'
   label: project
   mandatory: N
-  project: null
   ro-crate: isPartOf
   scope: Container
   term: project
@@ -284,7 +271,6 @@
   - string
   yaml-type: List.String
 - _position: 16
-  bibliography: null
   constraint: N
   description: List of bibliographic references that are relevant to the container
     (activity)
@@ -325,7 +311,6 @@
 
     '
   label: "main \npublication"
-  main-publication: null
   mandatory: N
   ro-crate: cito:isReferencedBy
   scope: Container
@@ -348,7 +333,6 @@
     \ 45-62.\""
   label: publication
   mandatory: N
-  publication: null
   ro-crate: cito:isReferencedBy
   scope: Container
   super-term: bibliography
@@ -369,7 +353,6 @@
     \ on Mental Health. Technical Report.\""
   label: technical report
   mandatory: N
-  report: null
   scope: Container
   super-term: bibliography
   term: report
@@ -388,7 +371,6 @@
   - "bibliography:\n- main-report: \n  - \"Smith, J. (2020). The Impact of Social\
     \ Media on Mental Health. Technical Report.\""
   label: main technical report
-  main-report: null
   mandatory: N
   ro-crate: cito:isDocumentedBy
   scope: Container
@@ -401,7 +383,6 @@
   yaml-type: String
 - _position: 21
   constraint: N
-  deliverable-document: null
   description: Link to the deliverable document related to this activity
   domain:
   - Container
@@ -435,7 +416,6 @@
     - polifonia/meetups/my-dataset
 
     - other/repo/my-dataset'
-  has-part: null
   label: has part
   mandatory: N
   regex: '[^\s]+(/[^\s]+(/[^\s]+)?)?'
