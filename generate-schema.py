@@ -73,10 +73,19 @@ for kt in terms.keys():
     # t = { terms[kt]['term']: None }
     #     for ktt in terms[kt].keys():
     #    t[ktt] = terms[kt][ktt]
+    term = terms[kt]
+    subterms = []
+    # Looking for subterms
+    for t in terms.keys():
+        subterm = terms[t]
+        if subterm['scope'] == term['scope'] and 'super-term' in subterm.keys() and subterm['super-term'] == term['term']:
+            subterms.append(subterm)
+    if len(subterms) > 0:
+        term['terms'] = subterms
     if terms[kt]['scope'] == 'Component':
-        component.append(terms[kt])
+        component.append(term)
     if terms[kt]['scope'] == 'Container':
-        container.append(terms[kt])
+        container.append(term)
 yaml.dump(component,open(component_yml,'w'))
 yaml.dump(container,open(container_yml,'w'))
 licences2 = []
