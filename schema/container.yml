@@ -1,5 +1,290 @@
-bibliography:
-  _position: 16
+- _position: 1
+  constraint: Y
+  container-id: null
+  description: Local identifier of the container
+  domain:
+  - Container
+  example-values:
+  - 'container-id: my-open-source-project'
+  label: container identifier
+  mandatory: Y
+  regex: '[^\s]+(/[^\s]+(/[^\s]+)?)?'
+  ro-crate: '@ id '
+  scope: Container
+  term: container-id
+  unique: Y
+  xsd-datatype:
+  - string
+  yaml-type: String
+- _position: 2
+  constraint: Y
+  description: The type of container (Project, WorkPackage, ?)
+  domain:
+  - Container
+  example-values:
+  - 'type: Project'
+  label: container type
+  mandatory: Y
+  scope: Container
+  term: type
+  type: null
+  unique: N
+  xsd-datatype:
+  - string
+  yaml-type: String
+- _position: 3
+  constraint: N
+  description: The container name
+  domain:
+  - Container
+  example-values:
+  - 'name: "A short project name"'
+  label: container name
+  mandatory: Y
+  name: null
+  ro-crate: name
+  scope: Container
+  term: name
+  unique: N
+  xsd-datatype:
+  - string
+  yaml-type: String
+- _position: 4
+  constraint: N
+  description: A text describing the component
+  domain:
+  - Container
+  example-values:
+  - 'description: "A longer description of a project, activity, or task."'
+  label: description
+  mandatory: Y
+  ro-crate: description
+  schema: 'https://schema.org/abstract '
+  scope: Container
+  spar: dcterms:description
+  term: description
+  unique: N
+  xsd-datatype:
+  - string
+  yaml-type: String
+- _position: 5
+  constraint: N
+  description: Link to one reference image illustrating the component
+  domain:
+  - Container
+  example-values:
+  - 'image: "http://www.example.org/image.jpg"'
+  image: null
+  label: image
+  mandatory: N
+  ro-crate: image
+  schema: https://schema.org/image
+  scope: Container
+  spar: cito:isDocumentedBy
+  term: image
+  unique: N
+  xsd-datatype:
+  - anyURI
+  yaml-type: String
+- _position: 6
+  constraint: Y
+  description: Logo of the component in Web format. Accepted image formats are JPEG
+    and PNG.
+  domain:
+  - Container
+  example-values:
+  - 'logo: "https://avatars.githubusercontent.com/u/79987779?s=200&v=4"'
+  label: logo
+  logo: null
+  mandatory: N
+  regex: ^http[s]?://.+$
+  ro-crate: logo
+  schema: https://schema.org/logo
+  scope: Container
+  term: logo
+  unique: N
+  xsd-datatype:
+  - anyURI
+  yaml-type: String
+- _position: 7
+  constraint: N
+  description: The name of the funding body of the project and the URL
+  domain:
+  - Container
+  example-values:
+  - "funder:\n- name: H2020\n  url: www.example.org\n  grant-agreement: ABC123456\n\
+    - name: AHRC\n  url: www.another.org\n  grant-agreement: ABC234"
+  funder: null
+  label: funder
+  mandatory: N
+  ro-crate: funder[Organization]
+  schema: https://schema.org/funder
+  scope: Container
+  spar: "frapo:isOutputOf (Investigation) \n> frapo:isEnabledBy (Project) \n> frapo:isFundedBy\
+    \ (Grant) \n> frapo:isAwardedBy (Funding Agency) "
+  term: funder
+  unique: N
+  yaml-type: List.Dictionary
+- _position: 8
+  constraint: N
+  description: The name of the funder
+  domain:
+  - Container
+  example-values:
+  - "funder:\n- name: H2020\n  url: www.example.org\n  grant-agreement: ABC123456\n\
+    - name: AHRC\n  url: www.another.org\n  grant-agreement: ABC234"
+  label: funder name
+  mandatory: N
+  name: null
+  ro-crate: funder[Organization]/name
+  scope: Container
+  super-term: funder
+  term: name
+  unique: N
+  xsd-datatype:
+  - string
+  yaml-type: String
+- _position: 9
+  constraint: Y
+  description: Link to the funder organisation web site
+  domain:
+  - Container
+  example-values:
+  - "funder:\n- name: H2020\n  url: www.example.org\n  grant-agreement: ABC123456\n\
+    - name: AHRC\n  url: www.another.org\n  grant-agreement: ABC234"
+  label: funder URL
+  mandatory: N
+  regex: ^http[s]?://.+$
+  ro-crate: funder[Organization]/url
+  scope: Container
+  super-term: funder
+  term: url
+  unique: N
+  url: null
+  xsd-datatype:
+  - anyURI
+  yaml-type: String
+- _position: 10
+  constraint: N
+  description: Identifier of the grant agreement relative to the funding organisation
+  domain:
+  - Container
+  example-values:
+  - "funder:\n- name: H2020\n  url: www.example.org\n  grant-agreement: ABC123456\n\
+    - name: AHRC\n  url: www.another.org\n  grant-agreement: ABC234"
+  grant-agreement: null
+  label: grant agreement
+  mandatory: N
+  ro-crate: funder[Organization]/funding[Grant]/identifier
+  schema: https://schema.org/funding
+  scope: Container
+  spar: "frapo:isOutputOf (Investigation) \n> frapo:isEnabledBy (Project) \n> frapo:isFundedBy\
+    \ (Grant) \n> frapo:hasGrantNumber "
+  super-term: funder
+  term: grant-agreement
+  unique: N
+  xsd-datatype:
+  - string
+  yaml-type: String
+- _position: 11
+  constraint: N
+  credits: null
+  description: Credits
+  domain:
+  - Container
+  example-values:
+  - 'credits: "This project was funded by the European Union"'
+  label: credits
+  mandatory: N
+  scope: Container
+  term: credits
+  unique: N
+  xsd-datatype:
+  - string
+  yaml-type: List.String
+- _position: 12
+  constraint: Y
+  description: Specifies whether this yaml file is the reference file for creating
+    a RO crate.
+  domain:
+  - Container
+  enum:
+  - 'true'
+  - 'false'
+  example-values:
+  - 'ro-crate: true'
+  label: ro crate
+  mandatory: N
+  ro-crate: isPartOf
+  scope: Container
+  term: ro-crate
+  unique: N
+  xsd-datatype:
+  - boolean
+  yaml-type: Boolean
+- _position: 13
+  constraint: N
+  description: The work package associated to this component, if any.
+  domain:
+  - Container
+  example-values:
+  - 'work-package:
+
+    - WP1
+
+    - WP5'
+  label: "work \npackage"
+  mandatory: N
+  ro-crate: isPartOf
+  schema: https://schema.org/isPartOf
+  scope: Container
+  spar: frbr:partOf
+  term: work-package
+  unique: N
+  work-package: null
+  xsd-datatype:
+  - 'string '
+  yaml-type: List.String
+- _position: 14
+  constraint: N
+  description: A pilot application or case study
+  domain:
+  - Container
+  example-values:
+  - '- MEETUPS
+
+    - BELLS'
+  label: pilot
+  mandatory: N
+  pilot: null
+  ro-crate: isPartOf
+  schema: https://schema.org/isPartOf
+  scope: Container
+  spar: frbr:partOf
+  term: pilot
+  unique: N
+  xsd-datatype:
+  - string
+  yaml-type: List.String
+- _position: 15
+  constraint: Y
+  description: The local id of the project
+  domain:
+  - Container
+  example-values:
+  - '- polifonia'
+  label: project
+  mandatory: N
+  project: null
+  ro-crate: isPartOf
+  scope: Container
+  term: project
+  unique: N
+  xsd-datatype:
+  - string
+  yaml-type: List.String
+- _position: 16
+  bibliography: null
   constraint: N
   description: List of bibliographic references that are relevant to the container
     (activity)
@@ -26,43 +311,97 @@ bibliography:
   - string
   - ' anyURI'
   yaml-type: List.Dictionary
-container-id:
-  _position: 1
-  constraint: Y
-  description: Local identifier of the container
-  domain:
-  - Container
-  example-values:
-  - 'container-id: my-open-source-project'
-  label: container identifier
-  mandatory: Y
-  regex: '[^\s]+(/[^\s]+(/[^\s]+)?)?'
-  ro-crate: '@ id '
-  scope: Container
-  term: container-id
-  unique: Y
-  xsd-datatype:
-  - string
-  yaml-type: String
-credits:
-  _position: 11
+- _position: 17
   constraint: N
-  description: Credits
+  description: The primary, peer reviewed scientific publication related to this research
+    (if non peer-reviewed, use technical-report instead).
   domain:
   - Container
   example-values:
-  - 'credits: "This project was funded by the European Union"'
-  label: credits
+  - 'bibliography:
+
+    - main-publication: "Brown, L. (2019). The Role of Parenting Styles in Child Development.
+    Child Development Perspectives, 13(3), 145-153."
+
+    '
+  label: "main \npublication"
+  main-publication: null
   mandatory: N
+  ro-crate: cito:isReferencedBy
   scope: Container
-  term: credits
+  super-term: bibliography
+  term: main-publication
   unique: N
   xsd-datatype:
   - string
-  yaml-type: List.String
-deliverable-document:
-  _position: 21
+  - ' anyURI'
+  yaml-type: String
+- _position: 18
   constraint: N
+  description: A peer reviewed scientific publication related to this component (if
+    non peer-reviewed, use technical-report instead).
+  domain:
+  - Container
+  example-values:
+  - "bibliography:\n- publication: \n  - \"Smith, J. (2020). The Impact of Social\
+    \ Media on Mental Health. Journal of Psychology and Behavioral Sciences, 15(2),\
+    \ 45-62.\""
+  label: publication
+  mandatory: N
+  publication: null
+  ro-crate: cito:isReferencedBy
+  scope: Container
+  super-term: bibliography
+  term: publication
+  unique: N
+  xsd-datatype:
+  - string
+  - ' anyURI'
+  yaml-type: String
+- _position: 19
+  constraint: N
+  description: A document related to this component (if peer-reviewed publication,
+    use publication instead).
+  domain:
+  - Container
+  example-values:
+  - "bibliography:\n- report: \n  - \"Smith, J. (2020). The Impact of Social Media\
+    \ on Mental Health. Technical Report.\""
+  label: technical report
+  mandatory: N
+  report: null
+  scope: Container
+  super-term: bibliography
+  term: report
+  unique: N
+  xsd-datatype:
+  - string
+  - ' anyURI'
+  yaml-type: List.String
+- _position: 20
+  constraint: N
+  description: The primary document related to this research (if peer-reviewed publication,
+    use scientific-work instead).
+  domain:
+  - Container
+  example-values:
+  - "bibliography:\n- main-report: \n  - \"Smith, J. (2020). The Impact of Social\
+    \ Media on Mental Health. Technical Report.\""
+  label: main technical report
+  main-report: null
+  mandatory: N
+  ro-crate: cito:isDocumentedBy
+  scope: Container
+  super-term: bibliography
+  term: main-report
+  unique: N
+  xsd-datatype:
+  - string
+  - ' anyURI'
+  yaml-type: String
+- _position: 21
+  constraint: N
+  deliverable-document: null
   description: Link to the deliverable document related to this activity
   domain:
   - Container
@@ -82,68 +421,7 @@ deliverable-document:
   - string
   - ' anyURI'
   yaml-type: List.String
-description:
-  _position: 4
-  constraint: N
-  description: A text describing the component
-  domain:
-  - Container
-  example-values:
-  - 'description: "A longer description of a project, activity, or task."'
-  label: description
-  mandatory: Y
-  ro-crate: description
-  schema: 'https://schema.org/abstract '
-  scope: Container
-  spar: dcterms:description
-  term: description
-  unique: N
-  xsd-datatype:
-  - string
-  yaml-type: String
-funder:
-  _position: 7
-  constraint: N
-  description: The name of the funding body of the project and the URL
-  domain:
-  - Container
-  example-values:
-  - "funder:\n- name: H2020\n  url: www.example.org\n  grant-agreement: ABC123456\n\
-    - name: AHRC\n  url: www.another.org\n  grant-agreement: ABC234"
-  label: funder
-  mandatory: N
-  ro-crate: funder[Organization]
-  schema: https://schema.org/funder
-  scope: Container
-  spar: "frapo:isOutputOf (Investigation) \n> frapo:isEnabledBy (Project) \n> frapo:isFundedBy\
-    \ (Grant) \n> frapo:isAwardedBy (Funding Agency) "
-  term: funder
-  unique: N
-  yaml-type: List.Dictionary
-grant-agreement:
-  _position: 10
-  constraint: N
-  description: Identifier of the grant agreement relative to the funding organisation
-  domain:
-  - Container
-  example-values:
-  - "funder:\n- name: H2020\n  url: www.example.org\n  grant-agreement: ABC123456\n\
-    - name: AHRC\n  url: www.another.org\n  grant-agreement: ABC234"
-  label: grant agreement
-  mandatory: N
-  ro-crate: funder[Organization]/funding[Grant]/identifier
-  schema: https://schema.org/funding
-  scope: Container
-  spar: "frapo:isOutputOf (Investigation) \n> frapo:isEnabledBy (Project) \n> frapo:isFundedBy\
-    \ (Grant) \n> frapo:hasGrantNumber "
-  super-term: funder
-  term: grant-agreement
-  unique: N
-  xsd-datatype:
-  - string
-  yaml-type: String
-has-part:
-  _position: 22
+- _position: 22
   constraint: Y
   description: List of components or containers that are parts of this container.
     Refer to components with organisation, repo and local id of the component
@@ -157,6 +435,7 @@ has-part:
     - polifonia/meetups/my-dataset
 
     - other/repo/my-dataset'
+  has-part: null
   label: has part
   mandatory: N
   regex: '[^\s]+(/[^\s]+(/[^\s]+)?)?'
@@ -166,268 +445,4 @@ has-part:
   unique: N
   xsd-datatype:
   - string
-  yaml-type: List.String
-image:
-  _position: 5
-  constraint: N
-  description: Link to one reference image illustrating the component
-  domain:
-  - Container
-  example-values:
-  - 'image: "http://www.example.org/image.jpg"'
-  label: image
-  mandatory: N
-  ro-crate: image
-  schema: https://schema.org/image
-  scope: Container
-  spar: cito:isDocumentedBy
-  term: image
-  unique: N
-  xsd-datatype:
-  - anyURI
-  yaml-type: String
-logo:
-  _position: 6
-  constraint: Y
-  description: Logo of the component in Web format. Accepted image formats are JPEG
-    and PNG.
-  domain:
-  - Container
-  example-values:
-  - 'logo: "https://avatars.githubusercontent.com/u/79987779?s=200&v=4"'
-  label: logo
-  mandatory: N
-  regex: ^http[s]?://.+$
-  ro-crate: logo
-  schema: https://schema.org/logo
-  scope: Container
-  term: logo
-  unique: N
-  xsd-datatype:
-  - anyURI
-  yaml-type: String
-main-publication:
-  _position: 17
-  constraint: N
-  description: The primary, peer reviewed scientific publication related to this research
-    (if non peer-reviewed, use technical-report instead).
-  domain:
-  - Container
-  example-values:
-  - 'bibliography:
-
-    - main-publication: "Brown, L. (2019). The Role of Parenting Styles in Child Development.
-    Child Development Perspectives, 13(3), 145-153."
-
-    '
-  label: "main \npublication"
-  mandatory: N
-  ro-crate: cito:isReferencedBy
-  scope: Container
-  super-term: bibliography
-  term: main-publication
-  unique: N
-  xsd-datatype:
-  - string
-  - ' anyURI'
-  yaml-type: String
-main-report:
-  _position: 20
-  constraint: N
-  description: The primary document related to this research (if peer-reviewed publication,
-    use scientific-work instead).
-  domain:
-  - Container
-  example-values:
-  - "bibliography:\n- main-report: \n  - \"Smith, J. (2020). The Impact of Social\
-    \ Media on Mental Health. Technical Report.\""
-  label: main technical report
-  mandatory: N
-  ro-crate: cito:isDocumentedBy
-  scope: Container
-  super-term: bibliography
-  term: main-report
-  unique: N
-  xsd-datatype:
-  - string
-  - ' anyURI'
-  yaml-type: String
-name:
-  _position: 8
-  constraint: N
-  description: The name of the funder
-  domain:
-  - Container
-  example-values:
-  - "funder:\n- name: H2020\n  url: www.example.org\n  grant-agreement: ABC123456\n\
-    - name: AHRC\n  url: www.another.org\n  grant-agreement: ABC234"
-  label: funder name
-  mandatory: N
-  ro-crate: funder[Organization]/name
-  scope: Container
-  super-term: funder
-  term: name
-  unique: N
-  xsd-datatype:
-  - string
-  yaml-type: String
-pilot:
-  _position: 14
-  constraint: N
-  description: A pilot application or case study
-  domain:
-  - Container
-  example-values:
-  - '- MEETUPS
-
-    - BELLS'
-  label: pilot
-  mandatory: N
-  ro-crate: isPartOf
-  schema: https://schema.org/isPartOf
-  scope: Container
-  spar: frbr:partOf
-  term: pilot
-  unique: N
-  xsd-datatype:
-  - string
-  yaml-type: List.String
-project:
-  _position: 15
-  constraint: Y
-  description: The local id of the project
-  domain:
-  - Container
-  example-values:
-  - '- polifonia'
-  label: project
-  mandatory: N
-  ro-crate: isPartOf
-  scope: Container
-  term: project
-  unique: N
-  xsd-datatype:
-  - string
-  yaml-type: List.String
-publication:
-  _position: 18
-  constraint: N
-  description: A peer reviewed scientific publication related to this component (if
-    non peer-reviewed, use technical-report instead).
-  domain:
-  - Container
-  example-values:
-  - "bibliography:\n- publication: \n  - \"Smith, J. (2020). The Impact of Social\
-    \ Media on Mental Health. Journal of Psychology and Behavioral Sciences, 15(2),\
-    \ 45-62.\""
-  label: publication
-  mandatory: N
-  ro-crate: cito:isReferencedBy
-  scope: Container
-  super-term: bibliography
-  term: publication
-  unique: N
-  xsd-datatype:
-  - string
-  - ' anyURI'
-  yaml-type: String
-report:
-  _position: 19
-  constraint: N
-  description: A document related to this component (if peer-reviewed publication,
-    use publication instead).
-  domain:
-  - Container
-  example-values:
-  - "bibliography:\n- report: \n  - \"Smith, J. (2020). The Impact of Social Media\
-    \ on Mental Health. Technical Report.\""
-  label: technical report
-  mandatory: N
-  scope: Container
-  super-term: bibliography
-  term: report
-  unique: N
-  xsd-datatype:
-  - string
-  - ' anyURI'
-  yaml-type: List.String
-ro-crate:
-  _position: 12
-  constraint: Y
-  description: Specifies whether this yaml file is the reference file for creating
-    a RO crate.
-  domain:
-  - Container
-  enum:
-  - 'true'
-  - 'false'
-  example-values:
-  - 'ro-crate: true'
-  label: ro crate
-  mandatory: N
-  ro-crate: isPartOf
-  scope: Container
-  term: ro-crate
-  unique: N
-  xsd-datatype:
-  - boolean
-  yaml-type: Boolean
-type:
-  _position: 2
-  constraint: Y
-  description: The type of container (Project, WorkPackage, ?)
-  domain:
-  - Container
-  example-values:
-  - 'type: Project'
-  label: container type
-  mandatory: Y
-  scope: Container
-  term: type
-  unique: N
-  xsd-datatype:
-  - string
-  yaml-type: String
-url:
-  _position: 9
-  constraint: Y
-  description: Link to the funder organisation web site
-  domain:
-  - Container
-  example-values:
-  - "funder:\n- name: H2020\n  url: www.example.org\n  grant-agreement: ABC123456\n\
-    - name: AHRC\n  url: www.another.org\n  grant-agreement: ABC234"
-  label: funder URL
-  mandatory: N
-  regex: ^http[s]?://.+$
-  ro-crate: funder[Organization]/url
-  scope: Container
-  super-term: funder
-  term: url
-  unique: N
-  xsd-datatype:
-  - anyURI
-  yaml-type: String
-work-package:
-  _position: 13
-  constraint: N
-  description: The work package associated to this component, if any.
-  domain:
-  - Container
-  example-values:
-  - 'work-package:
-
-    - WP1
-
-    - WP5'
-  label: "work \npackage"
-  mandatory: N
-  ro-crate: isPartOf
-  schema: https://schema.org/isPartOf
-  scope: Container
-  spar: frbr:partOf
-  term: work-package
-  unique: N
-  xsd-datatype:
-  - 'string '
   yaml-type: List.String
