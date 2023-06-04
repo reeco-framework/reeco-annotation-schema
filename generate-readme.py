@@ -259,7 +259,7 @@ TXT = TXT + """
 
 for licence in SCHEMA.licences():
     TXT = TXT + "\n### " + licence['title'] + "\n"
-    TXT = TXT + "\n\n| Use code | Licence | Publisher | Legal text |"
+    TXT = TXT + "\n\n| Licence | Use code | Publisher | Legal text |"
     TXT = TXT + "\n| ---- | :---- | :---- | :---- |"
     TXT = TXT + "\n| " + licence['title'] 
     TXT = TXT + " | `" + licence['code'] + '`'
