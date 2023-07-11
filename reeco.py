@@ -54,7 +54,7 @@ class Schema:
         types = self.subtypes(typee)
         all = all + types
         for t in types:
-            all = all + self.allsubtypes(t)
+           all = all + self.allsubtypes(t['type'])
         return all
         
 
