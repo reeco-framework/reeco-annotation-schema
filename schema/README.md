@@ -125,21 +125,13 @@ Component types:
 
  - [Data](#Data "Data in the most general sense, produced or used.")
    - [Dataset](#Dataset "")
+    - [Repository](#Repository "")
+    - [Registry](#Registry "")
+    - [Ontology](#Ontology "")
+    - [Corpus](#Corpus "")
+    - [Lexicon](#Lexicon "")
+    - [KnowledgeGraph](#KnowledgeGraph "")
    - [Schema](#Schema "")
-   - [Repository](#Repository "")
-   - [Registry](#Registry "")
-   - [Ontology](#Ontology "")
-   - [Corpus](#Corpus "")
-   - [Lexicon](#Lexicon "")
-   - [KnowledgeGraph](#KnowledgeGraph "")
- - [Software](#Software "")
-   - [Workflow](#Workflow "")
-   - [API](#API "")
-   - [UserInterface](#UserInterface "")
-   - [SoftwareLibrary](#SoftwareLibrary "")
-   - [DockerImageContainer](#DockerImageContainer "")
-   - [Notebook](#Notebook "")
-   - [Script](#Script "")
  - [Application](#Application "")
    - [WebSite](#WebSite "")
    - [WebApplication](#WebApplication "")
@@ -147,6 +139,14 @@ Component types:
     - [SPARQLEndpoint](#SPARQLEndpoint "")
    - [MobileApp](#MobileApp "")
    - [CLITool](#CLITool "")
+ - [Software](#Software "")
+   - [Workflow](#Workflow "")
+   - [API](#API "")
+   - [UserInterface](#UserInterface "")
+   - [DockerImageContainer](#DockerImageContainer "")
+   - [SoftwareLibrary](#SoftwareLibrary "")
+   - [Notebook](#Notebook "")
+   - [Script](#Script "")
  - [Report](#Report "")
    - [RequirementsCollection](#RequirementsCollection "")
     - [Story](#Story "")
@@ -158,6 +158,50 @@ Component types:
    - [Documentation](#Documentation "")
     - [Tutorial](#Tutorial "")
    - [EvaluationReport](#EvaluationReport "")
+ - [Dataset](#Dataset "")
+   - [Repository](#Repository "")
+   - [Registry](#Registry "")
+   - [Ontology](#Ontology "")
+   - [Corpus](#Corpus "")
+   - [Lexicon](#Lexicon "")
+   - [KnowledgeGraph](#KnowledgeGraph "")
+ - [Schema](#Schema "")
+ - [Repository](#Repository "")
+ - [Registry](#Registry "")
+ - [Ontology](#Ontology "")
+ - [Corpus](#Corpus "")
+ - [Lexicon](#Lexicon "")
+ - [KnowledgeGraph](#KnowledgeGraph "")
+ - [WebSite](#WebSite "")
+ - [WebApplication](#WebApplication "")
+ - [WebService](#WebService "E.g. Web APIs")
+   - [SPARQLEndpoint](#SPARQLEndpoint "")
+ - [MobileApp](#MobileApp "")
+ - [CLITool](#CLITool "")
+ - [SPARQLEndpoint](#SPARQLEndpoint "")
+ - [Workflow](#Workflow "")
+ - [API](#API "")
+ - [UserInterface](#UserInterface "")
+ - [DockerImageContainer](#DockerImageContainer "")
+ - [SoftwareLibrary](#SoftwareLibrary "")
+ - [Notebook](#Notebook "")
+ - [Script](#Script "")
+ - [RequirementsCollection](#RequirementsCollection "")
+   - [Story](#Story "")
+   - [Persona](#Persona "")
+   - [Mockup](#Mockup "")
+ - [Survey](#Survey "")
+   - [InPresenceSurvey](#InPresenceSurvey "")
+   - [FocusGroup](#FocusGroup "")
+ - [Documentation](#Documentation "")
+   - [Tutorial](#Tutorial "")
+ - [EvaluationReport](#EvaluationReport "")
+ - [Story](#Story "")
+ - [Persona](#Persona "")
+ - [Mockup](#Mockup "")
+ - [InPresenceSurvey](#InPresenceSurvey "")
+ - [FocusGroup](#FocusGroup "")
+ - [Tutorial](#Tutorial "")
 
 ### Terms for Containers
 
@@ -168,9 +212,9 @@ Component types:
  - [image](#image "Link to one reference image illustrating the component")
  - [logo](#logo "Logo of the component in Web format. Accepted image formats are JPEG and PNG.")
  - [funder](#funder "The name of the funding body of the project and the URL")
+   - [grant-agreement](#grant-agreement "Identifier of the grant agreement relative to the funding organisation")
    - [name](#name "The name of the funder")
    - [url](#url "Link to the funder organisation web site")
-   - [grant-agreement](#grant-agreement "Identifier of the grant agreement relative to the funding organisation")
  - [credits](#credits "Credits")
  - [ro-crate](#ro-crate "Specifies whether this yaml file is the reference file for creating a RO crate.")
  - [work-package](#work-package "The work package associated to this component, if any.")
@@ -180,7 +224,7 @@ Component types:
    - [main-publication](#main-publication "The primary, peer reviewed scientific publication related to this research (if non peer-reviewed, use technical-report instead).")
    - [publication](#publication "A peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead).")
    - [report](#report "A document related to this component (if peer-reviewed publication, use publication instead).")
-   - [main-report](#main-report "The primary document related to this research (if peer-reviewed publication, use scientific-work instead).")
+   - [main-report](#main-report "The primary document related to this research (if peer-reviewed publication, use publication instead).")
    - [deliverable-document](#deliverable-document "Link to the deliverable document related to this activity")
  - [has-part](#has-part "List of components or containers that are parts of this container. Refer to components with organisation, repo and local id of the component")
 
@@ -292,7 +336,7 @@ Use \"scientific work\" for the main scholarly publication related to the compon
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
- |Corpus | Corpus|Data|
+ |Corpus | Corpus|Dataset|
 
 
  --- 
@@ -402,7 +446,7 @@ Use \"scientific work\" for the main scholarly publication related to the compon
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
- |KnowledgeGraph | Knowledge Graph|Data|
+ |KnowledgeGraph | Knowledge Graph|Dataset|
 
 
  --- 
@@ -413,7 +457,7 @@ Use \"scientific work\" for the main scholarly publication related to the compon
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
- |Lexicon | Lexicon|Data|
+ |Lexicon | Lexicon|Dataset|
 
 
  --- 
@@ -457,7 +501,7 @@ Use \"scientific work\" for the main scholarly publication related to the compon
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
- |Ontology | Ontology|Data|
+ |Ontology | Ontology|Dataset|
 
 
  --- 
@@ -501,7 +545,7 @@ Use \"scientific work\" for the main scholarly publication related to the compon
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
- |Registry | Registry|Data|
+ |Registry | Registry|Dataset|
 
 
  --- 
@@ -523,7 +567,7 @@ Use \"scientific work\" for the main scholarly publication related to the compon
 
 | Type | Label | Super type | 
  | ----- | ----- | ----- |
- |Repository | Repository|Data|
+ |Repository | Repository|Dataset|
 
 
  --- 
@@ -1487,7 +1531,7 @@ bibliography:
 
 
 
-The primary document related to this research (if peer-reviewed publication, use scientific-work instead).
+The primary document related to this research (if peer-reviewed publication, use publication instead).
 
 Example:
 
