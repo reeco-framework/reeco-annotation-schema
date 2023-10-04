@@ -5,7 +5,7 @@ Editing happens in this [Spreadsheet](https://docs.google.com/spreadsheets/d/1PZ
 
 The reference documentation is in folder `schema/`.
 
-Rebuild:
+To update the documentation:
 ```bash
 python3 generate-schema.py && python3 generate-readme.py && git add schema/ && git commit -m "Update" && git push
 ```
