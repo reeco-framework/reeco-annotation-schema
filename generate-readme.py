@@ -263,7 +263,8 @@ for licence in SCHEMA.licences():
     TXT = TXT + "\n| ---- | :---- | :---- | :---- |"
     TXT = TXT + "\n| " + licence['title'] 
     TXT = TXT + " | `" + licence['code'] + '`'
-    TXT = TXT + " | " + licence['publisher'] 
+    if 'publisher' in licence: 
+        TXT = TXT + " | " + licence['publisher'] 
     TXT = TXT + " | [" + licence['link'] + "](" + licence['link'] + ") |\n\n"
 
 with open(output_readme, "w") as text_file:
