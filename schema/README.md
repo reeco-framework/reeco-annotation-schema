@@ -2239,332 +2239,12 @@ work-package:
 ## Licences
 
 
-### Non-Commercial Government Licence
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| Non-Commercial Government Licence | `NonCommercialGovernmentLicence` | The National Archives | [http://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/version/2/](http://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/version/2/) |
-
-
-### Python License-2.0
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| Python License-2.0 | `PythonLicense20` | Python Software Foundation | [http://opensource.org/licenses/Python-2.0](http://opensource.org/licenses/Python-2.0) |
-
-
-### CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| CC0 1.0 Universal (CC0 1.0) Public Domain Dedication | `Cc010Universal` | Creative Commons | [https://creativecommons.org/publicdomain/zero/1.0/legalcode](https://creativecommons.org/publicdomain/zero/1.0/legalcode) |
-
-
-### Creative Commons Attribution 4.0 International
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| Creative Commons Attribution 4.0 International | `CC-BY_v4` | Creative Commons | [https://creativecommons.org/licenses/by/4.0/legalcode](https://creativecommons.org/licenses/by/4.0/legalcode) |
-
-
-### Creative Commons Attribution-NonCommercial 4.0 International
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| Creative Commons Attribution-NonCommercial 4.0 International | `CC-BY-NC_v4` | Creative Commons | [https://creativecommons.org/licenses/by-nc/4.0/legalcode](https://creativecommons.org/licenses/by-nc/4.0/legalcode) |
-
-
-### Free Public License 1.0.0
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| Free Public License 1.0.0 | `FreePublicLicense100` | - not specified - | [http://opensource.org/licenses/FPL-1.0.0](http://opensource.org/licenses/FPL-1.0.0) |
-
-
-### Open Data Licence Agreement
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| Open Data Licence Agreement | `OpenDataLicenceAgreement` | Office of the Commissioner of Lobbying | [https://lobbycanada.gc.ca/eic/site/012.nsf/eng/00873.html](https://lobbycanada.gc.ca/eic/site/012.nsf/eng/00873.html) |
-
-
-### PHP License 3.0
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| PHP License 3.0 | `PhpLicense30` | PHP Group | [http://opensource.org/licenses/PHP-3.0](http://opensource.org/licenses/PHP-3.0) |
-
-
-### WTFPL
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| WTFPL | `Wtfpl` | N.N. | [http://www.wtfpl.net/about/](http://www.wtfpl.net/about/) |
-
-
-### Apple Public Source License 2.0
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| Apple Public Source License 2.0 | `ApplePublicSourceLicense20` | Apple | [http://opensource.org/licenses/APSL-2.0](http://opensource.org/licenses/APSL-2.0) |
-
-
-### Q Public License Version 1.0
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| Q Public License Version 1.0 | `QPublicLicenseVersion10` | Trolltech AS | [http://opensource.org/licenses/QPL-1.0](http://opensource.org/licenses/QPL-1.0) |
-
-
-### GNU General Public License, Version 2
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| GNU General Public License, Version 2 | `GNU_GPL_v2` | Free Software Foundation | [https://www.gnu.org/licenses/old-licenses/gpl-2.0.html](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html) |
-
-
-### W3C Software and Document Notice and License
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| W3C Software and Document Notice and License | `W3cSoftwareAndDocumentNoticeAndLicense` | W3C | [https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document](https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document) |
-
-
-### Microsoft Public License
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| Microsoft Public License | `MicrosoftPublicLicense` | N.N. | [http://opensource.org/licenses/MS-PL](http://opensource.org/licenses/MS-PL) |
-
-
-### Data Exploration Licence
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| Data Exploration Licence | `DataExplorationLicence` | Ordnance Survey | [https://www.ordnancesurvey.co.uk/business-and-government/licensing/licences/data-exploration.html](https://www.ordnancesurvey.co.uk/business-and-government/licensing/licences/data-exploration.html) |
-
-
-### The Universal Permissive License (UPL), Version 1.0
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| The Universal Permissive License (UPL), Version 1.0 | `TheUniversalPermissiveLicenseUplVersion10` | - not specified - | [http://opensource.org/licenses/UPL](http://opensource.org/licenses/UPL) |
-
-
-### Open Data Commons Attribution License v1.0
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| Open Data Commons Attribution License v1.0 | `OpenDataCommonsAttributionLicenseV10` | Open Data Commons | [https://opendatacommons.org/licenses/by/1.0/](https://opendatacommons.org/licenses/by/1.0/) |
-
-
-### Developer License
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| Developer License | `DeveloperLicense` | The National Archives | [http://www.nationalarchives.gov.uk/documents/information-management/developer-licence.pdf](http://www.nationalarchives.gov.uk/documents/information-management/developer-licence.pdf) |
-
-
-### Cea Cnrs Inria Logiciel Libre License, version 2.1
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| Cea Cnrs Inria Logiciel Libre License, version 2.1 | `CeaCnrsInriaLogicielLibreLicenseVersion21` |  CEA, CNRS, INRIA | [http://www.cecill.info/licences/Licence_CeCILL_V2.1-fr.html](http://www.cecill.info/licences/Licence_CeCILL_V2.1-fr.html) |
-
-
-### Apache License, Version 1.1
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| Apache License, Version 1.1 | `Apache-1.1` | The Apache Software Foundation | [http://www.apache.org/licenses/LICENSE-1.1](http://www.apache.org/licenses/LICENSE-1.1) |
-
-
-### GNU Free Documentation License version 1.3
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| GNU Free Documentation License version 1.3 | `GnuFreeDocumentationLicense` | Free Software Foundation | [https://www.gnu.org/licenses/fdl.html](https://www.gnu.org/licenses/fdl.html) |
-
-
-### Artistic License 2.0
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| Artistic License 2.0 | `ArtisticLicense20` | N.N. | [http://opensource.org/licenses/Artistic-2.0](http://opensource.org/licenses/Artistic-2.0) |
-
-
-### LaTeX Project Public License, Version 1.3c
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| LaTeX Project Public License, Version 1.3c | `LatexProjectPublicLicenseVersion13c` | LaTeX3 Project | [http://opensource.org/licenses/LPPL-1.3c](http://opensource.org/licenses/LPPL-1.3c) |
-
-
-### Eclipse Public License 1.0
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| Eclipse Public License 1.0 | `EclipsePublicLicense10` | Eclipse | [http://opensource.org/licenses/EPL-1.0](http://opensource.org/licenses/EPL-1.0) |
-
-
-### Computer Associates Trusted Open Source License 1.1
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| Computer Associates Trusted Open Source License 1.1 | `ComputerAssociatesTrustedOpenSourceLicense11` | Computer Associates International, Inc. (CA) | [http://opensource.org/licenses/CATOSL-1.1](http://opensource.org/licenses/CATOSL-1.1) |
-
-
-### INSPIRE End User Licence
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| INSPIRE End User Licence | `InspireEndUserLicence` | Ordnance Survey Limited | [https://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html](https://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html) |
-
-
-### Eclipse Public License 2.0
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| Eclipse Public License 2.0 | `EclipsePublicLicense20` | N.N. | [http://opensource.org/licenses/EPL-2.0](http://opensource.org/licenses/EPL-2.0) |
-
-
-### Apache License, Version 2.0
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| Apache License, Version 2.0 | `Apache-2.0` | The Apache Software Foundation | [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0) |
-
-
-### ODC Public Domain Dedication and Licence (PDDL)
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| ODC Public Domain Dedication and Licence (PDDL) | `OdcPublicDomainDedicationAndLicence` | Open Data Commons | [https://opendatacommons.org/licenses/pddl/1.0/](https://opendatacommons.org/licenses/pddl/1.0/) |
-
-
-### Attribution Assurance License
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| Attribution Assurance License | `AttributionAssuranceLicense` | Edwin A. Suominen | [http://opensource.org/licenses/AAL](http://opensource.org/licenses/AAL) |
-
-
-### Creative Commons Attribution-ShareAlike 4.0 International
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| Creative Commons Attribution-ShareAlike 4.0 International | `CC-BY-SA_v4` | Creative Commons | [https://creativecommons.org/licenses/by-sa/4.0/legalcode](https://creativecommons.org/licenses/by-sa/4.0/legalcode) |
-
-
-### Adaptive Public License 1.0
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| Adaptive Public License 1.0 | `AdaptivePublicLicense10` | - not specified - | [http://opensource.org/licenses/APL-1.0](http://opensource.org/licenses/APL-1.0) |
-
-
-### ISC License
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| ISC License | `IscLicense` | N.N. | [http://opensource.org/licenses/ISC](http://opensource.org/licenses/ISC) |
-
-
-### Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International | `CC-BY-NC-ND_v4` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode) |
-
-
-### Open Supreme Court Licence
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| Open Supreme Court Licence | `OpenSupremeCourtLicence` | The National Archives UK | [http://www.nationalarchives.gov.uk/doc/open-supreme-court-licence/version/1/open-supreme-court-licence-version-1.0.pdf](http://www.nationalarchives.gov.uk/doc/open-supreme-court-licence/version/1/open-supreme-court-licence-version-1.0.pdf) |
-
-
 ### GNU Affero General Public License
 
 
 | Licence | Use code | Publisher | Legal text |
 | ---- | :---- | :---- | :---- |
 | GNU Affero General Public License | `AGPL` | GNU Affero General Public License | [https://www.gnu.org/licenses/agpl-3.0.html](https://www.gnu.org/licenses/agpl-3.0.html) |
-
-
-### Creative Commons Attribution-NoDerivatives 4.0 International
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| Creative Commons Attribution-NoDerivatives 4.0 International | `CC-BY-ND_v4` | Creative Commons | [https://creativecommons.org/licenses/by-nd/4.0/legalcode](https://creativecommons.org/licenses/by-nd/4.0/legalcode) |
-
-
-### Open Government Licence - Canada
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| Open Government Licence - Canada | `OpenGovernmentLicenceCanada` | Her Majesty the Queen in right of Canada | [https://open.canada.ca/en/open-government-licence-canada](https://open.canada.ca/en/open-government-licence-canada) |
-
-
-### Boost Software License 1.0
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| Boost Software License 1.0 | `BoostSoftwareLicense10` | - not specified - | [http://opensource.org/licenses/BSL-1.0](http://opensource.org/licenses/BSL-1.0) |
-
-
-### Mozilla Public License Version 2.0
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| Mozilla Public License Version 2.0 | `MozillaPublicLicenseVersion20` | Mozilla Corporation | [https://www.mozilla.org/en-US/MPL/2.0/](https://www.mozilla.org/en-US/MPL/2.0/) |
-
-
-### GNU Lesser General Public License version 3.0
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| GNU Lesser General Public License version 3.0 | `LGPLv3` | Free Software Foundation | [https://www.gnu.org/licenses/lgpl-3.0.html](https://www.gnu.org/licenses/lgpl-3.0.html) |
 
 
 ### Academic Free License 3.0
@@ -2575,68 +2255,460 @@ work-package:
 | Academic Free License 3.0 | `AcademicFreeLicense30` | - not specified - | [http://opensource.org/licenses/AFL-3.0](http://opensource.org/licenses/AFL-3.0) |
 
 
-### Common Public Attribution License Version 1.0
+### Adaptive Public License 1.0
 
 
 | Licence | Use code | Publisher | Legal text |
 | ---- | :---- | :---- | :---- |
-| Common Public Attribution License Version 1.0 | `CommonPublicAttributionLicenseVersion10` | Socialtext Incorporated | [http://opensource.org/licenses/CPAL-1.0](http://opensource.org/licenses/CPAL-1.0) |
+| Adaptive Public License 1.0 | `AdaptivePublicLicense10` | - not specified - | [http://opensource.org/licenses/APL-1.0](http://opensource.org/licenses/APL-1.0) |
 
 
-### ODC Open Database License (ODbL)
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| ODC Open Database License (ODbL) | `OdcOpenDatabaseLicense` | Socialtext Incorporated | [https://opendatacommons.org/licenses/odbl/1.0/](https://opendatacommons.org/licenses/odbl/1.0/) |
-
-
-### Common Development and Distribution License 1.0
+### Apache License, Version 1.1
 
 
 | Licence | Use code | Publisher | Legal text |
 | ---- | :---- | :---- | :---- |
-| Common Development and Distribution License 1.0 | `CommonDevelopmentAndDistributionLicense10` | N.N. | [http://opensource.org/licenses/CDDL-1.0](http://opensource.org/licenses/CDDL-1.0) |
+| Apache License, Version 1.1 | `Apache-1.1` | The Apache Software Foundation | [http://www.apache.org/licenses/LICENSE-1.1](http://www.apache.org/licenses/LICENSE-1.1) |
 
 
-### The zlib libpng License
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| The zlib libpng License | `TheZlibLibpngLicense` | N.N. | [http://opensource.org/licenses/Zlib](http://opensource.org/licenses/Zlib) |
-
-
-### SUN PUBLIC LICENSE Version 1.0
+### Apache License, Version 2.0
 
 
 | Licence | Use code | Publisher | Legal text |
 | ---- | :---- | :---- | :---- |
-| SUN PUBLIC LICENSE Version 1.0 | `SunPublicLicenseVersion10` | Sun Microsystems, Inc. | [http://opensource.org/licenses/SPL-1.0](http://opensource.org/licenses/SPL-1.0) |
+| Apache License, Version 2.0 | `Apache-2.0` | The Apache Software Foundation | [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0) |
 
 
-### UK Open Government License for Public Sector Information
-
-
-| Licence | Use code | Publisher | Legal text |
-| ---- | :---- | :---- | :---- |
-| UK Open Government License for Public Sector Information | `UkOpenGovernmentLicenseForPublicSectorInformation` | UK Government | [http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) |
-
-
-### Statistics Canada Open Licence Agreement
+### Apple Public Source License 2.0
 
 
 | Licence | Use code | Publisher | Legal text |
 | ---- | :---- | :---- | :---- |
-| Statistics Canada Open Licence Agreement | `StatisticsCanadaOpenLicenceAgreement` | Statistics Canada | [https://www.statcan.gc.ca/eng/reference/licence](https://www.statcan.gc.ca/eng/reference/licence) |
+| Apple Public Source License 2.0 | `ApplePublicSourceLicense20` | Apple | [http://opensource.org/licenses/APSL-2.0](http://opensource.org/licenses/APSL-2.0) |
 
 
-### GNU General Public License 3
+### Artistic License 2.0
 
 
 | Licence | Use code | Publisher | Legal text |
 | ---- | :---- | :---- | :---- |
-| GNU General Public License 3 | `GNU_GPL_v3` | Free Software Foundation | [https://www.gnu.org/licenses/gpl.html](https://www.gnu.org/licenses/gpl.html) |
+| Artistic License 2.0 | `ArtisticLicense20` | N.N. | [http://opensource.org/licenses/Artistic-2.0](http://opensource.org/licenses/Artistic-2.0) |
+
+
+### Attribution Assurance License
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Attribution Assurance License | `AttributionAssuranceLicense` | Edwin A. Suominen | [http://opensource.org/licenses/AAL](http://opensource.org/licenses/AAL) |
+
+
+### Creative Commons Attribution-NonCommercial 2.0 Australia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 2.0 Australia | `AttributionNoncommercial20Australia` | Creative Commons | [https://creativecommons.org/licenses/by-nc/2.0/au/legalcode](https://creativecommons.org/licenses/by-nc/2.0/au/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 2.0 Austria
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 2.0 Austria | `AttributionNoncommercial20Austria` | Creative Commons | [https://creativecommons.org/licenses/by-nc/2.0/at/legalcode](https://creativecommons.org/licenses/by-nc/2.0/at/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 2.0 Brazil
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 2.0 Brazil | `AttributionNoncommercial20Brazil` | Creative Commons | [https://creativecommons.org/licenses/by-nc/2.0/br/legalcode](https://creativecommons.org/licenses/by-nc/2.0/br/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 2.0 Chile
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 2.0 Chile | `AttributionNoncommercial20Chile` | Creative Commons | [https://creativecommons.org/licenses/by-nc/2.0/cl/legalcode](https://creativecommons.org/licenses/by-nc/2.0/cl/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 2.0 Croatia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 2.0 Croatia | `AttributionNoncommercial20Croatia` | Creative Commons | [https://creativecommons.org/licenses/by-nc/2.0/hr/legalcode](https://creativecommons.org/licenses/by-nc/2.0/hr/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 2.0 France
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 2.0 France | `AttributionNoncommercial20France` | Creative Commons | [https://creativecommons.org/licenses/by-nc/2.0/fr/legalcode](https://creativecommons.org/licenses/by-nc/2.0/fr/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 2.0 Germany
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 2.0 Germany | `AttributionNoncommercial20Germany` | Creative Commons | [https://creativecommons.org/licenses/by-nc/2.0/de/legalcode](https://creativecommons.org/licenses/by-nc/2.0/de/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 2.0 Italy
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 2.0 Italy | `AttributionNoncommercial20Italy` | Creative Commons | [https://creativecommons.org/licenses/by-nc/2.0/it/legalcode](https://creativecommons.org/licenses/by-nc/2.0/it/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 2.0 Japan
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 2.0 Japan | `AttributionNoncommercial20Japan` | Creative Commons | [https://creativecommons.org/licenses/by-nc/2.0/jp/legalcode](https://creativecommons.org/licenses/by-nc/2.0/jp/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 2.0 South Korea
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 2.0 South Korea | `AttributionNoncommercial20KoreaSouth` | Creative Commons | [https://creativecommons.org/licenses/by-nc/2.0/kr/legalcode](https://creativecommons.org/licenses/by-nc/2.0/kr/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 2.0 Netherlands
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 2.0 Netherlands | `AttributionNoncommercial20Netherlands` | Creative Commons | [https://creativecommons.org/licenses/by-nc/2.0/nl/legalcode](https://creativecommons.org/licenses/by-nc/2.0/nl/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 2.0 Poland
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 2.0 Poland | `AttributionNoncommercial20Poland` | Creative Commons | [https://creativecommons.org/licenses/by-nc/2.0/pl/legalcode](https://creativecommons.org/licenses/by-nc/2.0/pl/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 2.0 South Africa
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 2.0 South Africa | `AttributionNoncommercial20SouthAfrica` | Creative Commons | [https://creativecommons.org/licenses/by-nc/2.0/za/legalcode](https://creativecommons.org/licenses/by-nc/2.0/za/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Armenia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Armenia | `AttributionNoncommercial30Armenia` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/am/legalcode](https://creativecommons.org/licenses/by-nc/3.0/am/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Australia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Australia | `AttributionNoncommercial30Australia` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/au/legalcode](https://creativecommons.org/licenses/by-nc/3.0/au/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Austria
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Austria | `AttributionNoncommercial30Austria` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/at/legalcode](https://creativecommons.org/licenses/by-nc/3.0/at/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Azerbaijan
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Azerbaijan | `AttributionNoncommercial30Azerbaijan` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/az/legalcode](https://creativecommons.org/licenses/by-nc/3.0/az/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Brazil
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Brazil | `AttributionNoncommercial30Brazil` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/br/legalcode](https://creativecommons.org/licenses/by-nc/3.0/br/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Chile
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Chile | `AttributionNoncommercial30Chile` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/cl/legalcode](https://creativecommons.org/licenses/by-nc/3.0/cl/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 China
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 China | `AttributionNoncommercial30China` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/cn/legalcode](https://creativecommons.org/licenses/by-nc/3.0/cn/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Costa Rica
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Costa Rica | `AttributionNoncommercial30CostaRica` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/cr/legalcode](https://creativecommons.org/licenses/by-nc/3.0/cr/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Croatia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Croatia | `AttributionNoncommercial30Croatia` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/hr/legalcode](https://creativecommons.org/licenses/by-nc/3.0/hr/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Czechia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Czechia | `AttributionNoncommercial30Czechia` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/cz/legalcode](https://creativecommons.org/licenses/by-nc/3.0/cz/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Ecuador
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Ecuador | `AttributionNoncommercial30Ecuador` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/ec/legalcode](https://creativecommons.org/licenses/by-nc/3.0/ec/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Egypt
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Egypt | `AttributionNoncommercial30Egypt` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/eg/legalcode](https://creativecommons.org/licenses/by-nc/3.0/eg/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Estonia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Estonia | `AttributionNoncommercial30Estonia` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/ee/legalcode](https://creativecommons.org/licenses/by-nc/3.0/ee/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 France
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 France | `AttributionNoncommercial30France` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/fr/legalcode](https://creativecommons.org/licenses/by-nc/3.0/fr/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Georgia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Georgia | `AttributionNoncommercial30Georgia` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/ge/legalcode](https://creativecommons.org/licenses/by-nc/3.0/ge/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Germany
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Germany | `AttributionNoncommercial30Germany` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/de/legalcode](https://creativecommons.org/licenses/by-nc/3.0/de/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Greece
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Greece | `AttributionNoncommercial30Greece` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/gr/legalcode](https://creativecommons.org/licenses/by-nc/3.0/gr/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Guatemala
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Guatemala | `AttributionNoncommercial30Guatemala` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/gt/legalcode](https://creativecommons.org/licenses/by-nc/3.0/gt/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Ireland
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Ireland | `AttributionNoncommercial30Ireland` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/ie/legalcode](https://creativecommons.org/licenses/by-nc/3.0/ie/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Italy
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Italy | `AttributionNoncommercial30Italy` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/it/legalcode](https://creativecommons.org/licenses/by-nc/3.0/it/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Luxembourg
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Luxembourg | `AttributionNoncommercial30Luxembourg` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/lu/legalcode](https://creativecommons.org/licenses/by-nc/3.0/lu/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Netherlands
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Netherlands | `AttributionNoncommercial30Netherlands` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/nl/legalcode](https://creativecommons.org/licenses/by-nc/3.0/nl/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 New Zealand
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 New Zealand | `AttributionNoncommercial30NewZealand` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/nz/legalcode](https://creativecommons.org/licenses/by-nc/3.0/nz/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Norway
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Norway | `AttributionNoncommercial30Norway` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/no/legalcode](https://creativecommons.org/licenses/by-nc/3.0/no/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Philippines
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Philippines | `AttributionNoncommercial30Philippines` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/ph/legalcode](https://creativecommons.org/licenses/by-nc/3.0/ph/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Poland
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Poland | `AttributionNoncommercial30Poland` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/pl/legalcode](https://creativecommons.org/licenses/by-nc/3.0/pl/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Portugal
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Portugal | `AttributionNoncommercial30Portugal` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/pt/legalcode](https://creativecommons.org/licenses/by-nc/3.0/pt/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Romania
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Romania | `AttributionNoncommercial30Romania` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/ro/legalcode](https://creativecommons.org/licenses/by-nc/3.0/ro/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Singapore
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Singapore | `AttributionNoncommercial30Singapore` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/sg/legalcode](https://creativecommons.org/licenses/by-nc/3.0/sg/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 South Africa
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 South Africa | `AttributionNoncommercial30SouthAfrica` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/za/legalcode](https://creativecommons.org/licenses/by-nc/3.0/za/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Thailand
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Thailand | `AttributionNoncommercial30Thailand` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/th/legalcode](https://creativecommons.org/licenses/by-nc/3.0/th/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Uganda
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Uganda | `AttributionNoncommercial30Uganda` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/ug/legalcode](https://creativecommons.org/licenses/by-nc/3.0/ug/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 United States of America
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 United States of America | `AttributionNoncommercial30UnitedStatesofAmerica` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/us/legalcode](https://creativecommons.org/licenses/by-nc/3.0/us/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Venezuela
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Venezuela | `AttributionNoncommercial30Venezuela` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/ve/legalcode](https://creativecommons.org/licenses/by-nc/3.0/ve/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial 3.0 Vietnam
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 3.0 Vietnam | `AttributionNoncommercial30Vietnam` | Creative Commons | [https://creativecommons.org/licenses/by-nc/3.0/vn/legalcode](https://creativecommons.org/licenses/by-nc/3.0/vn/legalcode) |
+
+
+### The 2-Clause BSD License
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| The 2-Clause BSD License | `BSD-2` | [http://opensource.org/licenses/BSD-2-Clause](http://opensource.org/licenses/BSD-2-Clause) |
+
+
+### Boost Software License 1.0
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Boost Software License 1.0 | `BoostSoftwareLicense10` | - not specified - | [http://opensource.org/licenses/BSL-1.0](http://opensource.org/licenses/BSL-1.0) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International | `CC-BY-NC-ND_v4` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode) |
 
 
 ### Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
@@ -2647,10 +2719,2242 @@ work-package:
 | Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International | `CC-BY-NC-SA_v4` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) |
 
 
+### Creative Commons Attribution-NonCommercial 4.0 International
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial 4.0 International | `CC-BY-NC_v4` | Creative Commons | [https://creativecommons.org/licenses/by-nc/4.0/legalcode](https://creativecommons.org/licenses/by-nc/4.0/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 4.0 International
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 4.0 International | `CC-BY-ND_v4` | Creative Commons | [https://creativecommons.org/licenses/by-nd/4.0/legalcode](https://creativecommons.org/licenses/by-nd/4.0/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 4.0 International
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 4.0 International | `CC-BY-SA_v4` | Creative Commons | [https://creativecommons.org/licenses/by-sa/4.0/legalcode](https://creativecommons.org/licenses/by-sa/4.0/legalcode) |
+
+
+### Creative Commons Attribution 4.0 International
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 4.0 International | `CC-BY_v4` | Creative Commons | [https://creativecommons.org/licenses/by/4.0/legalcode](https://creativecommons.org/licenses/by/4.0/legalcode) |
+
+
+### CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| CC0 1.0 Universal (CC0 1.0) Public Domain Dedication | `Cc010Universal` | Creative Commons | [https://creativecommons.org/publicdomain/zero/1.0/legalcode](https://creativecommons.org/publicdomain/zero/1.0/legalcode) |
+
+
+### Cea Cnrs Inria Logiciel Libre License, version 2.1
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Cea Cnrs Inria Logiciel Libre License, version 2.1 | `CeaCnrsInriaLogicielLibreLicenseVersion21` |  CEA, CNRS, INRIA | [http://www.cecill.info/licences/Licence_CeCILL_V2.1-fr.html](http://www.cecill.info/licences/Licence_CeCILL_V2.1-fr.html) |
+
+
+### Common Development and Distribution License 1.0
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Common Development and Distribution License 1.0 | `CommonDevelopmentAndDistributionLicense10` | N.N. | [http://opensource.org/licenses/CDDL-1.0](http://opensource.org/licenses/CDDL-1.0) |
+
+
+### Common Public Attribution License Version 1.0
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Common Public Attribution License Version 1.0 | `CommonPublicAttributionLicenseVersion10` | Socialtext Incorporated | [http://opensource.org/licenses/CPAL-1.0](http://opensource.org/licenses/CPAL-1.0) |
+
+
+### Computer Associates Trusted Open Source License 1.1
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Computer Associates Trusted Open Source License 1.1 | `ComputerAssociatesTrustedOpenSourceLicense11` | Computer Associates International, Inc. (CA) | [http://opensource.org/licenses/CATOSL-1.1](http://opensource.org/licenses/CATOSL-1.1) |
+
+
+### Creative Commons Attribution 2.0 Australia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 2.0 Australia | `CreativeCommonsAttribution20Australia` | Creative Commons | [https://creativecommons.org/licenses/by/2.0/au/legalcode](https://creativecommons.org/licenses/by/2.0/au/legalcode) |
+
+
+### Creative Commons Attribution 2.0 Austria
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 2.0 Austria | `CreativeCommonsAttribution20Austria` | Creative Commons | [https://creativecommons.org/licenses/by/2.0/at/legalcode](https://creativecommons.org/licenses/by/2.0/at/legalcode) |
+
+
+### Creative Commons Attribution 2.0 Brazil
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 2.0 Brazil | `CreativeCommonsAttribution20Brazil` | Creative Commons | [https://creativecommons.org/licenses/by/2.0/br/legalcode](https://creativecommons.org/licenses/by/2.0/br/legalcode) |
+
+
+### Creative Commons Attribution 2.0 Chile
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 2.0 Chile | `CreativeCommonsAttribution20Chile` | Creative Commons | [https://creativecommons.org/licenses/by/2.0/cl/legalcode](https://creativecommons.org/licenses/by/2.0/cl/legalcode) |
+
+
+### Creative Commons Attribution 2.0 Croatia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 2.0 Croatia | `CreativeCommonsAttribution20Croatia` | Creative Commons | [https://creativecommons.org/licenses/by/2.0/hr/legalcode](https://creativecommons.org/licenses/by/2.0/hr/legalcode) |
+
+
+### Creative Commons Attribution 2.0 France
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 2.0 France | `CreativeCommonsAttribution20France` | Creative Commons | [https://creativecommons.org/licenses/by/2.0/fr/legalcode](https://creativecommons.org/licenses/by/2.0/fr/legalcode) |
+
+
+### Creative Commons Attribution 2.0 Germany
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 2.0 Germany | `CreativeCommonsAttribution20Germany` | Creative Commons | [https://creativecommons.org/licenses/by/2.0/de/legalcode](https://creativecommons.org/licenses/by/2.0/de/legalcode) |
+
+
+### Creative Commons Attribution 2.0 Italy
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 2.0 Italy | `CreativeCommonsAttribution20Italy` | Creative Commons | [https://creativecommons.org/licenses/by/2.0/it/legalcode](https://creativecommons.org/licenses/by/2.0/it/legalcode) |
+
+
+### Creative Commons Attribution 2.0 Japan
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 2.0 Japan | `CreativeCommonsAttribution20Japan` | Creative Commons | [https://creativecommons.org/licenses/by/2.0/jp/legalcode](https://creativecommons.org/licenses/by/2.0/jp/legalcode) |
+
+
+### Creative Commons Attribution 2.0 South Korea
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 2.0 South Korea | `CreativeCommonsAttribution20KoreaSouth` | Creative Commons | [https://creativecommons.org/licenses/by/2.0/kr/legalcode](https://creativecommons.org/licenses/by/2.0/kr/legalcode) |
+
+
+### Creative Commons Attribution 2.0 Netherlands
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 2.0 Netherlands | `CreativeCommonsAttribution20Netherlands` | Creative Commons | [https://creativecommons.org/licenses/by/2.0/nl/legalcode](https://creativecommons.org/licenses/by/2.0/nl/legalcode) |
+
+
+### Creative Commons Attribution 2.0 Poland
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 2.0 Poland | `CreativeCommonsAttribution20Poland` | Creative Commons | [https://creativecommons.org/licenses/by/2.0/pl/legalcode](https://creativecommons.org/licenses/by/2.0/pl/legalcode) |
+
+
+### Creative Commons Attribution 2.0 South Africa
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 2.0 South Africa | `CreativeCommonsAttribution20SouthAfrica` | Creative Commons | [https://creativecommons.org/licenses/by/2.0/za/legalcode](https://creativecommons.org/licenses/by/2.0/za/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Armenia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Armenia | `CreativeCommonsAttribution30Armenia` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/am/legalcode](https://creativecommons.org/licenses/by/3.0/am/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Australia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Australia | `CreativeCommonsAttribution30Australia` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/au/legalcode](https://creativecommons.org/licenses/by/3.0/au/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Austria
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Austria | `CreativeCommonsAttribution30Austria` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/at/legalcode](https://creativecommons.org/licenses/by/3.0/at/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Azerbaijan
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Azerbaijan | `CreativeCommonsAttribution30Azerbaijan` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/az/legalcode](https://creativecommons.org/licenses/by/3.0/az/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Brazil
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Brazil | `CreativeCommonsAttribution30Brazil` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/br/legalcode](https://creativecommons.org/licenses/by/3.0/br/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Chile
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Chile | `CreativeCommonsAttribution30Chile` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/cl/legalcode](https://creativecommons.org/licenses/by/3.0/cl/legalcode) |
+
+
+### Creative Commons Attribution 3.0 China
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 China | `CreativeCommonsAttribution30China` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/cn/legalcode](https://creativecommons.org/licenses/by/3.0/cn/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Costa Rica
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Costa Rica | `CreativeCommonsAttribution30CostaRica` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/cr/legalcode](https://creativecommons.org/licenses/by/3.0/cr/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Croatia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Croatia | `CreativeCommonsAttribution30Croatia` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/hr/legalcode](https://creativecommons.org/licenses/by/3.0/hr/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Czechia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Czechia | `CreativeCommonsAttribution30Czechia` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/cz/legalcode](https://creativecommons.org/licenses/by/3.0/cz/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Ecuador
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Ecuador | `CreativeCommonsAttribution30Ecuador` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/ec/legalcode](https://creativecommons.org/licenses/by/3.0/ec/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Egypt
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Egypt | `CreativeCommonsAttribution30Egypt` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/eg/legalcode](https://creativecommons.org/licenses/by/3.0/eg/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Estonia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Estonia | `CreativeCommonsAttribution30Estonia` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/ee/legalcode](https://creativecommons.org/licenses/by/3.0/ee/legalcode) |
+
+
+### Creative Commons Attribution 3.0 France
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 France | `CreativeCommonsAttribution30France` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/fr/legalcode](https://creativecommons.org/licenses/by/3.0/fr/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Georgia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Georgia | `CreativeCommonsAttribution30Georgia` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/ge/legalcode](https://creativecommons.org/licenses/by/3.0/ge/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Germany
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Germany | `CreativeCommonsAttribution30Germany` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/de/legalcode](https://creativecommons.org/licenses/by/3.0/de/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Greece
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Greece | `CreativeCommonsAttribution30Greece` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/gr/legalcode](https://creativecommons.org/licenses/by/3.0/gr/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Guatemala
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Guatemala | `CreativeCommonsAttribution30Guatemala` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/gt/legalcode](https://creativecommons.org/licenses/by/3.0/gt/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Ireland
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Ireland | `CreativeCommonsAttribution30Ireland` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/ie/legalcode](https://creativecommons.org/licenses/by/3.0/ie/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Italy
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Italy | `CreativeCommonsAttribution30Italy` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/it/legalcode](https://creativecommons.org/licenses/by/3.0/it/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Luxembourg
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Luxembourg | `CreativeCommonsAttribution30Luxembourg` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/lu/legalcode](https://creativecommons.org/licenses/by/3.0/lu/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Netherlands
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Netherlands | `CreativeCommonsAttribution30Netherlands` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/nl/legalcode](https://creativecommons.org/licenses/by/3.0/nl/legalcode) |
+
+
+### Creative Commons Attribution 3.0 New Zealand
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 New Zealand | `CreativeCommonsAttribution30NewZealand` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/nz/legalcode](https://creativecommons.org/licenses/by/3.0/nz/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Norway
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Norway | `CreativeCommonsAttribution30Norway` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/no/legalcode](https://creativecommons.org/licenses/by/3.0/no/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Philippines
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Philippines | `CreativeCommonsAttribution30Philippines` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/ph/legalcode](https://creativecommons.org/licenses/by/3.0/ph/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Poland
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Poland | `CreativeCommonsAttribution30Poland` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/pl/legalcode](https://creativecommons.org/licenses/by/3.0/pl/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Portugal
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Portugal | `CreativeCommonsAttribution30Portugal` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/pt/legalcode](https://creativecommons.org/licenses/by/3.0/pt/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Romania
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Romania | `CreativeCommonsAttribution30Romania` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/ro/legalcode](https://creativecommons.org/licenses/by/3.0/ro/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Singapore
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Singapore | `CreativeCommonsAttribution30Singapore` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/sg/legalcode](https://creativecommons.org/licenses/by/3.0/sg/legalcode) |
+
+
+### Creative Commons Attribution 3.0 South Africa
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 South Africa | `CreativeCommonsAttribution30SouthAfrica` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/za/legalcode](https://creativecommons.org/licenses/by/3.0/za/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Thailand
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Thailand | `CreativeCommonsAttribution30Thailand` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/th/legalcode](https://creativecommons.org/licenses/by/3.0/th/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Uganda
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Uganda | `CreativeCommonsAttribution30Uganda` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/ug/legalcode](https://creativecommons.org/licenses/by/3.0/ug/legalcode) |
+
+
+### Creative Commons Attribution 3.0 United States of America
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 United States of America | `CreativeCommonsAttribution30UnitedStatesofAmerica` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/us/legalcode](https://creativecommons.org/licenses/by/3.0/us/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Venezuela
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Venezuela | `CreativeCommonsAttribution30Venezuela` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/ve/legalcode](https://creativecommons.org/licenses/by/3.0/ve/legalcode) |
+
+
+### Creative Commons Attribution 3.0 Vietnam
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution 3.0 Vietnam | `CreativeCommonsAttribution30Vietnam` | Creative Commons | [https://creativecommons.org/licenses/by/3.0/vn/legalcode](https://creativecommons.org/licenses/by/3.0/vn/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 2.0 Australia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 2.0 Australia | `CreativeCommonsAttributionNoderivs20Australia` | Creative Commons | [https://creativecommons.org/licenses/by-nd/2.0/au/legalcode](https://creativecommons.org/licenses/by-nd/2.0/au/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 2.0 Austria
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 2.0 Austria | `CreativeCommonsAttributionNoderivs20Austria` | Creative Commons | [https://creativecommons.org/licenses/by-nd/2.0/at/legalcode](https://creativecommons.org/licenses/by-nd/2.0/at/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 2.0 Brazil
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 2.0 Brazil | `CreativeCommonsAttributionNoderivs20Brazil` | Creative Commons | [https://creativecommons.org/licenses/by-nd/2.0/br/legalcode](https://creativecommons.org/licenses/by-nd/2.0/br/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 2.0 Chile
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 2.0 Chile | `CreativeCommonsAttributionNoderivs20Chile` | Creative Commons | [https://creativecommons.org/licenses/by-nd/2.0/cl/legalcode](https://creativecommons.org/licenses/by-nd/2.0/cl/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 2.0 Croatia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 2.0 Croatia | `CreativeCommonsAttributionNoderivs20Croatia` | Creative Commons | [https://creativecommons.org/licenses/by-nd/2.0/hr/legalcode](https://creativecommons.org/licenses/by-nd/2.0/hr/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 2.0 France
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 2.0 France | `CreativeCommonsAttributionNoderivs20France` | Creative Commons | [https://creativecommons.org/licenses/by-nd/2.0/fr/legalcode](https://creativecommons.org/licenses/by-nd/2.0/fr/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 2.0 Germany
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 2.0 Germany | `CreativeCommonsAttributionNoderivs20Germany` | Creative Commons | [https://creativecommons.org/licenses/by-nd/2.0/de/legalcode](https://creativecommons.org/licenses/by-nd/2.0/de/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 2.0 Italy
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 2.0 Italy | `CreativeCommonsAttributionNoderivs20Italy` | Creative Commons | [https://creativecommons.org/licenses/by-nd/2.0/it/legalcode](https://creativecommons.org/licenses/by-nd/2.0/it/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 2.0 Japan
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 2.0 Japan | `CreativeCommonsAttributionNoderivs20Japan` | Creative Commons | [https://creativecommons.org/licenses/by-nd/2.0/jp/legalcode](https://creativecommons.org/licenses/by-nd/2.0/jp/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 2.0 South Korea
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 2.0 South Korea | `CreativeCommonsAttributionNoderivs20KoreaSouth` | Creative Commons | [https://creativecommons.org/licenses/by-nd/2.0/kr/legalcode](https://creativecommons.org/licenses/by-nd/2.0/kr/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 2.0 Netherlands
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 2.0 Netherlands | `CreativeCommonsAttributionNoderivs20Netherlands` | Creative Commons | [https://creativecommons.org/licenses/by-nd/2.0/nl/legalcode](https://creativecommons.org/licenses/by-nd/2.0/nl/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 2.0 Poland
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 2.0 Poland | `CreativeCommonsAttributionNoderivs20Poland` | Creative Commons | [https://creativecommons.org/licenses/by-nd/2.0/pl/legalcode](https://creativecommons.org/licenses/by-nd/2.0/pl/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 2.0 South Africa
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 2.0 South Africa | `CreativeCommonsAttributionNoderivs20SouthAfrica` | Creative Commons | [https://creativecommons.org/licenses/by-nd/2.0/za/legalcode](https://creativecommons.org/licenses/by-nd/2.0/za/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Armenia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Armenia | `CreativeCommonsAttributionNoderivs30Armenia` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/am/legalcode](https://creativecommons.org/licenses/by-nd/3.0/am/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Australia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Australia | `CreativeCommonsAttributionNoderivs30Australia` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/au/legalcode](https://creativecommons.org/licenses/by-nd/3.0/au/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Austria
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Austria | `CreativeCommonsAttributionNoderivs30Austria` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/at/legalcode](https://creativecommons.org/licenses/by-nd/3.0/at/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Azerbaijan
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Azerbaijan | `CreativeCommonsAttributionNoderivs30Azerbaijan` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/az/legalcode](https://creativecommons.org/licenses/by-nd/3.0/az/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Brazil
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Brazil | `CreativeCommonsAttributionNoderivs30Brazil` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/br/legalcode](https://creativecommons.org/licenses/by-nd/3.0/br/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Chile
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Chile | `CreativeCommonsAttributionNoderivs30Chile` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/cl/legalcode](https://creativecommons.org/licenses/by-nd/3.0/cl/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 China
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 China | `CreativeCommonsAttributionNoderivs30China` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/cn/legalcode](https://creativecommons.org/licenses/by-nd/3.0/cn/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Costa Rica
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Costa Rica | `CreativeCommonsAttributionNoderivs30CostaRica` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/cr/legalcode](https://creativecommons.org/licenses/by-nd/3.0/cr/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Croatia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Croatia | `CreativeCommonsAttributionNoderivs30Croatia` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/hr/legalcode](https://creativecommons.org/licenses/by-nd/3.0/hr/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Czechia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Czechia | `CreativeCommonsAttributionNoderivs30Czechia` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/cz/legalcode](https://creativecommons.org/licenses/by-nd/3.0/cz/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Ecuador
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Ecuador | `CreativeCommonsAttributionNoderivs30Ecuador` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/ec/legalcode](https://creativecommons.org/licenses/by-nd/3.0/ec/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Egypt
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Egypt | `CreativeCommonsAttributionNoderivs30Egypt` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/eg/legalcode](https://creativecommons.org/licenses/by-nd/3.0/eg/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Estonia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Estonia | `CreativeCommonsAttributionNoderivs30Estonia` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/ee/legalcode](https://creativecommons.org/licenses/by-nd/3.0/ee/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 France
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 France | `CreativeCommonsAttributionNoderivs30France` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/fr/legalcode](https://creativecommons.org/licenses/by-nd/3.0/fr/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Georgia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Georgia | `CreativeCommonsAttributionNoderivs30Georgia` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/ge/legalcode](https://creativecommons.org/licenses/by-nd/3.0/ge/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Germany
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Germany | `CreativeCommonsAttributionNoderivs30Germany` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/de/legalcode](https://creativecommons.org/licenses/by-nd/3.0/de/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Greece
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Greece | `CreativeCommonsAttributionNoderivs30Greece` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/gr/legalcode](https://creativecommons.org/licenses/by-nd/3.0/gr/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Guatemala
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Guatemala | `CreativeCommonsAttributionNoderivs30Guatemala` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/gt/legalcode](https://creativecommons.org/licenses/by-nd/3.0/gt/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Ireland
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Ireland | `CreativeCommonsAttributionNoderivs30Ireland` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/ie/legalcode](https://creativecommons.org/licenses/by-nd/3.0/ie/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Italy
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Italy | `CreativeCommonsAttributionNoderivs30Italy` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/it/legalcode](https://creativecommons.org/licenses/by-nd/3.0/it/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Luxembourg
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Luxembourg | `CreativeCommonsAttributionNoderivs30Luxembourg` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/lu/legalcode](https://creativecommons.org/licenses/by-nd/3.0/lu/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Netherlands
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Netherlands | `CreativeCommonsAttributionNoderivs30Netherlands` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/nl/legalcode](https://creativecommons.org/licenses/by-nd/3.0/nl/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 New Zealand
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 New Zealand | `CreativeCommonsAttributionNoderivs30NewZealand` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/nz/legalcode](https://creativecommons.org/licenses/by-nd/3.0/nz/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Norway
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Norway | `CreativeCommonsAttributionNoderivs30Norway` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/no/legalcode](https://creativecommons.org/licenses/by-nd/3.0/no/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Philippines
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Philippines | `CreativeCommonsAttributionNoderivs30Philippines` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/ph/legalcode](https://creativecommons.org/licenses/by-nd/3.0/ph/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Poland
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Poland | `CreativeCommonsAttributionNoderivs30Poland` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/pl/legalcode](https://creativecommons.org/licenses/by-nd/3.0/pl/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Portugal
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Portugal | `CreativeCommonsAttributionNoderivs30Portugal` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/pt/legalcode](https://creativecommons.org/licenses/by-nd/3.0/pt/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Romania
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Romania | `CreativeCommonsAttributionNoderivs30Romania` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/ro/legalcode](https://creativecommons.org/licenses/by-nd/3.0/ro/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Singapore
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Singapore | `CreativeCommonsAttributionNoderivs30Singapore` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/sg/legalcode](https://creativecommons.org/licenses/by-nd/3.0/sg/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 South Africa
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 South Africa | `CreativeCommonsAttributionNoderivs30SouthAfrica` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/za/legalcode](https://creativecommons.org/licenses/by-nd/3.0/za/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Thailand
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Thailand | `CreativeCommonsAttributionNoderivs30Thailand` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/th/legalcode](https://creativecommons.org/licenses/by-nd/3.0/th/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Uganda
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Uganda | `CreativeCommonsAttributionNoderivs30Uganda` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/ug/legalcode](https://creativecommons.org/licenses/by-nd/3.0/ug/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 United States of America
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 United States of America | `CreativeCommonsAttributionNoderivs30UnitedStatesofAmerica` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/us/legalcode](https://creativecommons.org/licenses/by-nd/3.0/us/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Venezuela
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Venezuela | `CreativeCommonsAttributionNoderivs30Venezuela` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/ve/legalcode](https://creativecommons.org/licenses/by-nd/3.0/ve/legalcode) |
+
+
+### Creative Commons Attribution-NoDerivatives 3.0 Vietnam
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NoDerivatives 3.0 Vietnam | `CreativeCommonsAttributionNoderivs30Vietnam` | Creative Commons | [https://creativecommons.org/licenses/by-nd/3.0/vn/legalcode](https://creativecommons.org/licenses/by-nd/3.0/vn/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 2.0 Australia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 2.0 Australia | `CreativeCommonsAttributionNoncommercialNoderivs20Australia` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/2.0/au/legalcode](https://creativecommons.org/licenses/by-nc-nd/2.0/au/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 2.0 Austria
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 2.0 Austria | `CreativeCommonsAttributionNoncommercialNoderivs20Austria` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/2.0/at/legalcode](https://creativecommons.org/licenses/by-nc-nd/2.0/at/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 2.0 Brazil
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 2.0 Brazil | `CreativeCommonsAttributionNoncommercialNoderivs20Brazil` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/2.0/br/legalcode](https://creativecommons.org/licenses/by-nc-nd/2.0/br/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 2.0 Chile
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 2.0 Chile | `CreativeCommonsAttributionNoncommercialNoderivs20Chile` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/2.0/cl/legalcode](https://creativecommons.org/licenses/by-nc-nd/2.0/cl/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 2.0 Croatia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 2.0 Croatia | `CreativeCommonsAttributionNoncommercialNoderivs20Croatia` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/2.0/hr/legalcode](https://creativecommons.org/licenses/by-nc-nd/2.0/hr/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 2.0 France
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 2.0 France | `CreativeCommonsAttributionNoncommercialNoderivs20France` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/2.0/fr/legalcode](https://creativecommons.org/licenses/by-nc-nd/2.0/fr/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 2.0 Germany
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 2.0 Germany | `CreativeCommonsAttributionNoncommercialNoderivs20Germany` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/2.0/de/legalcode](https://creativecommons.org/licenses/by-nc-nd/2.0/de/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 2.0 Italy
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 2.0 Italy | `CreativeCommonsAttributionNoncommercialNoderivs20Italy` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/2.0/it/legalcode](https://creativecommons.org/licenses/by-nc-nd/2.0/it/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 2.0 Japan
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 2.0 Japan | `CreativeCommonsAttributionNoncommercialNoderivs20Japan` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/2.0/jp/legalcode](https://creativecommons.org/licenses/by-nc-nd/2.0/jp/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 2.0 South Korea
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 2.0 South Korea | `CreativeCommonsAttributionNoncommercialNoderivs20KoreaSouth` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/2.0/kr/legalcode](https://creativecommons.org/licenses/by-nc-nd/2.0/kr/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 2.0 Netherlands
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 2.0 Netherlands | `CreativeCommonsAttributionNoncommercialNoderivs20Netherlands` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/2.0/nl/legalcode](https://creativecommons.org/licenses/by-nc-nd/2.0/nl/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 2.0 Poland
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 2.0 Poland | `CreativeCommonsAttributionNoncommercialNoderivs20Poland` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/2.0/pl/legalcode](https://creativecommons.org/licenses/by-nc-nd/2.0/pl/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 2.0 South Africa
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 2.0 South Africa | `CreativeCommonsAttributionNoncommercialNoderivs20SouthAfrica` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/2.0/za/legalcode](https://creativecommons.org/licenses/by-nc-nd/2.0/za/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Armenia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Armenia | `CreativeCommonsAttributionNoncommercialNoderivs30Armenia` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/am/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/am/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Australia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Australia | `CreativeCommonsAttributionNoncommercialNoderivs30Australia` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/au/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/au/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Austria
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Austria | `CreativeCommonsAttributionNoncommercialNoderivs30Austria` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/at/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/at/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Azerbaijan
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Azerbaijan | `CreativeCommonsAttributionNoncommercialNoderivs30Azerbaijan` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/az/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/az/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Brazil
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Brazil | `CreativeCommonsAttributionNoncommercialNoderivs30Brazil` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/br/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/br/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Chile
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Chile | `CreativeCommonsAttributionNoncommercialNoderivs30Chile` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/cl/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/cl/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 China
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 China | `CreativeCommonsAttributionNoncommercialNoderivs30China` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/cn/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/cn/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Costa Rica
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Costa Rica | `CreativeCommonsAttributionNoncommercialNoderivs30CostaRica` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/cr/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/cr/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Croatia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Croatia | `CreativeCommonsAttributionNoncommercialNoderivs30Croatia` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/hr/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/hr/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Czechia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Czechia | `CreativeCommonsAttributionNoncommercialNoderivs30Czechia` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/cz/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/cz/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Ecuador
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Ecuador | `CreativeCommonsAttributionNoncommercialNoderivs30Ecuador` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/ec/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/ec/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Egypt
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Egypt | `CreativeCommonsAttributionNoncommercialNoderivs30Egypt` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/eg/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/eg/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Estonia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Estonia | `CreativeCommonsAttributionNoncommercialNoderivs30Estonia` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/ee/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/ee/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 France
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 France | `CreativeCommonsAttributionNoncommercialNoderivs30France` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/fr/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/fr/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Georgia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Georgia | `CreativeCommonsAttributionNoncommercialNoderivs30Georgia` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/ge/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/ge/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Germany
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Germany | `CreativeCommonsAttributionNoncommercialNoderivs30Germany` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/de/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/de/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Greece
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Greece | `CreativeCommonsAttributionNoncommercialNoderivs30Greece` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/gr/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/gr/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Guatemala
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Guatemala | `CreativeCommonsAttributionNoncommercialNoderivs30Guatemala` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/gt/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/gt/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Ireland
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Ireland | `CreativeCommonsAttributionNoncommercialNoderivs30Ireland` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/ie/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/ie/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Italy
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Italy | `CreativeCommonsAttributionNoncommercialNoderivs30Italy` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/it/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/it/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Luxembourg
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Luxembourg | `CreativeCommonsAttributionNoncommercialNoderivs30Luxembourg` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/lu/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/lu/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Netherlands
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Netherlands | `CreativeCommonsAttributionNoncommercialNoderivs30Netherlands` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/nl/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/nl/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 New Zealand
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 New Zealand | `CreativeCommonsAttributionNoncommercialNoderivs30NewZealand` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/nz/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/nz/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Philippines
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Philippines | `CreativeCommonsAttributionNoncommercialNoderivs30Philippines` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/ph/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/ph/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Poland
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Poland | `CreativeCommonsAttributionNoncommercialNoderivs30Poland` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/pl/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/pl/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Portugal
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Portugal | `CreativeCommonsAttributionNoncommercialNoderivs30Portugal` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/pt/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/pt/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Romania
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Romania | `CreativeCommonsAttributionNoncommercialNoderivs30Romania` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/ro/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/ro/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Singapore
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Singapore | `CreativeCommonsAttributionNoncommercialNoderivs30Singapore` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/sg/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/sg/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 South Africa
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 South Africa | `CreativeCommonsAttributionNoncommercialNoderivs30SouthAfrica` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/za/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/za/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Thailand
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Thailand | `CreativeCommonsAttributionNoncommercialNoderivs30Thailand` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/th/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/th/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Uganda
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Uganda | `CreativeCommonsAttributionNoncommercialNoderivs30Uganda` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/ug/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/ug/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 United States of America
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 United States of America | `CreativeCommonsAttributionNoncommercialNoderivs30UnitedStatesofAmerica` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/us/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/us/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Venezuela
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Venezuela | `CreativeCommonsAttributionNoncommercialNoderivs30Venezuela` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/ve/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/ve/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Vietnam
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Vietnam | `CreativeCommonsAttributionNoncommercialNoderivs30Vietnam` | Creative Commons | [https://creativecommons.org/licenses/by-nc-nd/3.0/vn/legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/vn/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Australia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Australia | `CreativeCommonsAttributionNoncommercialSharealike20Australia` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/2.0/au/legalcode](https://creativecommons.org/licenses/by-nc-sa/2.0/au/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Austria
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Austria | `CreativeCommonsAttributionNoncommercialSharealike20Austria` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/2.0/at/legalcode](https://creativecommons.org/licenses/by-nc-sa/2.0/at/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Brazil
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Brazil | `CreativeCommonsAttributionNoncommercialSharealike20Brazil` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/2.0/br/legalcode](https://creativecommons.org/licenses/by-nc-sa/2.0/br/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Chile
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Chile | `CreativeCommonsAttributionNoncommercialSharealike20Chile` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/2.0/cl/legalcode](https://creativecommons.org/licenses/by-nc-sa/2.0/cl/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Croatia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Croatia | `CreativeCommonsAttributionNoncommercialSharealike20Croatia` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/2.0/hr/legalcode](https://creativecommons.org/licenses/by-nc-sa/2.0/hr/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 2.0 France
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 2.0 France | `CreativeCommonsAttributionNoncommercialSharealike20France` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/2.0/fr/legalcode](https://creativecommons.org/licenses/by-nc-sa/2.0/fr/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Germany
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Germany | `CreativeCommonsAttributionNoncommercialSharealike20Germany` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/2.0/de/legalcode](https://creativecommons.org/licenses/by-nc-sa/2.0/de/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Japan
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Japan | `CreativeCommonsAttributionNoncommercialSharealike20Japan` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/2.0/jp/legalcode](https://creativecommons.org/licenses/by-nc-sa/2.0/jp/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 2.0 South Korea
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 2.0 South Korea | `CreativeCommonsAttributionNoncommercialSharealike20KoreaSouth` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/2.0/kr/legalcode](https://creativecommons.org/licenses/by-nc-sa/2.0/kr/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Netherlands
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Netherlands | `CreativeCommonsAttributionNoncommercialSharealike20Netherlands` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/2.0/nl/legalcode](https://creativecommons.org/licenses/by-nc-sa/2.0/nl/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Poland
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Poland | `CreativeCommonsAttributionNoncommercialSharealike20Poland` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/2.0/pl/legalcode](https://creativecommons.org/licenses/by-nc-sa/2.0/pl/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 2.0 South Africa
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 2.0 South Africa | `CreativeCommonsAttributionNoncommercialSharealike20SouthAfrica` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/2.0/za/legalcode](https://creativecommons.org/licenses/by-nc-sa/2.0/za/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Armenia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Armenia | `CreativeCommonsAttributionNoncommercialSharealike30Armenia` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/am/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/am/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Australia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Australia | `CreativeCommonsAttributionNoncommercialSharealike30Australia` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/au/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/au/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Austria
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Austria | `CreativeCommonsAttributionNoncommercialSharealike30Austria` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/at/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/at/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Azerbaijan
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Azerbaijan | `CreativeCommonsAttributionNoncommercialSharealike30Azerbaijan` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/az/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/az/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Brazil
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Brazil | `CreativeCommonsAttributionNoncommercialSharealike30Brazil` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/br/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/br/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Chile
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Chile | `CreativeCommonsAttributionNoncommercialSharealike30Chile` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/cl/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/cl/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 China
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 China | `CreativeCommonsAttributionNoncommercialSharealike30China` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/cn/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/cn/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Costa Rica
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Costa Rica | `CreativeCommonsAttributionNoncommercialSharealike30CostaRica` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/cr/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/cr/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Croatia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Croatia | `CreativeCommonsAttributionNoncommercialSharealike30Croatia` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/hr/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/hr/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Czechia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Czechia | `CreativeCommonsAttributionNoncommercialSharealike30Czechia` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/cz/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/cz/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Ecuador
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Ecuador | `CreativeCommonsAttributionNoncommercialSharealike30Ecuador` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/ec/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/ec/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Egypt
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Egypt | `CreativeCommonsAttributionNoncommercialSharealike30Egypt` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/eg/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/eg/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Estonia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Estonia | `CreativeCommonsAttributionNoncommercialSharealike30Estonia` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/ee/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/ee/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 France
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 France | `CreativeCommonsAttributionNoncommercialSharealike30France` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/fr/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/fr/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Georgia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Georgia | `CreativeCommonsAttributionNoncommercialSharealike30Georgia` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/ge/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/ge/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Germany
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Germany | `CreativeCommonsAttributionNoncommercialSharealike30Germany` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/de/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/de/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Greece
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Greece | `CreativeCommonsAttributionNoncommercialSharealike30Greece` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/gr/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/gr/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Guatemala
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Guatemala | `CreativeCommonsAttributionNoncommercialSharealike30Guatemala` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/gt/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/gt/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Ireland
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Ireland | `CreativeCommonsAttributionNoncommercialSharealike30Ireland` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/ie/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/ie/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Italy
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Italy | `CreativeCommonsAttributionNoncommercialSharealike30Italy` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/it/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/it/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Luxembourg
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Luxembourg | `CreativeCommonsAttributionNoncommercialSharealike30Luxembourg` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/lu/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/lu/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Netherlands
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Netherlands | `CreativeCommonsAttributionNoncommercialSharealike30Netherlands` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/nl/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/nl/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 New Zealand
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 New Zealand | `CreativeCommonsAttributionNoncommercialSharealike30NewZealand` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/nz/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/nz/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Norway
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Norway | `CreativeCommonsAttributionNoncommercialSharealike30Norway` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/no/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/no/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Philippines
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Philippines | `CreativeCommonsAttributionNoncommercialSharealike30Philippines` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/ph/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/ph/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Poland
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Poland | `CreativeCommonsAttributionNoncommercialSharealike30Poland` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/pl/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/pl/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Portugal
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Portugal | `CreativeCommonsAttributionNoncommercialSharealike30Portugal` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/pt/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/pt/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Romania
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Romania | `CreativeCommonsAttributionNoncommercialSharealike30Romania` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/ro/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/ro/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Singapore
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Singapore | `CreativeCommonsAttributionNoncommercialSharealike30Singapore` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/sg/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/sg/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 South Africa
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 South Africa | `CreativeCommonsAttributionNoncommercialSharealike30SouthAfrica` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/za/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/za/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Thailand
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Thailand | `CreativeCommonsAttributionNoncommercialSharealike30Thailand` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/th/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/th/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Uganda
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Uganda | `CreativeCommonsAttributionNoncommercialSharealike30Uganda` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/ug/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/ug/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States of America
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States of America | `CreativeCommonsAttributionNoncommercialSharealike30UnitedStatesofAmerica` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/us/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/us/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Venezuela
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Venezuela | `CreativeCommonsAttributionNoncommercialSharealike30Venezuela` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/ve/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/ve/legalcode) |
+
+
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Vietnam
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Vietnam | `CreativeCommonsAttributionNoncommercialSharealike30Vietnam` | Creative Commons | [https://creativecommons.org/licenses/by-nc-sa/3.0/vn/legalcode](https://creativecommons.org/licenses/by-nc-sa/3.0/vn/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 2.0 Australia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 2.0 Australia | `CreativeCommonsAttributionSharealike20Australia` | Creative Commons | [https://creativecommons.org/licenses/by-sa/2.0/au/legalcode](https://creativecommons.org/licenses/by-sa/2.0/au/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 2.0 Austria
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 2.0 Austria | `CreativeCommonsAttributionSharealike20Austria` | Creative Commons | [https://creativecommons.org/licenses/by-sa/2.0/at/legalcode](https://creativecommons.org/licenses/by-sa/2.0/at/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 2.0 Brazil
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 2.0 Brazil | `CreativeCommonsAttributionSharealike20Brazil` | Creative Commons | [https://creativecommons.org/licenses/by-sa/2.0/br/legalcode](https://creativecommons.org/licenses/by-sa/2.0/br/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 2.0 Chile
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 2.0 Chile | `CreativeCommonsAttributionSharealike20Chile` | Creative Commons | [https://creativecommons.org/licenses/by-sa/2.0/cl/legalcode](https://creativecommons.org/licenses/by-sa/2.0/cl/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 2.0 Croatia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 2.0 Croatia | `CreativeCommonsAttributionSharealike20Croatia` | Creative Commons | [https://creativecommons.org/licenses/by-sa/2.0/hr/legalcode](https://creativecommons.org/licenses/by-sa/2.0/hr/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 2.0 France
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 2.0 France | `CreativeCommonsAttributionSharealike20France` | Creative Commons | [https://creativecommons.org/licenses/by-sa/2.0/fr/legalcode](https://creativecommons.org/licenses/by-sa/2.0/fr/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 2.0 Germany
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 2.0 Germany | `CreativeCommonsAttributionSharealike20Germany` | Creative Commons | [https://creativecommons.org/licenses/by-sa/2.0/de/legalcode](https://creativecommons.org/licenses/by-sa/2.0/de/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 2.0 Italy
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 2.0 Italy | `CreativeCommonsAttributionSharealike20Italy` | Creative Commons | [https://creativecommons.org/licenses/by-sa/2.0/it/legalcode](https://creativecommons.org/licenses/by-sa/2.0/it/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 2.0 Japan
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 2.0 Japan | `CreativeCommonsAttributionSharealike20Japan` | Creative Commons | [https://creativecommons.org/licenses/by-sa/2.0/jp/legalcode](https://creativecommons.org/licenses/by-sa/2.0/jp/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 2.0 South Korea
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 2.0 South Korea | `CreativeCommonsAttributionSharealike20KoreaSouth` | Creative Commons | [https://creativecommons.org/licenses/by-sa/2.0/kr/legalcode](https://creativecommons.org/licenses/by-sa/2.0/kr/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 2.0 Netherlands
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 2.0 Netherlands | `CreativeCommonsAttributionSharealike20Netherlands` | Creative Commons | [https://creativecommons.org/licenses/by-sa/2.0/nl/legalcode](https://creativecommons.org/licenses/by-sa/2.0/nl/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 2.0 Poland
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 2.0 Poland | `CreativeCommonsAttributionSharealike20Poland` | Creative Commons | [https://creativecommons.org/licenses/by-sa/2.0/pl/legalcode](https://creativecommons.org/licenses/by-sa/2.0/pl/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 2.0 South Africa
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 2.0 South Africa | `CreativeCommonsAttributionSharealike20SouthAfrica` | Creative Commons | [https://creativecommons.org/licenses/by-sa/2.0/za/legalcode](https://creativecommons.org/licenses/by-sa/2.0/za/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Armenia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Armenia | `CreativeCommonsAttributionSharealike30Armenia` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/am/legalcode](https://creativecommons.org/licenses/by-sa/3.0/am/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Australia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Australia | `CreativeCommonsAttributionSharealike30Australia` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/au/legalcode](https://creativecommons.org/licenses/by-sa/3.0/au/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Austria
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Austria | `CreativeCommonsAttributionSharealike30Austria` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/at/legalcode](https://creativecommons.org/licenses/by-sa/3.0/at/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Azerbaijan
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Azerbaijan | `CreativeCommonsAttributionSharealike30Azerbaijan` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/az/legalcode](https://creativecommons.org/licenses/by-sa/3.0/az/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Brazil
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Brazil | `CreativeCommonsAttributionSharealike30Brazil` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/br/legalcode](https://creativecommons.org/licenses/by-sa/3.0/br/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Chile
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Chile | `CreativeCommonsAttributionSharealike30Chile` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/cl/legalcode](https://creativecommons.org/licenses/by-sa/3.0/cl/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 China
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 China | `CreativeCommonsAttributionSharealike30China` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/cn/legalcode](https://creativecommons.org/licenses/by-sa/3.0/cn/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Costa Rica
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Costa Rica | `CreativeCommonsAttributionSharealike30CostaRica` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/cr/legalcode](https://creativecommons.org/licenses/by-sa/3.0/cr/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Croatia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Croatia | `CreativeCommonsAttributionSharealike30Croatia` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/hr/legalcode](https://creativecommons.org/licenses/by-sa/3.0/hr/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Czechia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Czechia | `CreativeCommonsAttributionSharealike30Czechia` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/cz/legalcode](https://creativecommons.org/licenses/by-sa/3.0/cz/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Ecuador
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Ecuador | `CreativeCommonsAttributionSharealike30Ecuador` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/ec/legalcode](https://creativecommons.org/licenses/by-sa/3.0/ec/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Egypt
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Egypt | `CreativeCommonsAttributionSharealike30Egypt` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/eg/legalcode](https://creativecommons.org/licenses/by-sa/3.0/eg/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Estonia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Estonia | `CreativeCommonsAttributionSharealike30Estonia` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/ee/legalcode](https://creativecommons.org/licenses/by-sa/3.0/ee/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 France
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 France | `CreativeCommonsAttributionSharealike30France` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/fr/legalcode](https://creativecommons.org/licenses/by-sa/3.0/fr/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Georgia
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Georgia | `CreativeCommonsAttributionSharealike30Georgia` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/ge/legalcode](https://creativecommons.org/licenses/by-sa/3.0/ge/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Germany
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Germany | `CreativeCommonsAttributionSharealike30Germany` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/de/legalcode](https://creativecommons.org/licenses/by-sa/3.0/de/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Greece
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Greece | `CreativeCommonsAttributionSharealike30Greece` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/gr/legalcode](https://creativecommons.org/licenses/by-sa/3.0/gr/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Guatemala
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Guatemala | `CreativeCommonsAttributionSharealike30Guatemala` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/gt/legalcode](https://creativecommons.org/licenses/by-sa/3.0/gt/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Ireland
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Ireland | `CreativeCommonsAttributionSharealike30Ireland` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/ie/legalcode](https://creativecommons.org/licenses/by-sa/3.0/ie/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Italy
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Italy | `CreativeCommonsAttributionSharealike30Italy` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/it/legalcode](https://creativecommons.org/licenses/by-sa/3.0/it/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Luxembourg
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Luxembourg | `CreativeCommonsAttributionSharealike30Luxembourg` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/lu/legalcode](https://creativecommons.org/licenses/by-sa/3.0/lu/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Netherlands
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Netherlands | `CreativeCommonsAttributionSharealike30Netherlands` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/nl/legalcode](https://creativecommons.org/licenses/by-sa/3.0/nl/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 New Zealand
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 New Zealand | `CreativeCommonsAttributionSharealike30NewZealand` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/nz/legalcode](https://creativecommons.org/licenses/by-sa/3.0/nz/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Norway
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Norway | `CreativeCommonsAttributionSharealike30Norway` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/no/legalcode](https://creativecommons.org/licenses/by-sa/3.0/no/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Philippines
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Philippines | `CreativeCommonsAttributionSharealike30Philippines` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/ph/legalcode](https://creativecommons.org/licenses/by-sa/3.0/ph/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Poland
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Poland | `CreativeCommonsAttributionSharealike30Poland` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/pl/legalcode](https://creativecommons.org/licenses/by-sa/3.0/pl/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Portugal
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Portugal | `CreativeCommonsAttributionSharealike30Portugal` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/pt/legalcode](https://creativecommons.org/licenses/by-sa/3.0/pt/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Romania
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Romania | `CreativeCommonsAttributionSharealike30Romania` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/ro/legalcode](https://creativecommons.org/licenses/by-sa/3.0/ro/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Singapore
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Singapore | `CreativeCommonsAttributionSharealike30Singapore` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/sg/legalcode](https://creativecommons.org/licenses/by-sa/3.0/sg/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 South Africa
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 South Africa | `CreativeCommonsAttributionSharealike30SouthAfrica` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/za/legalcode](https://creativecommons.org/licenses/by-sa/3.0/za/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Thailand
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Thailand | `CreativeCommonsAttributionSharealike30Thailand` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/th/legalcode](https://creativecommons.org/licenses/by-sa/3.0/th/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Uganda
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Uganda | `CreativeCommonsAttributionSharealike30Uganda` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/ug/legalcode](https://creativecommons.org/licenses/by-sa/3.0/ug/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 United States of America
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 United States of America | `CreativeCommonsAttributionSharealike30UnitedStatesofAmerica` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/us/legalcode](https://creativecommons.org/licenses/by-sa/3.0/us/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Venezuela
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Venezuela | `CreativeCommonsAttributionSharealike30Venezuela` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/ve/legalcode](https://creativecommons.org/licenses/by-sa/3.0/ve/legalcode) |
+
+
+### Creative Commons Attribution-ShareAlike 3.0 Vietnam
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Creative Commons Attribution-ShareAlike 3.0 Vietnam | `CreativeCommonsAttributionSharealike30Vietnam` | Creative Commons | [https://creativecommons.org/licenses/by-sa/3.0/vn/legalcode](https://creativecommons.org/licenses/by-sa/3.0/vn/legalcode) |
+
+
+### Data Exploration Licence
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Data Exploration Licence | `DataExplorationLicence` | Ordnance Survey | [https://www.ordnancesurvey.co.uk/business-and-government/licensing/licences/data-exploration.html](https://www.ordnancesurvey.co.uk/business-and-government/licensing/licences/data-exploration.html) |
+
+
+### Developer License
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Developer License | `DeveloperLicense` | The National Archives | [http://www.nationalarchives.gov.uk/documents/information-management/developer-licence.pdf](http://www.nationalarchives.gov.uk/documents/information-management/developer-licence.pdf) |
+
+
+### Eclipse Public License 1.0
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Eclipse Public License 1.0 | `EclipsePublicLicense10` | Eclipse | [http://opensource.org/licenses/EPL-1.0](http://opensource.org/licenses/EPL-1.0) |
+
+
+### Eclipse Public License 2.0
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Eclipse Public License 2.0 | `EclipsePublicLicense20` | N.N. | [http://opensource.org/licenses/EPL-2.0](http://opensource.org/licenses/EPL-2.0) |
+
+
+### Free Public License 1.0.0
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Free Public License 1.0.0 | `FreePublicLicense100` | - not specified - | [http://opensource.org/licenses/FPL-1.0.0](http://opensource.org/licenses/FPL-1.0.0) |
+
+
+### GNU General Public License, Version 2
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| GNU General Public License, Version 2 | `GNU_GPL_v2` | Free Software Foundation | [https://www.gnu.org/licenses/old-licenses/gpl-2.0.html](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html) |
+
+
+### GNU General Public License 3
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| GNU General Public License 3 | `GNU_GPL_v3` | Free Software Foundation | [https://www.gnu.org/licenses/gpl.html](https://www.gnu.org/licenses/gpl.html) |
+
+
+### GNU Free Documentation License version 1.3
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| GNU Free Documentation License version 1.3 | `GnuFreeDocumentationLicense` | Free Software Foundation | [https://www.gnu.org/licenses/fdl.html](https://www.gnu.org/licenses/fdl.html) |
+
+
+### INSPIRE End User Licence
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| INSPIRE End User Licence | `InspireEndUserLicence` | Ordnance Survey Limited | [https://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html](https://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html) |
+
+
+### ISC License
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| ISC License | `IscLicense` | N.N. | [http://opensource.org/licenses/ISC](http://opensource.org/licenses/ISC) |
+
+
+### GNU Lesser General Public License version 3.0
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| GNU Lesser General Public License version 3.0 | `LGPLv3` | Free Software Foundation | [https://www.gnu.org/licenses/lgpl-3.0.html](https://www.gnu.org/licenses/lgpl-3.0.html) |
+
+
+### LaTeX Project Public License, Version 1.3c
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| LaTeX Project Public License, Version 1.3c | `LatexProjectPublicLicenseVersion13c` | LaTeX3 Project | [http://opensource.org/licenses/LPPL-1.3c](http://opensource.org/licenses/LPPL-1.3c) |
+
+
+### The MIT License
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| The MIT License | `MIT` | [http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT) |
+
+
+### Microsoft Public License
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Microsoft Public License | `MicrosoftPublicLicense` | N.N. | [http://opensource.org/licenses/MS-PL](http://opensource.org/licenses/MS-PL) |
+
+
+### Mozilla Public License Version 2.0
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Mozilla Public License Version 2.0 | `MozillaPublicLicenseVersion20` | Mozilla Corporation | [https://www.mozilla.org/en-US/MPL/2.0/](https://www.mozilla.org/en-US/MPL/2.0/) |
+
+
+### Non-Commercial Government Licence
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Non-Commercial Government Licence | `NonCommercialGovernmentLicence` | The National Archives | [http://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/version/2/](http://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/version/2/) |
+
+
+### ODC Open Database License (ODbL)
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| ODC Open Database License (ODbL) | `OdcOpenDatabaseLicense` | Socialtext Incorporated | [https://opendatacommons.org/licenses/odbl/1.0/](https://opendatacommons.org/licenses/odbl/1.0/) |
+
+
+### ODC Public Domain Dedication and Licence (PDDL)
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| ODC Public Domain Dedication and Licence (PDDL) | `OdcPublicDomainDedicationAndLicence` | Open Data Commons | [https://opendatacommons.org/licenses/pddl/1.0/](https://opendatacommons.org/licenses/pddl/1.0/) |
+
+
+### Open Data Commons Attribution License v1.0
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Open Data Commons Attribution License v1.0 | `OpenDataCommonsAttributionLicenseV10` | Open Data Commons | [https://opendatacommons.org/licenses/by/1.0/](https://opendatacommons.org/licenses/by/1.0/) |
+
+
+### Open Data Licence Agreement
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Open Data Licence Agreement | `OpenDataLicenceAgreement` | Office of the Commissioner of Lobbying | [https://lobbycanada.gc.ca/eic/site/012.nsf/eng/00873.html](https://lobbycanada.gc.ca/eic/site/012.nsf/eng/00873.html) |
+
+
+### Open Government Licence - Canada
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Open Government Licence - Canada | `OpenGovernmentLicenceCanada` | Her Majesty the Queen in right of Canada | [https://open.canada.ca/en/open-government-licence-canada](https://open.canada.ca/en/open-government-licence-canada) |
+
+
 ### Open Software License v. 3.0
 
 
 | Licence | Use code | Publisher | Legal text |
 | ---- | :---- | :---- | :---- |
 | Open Software License v. 3.0 | `OpenSoftwareLicenseV30` | Lawrence Rosen | [http://opensource.org/licenses/OSL-3.0](http://opensource.org/licenses/OSL-3.0) |
+
+
+### Open Supreme Court Licence
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Open Supreme Court Licence | `OpenSupremeCourtLicence` | The National Archives UK | [http://www.nationalarchives.gov.uk/doc/open-supreme-court-licence/version/1/open-supreme-court-licence-version-1.0.pdf](http://www.nationalarchives.gov.uk/doc/open-supreme-court-licence/version/1/open-supreme-court-licence-version-1.0.pdf) |
+
+
+### PHP License 3.0
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| PHP License 3.0 | `PhpLicense30` | PHP Group | [http://opensource.org/licenses/PHP-3.0](http://opensource.org/licenses/PHP-3.0) |
+
+
+### Python License-2.0
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Python License-2.0 | `PythonLicense20` | Python Software Foundation | [http://opensource.org/licenses/Python-2.0](http://opensource.org/licenses/Python-2.0) |
+
+
+### Q Public License Version 1.0
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Q Public License Version 1.0 | `QPublicLicenseVersion10` | Trolltech AS | [http://opensource.org/licenses/QPL-1.0](http://opensource.org/licenses/QPL-1.0) |
+
+
+### Statistics Canada Open Licence Agreement
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| Statistics Canada Open Licence Agreement | `StatisticsCanadaOpenLicenceAgreement` | Statistics Canada | [https://www.statcan.gc.ca/eng/reference/licence](https://www.statcan.gc.ca/eng/reference/licence) |
+
+
+### SUN PUBLIC LICENSE Version 1.0
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| SUN PUBLIC LICENSE Version 1.0 | `SunPublicLicenseVersion10` | Sun Microsystems, Inc. | [http://opensource.org/licenses/SPL-1.0](http://opensource.org/licenses/SPL-1.0) |
+
+
+### The Universal Permissive License (UPL), Version 1.0
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| The Universal Permissive License (UPL), Version 1.0 | `TheUniversalPermissiveLicenseUplVersion10` | - not specified - | [http://opensource.org/licenses/UPL](http://opensource.org/licenses/UPL) |
+
+
+### The zlib libpng License
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| The zlib libpng License | `TheZlibLibpngLicense` | N.N. | [http://opensource.org/licenses/Zlib](http://opensource.org/licenses/Zlib) |
+
+
+### UK Open Government License for Public Sector Information
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| UK Open Government License for Public Sector Information | `UkOpenGovernmentLicenseForPublicSectorInformation` | UK Government | [http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) |
+
+
+### W3C Software and Document Notice and License
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| W3C Software and Document Notice and License | `W3cSoftwareAndDocumentNoticeAndLicense` | W3C | [https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document](https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document) |
+
+
+### WTFPL
+
+
+| Licence | Use code | Publisher | Legal text |
+| ---- | :---- | :---- | :---- |
+| WTFPL | `Wtfpl` | N.N. | [http://www.wtfpl.net/about/](http://www.wtfpl.net/about/) |
 
