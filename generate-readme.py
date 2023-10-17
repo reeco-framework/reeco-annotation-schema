@@ -257,6 +257,21 @@ TXT = TXT + """
 
 """
 
+## Table
+TXT = TXT + "\n\n| Licence | Use code | Publisher | Legal text |"
+TXT = TXT + "\n| ---- | :---- | :---- | :---- |"
+
+for licence in SCHEMA.licences():
+    TXT = TXT + "\n| [" + licence['title'] + "](#"+ licence['title'] +")"
+    TXT = TXT + " | `" + licence['code'] + '`'
+    if 'publisher' in licence: 
+        TXT = TXT + " | " + licence['publisher'] 
+    else: 
+        TXT = TXT + " | - "
+    TXT = TXT + " | [" + licence['link'] + "](" + licence['link'] + ") |"
+
+TXT = TXT + "\n\n"
+
 for licence in SCHEMA.licences():
     TXT = TXT + "\n### " + licence['title'] + "\n"
     TXT = TXT + "\n\n| Licence | Use code | Publisher | Legal text |"
